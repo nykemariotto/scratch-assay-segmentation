@@ -1,0 +1,15 @@
+base,iou,area_pass1,area_pass2,excluido,motivo_exclusao
+0bdbd51083__HUVEC__Originais_1_None_D1__tp24h__D1_24HR_1_2,1.0,0.0,0.0,1,"empty-empty: IoU=1 by convention, does not measure a contour"
+0c9eecd4e4__HUVEC__Originais_1_None_A1__tp24h__A1_24HR_2_2,1.0,0.0,0.0,1,"empty-empty: IoU=1 by convention, does not measure a contour"
+1daac83e9d__HUVEC__LUIS_RAW_PEP+MCC_B4__tp24h__B4_24H_2_2,1.0,0.0,0.0,1,"empty-empty: IoU=1 by convention, does not measure a contour"
+3bad7fe6bb__HUVEC__Controle+Saudavel_None_B1__tp24h__B1_24hr_1,0.63069,2.602,2.85,0,
+590e6c1504__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D1__tp0h__D1_0H_1_3,0.91508,16.031,15.753,0,
+61972712e8__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D1__tp12h__D1_12H_2_3,0.8932,14.031,13.936,0,
+7b82c62a3a__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp24h__B1_24H_1_2,0.79695,8.89,10.096,0,
+8db9535923__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PET_+_NEB_5uM_D3__tp8h__D3_8H_2_2,0.94294,21.778,22.083,0,
+9984e40df9__HUVEC__LUIS_RAW_PEP+MCC_B4__tp12h__B4_12H_2,0.85927,13.871,13.527,0,
+b83dc2f0a0__HUVEC__originais_None_A5__tp12h__A5_12HR_1,0.86178,9.021,9.433,0,
+db5f1d05ce__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D4__tp12h__D4_12H_1_3,0.89561,17.683,16.828,0,
+df5b31f84c__HUVEC__Migra_o_PET_e_PEP_n1_-_RAW_PEP_+_NEB_5uM_D4__tp12h__D4_12H_1,0.67583,2.559,2.974,0,
+e8f27e802d__HUVEC__Originais_1_None_A1__tp12h__A1_12HR_1_2,0.81549,4.298,4.275,0,
+f8f76efe0c__HUVEC__LUIS_RAW_PEP+GB_A3__tp12h__A3_12H_2,1.0,3.685,3.685,1,IoU exactly 1.0000 with a real area: implausible

@@ -1,0 +1,107 @@
+{
+  "n_raw": 1085,
+  "n_raw_hashes": 1083,
+  "wells_multi_context": 32,
+  "wells_total": 42,
+  "combos": [
+    [
+      "Controle",
+      null
+    ],
+    [
+      "LUIS RAW",
+      "PEP"
+    ],
+    [
+      "LUIS RAW",
+      "PEP+GB"
+    ],
+    [
+      "LUIS RAW",
+      "PEP+MCC"
+    ],
+    [
+      "LUIS RAW",
+      "PEP+MET3"
+    ],
+    [
+      "LUIS RAW",
+      "PET"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PEP"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PEP + NEB 1uM"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PEP + NEB 5uM"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PET"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PET + NEB 1uM"
+    ],
+    [
+      "Migração (PET e PEP) n1 - RAW",
+      "PET + NEB 5uM"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PEP"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PEP + NEB 1uM"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PEP + NEB 5uM"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PET"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PET + NEB 1uM"
+    ],
+    [
+      "Migração (PET e PEP) n2 - RAW",
+      "PET + NEB 5uM"
+    ],
+    [
+      "Migração (PET e PEP) n3 - RAW",
+      null
+    ],
+    [
+      "Originais (1)",
+      null
+    ],
+    [
+      "Pré-Eclâmpsia",
+      null
+    ],
+    [
+      "Saudável",
+      null
+    ],
+    [
+      "originais",
+      null
+    ]
+  ],
+  "bd_stats": {
+    "match_unico": 1089
+  },
+  "join": {
+    "ok": 963,
+    "sem_fonte": 71
+  }
+}

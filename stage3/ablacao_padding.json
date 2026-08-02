@@ -1,0 +1,127 @@
+{
+  "contraste": "yolo11m-seg_black_coco (preto) - yolo11m-seg_white_coco (branco)",
+  "n_imagens_teste": 234,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "por_seed": [
+    {
+      "seed": 42,
+      "mAP50_black": 93.3396,
+      "mAP50_white": 93.7432,
+      "mAP50_dif": -0.4037,
+      "mAP75_black": 86.5659,
+      "mAP75_white": 85.1373,
+      "mAP75_dif": 1.4286,
+      "mAP50_95_black": 79.0569,
+      "mAP50_95_white": 78.3038,
+      "mAP50_95_dif": 0.7531
+    },
+    {
+      "seed": 43,
+      "mAP50_black": 93.9694,
+      "mAP50_white": 93.1344,
+      "mAP50_dif": 0.8349,
+      "mAP75_black": 85.8428,
+      "mAP75_white": 86.4871,
+      "mAP75_dif": -0.6443,
+      "mAP50_95_black": 76.7061,
+      "mAP50_95_white": 78.9832,
+      "mAP50_95_dif": -2.2771
+    },
+    {
+      "seed": 44,
+      "mAP50_black": 91.8735,
+      "mAP50_white": 94.1167,
+      "mAP50_dif": -2.2432,
+      "mAP75_black": 85.0784,
+      "mAP75_white": 85.8501,
+      "mAP75_dif": -0.7717,
+      "mAP50_95_black": 76.1731,
+      "mAP50_95_white": 78.3906,
+      "mAP50_95_dif": -2.2176
+    },
+    {
+      "seed": 45,
+      "mAP50_black": 94.7734,
+      "mAP50_white": 93.8512,
+      "mAP50_dif": 0.9223,
+      "mAP75_black": 84.2141,
+      "mAP75_white": 84.7464,
+      "mAP75_dif": -0.5323,
+      "mAP50_95_black": 76.7651,
+      "mAP50_95_white": 77.7131,
+      "mAP50_95_dif": -0.948
+    },
+    {
+      "seed": 46,
+      "mAP50_black": 93.0627,
+      "mAP50_white": 92.7333,
+      "mAP50_dif": 0.3294,
+      "mAP75_black": 85.6383,
+      "mAP75_white": 85.3099,
+      "mAP75_dif": 0.3284,
+      "mAP50_95_black": 76.3991,
+      "mAP50_95_white": 77.2338,
+      "mAP50_95_dif": -0.8347
+    }
+  ],
+  "resumo": {
+    "mAP50": {
+      "n_pares": 5,
+      "dif_media_pp": -0.1121,
+      "dif_dp_pp": 1.3027,
+      "t_pareado": -0.1923,
+      "gl": 4,
+      "seeds_em_que_o_preto_vence": 3,
+      "amplitude_braco_preto_pp": [
+        91.8735,
+        94.7734
+      ],
+      "amplitude_das_diferencas_pp": [
+        -2.2432,
+        0.9223
+      ],
+      "faixa_entre_seeds_maior_que_efeito": true
+    },
+    "mAP75": {
+      "n_pares": 5,
+      "dif_media_pp": -0.0383,
+      "dif_dp_pp": 0.9267,
+      "t_pareado": -0.0923,
+      "gl": 4,
+      "seeds_em_que_o_preto_vence": 2,
+      "amplitude_braco_preto_pp": [
+        84.2141,
+        86.5659
+      ],
+      "amplitude_das_diferencas_pp": [
+        -0.7717,
+        1.4286
+      ],
+      "faixa_entre_seeds_maior_que_efeito": true
+    },
+    "mAP50_95": {
+      "n_pares": 5,
+      "dif_media_pp": -1.1048,
+      "dif_dp_pp": 1.2411,
+      "t_pareado": -1.9905,
+      "gl": 4,
+      "seeds_em_que_o_preto_vence": 1,
+      "amplitude_braco_preto_pp": [
+        76.1731,
+        79.0569
+      ],
+      "amplitude_das_diferencas_pp": [
+        -2.2771,
+        0.7531
+      ],
+      "faixa_entre_seeds_maior_que_efeito": true
+    }
+  },
+  "nota": "IC de cluster bootstrap pareado NAO calculado aqui; e do stage3/aggregate.py, que deve persistir a saida."
+}

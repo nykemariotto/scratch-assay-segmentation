@@ -1,0 +1,9 @@
+annotator,clinical_group,group,replicate,timepoint_h,imagej,ai,diff_ai_imagej,mean_imagej_ai,negative_either
+Annotator 2,EOPE,PEP,11,8,-0.0063,0.4025,0.4088,0.1981,True
+Annotator 2,LOPE,PET,7,8,-0.2917,-0.2007,0.091,-0.2462,True
+Annotator 3,EOPE,PEP,13,8,0.08945,-0.06013,-0.14958,0.01466,True
+Annotator 3,LOPE,PET,9,8,0.141817,-0.21028,-0.352097,-0.0342315,True
+Annotator 3,LOPE,PET,9,12,0.178399,-0.17136,-0.349759,0.0035194999999999,True
+Annotator 3,LOPE,PET,9,24,0.207328,-0.12795,-0.335278,0.039689,True
+Annotator 3,LOPE,PET,17,8,-0.08622,-0.06157,0.02465,-0.073895,True
+Annotator 3,LOPE,PET,17,12,-0.0261,-0.03434,-0.00824,-0.03022,True

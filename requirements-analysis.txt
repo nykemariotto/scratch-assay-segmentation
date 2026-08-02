@@ -1,0 +1,14 @@
+# =====================================================================
+# Dependências APENAS da análise estatística (paired_analysis.py).
+#
+# Subconjunto de requirements.txt, nas MESMAS versões. Existe separado
+# porque o CI não precisa de torch/ultralytics (~2 GB) para rodar um
+# script de estatística — e instalar versões diferentes das fixadas faria
+# o CI validar reprodutibilidade sob um ambiente que ninguém usa.
+#
+#   pip install -r requirements-analysis.txt
+# =====================================================================
+
+numpy==2.4.4
+scipy==1.18.0
+pandas==3.0.2

@@ -1,0 +1,74 @@
+{
+  "n_B_total": 1369,
+  "n_rows": 1369,
+  "resolucao": 256,
+  "thr_ok": 0.75,
+  "margem_min": 0.05,
+  "metodo": "casamento por pixel (cinza 256x256, z-score, correlacao) restrito por nome + atribuicao 1:1 Hungarian por grupo",
+  "status_counts": {
+    "descartado_scale": 2,
+    "ambiguo": 40,
+    "ok": 1256,
+    "sem_candidato": 71
+  },
+  "status_por_dominio": {
+    "scale": {
+      "descartado_scale": 2
+    },
+    "huvec": {
+      "ambiguo": 40,
+      "ok": 923,
+      "sem_candidato": 71
+    },
+    "skov_snap": {
+      "ok": 285
+    },
+    "skov_treat": {
+      "ok": 48
+    }
+  },
+  "snap_timepoint_dist": {
+    "48": 102,
+    "0": 48,
+    "72": 36,
+    "24": 99
+  },
+  "identidade_confiavel": {
+    "n": 1367,
+    "nota": "linha_celular+well+timepoint recuperados do NOME (HUVEC/tratamento) ou do PIXEL (snaps); confiaveis mesmo quando o arquivo fisico A e ambiguo. Timepoint HUVEC bate 100% com a pasta (0 divergentes no inventario)."
+  },
+  "arquivo_fisico_confiavel": {
+    "n": 1256,
+    "nota": "linhas status=ok: arquivo .tiff especifico com sim>=0.75 e margem>=0.05"
+  },
+  "arquivo_fisico_incerto": {
+    "n_ambiguo": 40,
+    "n_sem_candidato": 71,
+    "nota": "TODOS HUVEC. ambiguo=twin exato (margem~0) ou fonte fisica perdida por colisao case-insensitive; sem_candidato=B excedente (nB>nA) sem .tiff fonte. Identidade linha/well/tp permanece confiavel."
+  },
+  "assigned_sim": {
+    "n": 1296,
+    "mean": 0.9859689231882651,
+    "p05": 0.9572290199165269,
+    "p25": 0.9996084205749822,
+    "p50": 0.9999986099315923,
+    "p75": 0.9999998572146942,
+    "p95": 1.0000000070351556,
+    "min": 0.1935014303412843
+  },
+  "null_sim": {
+    "n": 2765,
+    "mean": 0.5615984879171546,
+    "p50": 0.7063692839366759,
+    "p95": 0.8660592428917911,
+    "p99": 0.9204285180449425,
+    "max": 0.9999966701248373
+  },
+  "separacao": {
+    "assigned_p05": 0.9572290199165269,
+    "null_p95": 0.8660592428917911,
+    "null_p99": 0.9204285180449425,
+    "nota": "pares corretos (mediana ~1.0, p05~0.94) separam da distribuicao nula (mediana ~0.71); sobreposicao so na cauda por imagens globalmente parecidas. null_max~1.0 vem de familias com duplicatas EXATAS (A2.TIFF, (N) identicos): troca fisica irrelevante pois identidade e a mesma."
+  },
+  "caveat_snap": "well_campo dos snaps = id de aquisicao (snap-NN). Se o MESMO snap-NN em timepoints diferentes e o MESMO campo fisico (serie temporal) NAO foi provado aqui; verificar antes de usar snap-NN como chave de agrupamento no re-split por campo."
+}

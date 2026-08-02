@@ -1,0 +1,25 @@
+﻿ordem,whst_input_file,cell_line,analysis_unit,timepoint_h,campo,eh_baseline,tarefa,roi_auto
+1,e6ddc74913__HUVEC__LUIS_RAW_PEP+GB_A3__tp8h__A3_8H_2_2.tiff,HUVEC,LUIS RAW||PEP+GB||A3,8,2,,corrigir contorno,e6ddc74913__HUVEC__LUIS_RAW_PEP+GB_A3__tp8h__A3_8H_2_2.roi
+2,2e65d49d55__HUVEC__LUIS_RAW_PEP+MET3_A6__tp12h__A6_12H_2.tiff,HUVEC,LUIS RAW||PEP+MET3||A6,12,2,,corrigir contorno,2e65d49d55__HUVEC__LUIS_RAW_PEP+MET3_A6__tp12h__A6_12H_2.roi
+3,ec74f8f5fa__HUVEC__LUIS_RAW_PET_C5__tp0h__C5_0H_1.tiff,HUVEC,LUIS RAW||PET||C5,0,1,SIM,corrigir contorno,ec74f8f5fa__HUVEC__LUIS_RAW_PET_C5__tp0h__C5_0H_1.roi
+4,05932b157b__HUVEC__LUIS_RAW_PET_C5__tp8h__C5_8H_1.tiff,HUVEC,LUIS RAW||PET||C5,8,1,,corrigir contorno,05932b157b__HUVEC__LUIS_RAW_PET_C5__tp8h__C5_8H_1.roi
+5,2b7fcfc602__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp0h__B1_0H_1_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,0,1,SIM,corrigir contorno,2b7fcfc602__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp0h__B1_0H_1_2.roi
+6,fcc8ab6862__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp0h__B1_0H_2_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,0,2,SIM,corrigir contorno,fcc8ab6862__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp0h__B1_0H_2_2.roi
+7,0b9742f9a3__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp8h__B1_8H_2_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,8,2,,corrigir contorno,0b9742f9a3__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_+_NEB_1uM_B1__tp8h__B1_8H_2_2.roi
+8,dd8ad98535__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_A2__tp0h__A2_0H_2_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,0,2,SIM,corrigir contorno,dd8ad98535__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_A2__tp0h__A2_0H_2_2.roi
+9,9c4fdbdc3c__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PET_+_NEB_5uM_D3__tp0h__D3_0H_1_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,0,1,SIM,corrigir contorno,9c4fdbdc3c__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PET_+_NEB_5uM_D3__tp0h__D3_0H_1_2.roi
+10,246463cc3a__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D1__tp8h__D1_8H_2.tiff,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,8,2,,corrigir contorno,246463cc3a__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D1__tp8h__D1_8H_2.roi
+11,c95a4fe6dd__HUVEC__Originais_1_None_A5__tp0h__A5_0HR_1_2.tiff,HUVEC,Originais (1)||None||A5,0,1,SIM,corrigir contorno,c95a4fe6dd__HUVEC__Originais_1_None_A5__tp0h__A5_0HR_1_2.roi
+12,156f09d73b__HUVEC__Originais_1_None_A5__tp0h__A5_0HR_2_2.tiff,HUVEC,Originais (1)||None||A5,0,2,SIM,corrigir contorno,156f09d73b__HUVEC__Originais_1_None_A5__tp0h__A5_0HR_2_2.roi
+13,1da4221988__HUVEC__Originais_1_None_B5__tp0h__B5_0HR_1_2.tiff,HUVEC,Originais (1)||None||B5,0,1,SIM,corrigir contorno,1da4221988__HUVEC__Originais_1_None_B5__tp0h__B5_0HR_1_2.roi
+14,d7cf652f2d__HUVEC__Originais_1_None_D1__tp0h__D1_0HR_1_2.tiff,HUVEC,Originais (1)||None||D1,0,1,SIM,corrigir contorno,d7cf652f2d__HUVEC__Originais_1_None_D1__tp0h__D1_0HR_1_2.roi
+15,f65dcb0b1e__HUVEC__Originais_1_None_D1__tp12h__D1_12HR_1_2.tiff,HUVEC,Originais (1)||None||D1,12,1,,corrigir contorno,f65dcb0b1e__HUVEC__Originais_1_None_D1__tp12h__D1_12HR_1_2.roi
+16,d8d6a409b0__HUVEC__Pr_-Ecl_mpsia_None_B6__tp0h__B6_0hr_1.tiff,HUVEC,Pré-Eclâmpsia||None||B6,0,1,SIM,corrigir contorno,d8d6a409b0__HUVEC__Pr_-Ecl_mpsia_None_B6__tp0h__B6_0hr_1.roi
+17,c01f3f16cb__HUVEC__originais_None_D1__tp12h__D1_12HR_1.tiff,HUVEC,originais||None||D1,12,1,,corrigir contorno,c01f3f16cb__HUVEC__originais_None_D1__tp12h__D1_12HR_1.roi
+18,47d9864f0d__SKOV-3__P1_CT_F10__tp0h__ct2_5.tiff,SKOV-3,P1|CT|F10,0,F10,SIM,corrigir contorno,47d9864f0d__SKOV-3__P1_CT_F10__tp0h__ct2_5.roi
+19,8ece12b29e__SKOV-3__P1_CT_F8__tp0h__ct2_3.tiff,SKOV-3,P1|CT|F8,0,F8,SIM,corrigir contorno,8ece12b29e__SKOV-3__P1_CT_F8__tp0h__ct2_3.roi
+20,32f816646e__SKOV-3__P2_CARBO+GEO_F8__tp0h__Snap-54.tiff,SKOV-3,P2|CARBO+GEO|F8,0,F8,SIM,corrigir contorno,32f816646e__SKOV-3__P2_CARBO+GEO_F8__tp0h__Snap-54.roi
+21,757d325f1f__SKOV-3__P2_CARBO+GEO_F8__tp24h__Snap-54.tiff,SKOV-3,P2|CARBO+GEO|F8,24,F8,,corrigir contorno,757d325f1f__SKOV-3__P2_CARBO+GEO_F8__tp24h__Snap-54.roi
+22,a1d9784c97__BASELINE__SKOV-3__P2_CARBO_F5__tp0h__Snap-20.tiff,SKOV-3,P2|CARBO|F5,0,F5,SIM,corrigir contorno,a1d9784c97__BASELINE__SKOV-3__P2_CARBO_F5__tp0h__Snap-20.roi
+23,fa6dd30a89__BASELINE__SKOV-3__P2_CT_F15__tp0h__Snap-15.tiff,SKOV-3,P2|CT|F15,0,F15,SIM,corrigir contorno,fa6dd30a89__BASELINE__SKOV-3__P2_CT_F15__tp0h__Snap-15.roi
+24,ef8663825e__SKOV-3__P2_CT_F9__tp24h__Snap-09.tiff,SKOV-3,P2|CT|F9,24,F9,,corrigir contorno,ef8663825e__SKOV-3__P2_CT_F9__tp24h__Snap-09.roi

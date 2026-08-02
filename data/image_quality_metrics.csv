@@ -1,0 +1,1364 @@
+﻿arquivo_b,partition,cell_line,timepoint_h,group_key,lote,res,otsu_eta,lap_var,vignette,var_map_sigma2
+A2 8h 2_png.rf.3ZQSDMzMCCEjeEEpMLRI.png,train,HUVEC,8,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.63273,69.2,0.8782,2583.66
+A2 8H 2_png.rf.IpJ4MtWtbGzE5G2qM41m.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.76731,115.1,0.6695,5723.33
+A2 8H 2_png.rf.7oLJskKDBKhwtDpwzZqy.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.73912,79.04,0.715,4583.37
+A2 8H 2_png.rf.kZ7SBz8DB3BAcafMWMxz.png,train,HUVEC,8,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.75071,199.39,0.8316,5414.91
+B2 12hr 1_png.rf.5gyL9evissmrGzsSLEAN.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.7564,137.97,0.9162,7065.02
+B2 12HR 1_png.rf.FwucefXu7N8eJexkEaUa.png,train,HUVEC,12,Originais (1)||None||B2,Originais (1),nativo,0.68853,39.98,0.7124,3520.16
+B2 12hr 1_png.rf.UxcbtO0l2izDJyfYDkL3.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.67239,43.63,0.8715,2694.56
+B2 12HR 1_png.rf.w4CHV1tZNpptkrhPRYlw.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.82056,71.26,0.7302,7794.74
+B2 8hr 2_png.rf.IC0TVwKjwn6ZT1tg5Ayc.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.61029,32.39,0.7689,1126.81
+B2 8HR 2_png.rf.d5SKUoUKuKOaQUQwpC9U.png,train,HUVEC,8,Originais (1)||None||B2,Originais (1),nativo,0.64047,26.13,0.7878,1936.94
+B2 8hr 2_png.rf.cVpeDQhlWEBD1zht7jp9.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.69571,62.83,0.8756,3941.95
+B2 8HR 2_png.rf.CDPLfmkL04TkJQcPXF00.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.80343,105.2,0.8329,7782.03
+A4 12hr 2_png.rf.BAu6tJBDY6cRZV3MNUCm.png,train,HUVEC,12,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.60317,59.41,0.8661,1478.15
+A4 12HR 2_png.rf.rpQDqLFh0SaadBHHtKo3.png,train,HUVEC,12,Controle+Saudavel||None||A4,Controle+Saudavel,nativo,0.81745,129.67,0.8417,7930.37
+A4 12HR 2_png.rf.fXF7CNUNvvrtslE85Hem.png,train,HUVEC,12,Originais (1)||None||A4,Originais (1),nativo,0.66771,32.37,0.7966,1813.87
+B3 8HR 1_png.rf.1lxskQttQuNZ6jmrtim1.png,train,HUVEC,8,Originais (1)||None||B3,Originais (1),nativo,0.63256,25.99,0.7471,1845.94
+B3 8hr_1_png.rf.MRR11Hqlfmu6ZYq3vSSJ.png,train,HUVEC,8,Controle+Saudavel||None||B3,Controle+Saudavel,640,0.60581,41.99,0.8609,1432.71
+B3 8hr_1_png.rf.txxSmsq228gvXlUcivy5.png,train,HUVEC,8,Controle+Saudavel||None||B3,Controle+Saudavel,640,0.63459,66.75,0.8407,2449.65
+B3 8HR 1_png.rf.6Vj56bqRTpLweyb6RKuh.png,train,HUVEC,8,Controle+Saudavel||None||B3,Controle+Saudavel,nativo,0.71619,56.26,0.8275,4755.98
+A2 12HR 2_png.rf.tXrld1QaxXbx1JWZQy7N.png,train,HUVEC,12,Controle+Saudavel||None||A2,Controle+Saudavel,nativo,0.80542,70.28,0.8028,8562.24
+A2 12HR 2_png.rf.3dhTnd2ZF1zKT3cvy2au.png,train,HUVEC,12,Originais (1)||None||A2,Originais (1),nativo,0.64345,17.19,0.7855,1157.63
+B5 0hr 2_png.rf.If2IuTwPnX9XldLzwVK8.png,train,HUVEC,0,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.62028,62.78,0.7235,2126.59
+B5 0HR 2_png.rf.MUU0CWJgRWrZIA9N0J2X.png,test,HUVEC,0,Originais (1)||None||B5,Originais (1),nativo,0.68162,90.52,0.7711,3574.34
+B5 0hr 2_png.rf.Mbtwmh8BRXDfa2NX4XQj.png,train,HUVEC,0,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.67578,74.18,0.7671,3451.71
+B5 0HR 2_png.rf.9vT6ovCVyNe6dvR4soOv.png,train,HUVEC,0,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,nativo,0.62627,47.06,0.8636,1117.68
+A2 12hr_1_png.rf.6rEheJw5tSaKOU3wPVHa.png,train,HUVEC,12,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.7463,73.7,0.8998,6394.53
+A2 12hr 1_png.rf.YNt3kQagLoSoQV5wSNXl.png,train,HUVEC,12,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.64429,56.81,0.7587,1940.96
+A2 12HR 1_png.rf.zOnjlCgAe6Ku1WITrzJE.png,train,HUVEC,12,Originais (1)||None||A2,Originais (1),nativo,0.64824,20.47,0.7389,946.9
+A2 12HR 1_png.rf.oEQlyOq4mvi3JdVRjcDN.png,train,HUVEC,12,Controle+Saudavel||None||A2,Controle+Saudavel,nativo,0.81427,84.0,0.7936,8439.83
+D2 8HR 2_png.rf.C3Vh2MekC1rLcH3tPoI6.png,val,HUVEC,8,Originais (1)||None||D2,Originais (1),nativo,0.65417,26.69,0.8582,3237.93
+D2 8HR 2_png.rf.YcyTJYm2GVlCsfaBYmGr.png,val,HUVEC,8,originais||None||D2,originais,nativo,0.74074,152.0,0.8201,5956.57
+B4 8HR 2_png.rf.8ZXNesln0KJyFcN0jnmJ.png,val,HUVEC,8,Originais (1)||None||B4,Originais (1),nativo,0.62644,23.22,0.7948,1889.37
+B4 8HR 2_png.rf.1obyWX2VOZmLG9pLiKQR.png,val,HUVEC,8,originais||None||B4,originais,nativo,0.70134,39.7,0.8414,4210.88
+A4 8h 1_png.rf.wzNbwvhm0kl6bKa5E0vn.png,train,HUVEC,8,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.66936,54.08,0.6233,1786.64
+A4 8H 1_png.rf.xYdpZhVubRh3iT6eQ8kR.png,train,HUVEC,8,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.78332,546.14,0.8969,5486.61
+A2 8hr 1_png.rf.4aLjXPuqHOVMkWPtoetx.png,train,HUVEC,8,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.66607,22.64,0.8964,1769.25
+A2 8HR 1_png.rf.xwxfhZzqnfwRhWbm5XTm.png,train,HUVEC,8,Originais (1)||None||A2,Originais (1),nativo,0.63814,31.35,0.7917,1113.61
+A2 8HR 1_png.rf.sm0Tu7r9j7BYepnmxxKe.png,train,HUVEC,8,Controle+Saudavel||None||A2,Controle+Saudavel,nativo,0.71858,68.96,0.8639,4611.47
+B1 8hr 1_png.rf.xNkp4JfkmuylOQerzD1Q.png,test,HUVEC,8,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.61125,26.94,0.8126,633.69
+B1 8HR 1_png.rf.9FGwh76Bow1u3ZnPlz20.png,val,HUVEC,8,Originais (1)||None||B1,Originais (1),nativo,0.66047,19.58,0.7881,2190.1
+B1 8hr 1_png.rf.pwZlWzk9sZA3CwldABe9.png,test,HUVEC,8,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.62725,21.8,0.8728,1323.57
+B1 8HR 1_png.rf.AMXvM5M5gyDuLKC5DTa9.png,test,HUVEC,8,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.79783,86.18,0.7656,8140.06
+A3 8h 2_png.rf.yUJVyfA3TgvQSnAssZvg.png,val,HUVEC,8,Controle+Saudavel||None||A3,Controle+Saudavel,640,0.64311,57.3,0.7806,1919.0
+A3 8H 2_png.rf.Jd8eqN8fihgALwNrv3MY.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.69534,56.51,0.7158,3127.41
+A3 8H 2_png.rf.CmBhS871NJCTamYiDSzR.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.62112,63.45,0.7462,1301.48
+A3 8H 2_png.rf.B5nEx5FtZ9JTiEjZrHJb.png,test,HUVEC,8,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.72136,285.96,0.8015,5479.17
+Snap-48_5_png.rf.cqWnY0bh8WHNUbPpOr1X.png,train,SKOV,48,P2|CARBO+GEO|F2,P2,nativo,0.77402,191.77,0.9333,7699.09
+Snap-48_png.rf.gFj32XMP1AE8ivadgFZ2.png,train,SKOV,0,P2|CARBO+GEO|F2,P2,nativo,0.90731,142.43,0.7886,12282.0
+Snap-48_263_png.rf.m3ZXyMmPHbQPpj19hAhv.png,train,SKOV,72,P1|GEO+PTX|F13,P1,nativo,0.82598,260.91,0.8742,8295.39
+Snap-48_110_png.rf.6W4SsaL8UNRSLJ5llLr8.png,train,SKOV,24,P2|CARBO+GEO|F2,P2,nativo,0.76176,189.58,0.9158,7936.11
+Snap-48_214_png.rf.W39NuOZewyYyiyIabBmm.png,train,SKOV,24,P1|GEO+PTX|F2,P1,nativo,0.82304,266.57,0.9442,9680.63
+Snap-48_154_png.rf.V7qG7LsfdmdR0HUAFpGy.png,train,SKOV,48,P1|GEO+PTX|F2,P1,nativo,0.81645,246.85,0.9339,7797.98
+D2 24HR 1_png.rf.0Jc5AqWrC0xlQHOOQxyb.png,val,HUVEC,24,Originais (1)||None||D2,Originais (1),nativo,0.70614,32.26,0.7521,4325.9
+D2 24HR 1_png.rf.kDCpBVsZKPoWXu9h8Ot1.png,val,HUVEC,24,originais||None||D2,originais,nativo,0.79132,154.49,0.7498,5856.51
+B2 8hr 1_png.rf.OXjyxpLiDUhYtlxAYXfv.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.67926,35.57,0.8789,2120.81
+B2 8hr 1_png.rf.vGxP5rZkLK5MWiN0XW6M.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.68246,49.02,0.8426,2990.59
+B2 8HR 1_png.rf.lg2ZKkivuwGiadmG9MEX.png,train,HUVEC,8,Originais (1)||None||B2,Originais (1),nativo,0.668,50.5,0.7577,2844.52
+B2 8hr_1_png.rf.gJVngl5zbziuDPotvty9.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.67111,108.45,0.8695,3563.68
+B2 8hr 1_png.rf.wqLelQqFzkxSN8knUxYi.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.59597,26.23,0.805,578.12
+B2 8hr 1_png.rf.9Dk92mCSquMPc3aIhMLS.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.62251,24.81,0.8653,1084.86
+B2 8HR 1_png.rf.yDRw8b992nssA36AG9VH.png,train,HUVEC,8,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.7788,83.91,0.7824,7740.07
+C6 8HR 1_png.rf.LzXYa6hwLhDPIyF9Vnhm.png,train,HUVEC,8,Originais (1)||None||C6,Originais (1),nativo,0.64325,23.7,0.7405,2023.89
+B1 8hr 2_png.rf.L73Y3X4Dx7HELGkPVNlg.png,test,HUVEC,8,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.70894,66.82,0.8671,4484.84
+B1 8HR 2_png.rf.QL7rySDMj4R5jb45K8vq.png,val,HUVEC,8,Originais (1)||None||B1,Originais (1),nativo,0.71181,50.49,0.7949,4569.62
+B1 8HR 2_png.rf.QKXzmdKQE41ccuWFgbwS.png,test,HUVEC,8,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.81418,113.25,0.8277,7759.86
+Snap-58_209_png.rf.dbUw0s4aSvUw7mzdslRe.png,val,SKOV,24,P1|GEO+PTX|F12,P1,nativo,0.82946,191.85,0.95,10285.3
+Snap-58_png.rf.5bdBujv1yq4UbPqw35L3.png,train,SKOV,0,P2|CARBO+GEO|F12,P2,nativo,0.92671,154.08,0.7966,12545.01
+Snap-58_105_png.rf.S6dGBs8nCJirevpjONB2.png,train,SKOV,24,P2|CARBO+GEO|F12,P2,nativo,0.79094,228.13,0.9694,7557.21
+Snap-58_149_png.rf.gGNFmJIkalAHR9rJANe3.png,val,SKOV,48,P1|GEO+PTX|F12,P1,nativo,0.80479,130.27,0.9355,8212.63
+Snap-58_0_png.rf.LwKLpPTz09rttth9yXyJ.png,train,SKOV,48,P2|CARBO+GEO|F12,P2,nativo,0.78314,173.62,0.9288,7212.73
+B3 8HR 2_png.rf.0ng2hlYGkGmIuFw7pcZV.png,train,HUVEC,8,Originais (1)||None||B3,Originais (1),nativo,0.64262,24.75,0.8125,2464.2
+B3 8HR 2_png.rf.y0RoLUIBqx2jlBm8spIT.png,train,HUVEC,8,originais||None||B3,originais,nativo,0.70338,40.64,0.8325,4393.7
+A1 24HR 1_png.rf.1ApDRLrpQqSCaPcShIOu.png,test,HUVEC,24,Originais (1)||None||A1,Originais (1),nativo,0.71423,68.08,0.7272,3968.08
+A1 24hr 1_png.rf.LkrEN1mHJhJhYU2lmydg.png,test,HUVEC,24,Controle+Saudavel||None||A1,Controle+Saudavel,640,0.79394,144.14,0.9055,6640.33
+A1 24HR 1_png.rf.psHGzfQFFYu0q9OMf12P.png,test,HUVEC,24,Controle+Saudavel||None||A1,Controle+Saudavel,nativo,0.81193,143.14,0.8535,6597.15
+Snap-59_152_png.rf.epaimzc0srccqJG6nJAH.png,train,SKOV,48,P1|GEO+PTX|F13,P1,nativo,0.83053,185.29,0.8756,8618.98
+Snap-59_png.rf.QAzP72FtBpszeTf2Mrk5.png,train,SKOV,0,P2|CARBO+GEO|F13,P2,nativo,0.90066,97.4,0.7998,12055.38
+Snap-59_108_png.rf.pcjqa4byhXHVWqchoMza.png,train,SKOV,24,P2|CARBO+GEO|F13,P2,nativo,0.87029,160.71,0.9086,9115.68
+Snap-59_3_png.rf.GOvQjtVZo8TiQHDmnSM2.png,train,SKOV,48,P2|CARBO+GEO|F13,P2,nativo,0.81451,176.13,0.9195,8884.94
+Snap-59_212_png.rf.mFpPNMwFcq90Zp1o20IQ.png,train,SKOV,24,P1|GEO+PTX|F13,P1,nativo,0.8474,152.56,0.8899,10645.8
+Snap-09_140_png.rf.MLfBljl6KhYw7N82HEXA.png,train,SKOV,48,P1|CT|F9,P1,nativo,0.82419,225.33,0.9195,6538.81
+Snap-09_245_png.rf.Sk2QN2VbMrtgID67t9q5.png,train,SKOV,72,P1|PTX|F4,P1,nativo,0.90063,476.56,0.9706,7514.42
+Snap-09_200_png.rf.T1DuJr60ClWyEIrNPE9K.png,test,SKOV,24,P1|CT|F8,P1,nativo,0.81457,199.42,0.8954,6673.05
+Snap-09_21_png.rf.eX9WeCW8GgIO8pb44zNf.png,test,SKOV,48,P2|CT|F9,P2,nativo,0.75308,56.8,0.8923,4293.49
+Snap-09_png.rf.8rxFGfmpj3ofgVOjtLkE.png,train,SKOV,0,P2|CT|F8,P2,nativo,0.86909,120.25,0.8301,11271.61
+Snap-09_66_png.rf.DXbLfCegxmVs4TDoenmh.png,test,SKOV,24,P2|CT|F9,P2,nativo,0.73801,103.65,0.8321,5081.62
+A2 24HR 2_png.rf.7v4xBMHObHaA3NuLPSjm.png,train,HUVEC,24,Originais (1)||None||A2,Originais (1),nativo,0.7807,89.29,0.8046,6896.52
+A2 24HR 2_png.rf.BDWEbOGVMFPOsxkHkO6A.png,train,HUVEC,24,originais||None||A2,originais,nativo,0.79487,88.07,0.8154,7738.51
+C4 8HR 1_png.rf.SWDpLEy94U9PmlA9XW2A.png,train,HUVEC,8,Originais (1)||None||C4,Originais (1),nativo,0.61465,24.01,0.7716,1587.14
+Snap-52_153_png.rf.jWozliFwqBh7FtxPjDhr.png,test,SKOV,48,P1|GEO+PTX|F6,P1,nativo,0.8511,298.25,0.9252,8078.0
+Snap-52_109_png.rf.uchITFihZ7aBNqGdXlak.png,train,SKOV,24,P2|CARBO+GEO|F6,P2,nativo,0.7534,231.7,0.9398,6163.7
+Snap-52_213_png.rf.YrkkVK1Bonf3TxwPZWyE.png,test,SKOV,24,P1|GEO+PTX|F6,P1,nativo,0.85682,147.85,0.9392,10315.15
+Snap-52_png.rf.quPTO48loQ0BH1YV5D1Z.png,train,SKOV,0,P2|CARBO+GEO|F6,P2,nativo,0.94113,150.64,0.7757,11676.54
+Snap-52_4_png.rf.QgOXnOk246Qj4V3lKXiq.png,train,SKOV,48,P2|CARBO+GEO|F6,P2,nativo,0.79756,123.15,0.929,7245.43
+C8 24HR 2_png.rf.89emK7tbJ4ArtvPfDi2F.png,train,HUVEC,24,Originais (1)||None||C8,Originais (1),nativo,0.82265,93.1,0.8511,5552.96
+Snap-12_143_png.rf.Rm5zxWJpiG4cZ3oTCpJH.png,train,SKOV,48,P1|CT|F12,P1,nativo,0.79281,133.84,0.965,5335.79
+Snap-12_69_png.rf.WicraKQ0CdhUH1IJtnIT.png,train,SKOV,24,P2|CT|F12,P2,nativo,0.64493,72.74,0.8819,3305.01
+Snap-12_24_png.rf.Ru6LnkVq8ptg2oaXuud7.png,train,SKOV,48,P2|CT|F12,P2,nativo,0.73159,82.44,0.9472,4208.74
+Snap-12_247_png.rf.bejYN9qav9OwHOvHDtwA.png,train,SKOV,72,P1|PTX|F7,P1,nativo,0.86981,728.77,0.9189,3355.91
+Snap-12_203_png.rf.JEql0PcElKuzYrOsXGDk.png,train,SKOV,24,P1|CT|F11,P1,nativo,0.7899,73.94,0.9506,6990.3
+Snap-12_png.rf.JaRx2jnw5N6x11Hp0geO.png,train,SKOV,0,P2|CT|F11,P2,nativo,0.86678,85.1,0.8025,10511.38
+A3 24HR _png.rf.5mOrWeoDdCbiHpmsULlx.png,train,HUVEC,24,Originais (1)||None||A3,Originais (1),nativo,0.75868,110.69,0.8283,5873.48
+A4 12hr 1_png.rf.XWAGCiM6UOAh8GvapFEg.png,train,HUVEC,12,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.62415,61.74,0.8638,1597.86
+A4 12HR 1_png.rf.dBXjee0yNJkn5uvIsedn.png,train,HUVEC,12,Originais (1)||None||A4,Originais (1),nativo,0.6322,18.41,0.7178,520.0
+A4 12HR 1_png.rf.QTYICw9XjNE9ky97j1dh.png,train,HUVEC,12,Controle+Saudavel||None||A4,Controle+Saudavel,nativo,0.79431,100.12,0.6858,7947.71
+B8 8H 1_png.rf.aR8jpRAFVNgRDwOjlUoR.png,val,HUVEC,8,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.77452,317.72,0.783,5247.36
+B8 0H 1_png.rf.VRh7efysiNi7AJTUXkt0.png,val,HUVEC,0,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.69518,244.14,0.788,2129.35
+C7 8HR 2_png.rf.2dvwHn7EvY990K3vz72Z.png,train,HUVEC,8,Originais (1)||None||C7,Originais (1),nativo,0.66794,74.35,0.8589,4256.1
+C7 8hr 2_png.rf.V0K6p7rMxYZjaTtmW246.png,train,HUVEC,8,Pré-Eclâmpsia||None||C7,Pré-Eclâmpsia,640,0.56556,25.64,0.7324,842.69
+D3 0HR 2_png.rf.xg8UuwFd0AAbsMueldhL.png,train,HUVEC,0,Originais (1)||None||D3,Originais (1),nativo,0.76594,201.01,0.7859,7335.11
+D3 0HR 2_png.rf.j8JuVxL68QInkMt5FJpM.png,train,HUVEC,0,originais||None||D3,originais,nativo,0.68217,146.16,0.8593,4335.04
+Snap-08_246_png.rf.RqnG5jTrBo52eftjs5DV.png,train,SKOV,72,P1|PTX|F3,P1,nativo,0.89758,409.92,0.9192,10509.64
+Snap-08_201_png.rf.chUbIWmSPfojmz0KJLAC.png,train,SKOV,24,P1|CT|F7,P1,nativo,0.78878,76.63,0.9059,6155.98
+Snap-08_67_png.rf.pJTf39K2wKaqnC1k9jIb.png,train,SKOV,24,P2|CT|F8,P2,nativo,0.77699,101.83,0.8806,5127.03
+Snap-08_141_png.rf.xxwXm4vgaTgEnxfrDBvk.png,test,SKOV,48,P1|CT|F8,P1,nativo,0.78705,114.7,0.9342,5350.69
+Snap-08_png.rf.nMSmGWytV5eO27dMe1ee.png,train,SKOV,0,P2|CT|F7,P2,nativo,0.81193,133.84,0.9006,9528.37
+Snap-08_22_png.rf.GCWDDmkNJNGxWqA6yAIT.png,train,SKOV,48,P2|CT|F8,P2,nativo,0.80096,65.39,0.9218,5512.94
+C8 8hr 1_png.rf.9Nm17LTxJEYER3hsq1MI.png,train,HUVEC,8,Pré-Eclâmpsia||None||C8,Pré-Eclâmpsia,640,0.64378,51.78,0.8863,1667.3
+C8 8HR 1_png.rf.D6drV1sVRsS2i9BLf4Zq.png,train,HUVEC,8,Originais (1)||None||C8,Originais (1),nativo,0.74759,69.59,0.7247,7063.11
+Snap-55_png.rf.mdqwr9JeLjcb6ofmfYgj.png,train,SKOV,0,P2|CARBO+GEO|F9,P2,nativo,0.94853,213.42,0.796,12729.07
+Snap-55_151_png.rf.HB3SBxZfAuHyuw16MFoY.png,train,SKOV,48,P1|GEO+PTX|F9,P1,nativo,0.7817,154.3,0.9667,7311.87
+Snap-55_2_png.rf.yBgBsBStUWm9nrHoWzT9.png,train,SKOV,48,P2|CARBO+GEO|F9,P2,nativo,0.77003,220.25,0.9572,5708.11
+Snap-55_211_png.rf.EPNfhr87AJkv5f9UxEy5.png,train,SKOV,24,P1|GEO+PTX|F9,P1,nativo,0.85223,181.71,0.9616,10572.81
+Snap-55_107_png.rf.sR9Ln7DKRgZ1U7IHe31n.png,train,SKOV,24,P2|CARBO+GEO|F9,P2,nativo,0.78012,285.42,0.9055,5744.82
+C2 8hr 2_png.rf.rQVAAegUPaNnrnxfZwFG.png,train,HUVEC,8,Pré-Eclâmpsia||None||C2,Pré-Eclâmpsia,640,0.58881,39.77,0.892,663.53
+C2 8HR 2_png.rf.FAjaOYFoSVkGWqoTepQb.png,train,HUVEC,8,Originais (1)||None||C2,Originais (1),nativo,0.63647,28.78,0.8634,2579.86
+Snap-50_217_png.rf.rf55ujFurc07N7cDRLSR.png,train,SKOV,24,P1|GEO+PTX|F4,P1,nativo,0.86989,120.64,0.9986,11579.98
+Snap-50_8_png.rf.GllVB6GPGv2m6wnXP8At.png,train,SKOV,48,P2|CARBO+GEO|F4,P2,nativo,0.7988,183.4,0.9512,6671.61
+Snap-50_113_png.rf.tvrHilkt9qEzTsmrzhEz.png,train,SKOV,24,P2|CARBO+GEO|F4,P2,nativo,0.76802,291.46,0.9392,7537.08
+Snap-50_157_png.rf.O8bQtgrO9JA4I4wWYrex.png,train,SKOV,48,P1|GEO+PTX|F4,P1,nativo,0.81599,235.16,1.0117,8643.09
+Snap-50_png.rf.HA7jd2gx3sJmNEaL5hJZ.png,train,SKOV,0,P2|CARBO+GEO|F4,P2,nativo,0.95793,256.92,0.7865,13739.07
+B8 12hr 1_png.rf.shTHCf0lYwAgMJRKyceK.png,train,HUVEC,12,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.64144,48.91,0.7818,2860.0
+B8 12hr 1_png.rf.iih8Y7cF2NixGIHCxYM5.png,train,HUVEC,12,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.57094,19.08,0.7809,416.45
+B8 12HR 1_png.rf.nI0MDsT82HP4ly7A64T9.png,train,HUVEC,12,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,nativo,0.7688,69.59,0.7988,6948.23
+B8 12HR 1_png.rf.nFJGtYupFefeBl1Usry3.png,train,HUVEC,12,Originais (1)||None||B8,Originais (1),nativo,0.60848,25.57,0.7079,971.93
+C1 24HR 2_png.rf.9exsonf957zV0aCSSZs8.png,train,HUVEC,24,Originais (1)||None||C1,Originais (1),nativo,0.7322,44.69,0.8343,5719.3
+C3 24HR 1_png.rf.pZgJEEa8LXWK8obYVuEZ.png,train,HUVEC,24,Originais (1)||None||C3,Originais (1),nativo,0.71454,43.35,0.7247,4359.75
+B7 12HR 1_png.rf.tQR8sr43YTBxjNYm3tqF.png,train,HUVEC,12,Originais (1)||None||B7,Originais (1),nativo,0.63643,24.04,0.7529,1139.46
+B7 12hr 1_png.rf.hlhcADdzO6iuhfQES5Fp.png,train,HUVEC,12,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.59717,19.91,0.8226,344.22
+B7 12HR 1_png.rf.ctLu7rRENpG6jwIQGRSW.png,train,HUVEC,12,Controle+Saudavel||None||B7,Controle+Saudavel,nativo,0.78067,79.29,0.8151,7234.59
+B8 12HR 2_png.rf.CgwPldETMq6VOYEZmUsY.png,train,HUVEC,12,Originais (1)||None||B8,Originais (1),nativo,0.61843,24.37,0.8105,1277.59
+B8 12hr 2_png.rf.hBBqPLy4yOa4aCEa6DvE.png,val,HUVEC,12,Controle+Saudavel||None||B8,Controle+Saudavel,640,0.60875,21.06,0.9275,594.65
+B8 12HR 2_png.rf.9iYVx629UA8lYga7s72P.png,val,HUVEC,12,Controle+Saudavel||None||B8,Controle+Saudavel,nativo,0.78701,79.87,0.8836,7791.93
+A1 24HR 2_png.rf.8ZCo4suYfwAmYJVAdrgi.png,test,HUVEC,24,Originais (1)||None||A1,Originais (1),nativo,0.7682,100.36,0.771,6255.72
+A1 24HR 2_png.rf.QvfIHR0lQkYJbWTuhsBX.png,test,HUVEC,24,originais||None||A1,originais,nativo,0.80228,91.39,0.7567,7243.51
+C7 8HR 1_png.rf.BLjG0NJpvYU22o7jYGgz.png,train,HUVEC,8,Originais (1)||None||C7,Originais (1),nativo,0.67927,64.68,0.7266,3681.68
+C7 8hr 1_png.rf.G3Sj8OMnkq6nHC5SOjbi.png,train,HUVEC,8,Pré-Eclâmpsia||None||C7,Pré-Eclâmpsia,640,0.64685,28.7,0.8275,1207.37
+A5 0HR 2_png.rf.C9gm2A2fkupz9aW1u7b9.png,test,HUVEC,0,Originais (1)||None||A5,Originais (1),nativo,0.73005,205.65,0.8574,5847.76
+A5 0hr 2_png.rf.VU7ZStUnMIZCuBrc6l0k.png,train,HUVEC,0,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,640,0.69735,58.05,0.9625,3658.96
+A5 0HR 2_png.rf.Y8g6msImi3FtQjKV3Wp9.png,train,HUVEC,0,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,nativo,0.67081,99.7,0.8652,2104.38
+A5 0hr_2_png.rf.JluxUjNY7fGnBncqTfdq.png,train,HUVEC,0,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,640,0.67704,29.81,0.8441,3105.83
+C5 0HR 1_png.rf.Eq08r4rsYSmeLWqDM8ss.png,train,HUVEC,0,Originais (1)||None||C5,Originais (1),nativo,0.74578,269.48,0.8338,7719.33
+B1 12hr 1_png.rf.Basp8dmX2exqZZBqydBx.png,test,HUVEC,12,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.60308,18.57,0.8547,872.68
+B1 12hr 1_png.rf.sRUPpw6VBKsEL7UWcuqg.png,test,HUVEC,12,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.58548,18.65,0.7867,261.19
+B1 12hr_1_png.rf.dB4OztvLmzVa4BGq5jCN.png,test,HUVEC,12,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.58289,19.15,0.8077,426.2
+B1 12hr 1_png.rf.MkOpH7SVtG5q4EYuFmK2.png,test,HUVEC,12,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.64062,30.72,0.9004,2105.77
+B1 12HR 1_png.rf.iGQ0raXb1cPFjLpTE8Qs.png,test,HUVEC,12,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.83384,88.04,0.7771,7096.34
+B1 12HR 1_png.rf.huPp6MA4TKEZBcGXSoLi.png,val,HUVEC,12,Originais (1)||None||B1,Originais (1),nativo,0.70072,50.55,0.836,4440.81
+ct3_5_png.rf.rPD7kpqEkJ4PcSKpPkrP.png,val,SKOV,0,P1|CT|F15,P1,nativo,0.92903,245.03,0.9535,13590.92
+B3 24h 1_png.rf.o0oNoNvk37LqpagxxqVo.png,val,HUVEC,24,Pré-Eclâmpsia||None||B3,Pré-Eclâmpsia,640,0.76323,144.97,0.9641,5837.95
+B3 24H 1_png.rf.LPAu1wd0tAJfBCssFalf.png,val,HUVEC,24,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.75896,281.04,0.8035,5863.26
+B3 24h 1_png.rf.gZIWOhlU4NcXdxLLJJZ2.png,val,HUVEC,24,Pré-Eclâmpsia||None||B3,Pré-Eclâmpsia,640,0.66268,68.24,0.7828,2117.2
+B3 24H 1_png.rf.qfRsFXKWsC6TWRFF9Taw.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.62796,25.29,0.7538,564.73
+B3 24H 1_png.rf.k1iUYr5vYuEMBpfuVe2f.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.57507,33.27,0.6675,355.59
+B3 24H 1_png.rf.2JmsG9wGoR29jy6DRUHa.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.63381,58.24,0.6983,1044.54
+ct3_3_png.rf.vFYj9FMCGAqQ32xosxLR.png,train,SKOV,0,P1|CT|F13,P1,nativo,0.89397,203.76,0.986,12392.86
+C6 24HR 2_png.rf.tHaJIce9FVY7cZYg4n8E.png,train,HUVEC,24,Originais (1)||None||C6,Originais (1),nativo,0.76803,37.59,0.8538,6644.57
+A5 24HR 1_png.rf.CpfIcPI5krfxTtJFGjKH.png,test,HUVEC,24,Originais (1)||None||A5,Originais (1),nativo,0.70806,59.0,0.7354,3619.94
+A5 24HR 1_png.rf.QWraD9H7IOqSfp8mznDQ.png,test,HUVEC,24,originais||None||A5,originais,nativo,0.78675,71.67,0.7652,7090.92
+B4 0H 1_png.rf.UkNByK7H1jadGiO9HCAd.png,test,HUVEC,0,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.68939,524.13,0.7758,4178.06
+B4 0H 1_png.rf.Dz8OAD8IKrZ4Bd7eyGpT.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.79937,232.91,0.6658,7901.56
+B4 0H 1_png.rf.fnnFJZSxNbJIYzq62RBH.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.68024,100.7,0.7105,2995.94
+B4 0H 1_png.rf.ocKA8DGfji9fgwcSBwv6.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.63543,148.74,0.7133,2954.39
+B8 8H 2_png.rf.UaCpChb0ty8nCEeOICAn.png,val,HUVEC,8,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.79771,336.16,0.8167,6694.25
+E4 24H 1_png.rf.VApsLvqT7aWfeSFArkzu.png,val,HUVEC,24,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.7627,255.86,0.781,6240.27
+E4 24H 1_png.rf.WRsQKjX6ie0vtyCCCrGq.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.61127,28.6,0.6542,629.36
+B4 24H 1_png.rf.b60wYuoI9jxCKCHE2l9q.png,test,HUVEC,24,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.75133,165.01,0.8636,5233.16
+B4 24h 1_png.rf.1X28TLOHfw99QR2YYvM9.png,val,HUVEC,24,Pré-Eclâmpsia||None||B4,Pré-Eclâmpsia,640,0.77249,114.7,0.8444,6303.47
+B4 24H 1_png.rf.g6mdfx5q5C5lyvQAGYxU.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.67377,73.99,0.6381,1564.29
+B4 24H 1_png.rf.4r695chZzLmmnCG4yZPL.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.61764,61.64,0.664,1496.55
+B2 24H 1_png.rf.XBc86UvTsYYrkQT5Lmb2.png,train,HUVEC,24,LUIS RAW||PEP+MET3||B2,LUIS RAW,nativo,0.75015,214.85,0.7703,5418.34
+B2 24H 1_png.rf.INyMxE58uzRFbh8B31Ps.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.6551,27.9,0.6782,280.08
+A1 12hr 1_png.rf.hPnekH9tRkKoF84Y4HTD.png,test,HUVEC,12,Controle+Saudavel||None||A1,Controle+Saudavel,640,0.69847,27.25,0.8825,3784.54
+A1 12HR 1_png.rf.8FGxD5kQMiDucxJswxPl.png,test,HUVEC,12,Controle+Saudavel||None||A1,Controle+Saudavel,nativo,0.82441,94.73,0.7812,6867.29
+A1 12HR 1_png.rf.XDKS23ySU3ItzW5Kv957.png,test,HUVEC,12,Originais (1)||None||A1,Originais (1),nativo,0.63207,19.96,0.7383,973.33
+A7 0HR 1_png.rf.MypZ7P5e22YqROshUyHa.png,train,HUVEC,0,Originais (1)||None||A7,Originais (1),nativo,0.65306,225.93,0.7383,2878.1
+A7 0HR 1_png.rf.K1SrVpQJXMVcmwZSUvfb.png,train,HUVEC,0,originais||None||A7,originais,nativo,0.67295,86.64,0.8239,2930.21
+A1 12hr 2_png.rf.Zc7e1rWOmWcCj4dykv3Z.png,test,HUVEC,12,Controle+Saudavel||None||A1,Controle+Saudavel,640,0.76192,61.86,0.9233,6360.59
+A1 12HR 2_png.rf.6p7F3HADokVM7aGI7thQ.png,test,HUVEC,12,Controle+Saudavel||None||A1,Controle+Saudavel,nativo,0.8235,97.7,0.8442,7609.99
+A1 12HR 2_png.rf.OoCbkijic6aCx52coryw.png,test,HUVEC,12,Originais (1)||None||A1,Originais (1),nativo,0.67676,35.42,0.7985,2356.72
+A3 24h 2_png.rf.FRjwfMYcf5xZAmW48pAr.png,val,HUVEC,24,Controle+Saudavel||None||A3,Controle+Saudavel,640,0.62459,51.09,0.7825,1486.99
+A3 24H 2_png.rf.kS5CSoi5AQ1mWS6ij8tv.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.61757,26.59,0.6116,261.31
+A3 24H 2_png.rf.1DXhlCUFozCEwAiOJfiw.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.73577,154.13,0.6625,4990.57
+A3 24H 2_png.rf.TOtRUqMkxCrasCpSjZKO.png,test,HUVEC,24,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.82551,510.73,0.8769,5920.98
+B1 0hr_1_png.rf.DUGXTEiLp7a24s7ag9dO.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.70453,55.08,0.8666,4283.51
+B1 0hr 1_png.rf.MsTYgRqpBawgbfwCxIBh.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.6646,27.93,0.8999,2177.45
+B1 0hr 1_png.rf.HQmAp3GBzLOJSBnrI49n.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.67734,34.23,0.7878,1936.34
+B1 0HR 1_png.rf.NGRx9n5aVbjBeYyAkrvc.png,val,HUVEC,0,Originais (1)||None||B1,Originais (1),nativo,0.70469,108.23,0.7555,4703.65
+B1 0hr 1_png.rf.IpACHL1Orw6aFOfMt2L4.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.60195,47.56,0.9671,1068.59
+B1 0HR 1_png.rf.eIMkkfHeHfLEZ04ezC1L.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.72446,123.03,0.8177,5619.65
+Snap-14_18_png.rf.cTI14kZnt7qLocJDEl8J.png,train,SKOV,48,P2|CT|F14,P2,nativo,0.78233,81.98,0.9089,5299.44
+Snap-14_63_png.rf.CP0h7e9qVBHWMIowPwi3.png,train,SKOV,24,P2|CT|F14,P2,nativo,0.7655,129.72,0.8496,5469.15
+Snap-14_197_png.rf.BYX13QN3Hg5IwWB1K8CE.png,train,SKOV,24,P1|CT|F13,P1,nativo,0.77916,83.73,0.9017,6817.25
+Snap-14_png.rf.s2v9VcqXVmUKf34AJR9n.png,train,SKOV,0,P2|CT|F13,P2,nativo,0.86747,106.31,0.8647,11194.97
+Snap-14_137_png.rf.JGQAHR1rLHubpmhNmWKG.png,train,SKOV,48,P1|CT|F14,P1,nativo,0.7956,193.66,0.9456,4693.74
+Snap-57_14_png.rf.zzuxYUS6GURsSfNtRXi0.png,train,SKOV,48,P2|CARBO+GEO|F11,P2,nativo,0.80352,191.42,0.9249,6004.61
+Snap-57_163_png.rf.pDbnqWgyxSpfj13CWb0J.png,train,SKOV,48,P1|GEO+PTX|F11,P1,nativo,0.83244,240.6,0.9175,7668.91
+Snap-57_223_png.rf.Y5JAUxICexxY7SL4iYkm.png,train,SKOV,24,P1|GEO+PTX|F11,P1,nativo,0.84796,174.54,0.9357,10018.8
+Snap-57_png.rf.bdYboWX9ErOHYRCWsvjV.png,train,SKOV,0,P2|CARBO+GEO|F11,P2,nativo,0.93157,178.86,0.7878,11061.32
+Snap-57_118_png.rf.ujk8XtRp7brOc2jVj3FQ.png,train,SKOV,24,P2|CARBO+GEO|F11,P2,nativo,0.79161,260.54,0.9309,4981.1
+A2 24h 2_png.rf.vPEXFaeBDCIJ7xVoYjlS.png,train,HUVEC,24,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.64812,74.67,0.7161,2389.03
+A2 24h_2_png.rf.HAg44SJ1EekTkXtXLokT.png,train,HUVEC,24,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.61346,76.5,0.8603,1885.02
+A2 24H 2_png.rf.E5xmaghZdqaoko8wlaZh.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.68741,94.94,0.8008,2817.24
+A2 24H 2_png.rf.Ncwo4IoTmtPiUtCVQfYJ.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.64367,20.76,0.6123,226.3
+A2 24H 2_png.rf.HMaDbJj9CQExPlCGNrI6.png,train,HUVEC,24,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.80138,981.66,0.9068,5732.49
+C1 8hr 2_png.rf.vAjsWCBFyMVhrnXK1tJ1.png,train,HUVEC,8,Pré-Eclâmpsia||None||C1,Pré-Eclâmpsia,640,0.58628,27.9,0.7874,679.19
+C1 8HR 2_png.rf.PMVIRdN64tpFyIzD2E33.png,train,HUVEC,8,Originais (1)||None||C1,Originais (1),nativo,0.63401,25.88,0.8053,1976.03
+A2 0hr 1_png.rf.vZji6l7eNaGvhsdCUwH3.png,train,HUVEC,0,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.68205,30.25,0.8754,4174.24
+A2 0hr 1_png.rf.pKZJOPTdyTaUFCoQ0WkN.png,train,HUVEC,0,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.73437,60.21,0.6902,5328.62
+A2 0HR 1_png.rf.7xO098s3eZ9fJSiLuPHq.png,train,HUVEC,0,Originais (1)||None||A2,Originais (1),nativo,0.71468,137.98,0.8446,4439.44
+A2 0HR 1_png.rf.8PMA4P9qg9rH3AjVYmde.png,train,HUVEC,0,Controle+Saudavel||None||A2,Controle+Saudavel,nativo,0.68374,100.36,0.867,3584.9
+B6 0hr 1_png.rf.tP2kS9n37GFU0hMWW7mV.png,test,HUVEC,0,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,640,0.64579,70.18,0.72,3231.25
+B6 0HR 1_png.rf.G9IIgGta9Gbbj9yqetJW.png,test,HUVEC,0,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,nativo,0.64562,71.08,0.7849,1309.31
+B6 0HR 1_png.rf.DQKYy8uvjwNsc7uZUiaW.png,train,HUVEC,0,Originais (1)||None||B6,Originais (1),nativo,0.68974,93.51,0.7594,4333.62
+B7 8hr 1_png.rf.SElaSihN8SWw6hPUO4yu.png,train,HUVEC,8,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.57874,17.81,0.8013,384.01
+B7 8hr_1_png.rf.U0VJcTDbcVdMQ9Gikaum.png,train,HUVEC,8,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.57178,23.68,0.8328,831.06
+B7 8HR 1_png.rf.U3U7uwlzmFkSpDnTdHXo.png,train,HUVEC,8,Controle+Saudavel||None||B7,Controle+Saudavel,nativo,0.6837,38.27,0.7989,3235.87
+B7 8HR 1_png.rf.VIqewXz9Fg6rle55f6s4.png,train,HUVEC,8,Originais (1)||None||B7,Originais (1),nativo,0.69508,63.79,0.8166,3720.75
+B1 0hr_2_png.rf.wWUkB0l85vJDlD6q526J.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.72339,70.61,0.902,4869.46
+B1 0hr 2_png.rf.XjumgmgMNkQhrRGLEgFA.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.66,23.33,0.7892,1585.43
+B1 0HR 2_png.rf.70abUpeVRRIpTW7eiJ6c.png,val,HUVEC,0,Originais (1)||None||B1,Originais (1),nativo,0.77223,165.24,0.7585,7481.87
+B1 0HR 2_png.rf.GJOlprTE8cvwD4CrUmlP.png,test,HUVEC,0,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.69306,79.64,0.7683,4437.59
+B5 12hr 1_png.rf.zr4XJVjMImCf2kHNhYuv.png,train,HUVEC,12,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.61122,40.75,0.824,1525.75
+B5 12HR 1_png.rf.RtHZKiYSCyEezrDzpSXm.png,train,HUVEC,12,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,nativo,0.74509,58.09,0.7986,5690.78
+B5 12HR 1_png.rf.XqoVkA4DK3JbERfwmQPP.png,test,HUVEC,12,Originais (1)||None||B5,Originais (1),nativo,0.6679,33.48,0.8229,3390.41
+B3 12hr 1_png.rf.zZhyC5IrePWDZDHRw4ae.png,train,HUVEC,12,Controle+Saudavel||None||B3,Controle+Saudavel,640,0.61521,30.76,0.7868,810.97
+B3 12HR 1_png.rf.sXw2VuiBVAa9Aftwl9le.png,train,HUVEC,12,Controle+Saudavel||None||B3,Controle+Saudavel,nativo,0.76424,51.73,0.8432,7224.94
+B3 12hr_1_png.rf.bFOaRTghkGRZY6ztTfJf.png,train,HUVEC,12,Controle+Saudavel||None||B3,Controle+Saudavel,640,0.57966,23.43,0.7152,723.33
+B3 12HR 1_png.rf.CA0AC0OeRIZev8XhzkeB.png,train,HUVEC,12,Originais (1)||None||B3,Originais (1),nativo,0.68053,34.38,0.8415,3752.3
+B6 12hr 1_png.rf.wMEDLQnrMWwVbcfKlQek.png,test,HUVEC,12,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,640,0.61181,48.55,0.8408,1884.71
+B6 12HR 1_png.rf.idTK2W5F5w99J9Cwj3Jh.png,train,HUVEC,12,Originais (1)||None||B6,Originais (1),nativo,0.63958,24.16,0.7556,1108.4
+B6 12HR 1_png.rf.gMy5B0cpXrZXzyMCZhuv.png,test,HUVEC,12,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,nativo,0.77858,63.1,0.7389,7249.31
+A8 24HR _png.rf.CCbBLxCj5oId78BvgGDS.png,train,HUVEC,24,Originais (1)||None||A8,Originais (1),nativo,0.76634,75.87,0.7552,5663.38
+A6 12HR 1_png.rf.z5yVztBu7o6y6SAZMnAA.png,train,HUVEC,12,Originais (1)||None||A6,Originais (1),nativo,0.67779,45.13,0.708,2280.15
+A6 12HR 1_png.rf.rzX2QlGaj5WhraPoHbNp.png,train,HUVEC,12,originais||None||A6,originais,nativo,0.80905,73.45,0.7529,8093.84
+B1 12HR 2_png.rf.FdfrHVnLB3ZNKlhPS8WD.png,val,HUVEC,12,Originais (1)||None||B1,Originais (1),nativo,0.70567,33.5,0.8139,4321.92
+B1 12HR 2_png.rf.a2HuF9WMN6UNtiTLiFnr.png,val,HUVEC,12,originais||None||B1,originais,nativo,0.83417,126.92,0.8033,6408.3
+C4 12HR 1_png.rf.EqgembSnrmnXBxolioKo.png,train,HUVEC,12,Originais (1)||None||C4,Originais (1),nativo,0.68314,28.66,0.7204,4089.35
+C6 24HR 1_png.rf.IFOrJw5los4Q3fxu3iMl.png,train,HUVEC,24,Originais (1)||None||C6,Originais (1),nativo,0.75142,32.9,0.7509,5613.28
+E8 8H 1_png.rf.d0fLnYxhr9KQ1hDPt1Lg.png,train,HUVEC,8,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.80072,317.13,0.8802,7752.41
+A8 0H 2_png.rf.WfgjN8XhKFohA9v414DX.png,train,HUVEC,0,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.79463,373.33,0.8069,7348.38
+D4 0HR 2_png.rf.EwNjDB9ss3gmM00iJqPT.png,test,HUVEC,0,originais||None||D4,originais,nativo,0.6729,131.11,0.8117,3770.39
+A8 8HR 1_png.rf.FR3WD9dC9DpfpVWMB2SQ.png,train,HUVEC,8,originais||None||A8,originais,nativo,0.74827,83.21,0.8277,5940.45
+A8 8HR 1_png.rf.dtanFTPPB7d3AAVn3zQY.png,train,HUVEC,8,Originais (1)||None||A8,Originais (1),nativo,0.77078,177.89,0.8394,6964.9
+B5 8HR 1_png.rf.Ym4RLm5f7bEAlTD8XV4Q.png,test,HUVEC,8,Originais (1)||None||B5,Originais (1),nativo,0.64724,29.24,0.7783,1792.4
+B5 8HR 1_png.rf.GCk3mrv2o7BUwQ2Jvluv.png,train,HUVEC,8,Controle+Saudavel||None||B5,Controle+Saudavel,nativo,0.67912,30.11,0.8202,2874.07
+B5 8hr 1_png.rf.1ehEbiuK31GRY9MNmv2r.png,train,HUVEC,8,Controle+Saudavel||None||B5,Controle+Saudavel,640,0.53768,28.23,0.7902,620.79
+D3 8HR 2_png.rf.LEuU784LmF86wgJYPaQU.png,train,HUVEC,8,Originais (1)||None||D3,Originais (1),nativo,0.66965,22.42,0.7855,3120.12
+D3 8HR 2_png.rf.XTtOj0zYGn6s9BJ4BbNx.png,train,HUVEC,8,originais||None||D3,originais,nativo,0.74904,76.5,0.8512,5859.49
+B3 0HR 2_png.rf.IrowMicDt4hLjxXOd20S.png,train,HUVEC,0,Originais (1)||None||B3,Originais (1),nativo,0.69968,81.55,0.7745,4712.2
+B3 0HR 2_png.rf.RH1IVVjgxVFF0WrgAYm4.png,train,HUVEC,0,originais||None||B3,originais,nativo,0.62702,56.03,0.8372,1208.79
+C3 8HR 1_png.rf.3ZBgwt8GCK0Md4Ee2BHb.png,train,HUVEC,8,Originais (1)||None||C3,Originais (1),nativo,0.59845,23.63,0.6988,1205.61
+D2 8HR 1_png.rf.JJAiPwhyNLdQ4Rfi4uTD.png,val,HUVEC,8,Originais (1)||None||D2,Originais (1),nativo,0.62459,26.38,0.8007,1734.01
+D2 8HR 1_png.rf.3P9RrHC5NedY6PXam8ub.png,val,HUVEC,8,originais||None||D2,originais,nativo,0.7491,173.2,0.8071,6052.87
+Snap-13_png.rf.TDZyVXJDnI8SJNuM33dy.png,train,SKOV,0,P2|CT|F12,P2,nativo,0.87921,277.78,0.7825,9517.33
+Snap-13_19_png.rf.b6sHGo2amM793rhoOAp1.png,train,SKOV,48,P2|CT|F13,P2,nativo,0.81533,160.69,0.9294,6121.83
+Snap-13_138_png.rf.l88Miu2G7y8rOkIqtnCW.png,train,SKOV,48,P1|CT|F13,P1,nativo,0.78342,142.92,0.967,5130.87
+Snap-13_64_png.rf.RyKN7O5yesCpISX8jvQV.png,train,SKOV,24,P2|CT|F13,P2,nativo,0.77836,130.16,0.8958,4915.12
+Snap-13_243_png.rf.tUzcuWuytl6VQBEZn5pP.png,train,SKOV,72,P1|PTX|F8,P1,nativo,0.88111,327.56,0.8975,9787.41
+Snap-13_198_png.rf.0xLGaLBejIuzOY4c8uT2.png,train,SKOV,24,P1|CT|F12,P1,nativo,0.77628,92.27,0.9296,6355.81
+B7 12hr 2_png.rf.RhB5449wk7rwIdgUCPNc.png,train,HUVEC,12,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.57016,25.89,0.8211,474.04
+B7 12HR 2_png.rf.2naBscJhLFudgg7E7FPf.png,train,HUVEC,12,Controle+Saudavel||None||B7,Controle+Saudavel,nativo,0.78475,86.15,0.8645,7576.34
+B7 12HR 2_png.rf.oKLSQmp6DHxDl6WHedwZ.png,train,HUVEC,12,Originais (1)||None||B7,Originais (1),nativo,0.61845,21.44,0.8187,1394.12
+C8 12hr 1_png.rf.StaAYDi9jKXiNSmVkLL4.png,train,HUVEC,12,Pré-Eclâmpsia||None||C8,Pré-Eclâmpsia,640,0.69647,31.04,0.8319,1540.87
+C8 12HR 1_png.rf.mrWyROl2QhvNznbHR9sy.png,train,HUVEC,12,Originais (1)||None||C8,Originais (1),nativo,0.82502,154.06,0.7966,6458.01
+C8 8hr 2_png.rf.QKwFigCbMlR5UvD18WdR.png,train,HUVEC,8,Pré-Eclâmpsia||None||C8,Pré-Eclâmpsia,640,0.54088,35.33,0.8834,1004.14
+C8 8HR 2_png.rf.GtOIvrjebfVcbHVdwBO9.png,train,HUVEC,8,Originais (1)||None||C8,Originais (1),nativo,0.7881,159.69,0.8352,8154.0
+A1 24h 1_png.rf.TlQXP6CHdUFWS07zQImN.png,test,HUVEC,24,Controle+Saudavel||None||A1,Controle+Saudavel,640,0.70211,85.78,0.8849,3443.25
+A1 24H 1_png.rf.AoYDb7eaorOVU7QenfmB.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.67874,34.69,0.6912,349.43
+A1 24H 1_png.rf.0vIMHmjL700gltziprXx.png,train,HUVEC,24,LUIS RAW||PEP||A1,LUIS RAW,nativo,0.75379,266.33,0.8027,5097.11
+A1 24H 1_png.rf.LVoaaBXwUhRPFKNjtcC5.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.65285,124.73,0.9029,2744.77
+B6 12hr 2_png.rf.y4b1NNhMuInMAANEGR5y.png,test,HUVEC,12,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,640,0.59016,23.43,0.7453,981.27
+B6 12HR 2_png.rf.BMDqWV1RTxKKoPMgnLal.png,test,HUVEC,12,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,nativo,0.78422,67.26,0.8433,7693.0
+B6 12HR 2_png.rf.BhBG7QrbcqnQq3atIHW2.png,train,HUVEC,12,Originais (1)||None||B6,Originais (1),nativo,0.64488,31.02,0.8352,2683.77
+B8 24h 1 _png.rf.VRJJ5SQ1mGJ3fW5YWRab.png,train,HUVEC,24,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.71982,97.59,0.8313,3932.55
+B8 24h 1_png.rf.N3qsR9ioYQUvIlolAAfM.png,val,HUVEC,24,Controle+Saudavel||None||B8,Controle+Saudavel,640,0.69161,63.81,0.8109,3155.71
+B8 24H 1_png.rf.E5CzkDTGU7vgWmncCGCv.png,val,HUVEC,24,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.72445,224.64,0.8029,3743.89
+D1 8H 2_png.rf.1Guur0r0WOYFqgYbD8Ix.png,test,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.72245,116.38,0.8166,5088.63
+D1 8H 2_png.rf.QDHJAU6viLWqVuRsQP8L.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.68179,123.55,0.7554,3951.55
+D1 8H 2_png.rf.SWULebjRubJoCPggvrgZ.png,train,HUVEC,8,LUIS RAW||PET||D1,LUIS RAW,nativo,0.80355,433.25,0.7504,7936.06
+D3 8H 1_png.rf.3Pnm14NelVMxz7m2DnLI.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.7152,166.33,0.6758,5269.52
+D3 8H 1_png.rf.6I3dod8wB6YDO4ZLWh12.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.63386,87.0,0.6837,1963.22
+D3 8H 1_png.rf.6ah0Jg4O5oakLSomUxcX.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.68875,108.84,0.7068,4838.82
+A5 12HR 1_png.rf.IESDSkszuJatVJfvQ7PW.png,test,HUVEC,12,Originais (1)||None||A5,Originais (1),nativo,0.65097,28.61,0.7593,1220.08
+A5 12HR 1_png.rf.1xA3zwCvRWDQRrGvHIhA.png,test,HUVEC,12,originais||None||A5,originais,nativo,0.80304,118.5,0.7486,8007.02
+A7 12HR 1_png.rf.6BXSIYDC0NmpoaPAgKMQ.png,train,HUVEC,12,Originais (1)||None||A7,Originais (1),nativo,0.68441,44.06,0.7582,3049.52
+A7 12HR 1_png.rf.izsMjIhbUB8VuAWUFhrt.png,train,HUVEC,12,originais||None||A7,originais,nativo,0.81263,145.62,0.8002,7960.48
+A3 0hr 2_png.rf.KohL1mTNndjr4CLZYMxF.png,val,HUVEC,0,Controle+Saudavel||None||A3,Controle+Saudavel,640,0.60101,59.61,0.7607,2879.38
+A3 0HR 2_png.rf.a0AY5M3kJRWyGB4d0dqH.png,train,HUVEC,0,Originais (1)||None||A3,Originais (1),nativo,0.66987,135.02,0.8142,2488.96
+A3 0HR 2_png.rf.hZpokQPSOC5byLanjjIO.png,val,HUVEC,0,Controle+Saudavel||None||A3,Controle+Saudavel,nativo,0.65365,59.25,0.8389,2440.82
+A5 24HR 2_png.rf.JBrJ8KO8uH9Jn3iTJvZf.png,test,HUVEC,24,Originais (1)||None||A5,Originais (1),nativo,0.75644,91.16,0.7444,5415.71
+A5 24HR 2_png.rf.xE7wqG2pbN9OFXjVvNjl.png,test,HUVEC,24,originais||None||A5,originais,nativo,0.8077,121.17,0.8813,7721.6
+C1 12HR 2_png.rf.OcIfPfUZwnSUShLaLbR6.png,train,HUVEC,12,Originais (1)||None||C1,Originais (1),nativo,0.70362,32.11,0.7925,4701.83
+A2 0HR 2_png.rf.OO5XnE4RmaSV016MsOgg.png,train,HUVEC,0,Originais (1)||None||A2,Originais (1),nativo,0.7565,183.15,0.8325,6424.17
+A2 0HR 2_png.rf.uZnHhBG7PNdQodX1DjwB.png,train,HUVEC,0,Controle+Saudavel||None||A2,Controle+Saudavel,nativo,0.67545,98.13,0.907,3078.35
+A4 0hr 2_png.rf.ipPkfLfmEihsBmZiVwsH.png,train,HUVEC,0,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.59922,60.98,0.7705,1953.76
+A4 0HR 2_png.rf.rykHBscK23N6CFQg1aEp.png,train,HUVEC,0,Originais (1)||None||A4,Originais (1),nativo,0.72642,205.89,0.831,5351.17
+A4 0HR 2_png.rf.ad8NWhUve9wWCADVF4Er.png,train,HUVEC,0,Controle+Saudavel||None||A4,Controle+Saudavel,nativo,0.65977,65.13,0.7398,2265.51
+B3 8H 2_png.rf.CESTHFggCs6xlkAs19Pa.png,val,HUVEC,8,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.71973,247.53,0.8612,4320.62
+B3 8H 2_png.rf.9tJrx07oVduWzllk5nQH.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.62058,53.38,0.7243,1425.67
+B3 8H 2_png.rf.7Eq3kMUW8sFWbmsSpjrE.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.68709,144.8,0.667,3022.96
+B3 8H 2_png.rf.J2ZWdw3dXxPmWLgQzORH.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.62681,56.34,0.7249,2324.27
+E4 12H 2_png.rf.Ec4jsXhXLHQBkPxAMAyc.png,val,HUVEC,12,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.77052,292.16,0.7916,6302.38
+E4 12H 2_png.rf.lZSPsrmbRSyhfiXorh1s.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.63235,28.84,0.714,1379.83
+A4 8HR 2_png.rf.FrebrKnoGJAi62YqwG10.png,train,HUVEC,8,originais||None||A4,originais,nativo,0.71399,126.83,0.8013,4423.43
+A4 8HR 2_png.rf.ueLU3zjhuubW2d81ZDX5.png,train,HUVEC,8,Originais (1)||None||A4,Originais (1),nativo,0.75151,120.39,0.8624,6007.18
+B6 0HR 2_png.rf.PJA73eFbAqKdZVUui1iH.png,train,HUVEC,0,originais||None||B6,originais,nativo,0.64729,69.94,0.8355,1664.83
+B6 0HR 2_png.rf.9dIqbEAZjCw7c536N5S2.png,train,HUVEC,0,Originais (1)||None||B6,Originais (1),nativo,0.67987,94.89,0.782,3832.9
+A5 8HR 2_png.rf.PkgglquFkEZJxKt3zDYh.png,train,HUVEC,8,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,nativo,0.72791,93.88,0.8453,5572.67
+A5 8HR 2_png.rf.7U0SE5K1r1eXtmiCBL1Q.png,test,HUVEC,8,Originais (1)||None||A5,Originais (1),nativo,0.74951,105.85,0.8816,5921.94
+A5 8hr 2_png.rf.ORi73INEpKfYcNVBMeHR.png,train,HUVEC,8,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,640,0.60812,17.55,0.8674,1010.28
+C4 8HR 2_png.rf.75jApVB4zrpuft44xaOb.png,train,HUVEC,8,Originais (1)||None||C4,Originais (1),nativo,0.64274,29.91,0.864,2930.76
+C5 8HR 1_png.rf.npq1TT4tFnUwL9fyEtxf.png,train,HUVEC,8,Originais (1)||None||C5,Originais (1),nativo,0.65896,36.22,0.7659,2862.17
+A5 8HR 1_png.rf.qbCCkoclBZRwrN2mNDA9.png,test,HUVEC,8,Originais (1)||None||A5,Originais (1),nativo,0.67726,64.27,0.8354,3211.84
+A5 8HR 1_png.rf.jEYUYpVLybixXNUndrI9.png,test,HUVEC,8,originais||None||A5,originais,nativo,0.68695,57.52,0.717,3036.61
+C8 0HR 1_png.rf.unFcr8NfT77SuQCb8WVf.png,train,HUVEC,0,Originais (1)||None||C8,Originais (1),nativo,0.76889,248.79,0.7469,8088.3
+A3 0HR 1_png.rf.vOWVMCSId0rrI2A5Y6RI.png,train,HUVEC,0,Originais (1)||None||A3,Originais (1),nativo,0.72301,237.64,0.8261,4939.68
+A3 0HR 1_png.rf.lbHrUgZUHbHQslRvoZEH.png,train,HUVEC,0,originais||None||A3,originais,nativo,0.67561,69.05,0.8063,2955.68
+C1 8HR 1_png.rf.oOkkW323fjLb20ujmYdI.png,train,HUVEC,8,Originais (1)||None||C1,Originais (1),nativo,0.59928,21.57,0.7016,880.73
+A3 12hr 2_png.rf.qSoaWOtqXsRyw0S2qSAg.png,val,HUVEC,12,Controle+Saudavel||None||A3,Controle+Saudavel,640,0.60548,60.0,0.8574,1803.63
+A3 12HR 2_png.rf.EM0ZeH9oXoYjDPrahHYX.png,val,HUVEC,12,Controle+Saudavel||None||A3,Controle+Saudavel,nativo,0.8088,116.41,0.8498,8400.57
+A3 12HR 2_png.rf.X6ZbjE2gzo7dzplSnmP5.png,train,HUVEC,12,Originais (1)||None||A3,Originais (1),nativo,0.66012,40.61,0.8122,1707.12
+A6 8HR 1_png.rf.jMYq7Imdm9b3bsQCdfaH.png,train,HUVEC,8,Originais (1)||None||A6,Originais (1),nativo,0.73023,94.61,0.8425,4878.78
+A6 8HR 1_png.rf.7Grrv3doO59OSdNxaDbf.png,train,HUVEC,8,originais||None||A6,originais,nativo,0.69732,40.69,0.7539,3907.25
+A3 8HR 1_png.rf.YWwkHXdFn51x2qQa9MKo.png,train,HUVEC,8,Originais (1)||None||A3,Originais (1),nativo,0.65429,97.77,0.8259,2096.25
+A3 8HR 1_png.rf.KvjShuzpjDEXEBWbceBf.png,train,HUVEC,8,originais||None||A3,originais,nativo,0.66447,35.88,0.754,3004.8
+D1 8HR 2_png.rf.We4y9DkVsrjwHtYEPH1S.png,test,HUVEC,8,Originais (1)||None||D1,Originais (1),nativo,0.74708,107.49,0.764,6929.82
+D1 8HR 2_png.rf.zXqaP0fHqHbabD0CzjuF.png,test,HUVEC,8,originais||None||D1,originais,nativo,0.83956,121.83,0.8256,8057.38
+A4 0HR 1_png.rf.flUKXJX958V29SztaqZp.png,train,HUVEC,0,Originais (1)||None||A4,Originais (1),nativo,0.76047,195.68,0.8355,7390.56
+A4 0HR 1_png.rf.lr0vF9oNfEZapbxfemLc.png,train,HUVEC,0,originais||None||A4,originais,nativo,0.67167,76.27,0.7409,3156.27
+Snap-10_72_png.rf.n7hfG13etFn8yDPHlWXd.png,train,SKOV,24,P2|CT|F10,P2,nativo,0.66836,72.08,0.8894,3031.56
+Snap-10_png.rf.yj7fOx6nAZtfK19C65wZ.png,test,SKOV,0,P2|CT|F9,P2,nativo,0.942,162.42,0.8,13620.49
+Snap-10_206_png.rf.qsKnxTuSvux45mlYUYLk.png,train,SKOV,24,P1|CT|F9,P1,nativo,0.74079,58.49,0.9478,4864.72
+Snap-10_146_png.rf.J1zTbpCRqsOW6DtsIPzv.png,test,SKOV,48,P1|CT|F10,P1,nativo,0.73533,124.15,0.9699,3222.44
+Snap-10_27_png.rf.InxxspUYRgK57BBNVAEq.png,train,SKOV,48,P2|CT|F10,P2,nativo,0.74218,54.08,0.9446,3838.64
+B3 12hr 2_png.rf.VGbRnN8WbzouxdvfefLU.png,train,HUVEC,12,Controle+Saudavel||None||B3,Controle+Saudavel,640,0.56598,29.21,0.8146,612.82
+B3 12HR 2_png.rf.53uaZIgUjykC3AHiGB7Y.png,train,HUVEC,12,Controle+Saudavel||None||B3,Controle+Saudavel,nativo,0.77205,52.28,0.8614,7378.37
+B3 12HR 2_png.rf.VqZIwhkvmfMWTtmwJvV6.png,train,HUVEC,12,Originais (1)||None||B3,Originais (1),nativo,0.69299,37.57,0.8166,4251.47
+B2 12hr 2_png.rf.aKY954Ar92bN45Dxpxoo.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.7051,82.16,0.8852,3931.22
+B2 12hr 2_png.rf.riSjsWM4RKaoLOeuGF4T.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.57436,28.56,0.8043,517.03
+B2 12HR 2_png.rf.nZ89rrtZ5eox9IpiBXkM.png,train,HUVEC,12,Originais (1)||None||B2,Originais (1),nativo,0.68984,36.32,0.8257,4127.57
+B2 12HR 2_png.rf.0Mjn05pgfeKpn7x2HoEU.png,train,HUVEC,12,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.83022,95.22,0.8564,5748.13
+B8 0hr 1_png.rf.Y8HPYsGls33ML8N4xLQ9.png,train,HUVEC,0,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.58952,40.74,0.8574,929.27
+B8 0HR 1_png.rf.wcI5BQBhMVPCzXKkI2w6.png,train,HUVEC,0,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,nativo,0.69158,82.04,0.6878,3465.42
+B8 0hr 1_png.rf.knYV6A7txjzElFti8uaT.png,train,HUVEC,0,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.65138,28.12,0.8068,1585.67
+B8 0HR 1_png.rf.KqhRF7p7Gc814ztA2tAN.png,train,HUVEC,0,Originais (1)||None||B8,Originais (1),nativo,0.70308,141.6,0.7168,4230.2
+B1 24hr 2_png.rf.kOhjizJROLOCgNfM1IF5.png,test,HUVEC,24,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.74146,95.56,0.9584,5466.11
+B1 24HR 2_png.rf.Ls9u8THJDkrAcAUiOT0Q.png,test,HUVEC,24,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.80811,205.14,0.7721,5239.28
+B2 24hr 2_png.rf.huSTBgPOlxWVtCE2FpNP.png,train,HUVEC,24,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.77223,251.23,0.9008,2909.24
+B2 24HR 2_png.rf.uTcx0z3WdLqlbwZI5Emi.png,train,HUVEC,24,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.77044,154.19,0.834,5512.65
+B7 0hr 1_png.rf.ksMD0pYm6qfnouVyBUlp.png,train,HUVEC,0,Pré-Eclâmpsia||None||B7,Pré-Eclâmpsia,640,0.71064,85.81,0.8537,3610.87
+B7 0HR 1_png.rf.Ukn4ATZ5w0il9IzVsrtV.png,train,HUVEC,0,Originais (1)||None||B7,Originais (1),nativo,0.68586,115.25,0.7431,4160.21
+B7 0hr 1_png.rf.QYTRdRmCyko5payKjuNF.png,train,HUVEC,0,Pré-Eclâmpsia||None||B7,Pré-Eclâmpsia,640,0.54606,30.04,0.7514,328.94
+B7 0HR 1_png.rf.kzoYnFCLdbukY0DFsrTm.png,train,HUVEC,0,Pré-Eclâmpsia||None||B7,Pré-Eclâmpsia,nativo,0.6258,36.04,0.6919,1353.55
+C7 0hr 2_png.rf.ncuQjQh19UrtWTYYtwgY.png,train,HUVEC,0,Pré-Eclâmpsia||None||C7,Pré-Eclâmpsia,640,0.62065,20.79,0.7795,1160.64
+C7 0HR 2_png.rf.p7jzNkQk0PbCL4U2IsE2.png,train,HUVEC,0,Originais (1)||None||C7,Originais (1),nativo,0.77554,193.6,0.7728,8595.31
+A1 24h 2_png.rf.o9mYSgMZsKvkMpLuHnpZ.png,test,HUVEC,24,Controle+Saudavel||None||A1,Controle+Saudavel,640,0.69533,65.72,0.8392,3114.37
+A1 24H 2_png.rf.mCVQkyudUMkUKQP8oD3Z.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.64611,28.4,0.694,437.93
+A1 24H 2_png.rf.XERqooMY6dKiS5aPsD5q.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.6365,48.89,1.049,1386.3
+B7 0hr 2_png.rf.prftfZd1LyffvhWEcvAV.png,train,HUVEC,0,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.56129,30.27,0.7623,307.57
+B7 0HR 2_png.rf.dMPgfORCcjwf92Kh6sCI.png,train,HUVEC,0,Originais (1)||None||B7,Originais (1),nativo,0.67229,125.0,0.76,3457.69
+B7 0HR 2_png.rf.nntMFnTHGgBpH6aqtdYS.png,train,HUVEC,0,Controle+Saudavel||None||B7,Controle+Saudavel,nativo,0.62128,36.53,0.8191,1280.94
+C7 0hr 1_png.rf.0KFwLe9lCE6WFiy10CUh.png,train,HUVEC,0,Pré-Eclâmpsia||None||C7,Pré-Eclâmpsia,640,0.55016,41.3,0.7704,512.8
+C7 0HR 1_png.rf.hMZ6n4BOgfQTtrExgc7u.png,train,HUVEC,0,Originais (1)||None||C7,Originais (1),nativo,0.76074,263.99,0.7776,7546.87
+Snap-07_70_png.rf.vNyGAtPWPJA0rF6FhxvN.png,train,SKOV,24,P2|CT|F7,P2,nativo,0.67574,82.48,0.9079,4479.53
+Snap-07_204_png.rf.H0N5xKu4UYwZk6TNY3Xd.png,train,SKOV,24,P1|CT|F6,P1,nativo,0.77134,87.79,0.9248,6462.24
+Snap-07_png.rf.g6SCaXQJinM4lCI6wdd5.png,val,SKOV,0,P2|CT|F6,P2,nativo,0.85928,55.35,0.9015,9349.75
+Snap-07_25_png.rf.XApzD0Pw1QxeCLShLeqI.png,train,SKOV,48,P2|CT|F7,P2,nativo,0.72564,39.98,0.9429,4540.72
+Snap-07_144_png.rf.vfJMuF8YRLj9hUriVTPL.png,train,SKOV,48,P1|CT|F7,P1,nativo,0.79995,110.38,0.9609,5659.04
+Snap-33_37_png.rf.9no99MZvmBZOLsdg6Atx.png,train,SKOV,48,P2|GEO|F3,P2,nativo,0.78652,214.96,0.9193,6077.47
+Snap-33_82_png.rf.0OBavEsnW2E5DqKbGtgA.png,train,SKOV,24,P2|GEO|F2,P2,nativo,0.76968,305.35,0.9242,6081.36
+Snap-33_171_png.rf.E47tm0ycTBxOqSzcCzoG.png,train,SKOV,48,P1|GEO|F2,P1,nativo,0.74245,104.41,0.9083,4115.13
+Snap-33_231_png.rf.JAemjrnP9ImKmVmpRfzn.png,train,SKOV,24,P1|GEO|F2,P1,nativo,0.7723,155.48,0.899,6445.59
+Snap-33_277_png.rf.VKo8X4odufnCCAnDoQ0P.png,train,SKOV,72,P1|GEO|F13,P1,nativo,0.8059,404.77,0.9031,1645.65
+Snap-33_png.rf.lRxwtWAAAbkEpA18HoVS.png,train,SKOV,0,P2|GEO|F2,P2,nativo,0.95798,176.59,0.7895,12607.81
+ct1_5_png.rf.xygVTmZfimx6b9L39l2C.png,train,SKOV,0,P1|CT|F5,P1,nativo,0.85182,128.17,1.0527,10776.8
+B1 8H 1_png.rf.1wxeEsithaDZPrKbJIk8.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.62866,38.14,0.7807,536.01
+B1 8H 1_png.rf.fqDTrXJGtwGnRUswH16c.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.5679,46.42,0.7005,617.71
+B1 8H 1_png.rf.xsq5BkCBkpc4G5otns1Z.png,train,HUVEC,8,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.73938,276.87,0.7777,5911.16
+A3 12H 1_png.rf.1mSVqHM6KS3uhRK3e3lj.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.62542,31.2,0.5443,1116.74
+A3 12H 1_png.rf.TU0BGVsD3XJqPwGYBsiu.png,test,HUVEC,12,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.78046,310.7,0.8199,6480.62
+A3 12H 1_png.rf.6fx89SeDFqbbpHYdcuw7.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.66494,151.39,0.7592,3272.2
+C3 8H 2_png.rf.2WnG1dTj6hfmtMmaSG3l.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.70718,117.91,0.8225,4630.54
+C3 8H 2_png.rf.JQjUW9XY0QTRcyHYnnXJ.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.65225,50.44,0.6807,2233.6
+C3 8H 2_png.rf.xnMBFgGz1tFhAeE5Mh0m.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.64002,120.51,0.8423,2586.63
+C3 12H 1_png.rf.8gC4xRzYoHNmtFsxKAAM.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.62188,39.7,0.503,1216.67
+C3 12H 1_png.rf.gufpoClgDJpZOljTqUiO.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.65899,59.29,0.7683,2870.93
+C3 12H 1_png.rf.k3Ehizb9KQn1GS9CC4y2.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.63321,65.41,0.7131,1069.23
+A2 8H 1_png.rf.3QqxCZ8m0xBtItaJLTd2.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.68512,61.54,0.7042,2654.09
+A2 8H 1_png.rf.6mANHGK2YRZI4BisA8Ei.png,train,HUVEC,8,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.74178,438.12,0.9034,5058.26
+A2 8H 1_png.rf.xvZ2Owwq7kfNeQBUdLj1.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.61424,83.88,0.6854,1867.21
+D2 0H 1_png.rf.3s7Eh5cqjrXy6cn56UBU.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.63715,78.19,0.7747,1773.21
+D2 0H 1_png.rf.xovIJqlILOeUFQLHRyvb.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.61182,76.12,0.6741,818.36
+C2 24HR 2_png.rf.MPADEI7GuMyp9bi3AkAx.png,train,HUVEC,24,Originais (1)||None||C2,Originais (1),nativo,0.72573,42.28,0.8192,5321.8
+C1 24HR 1_png.rf.YPRq3IWss7VUaq3e3iGW.png,train,HUVEC,24,Originais (1)||None||C1,Originais (1),nativo,0.71126,46.15,0.7769,4667.24
+A4 24HR _png.rf.SoP1Ps5jNnRx92pvO7dO.png,train,HUVEC,24,Originais (1)||None||A4,Originais (1),nativo,0.72213,82.85,0.7593,4283.46
+C6 12HR 2_png.rf.QfuOOnhE4hgEtZc6n4FV.png,train,HUVEC,12,Originais (1)||None||C6,Originais (1),nativo,0.73513,42.92,0.8685,6429.93
+A8 12HR 2_png.rf.VAU0OVpOBwbG6A1pJf3X.png,train,HUVEC,12,Originais (1)||None||A8,Originais (1),nativo,0.70538,43.57,0.7681,3662.29
+A8 12HR 2_png.rf.us5pv6GHD379VoqxMyqM.png,train,HUVEC,12,originais||None||A8,originais,nativo,0.81536,125.83,0.8331,7748.82
+ptx2_5_png.rf.ZcYzvy2P9SDnI5FO7SZ3.png,train,SKOV,0,P1|PTX|F10,P1,nativo,0.93801,232.13,1.0404,13738.59
+B2 0hr 1_png.rf.db9iQQ8HUhDl1bXRwF8r.png,train,HUVEC,0,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.7974,104.42,0.9241,9332.77
+B2 0HR 1_png.rf.5zUWBCAzk9uVSqr7HPbp.png,train,HUVEC,0,Originais (1)||None||B2,Originais (1),nativo,0.67329,67.51,0.7074,3232.52
+B2 0HR 1_png.rf.rzJTQJsC1FX8HbufhcZr.png,train,HUVEC,0,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.66702,80.07,0.8424,2917.43
+B2 0hr 2_png.rf.fIFxz7VDzzqkj4zabua0.png,train,HUVEC,0,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.64072,42.67,0.7955,2302.33
+B2 0hr 2_png.rf.NX9PehcIUtrbpP4AGDjt.png,train,HUVEC,0,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.71348,45.87,0.9092,3770.65
+B2 0HR 2_png.rf.YbEuLym6tx1G0ByLVH1s.png,train,HUVEC,0,Controle+Saudavel||None||B2,Controle+Saudavel,nativo,0.67215,77.53,0.7864,3412.03
+B2 0HR 2_png.rf.cDHclAIceZElSA3dVBAx.png,train,HUVEC,0,Originais (1)||None||B2,Originais (1),nativo,0.70792,123.79,0.8086,5509.12
+C3 12HR 1_png.rf.k9cSExscEQguJR8FzubC.png,train,HUVEC,12,Originais (1)||None||C3,Originais (1),nativo,0.69991,35.33,0.7368,4242.86
+B8 24HR 2_png.rf.b5g4X4XnMrKNqb9SQURi.png,train,HUVEC,24,Originais (1)||None||B8,Originais (1),nativo,0.64966,18.3,0.8375,1926.51
+B8 24HR 2_png.rf.ERLmHyV7djMflJp4wvGM.png,train,HUVEC,24,originais||None||B8,originais,nativo,0.75706,94.97,0.8329,5403.02
+Snap-53_216_png.rf.ceY07VS1O3yBsoN0i4yF.png,train,SKOV,24,P1|GEO+PTX|F7,P1,nativo,0.83596,128.59,0.9226,10071.45
+Snap-53_156_png.rf.2KewamwDRhiW6t7lbzHC.png,train,SKOV,48,P1|GEO+PTX|F7,P1,nativo,0.8087,88.77,0.9332,8110.61
+Snap-53_png.rf.SPyaEqsIv6YUwm8RQELh.png,val,SKOV,0,P2|CARBO+GEO|F7,P2,nativo,0.92338,173.2,0.74,11932.94
+Snap-53_112_png.rf.y85Lfcr4yLHN2tGaM2NL.png,val,SKOV,24,P2|CARBO+GEO|F7,P2,nativo,0.77055,292.51,0.9243,7088.35
+Snap-53_7_png.rf.2ct09e2HAorv0Sj4JVs5.png,val,SKOV,48,P2|CARBO+GEO|F7,P2,nativo,0.78958,139.53,0.923,6412.38
+C1 12HR 1_png.rf.gB0o6oQuTbhG8ZUNerJu.png,train,HUVEC,12,Originais (1)||None||C1,Originais (1),nativo,0.68697,31.96,0.7456,4013.65
+D2 12HR 1_png.rf.p5hRLQSbnz5xkNGQSLyI.png,val,HUVEC,12,Originais (1)||None||D2,Originais (1),nativo,0.71812,51.78,0.7724,5194.48
+D2 12HR 1_png.rf.V6y5jkWZ8U2dauX4R8yb.png,val,HUVEC,12,originais||None||D2,originais,nativo,0.79572,111.41,0.8326,7298.38
+B3 24H 2_png.rf.EyLWdlWUKIXMP6iPFvce.png,val,HUVEC,24,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.76335,438.92,0.8054,5768.75
+B3 24H 2_png.rf.lz3tD9MuGQ7oyICLG9uX.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.61983,19.96,0.7325,65.08
+B3 24H 2_png.rf.PpupAz8GxRor2jDbCqF6.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.68849,34.47,0.7511,557.16
+B3 24H 2_png.rf.JIWJJuOjEyFnBTTqWboN.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.64999,71.95,0.8454,931.67
+D5 0HR 1_png.rf.SbuUvkEBfRb7XvbRCXbf.png,train,HUVEC,0,originais||None||D5,originais,nativo,0.70053,79.67,0.8123,4602.32
+B7 8HR 2_png.rf.yDoXeIkOiLCyfJbfAIKB.png,train,HUVEC,8,Originais (1)||None||B7,Originais (1),nativo,0.69579,52.98,0.8741,4386.26
+B7 8hr 2_png.rf.31N2cJl5ULRNszuwGyOb.png,train,HUVEC,8,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.55189,24.51,0.852,512.76
+B7 8HR 2_png.rf.6EowOoKvvsLORMwWwBzP.png,train,HUVEC,8,Controle+Saudavel||None||B7,Controle+Saudavel,nativo,0.68024,40.29,0.8174,3417.39
+C2 8HR 1_png.rf.wLj3o7QBiTw4PQFnhYZK.png,train,HUVEC,8,Originais (1)||None||C2,Originais (1),nativo,0.59798,23.42,0.6956,816.13
+A8 0HR 1_png.rf.ywsuBpu9YgKyQg8WWxOB.png,train,HUVEC,0,Originais (1)||None||A8,Originais (1),nativo,0.67012,152.54,0.7136,2630.76
+A8 0HR 1_png.rf.NsYrX2Q0eYbZWXoghwTi.png,train,HUVEC,0,originais||None||A8,originais,nativo,0.69366,90.61,0.7852,4348.63
+Snap-30_55_png.rf.6m4MweF1gXcaFnLD23yF.png,train,SKOV,48,P2|CARBO|F14,P2,nativo,0.87167,434.27,0.9438,7084.28
+Snap-30_100_png.rf.DcdJxw6OPtMDzDx5c3Lq.png,train,SKOV,24,P2|CARBO|F15,P2,nativo,0.76979,282.91,0.9161,5324.82
+Snap-30_png.rf.Xojuz9v1uRZimBXRpyJ2.png,train,SKOV,0,P2|CARBO|F14,P2,nativo,0.93047,239.94,0.8019,11914.71
+Snap-30_129_png.rf.KEvLsnuWxsJl9q7Pk2G2.png,train,SKOV,48,P1|PTX|F14,P1,nativo,0.82595,399.96,0.9353,8761.72
+Snap-30_189_png.rf.U7DtY68aa2qOKJpDCR2K.png,train,SKOV,24,P1|PTX|F14,P1,nativo,0.86853,181.19,0.9324,11098.26
+B5 24h 2_png.rf.3cjezeQQgtHMSACrb0Ld.png,train,HUVEC,24,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.60337,42.41,0.7837,615.86
+B5 24H 2_png.rf.byu1C5KzftHjtBI9ULN6.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.63126,48.51,0.9249,1244.6
+B5 24H 2_png.rf.6Ig6Tpi1O42aZ0x8gcXo.png,val,HUVEC,24,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.79336,527.08,0.9064,5866.04
+B2 8H 1_png.rf.82fOfdAqqU18vFxOh5u1.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.57828,44.22,0.7241,748.69
+B2 8H 1_png.rf.1sEMLb1fXZPZHJjrhVPy.png,train,HUVEC,8,LUIS RAW||PEP+MET3||B2,LUIS RAW,nativo,0.7525,383.62,0.8469,5994.92
+B2 8H 1_png.rf.eHCBbYTrS06t1A3Xetic.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.63431,40.62,0.7431,1797.45
+B8 0hr 2_png.rf.aZCq8UqHxNli7naRqYDo.png,val,HUVEC,0,Controle+Saudavel||None||B8,Controle+Saudavel,640,0.55907,33.33,0.8066,386.78
+B8 0HR 2_png.rf.1mcXWBrhxYELPgOqOm7Y.png,train,HUVEC,0,Originais (1)||None||B8,Originais (1),nativo,0.71727,196.53,0.834,5434.24
+B8 0HR 2_png.rf.NmJGNQtA45arpoRi4Nti.png,val,HUVEC,0,Controle+Saudavel||None||B8,Controle+Saudavel,nativo,0.7013,101.97,0.8157,3144.49
+D3 12HR 1_png.rf.Yo8fn057Z7AttFerhIaK.png,train,HUVEC,12,Originais (1)||None||D3,Originais (1),nativo,0.66559,34.48,0.848,3293.79
+D3 12HR 1_png.rf.mifzTygCpbeTjrtE3vVM.png,train,HUVEC,12,originais||None||D3,originais,nativo,0.78641,93.87,0.7839,7294.36
+C7 24HR 2_png.rf.cnX19wyaKkQGsBZZ4Sw2.png,train,HUVEC,24,Originais (1)||None||C7,Originais (1),nativo,0.77391,63.57,0.8356,6796.41
+A7 12HR 2_png.rf.f4E0d0pjc4kys6Feop64.png,train,HUVEC,12,Originais (1)||None||A7,Originais (1),nativo,0.65546,38.24,0.8582,2691.88
+A7 12HR 2_png.rf.LGr3s2Yj4OY0qdGUWghJ.png,train,HUVEC,12,originais||None||A7,originais,nativo,0.82255,172.18,0.8317,8036.78
+ptx1_2_png.rf.mOSxinMIUOQxQUjpAhxb.png,test,SKOV,0,P1|PTX|F2,P1,nativo,0.94628,137.49,1.0398,12954.73
+B2 24H 2_png.rf.X8Z6nGLnH4ONbqM6CEpF.png,train,HUVEC,24,Controle+Saudavel||None||B2,Controle+Saudavel,640,0.61227,54.95,0.726,796.54
+B2 24H 2_png.rf.2B8Ciuc7mmIxPuHxOZLz.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.6351,37.42,0.5647,1326.65
+B2 24H 2_png.rf.Q3DCFWxYj6laxcLJd6a0.png,train,HUVEC,24,LUIS RAW||PEP+MET3||B2,LUIS RAW,nativo,0.70037,144.65,0.7825,1481.38
+B2 24H 2_png.rf.6K3bulaFjDpWKIXTUtMN.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.6669,64.91,0.7814,1141.04
+B6 8HR 2_png.rf.lL8VF3TnnS6JnU7Tc7Wa.png,train,HUVEC,8,Originais (1)||None||B6,Originais (1),nativo,0.63343,24.53,0.7394,1861.17
+B6 8HR 2_png.rf.bHSaiKrngLQxd2WS4VGz.png,train,HUVEC,8,Controle+Saudavel||None||B6,Controle+Saudavel,nativo,0.67515,35.56,0.8338,3315.55
+B6 8hr 2_png.rf.O9yXvhq4gJ67a56wZwzv.png,train,HUVEC,8,Controle+Saudavel||None||B6,Controle+Saudavel,640,0.61298,45.49,0.8165,1337.24
+A2 8HR 2_png.rf.u3NMC3KSQZdSv2RTyFC5.png,train,HUVEC,8,Originais (1)||None||A2,Originais (1),nativo,0.69228,55.95,0.8423,3272.3
+A2 8HR 2_png.rf.OPzk7PLhz0XXJ9whIGjz.png,train,HUVEC,8,originais||None||A2,originais,nativo,0.67248,45.5,0.8833,2865.43
+C2 8H 2_png.rf.DMVAcxSLblieiwwMA22S.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.68387,115.15,0.8019,3820.53
+C2 8H 2_png.rf.hIrLcZkOgk90yFawiPTB.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.67078,59.97,0.8171,2962.1
+C3 12H 2_png.rf.EZwf4Pv39ZyBeUX9Siot.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.59348,28.9,0.7412,646.56
+C3 12H 2_png.rf.9BFyHnRYAWj09CUpjmbm.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.64775,76.91,0.7283,1853.49
+C3 12H 2_png.rf.tExKdQ0xoYVj68ww6N50.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.62553,67.49,0.8255,1855.46
+A1 8H 2_png.rf.Fg5j1LHwzHDaS3nDHYaG.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.64046,59.72,0.8274,1350.37
+A1 8H 2_png.rf.o3mN54nakRmUHu9bcoEx.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.75367,81.72,0.957,4905.27
+B3 12H 2_png.rf.NDVg6wiBvaIIXeGck2ha.png,val,HUVEC,12,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.7615,300.83,0.8172,5894.85
+B3 12H 2_png.rf.j98jhElrKsmQ8U5bNLem.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.60381,32.83,0.5726,851.86
+B3 12H 2_png.rf.5Jpy0eTyEFkYVLhRnY0H.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.67543,99.17,0.6658,2744.57
+B3 12H 2_png.rf.VwsTMjoz5gMDEM6g8sEy.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.62999,77.92,0.83,1300.5
+E1 24H 1_png.rf.JjdLiNmCus3kSa50aOeW.png,test,HUVEC,24,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.80914,218.51,0.7798,7020.34
+B7 24H 1_png.rf.OtOpnukvsf6oYU6mqpLu.png,train,HUVEC,24,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.63326,155.43,0.7282,1704.59
+B7 24h 1_png.rf.711fbkCM378FKfxwg6z1.png,train,HUVEC,24,Pré-Eclâmpsia||None||B7,Pré-Eclâmpsia,640,0.67403,51.02,0.8657,1982.75
+B7 24h 1_png.rf.5p9AHhSfxGprdyejHtqc.png,train,HUVEC,24,Pré-Eclâmpsia||None||B7,Pré-Eclâmpsia,640,0.60837,42.44,0.8344,751.13
+D1 8H 1_png.rf.AmYzGCscmIMNbZlAIVL4.png,test,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.71575,89.87,0.5874,5355.69
+D1 8H 1_png.rf.zbjZK9V0wwXONgH5gW3t.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.66311,147.75,0.7471,3626.41
+D1 8H 1_png.rf.6S1MX1FR4Rawy7SjqcqO.png,train,HUVEC,8,LUIS RAW||PET||D1,LUIS RAW,nativo,0.79345,278.63,0.7515,7323.3
+C2 8H 1_png.rf.CgtKGglvZUo2NKAOhpkN.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.58608,54.39,0.753,676.69
+C2 8H 1_png.rf.YcvorWt40mgqlkfFWa9p.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.67462,52.15,0.7276,3388.86
+A1 0H 2_png.rf.Ch9zsbnPPUewmwRQvgwK.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.6224,35.82,0.8275,1036.22
+A1 0H 2_png.rf.zdc9javVRAONDqMECkcv.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.81113,34.13,1.0619,5229.47
+C1 12H 1_png.rf.DBQsmm0tg6U59ZM4Ject.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.61415,24.32,0.67,667.68
+C1 12H 1_png.rf.3MJj2LN3tzGOspcR3v0U.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.62909,103.6,0.7401,1514.05
+C1 12H 1_png.rf.3eaAz3o1S8lN2vN7cVFf.png,train,HUVEC,12,LUIS RAW||PET||C1,LUIS RAW,nativo,0.81057,232.46,0.8194,6473.18
+D1 24H 1_png.rf.9St1pSdNBqUmYewNNUks.png,test,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.63836,23.76,0.691,101.31
+D1 24H 1_png.rf.OBD2OApvH8j8vOMik7pK.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.64793,67.47,0.7272,2194.64
+D2 12H 2_png.rf.ACOvW3ReDoIcqLBcUAWq.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.60317,40.45,0.7109,653.1
+D2 12H 2_png.rf.asho9rO42U1YkLH8onj3.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.64619,54.64,0.7957,2367.93
+Snap-28_png.rf.53e1fT3dOkKzOIbE7A2L.png,train,SKOV,0,P2|CARBO|F12,P2,nativo,0.86742,283.01,0.7855,10355.94
+Snap-28_52_png.rf.DmC6ddQwMqlVy1m8BSG0.png,train,SKOV,48,P2|CARBO|F12,P2,nativo,0.86943,337.27,0.9406,7872.98
+Snap-28_280_png.rf.Xe3kQDC14ewhHfBA8CUW.png,train,SKOV,72,P1|GEO|F8,P1,nativo,0.80626,289.95,0.9094,4171.18
+Snap-28_126_png.rf.V9gVxGXcQuCpVJLB39Zx.png,val,SKOV,48,P1|PTX|F12,P1,nativo,0.8377,155.94,0.8897,7974.41
+Snap-28_186_png.rf.Pxc3A3OicklntYPjiAag.png,val,SKOV,24,P1|PTX|F12,P1,nativo,0.86505,265.71,0.8936,9838.07
+Snap-28_97_png.rf.XDLmTq2FjXvy3Vkcqds3.png,train,SKOV,24,P2|CARBO|F13,P2,nativo,0.78609,271.91,0.9162,6112.52
+Snap-32_232_png.rf.H6ouoiFAv5Y1rFVDrWAl.png,train,SKOV,24,P1|GEO|F1,P1,nativo,0.80272,83.44,0.915,6923.99
+Snap-32_172_png.rf.v8kSqKvdYhYnQPNDX2xH.png,train,SKOV,48,P1|GEO|F1,P1,nativo,0.81753,103.88,0.9249,5620.33
+Snap-32_278_png.rf.nLijQDvNEE80IhapSa8o.png,val,SKOV,72,P1|GEO|F12,P1,nativo,0.8589,389.89,0.9364,2829.86
+Snap-32_83_png.rf.zimIKCDN8Am3qdwGC4kR.png,val,SKOV,24,P2|GEO|F1,P2,nativo,0.76431,285.95,0.9346,5575.8
+Snap-32_38_png.rf.Bax0fFvBhSAiX72iQPds.png,train,SKOV,48,P2|GEO|F2,P2,nativo,0.78891,97.45,0.9315,5908.36
+Snap-32_png.rf.gnPsOfWEBlQ88rOXjxL2.png,val,SKOV,0,P2|GEO|F1,P2,nativo,0.93886,222.03,0.7762,11150.26
+B4 8H 2_png.rf.JLOE0R7PHObSGtKZkOIy.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.75617,112.59,0.728,5175.76
+B4 8H 2_png.rf.eb7KTH0SjX0wu1Kt3RMo.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.62465,39.6,0.6622,1823.13
+B4 8H 2_png.rf.sBbuiEVhnnULLBzNf5UU.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.62294,59.95,0.8352,1865.57
+B4 8H 2_png.rf.ShxIhASvXw8lGbZkLgUb.png,test,HUVEC,8,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.74415,378.46,0.8365,5249.94
+D4 12H 2_png.rf.JoRndEJA1lep3hprLUOS.png,test,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.63247,29.29,0.5406,716.7
+D4 12H 2_png.rf.oo3BzL9sz02jNfhjhBSz.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.77613,69.27,0.8035,6462.11
+D4 12H 2_png.rf.txyJ67o8LXpC3sVtUoTH.png,test,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.62365,39.71,0.6747,1104.66
+A4 8HR 1_png.rf.zapxIcIaLMQGJ9HbDNKV.png,train,HUVEC,8,Originais (1)||None||A4,Originais (1),nativo,0.66597,74.94,0.8072,2609.8
+A4 8HR 1_png.rf.Oh3iZV03y0zaBFvuM0HD.png,train,HUVEC,8,originais||None||A4,originais,nativo,0.69607,74.66,0.7837,3792.63
+Snap-29_183_png.rf.TEtTesrejABE2zAfrCRO.png,train,SKOV,24,P1|PTX|F13,P1,nativo,0.84759,121.06,0.8931,10697.6
+Snap-29_275_png.rf.XkckzJWNljmGBj0JLo7I.png,train,SKOV,72,P1|GEO|F9,P1,nativo,0.788,408.34,0.9566,3908.58
+Snap-29_png.rf.HhjvWugqHNOuxEUR80xT.png,train,SKOV,0,P2|CARBO|F13,P2,nativo,0.83015,140.5,0.7994,9739.47
+Snap-29_123_png.rf.VWdEayiXaSZj0sRvU9Lh.png,train,SKOV,48,P1|PTX|F13,P1,nativo,0.83441,208.09,0.8709,9522.64
+Snap-29_94_png.rf.qaT0a4MOXWeFqaJqDMsT.png,train,SKOV,24,P2|CARBO|F14,P2,nativo,0.83013,114.55,0.8784,8676.36
+Snap-29_49_png.rf.sO8t65IvPbrmOmeTdSFp.png,train,SKOV,48,P2|CARBO|F13,P2,nativo,0.81814,127.27,0.9013,8088.55
+Snap-31_40_png.rf.MlgkW5XJAczCgefQquEJ.png,val,SKOV,48,P2|GEO|F1,P2,nativo,0.81485,180.6,0.9145,6350.77
+Snap-31_281_png.rf.HrwVzS03qTHBX5RB7awf.png,test,SKOV,72,P1|GEO|F11,P1,nativo,0.80353,428.73,0.9399,2278.2
+D4 0H 1_png.rf.FutNJ1bcHBCTMEvRlEBr.png,test,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.64484,102.46,0.6978,2173.68
+D4 0H 1_png.rf.7IFP3MwTGMviOOsMWWnv.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.56128,73.54,0.6843,694.79
+D4 0H 1_png.rf.hIDWQ46StqSUcKyGmBYY.png,test,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.65577,59.98,1.0174,1419.13
+B5 24h 1_png.rf.eRMLDgcaTXW0RnafPtxO.png,train,HUVEC,24,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.63574,78.08,0.8738,1937.77
+B5 24h 1_png.rf.KqK0yeM8f5TSNBY037vO.png,train,HUVEC,24,Pré-Eclâmpsia||None||B5,Pré-Eclâmpsia,640,0.63779,54.59,0.8875,1233.71
+B5 24H 1_png.rf.v4xzVz9xWcYuAyRBEFK6.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.71968,87.15,0.6773,3021.75
+B5 24H 1_png.rf.8BLfMU53TgFR8c7rKbxk.png,val,HUVEC,24,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.70628,181.96,0.7618,2702.77
+C4 24HR 1_png.rf.eIMMU5GPoFUXukXzzpRq.png,train,HUVEC,24,Originais (1)||None||C4,Originais (1),nativo,0.68809,46.52,0.6908,3865.76
+ptx3_4_png.rf.zUAP19LA8H9wE86pzDel.png,train,SKOV,0,P1|PTX|F14,P1,nativo,0.91824,175.37,0.8967,13219.25
+A5 12HR 2_png.rf.rAr8U7x7uLNYSny2Orvg.png,test,HUVEC,12,Originais (1)||None||A5,Originais (1),nativo,0.67223,35.56,0.8134,1935.91
+A5 12HR 2_png.rf.mzYpTwvbQHLWffHAkMOe.png,test,HUVEC,12,originais||None||A5,originais,nativo,0.80944,161.55,0.8727,7834.01
+C3 12HR 2_png.rf.zgyiXq2ugB20KJ4MV7F7.png,train,HUVEC,12,Originais (1)||None||C3,Originais (1),nativo,0.69893,42.55,0.8456,5078.43
+Snap-04_23_png.rf.1BJgEenRWx1JWIEQf9Lv.png,train,SKOV,48,P2|CT|F4,P2,nativo,0.70448,48.11,0.9314,4985.22
+Snap-04_142_png.rf.M2wnhWd1Sd8Ifvp6QzaX.png,train,SKOV,48,P1|CT|F4,P1,nativo,0.80682,130.27,0.9041,5192.84
+Snap-04_202_png.rf.NR0kpfukSEnlSMYMSLQj.png,train,SKOV,24,P1|CT|F3,P1,nativo,0.76575,68.08,0.8849,5800.55
+Snap-04_png.rf.sMGktY9BFWuJUYIgaqQM.png,train,SKOV,0,P2|CT|F3,P2,nativo,0.87654,67.94,0.8943,11367.02
+Snap-04_68_png.rf.qa33swNedVvsWNkINBRJ.png,train,SKOV,24,P2|CT|F4,P2,nativo,0.70252,78.4,0.8711,4827.72
+A8 12HR 1_png.rf.xRg914oD9uiAFvSCIuM5.png,train,HUVEC,12,Originais (1)||None||A8,Originais (1),nativo,0.68028,52.68,0.7837,2688.22
+A8 12HR 1_png.rf.S0EDn8crl6auGSHhKnlu.png,train,HUVEC,12,originais||None||A8,originais,nativo,0.80609,78.23,0.7841,7696.12
+Snap-05_199_png.rf.6Q1Bw549TYJ3y3mfuvz8.png,train,SKOV,24,P1|CT|F4,P1,nativo,0.74027,91.89,0.9456,4687.29
+Snap-05_65_png.rf.DoDrkBOFzLTZlfhsvn9K.png,train,SKOV,24,P2|CT|F5,P2,nativo,0.62754,68.37,0.8741,1639.91
+Snap-05_139_png.rf.niBpFx50l8Vf2AVZYkEa.png,train,SKOV,48,P1|CT|F5,P1,nativo,0.73917,147.53,0.9862,3412.88
+Snap-05_png.rf.wkFRpHndlLEZ8vXfITkh.png,train,SKOV,0,P2|CT|F4,P2,nativo,0.91771,59.35,0.9206,12926.6
+Snap-05_20_png.rf.0ZVYxRfLCmMj9Gx6Z8HM.png,train,SKOV,48,P2|CT|F5,P2,nativo,0.76096,45.74,0.8946,6282.82
+B2 12H 2_png.rf.YYY5vUirwJPSMny2nvl3.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.72571,63.25,0.5913,3287.34
+B2 12H 2_png.rf.FzXZIgC2qgWNJeU50fSK.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.63561,66.52,0.8259,1561.32
+C3 8H 1_png.rf.aUtWxOp3N6x2Sm6L3Pxy.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.65897,74.94,0.5846,2870.63
+C3 8H 1_png.rf.ifkP9o7aasJYjCRBwRMd.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.63559,56.33,0.7618,1381.42
+C3 8H 1_png.rf.zcpxPqNmc4P4JnYSdW6p.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.62727,52.13,0.7779,2036.25
+D2 0H 2_png.rf.Dp47CnjPtc2Ypjhgjlpy.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.68592,79.56,0.8202,3019.61
+D2 0H 2_png.rf.aFJ3evuMPh4bmQ6vObzi.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.60506,62.7,0.6131,878.58
+B3 0H 1_png.rf.GfdZamns9A85dmpsncQd.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.64334,33.26,0.6756,697.6
+B3 0H 1_png.rf.VOvR3gkaIxZfUxZn7iWW.png,val,HUVEC,0,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.74625,539.06,0.7735,6120.02
+B3 0H 1_png.rf.TvmtLMFiWafJEYHH5ahW.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.73608,120.38,0.893,5413.14
+B3 0H 1_png.rf.wXF2WuHXbUH1hjCwk5QU.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.67422,162.61,0.6984,3858.56
+A1 0H 1_png.rf.HD2oRQ2kZkfx6TVBCwb0.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.60646,61.46,0.8138,1941.26
+A1 0H 1_png.rf.eIu9T8KjhRT5idIu84ug.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.81967,61.57,0.9975,7768.27
+A1 0H 1_png.rf.deuEZnvxVEhdzYi1BbRS.png,train,HUVEC,0,LUIS RAW||PEP||A1,LUIS RAW,nativo,0.69221,382.82,0.7965,4270.3
+C1 8H 1_png.rf.Kgxxv8FeePOy1Zd5HuuB.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.61872,32.68,0.696,1530.85
+C1 8H 1_png.rf.mj0lbrvKisdrUxG9vQnG.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.64885,145.76,0.7411,2627.85
+C1 8H 1_png.rf.Ay4yt6ak3p7WdjXvlv87.png,train,HUVEC,8,LUIS RAW||PET||C1,LUIS RAW,nativo,0.75759,507.47,0.7375,6997.68
+A2 12H 1_png.rf.KiET7Y5y6SYnGfA5kvLD.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.62851,36.95,0.5449,929.99
+A2 12H 1_png.rf.xnmVBn7WXmT4yiy3UMlx.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.73076,101.07,0.7129,5364.56
+A2 12H 1_png.rf.OJIVQFhGNFY1jVusUDR3.png,train,HUVEC,12,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.76032,350.03,0.8356,6041.46
+B3 0HR 1_png.rf.ywI9JUlQUWMjhvBhIXSD.png,train,HUVEC,0,originais||None||B3,originais,nativo,0.64286,51.23,0.849,1509.19
+B3 0HR 1_png.rf.w38HSO6SfUXeo4hLFscR.png,train,HUVEC,0,Originais (1)||None||B3,Originais (1),nativo,0.67973,63.46,0.7304,4104.89
+B3 8H 1_png.rf.KsM3VfYU1XJ2B5xCPglb.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.6372,38.01,0.6633,1578.32
+B3 8H 1_png.rf.lHJeoP7Yhjzr6KYBPoRz.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.60985,55.94,0.7138,1828.0
+B3 8H 1_png.rf.omgWK7mobEFIqpuUgMv3.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.69927,129.85,0.7274,4363.95
+B3 8H 1_png.rf.P5wqKYFj2eE6zpNU0fkw.png,val,HUVEC,8,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.70441,508.54,0.8006,4853.13
+Snap-06_147_png.rf.GD6EP0bfiqbQELx2DbXk.png,train,SKOV,48,P1|CT|F6,P1,nativo,0.80969,103.18,0.9461,6248.54
+Snap-06_28_png.rf.B16Hi9B61ihSVrFqD8EM.png,val,SKOV,48,P2|CT|F6,P2,nativo,0.709,36.2,0.9145,3648.71
+Snap-06_251_png.rf.RTJFsjqwbqP4Ma6aageY.png,train,SKOV,72,P1|PTX|F1,P1,nativo,0.87265,283.2,0.9808,9194.38
+Snap-06_207_png.rf.m5JajGmMom6qRqZWTY3C.png,train,SKOV,24,P1|CT|F5,P1,nativo,0.76241,130.94,0.9197,6446.74
+A5 12H 1_png.rf.Q2XHkY7lrdRjrWzwNsuW.png,val,HUVEC,12,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.75776,268.46,0.8785,5600.37
+D4 12H 1_png.rf.9BeWOTfVwMn3ywdSyPmt.png,test,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.71339,57.65,0.5353,3102.84
+D4 12H 1_png.rf.UCilzmx4bAo3sipEh0TZ.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.61874,84.17,0.8131,1488.17
+D4 12H 1_png.rf.rmwAgsyRm1ZzZ55GuiPB.png,test,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.65317,64.87,0.6199,1652.2
+C4 24HR 2_png.rf.dcfkjKvMtdDN2O5gEqvU.png,train,HUVEC,24,Originais (1)||None||C4,Originais (1),nativo,0.74389,59.02,0.8472,6143.54
+Snap-03_16_png.rf.8FYQJMkw0jfVRFMq4naV.png,train,SKOV,48,P2|CT|F3,P2,nativo,0.70792,55.49,0.9271,3681.87
+Snap-03_135_png.rf.86k5Vru6ipllZqtNKdG2.png,train,SKOV,48,P1|CT|F3,P1,nativo,0.82798,267.93,0.9498,5541.17
+Snap-03_254_png.rf.BtyeXVgh2zc19JcqpFCK.png,train,SKOV,72,P1|CT|F3,P1,nativo,0.82399,186.72,0.9544,4901.14
+Snap-03_61_png.rf.1FYqRGNLJIklJ5YdlPHa.png,train,SKOV,24,P2|CT|F3,P2,nativo,0.69496,58.34,0.9216,3643.33
+Snap-03_png.rf.v38nE8mp2K7iYYSbvq0E.png,train,SKOV,0,P2|CT|F2,P2,nativo,0.87457,75.31,0.8958,11703.37
+Snap-03_195_png.rf.YYuGBJMJvk1Uc2AUOhKN.png,val,SKOV,24,P1|CT|F2,P1,nativo,0.79046,281.65,0.9092,6059.36
+F2 8H 2_png.rf.dUFZVFJ0aVESmoGKjJ05.png,test,HUVEC,8,LUIS RAW||PET||F2,LUIS RAW,nativo,0.79854,300.99,0.8074,8337.38
+Snap-02_196_png.rf.BKEbI8Gj7FVgCYPUSi9g.png,train,SKOV,24,P1|CT|F1,P1,nativo,0.74505,81.69,0.9301,4762.03
+Snap-02_255_png.rf.JaJ4bou8Ic3AaIPtCfZV.png,val,SKOV,72,P1|CT|F2,P1,nativo,0.84411,187.18,0.9527,5323.7
+Snap-02_png.rf.HnokE69U5U658bYwvUrm.png,val,SKOV,0,P2|CT|F1,P2,nativo,0.90176,60.15,0.9148,12249.23
+Snap-02_62_png.rf.K7PjQ8CqA8XVhNTW659F.png,train,SKOV,24,P2|CT|F2,P2,nativo,0.73039,70.42,0.9455,4043.01
+Snap-02_17_png.rf.Lpe2QyqaZsGgJFeCYcvT.png,train,SKOV,48,P2|CT|F2,P2,nativo,0.76154,51.64,0.9317,4887.58
+Snap-02_136_png.rf.m6MHqhz3vjy6x2KcsX7N.png,val,SKOV,48,P1|CT|F2,P1,nativo,0.78111,98.27,0.9931,4745.64
+B3 12H 1_png.rf.K1xrQbmhbAmhHzuNkKJj.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.62616,36.27,0.5608,742.37
+B3 12H 1_png.rf.1lPHPBmz2RT2aHQDRS5u.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.65046,83.65,0.6967,2657.65
+B3 12H 1_png.rf.uBc16RzdSW9jA36NDqQV.png,val,HUVEC,12,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.74664,224.63,0.7995,5715.23
+B3 12H 1_png.rf.tJNj0szl1RrlZo4qYD4w.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.61578,63.56,0.907,1583.61
+B2 8H 2_png.rf.ZKeiVD67Jac52yXARTr0.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.60398,55.31,0.7817,1375.59
+B2 8H 2_png.rf.rH7jjspZ5cR0FGcre3t4.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.61881,58.23,0.7748,1233.12
+D4 8H 2_png.rf.ixTzZNh35XGijmR7VOtL.png,test,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.71822,43.83,0.6304,3805.05
+D4 8H 2_png.rf.F1CeZbD8JhhIxg3FDoX3.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.7218,138.27,0.8793,5520.19
+D4 8H 2_png.rf.mnoVDerLhE6PpOQcbUog.png,test,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.63434,46.62,0.7077,754.82
+D2 8H 1_png.rf.dmlfRxJCAZ7ighrwgYDZ.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.70714,104.4,0.6469,4750.74
+D2 8H 1_png.rf.sM0CFB6l073DrQDTlvwd.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.72195,66.63,0.6991,5685.88
+A7 0H 1_png.rf.SiNhL86Fl5NCzaMvqhnG.png,train,HUVEC,0,LUIS RAW||PEP+GB||A7,LUIS RAW,nativo,0.79713,428.76,0.7696,7394.96
+D6 8HR 1_png.rf.Xkg7J2fPAbBTBVgUt0K6.png,train,HUVEC,8,originais||None||D6,originais,nativo,0.72643,45.72,0.6646,5953.35
+B6 8H 2_png.rf.UXJImUaOFc4Vli6PQg2j.png,train,HUVEC,8,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.67473,172.7,0.8208,2061.58
+B6 8H 2_png.rf.QwHHdwx6U1gvnoHzE73s.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.69324,44.82,0.7435,3545.02
+B4 12H 2_png.rf.M73w17SwMbnI1WYVdwjH.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.67819,58.16,0.5871,2605.17
+B4 12H 2_png.rf.xN6KD3V9tK0oa8cV84Pz.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.69006,62.58,0.9844,3158.69
+B4 12H 2_png.rf.BUDIsAimJHwizKA26kde.png,test,HUVEC,12,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.735,194.98,0.8821,4992.89
+B4 12H 2_png.rf.nhpn6bL5wOSsBbHPHC5k.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.64457,46.24,0.7261,2210.02
+C1 8H 2_png.rf.LPqvMTKoFzKsz1D5axKz.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.74747,58.75,0.6718,5130.48
+C1 8H 2_png.rf.8TQZveqFbURBQXdhXt39.png,train,HUVEC,8,LUIS RAW||PET||C1,LUIS RAW,nativo,0.83108,636.45,0.8236,8284.74
+C1 8H 2_png.rf.8HPymGdz7fsuOzPsefJ9.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.62487,91.02,0.7698,2137.57
+A3 12H 2_png.rf.NvDDUGcSzZJ4EVcSGloI.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.67667,48.13,0.7613,2162.64
+A3 12H 2_png.rf.qDuUdj7SXNoX4mT28S1W.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.75034,140.89,0.7283,4741.04
+A3 12H 2_png.rf.r5xe4JQ4Ecgyw1raWv4H.png,test,HUVEC,12,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.79659,317.52,0.8596,7028.47
+D3 8H 2_png.rf.gO7JbZNsOHcLU5pzglpZ.png,val,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.69621,143.15,0.6583,3947.15
+D3 8H 2_png.rf.RmIwn01JNbgfY0VcrlAP.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.73092,66.92,0.7799,5402.36
+D3 8H 2_png.rf.lKTVmjEr9xNW7FMHXCoW.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.65925,123.58,0.8431,2296.83
+C2 12H 2_png.rf.Xlk8npRnjTZqON9mMs58.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.67595,36.36,0.5758,1945.74
+C2 12H 2_png.rf.StYrOErgWeP3G0WcahiB.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.68207,88.62,0.775,2570.92
+D1 12H 2_png.rf.hM6Jhc6UJKSMWKFN6Pta.png,test,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.60679,23.28,0.749,557.3
+D1 12H 2_png.rf.d9PBLeLwJNvcTiK3A1xg.png,train,HUVEC,12,LUIS RAW||PET||D1,LUIS RAW,nativo,0.79344,368.22,0.7773,7023.16
+D1 12H 2_png.rf.rTaXrHPveh6L5jJcmCX5.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.71281,135.24,0.7909,5173.32
+C2 12H 1_png.rf.TFHg3V0muENuTMlz7u5s.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.6595,51.9,0.6208,1762.06
+C2 12H 1_png.rf.1gfpN8zl57105NR6Uic2.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.62866,80.45,0.781,1343.29
+B8 8HR 1_png.rf.8IIu6eJhJrcV73IQECSg.png,train,HUVEC,8,Originais (1)||None||B8,Originais (1),nativo,0.66832,32.59,0.7066,3845.59
+B8 8HR 1_png.rf.1XhLImMb5AZhR76Gahzd.png,train,HUVEC,8,originais||None||B8,originais,nativo,0.68115,34.9,0.8381,3107.1
+C6 0HR 1_png.rf.8uY0nXqjLEENJtXvrgwH.png,train,HUVEC,0,Originais (1)||None||C6,Originais (1),nativo,0.70425,156.98,0.7651,5240.24
+A1 8H 1_png.rf.rUhuaOllIpd124SZ1Xbk.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.61172,34.79,0.7495,1125.36
+A1 8H 1_png.rf.liKAKGJsx7rWvR2CTGjM.png,train,HUVEC,8,LUIS RAW||PEP||A1,LUIS RAW,nativo,0.68168,310.16,0.8507,3586.87
+A1 8H 1_png.rf.zdFJIxxlh5GeTF27Y5tG.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.62292,101.42,0.7566,2350.9
+C1 12H 2_png.rf.ui6o7P9dux3LHvZaQLOp.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.68343,48.78,0.8327,2819.18
+C1 12H 2_png.rf.oH0a5HttFWqoBJ0RowWP.png,train,HUVEC,12,LUIS RAW||PET||C1,LUIS RAW,nativo,0.75149,205.66,0.8113,5567.11
+C1 12H 2_png.rf.tZRHLbi5gUqvH0jNbPLY.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.70736,80.78,0.8087,3681.66
+D1 0HR 2_png.rf.Ak8bfHD2sNvAS5ARU8WU.png,test,HUVEC,0,Originais (1)||None||D1,Originais (1),nativo,0.79672,233.98,0.7909,8560.68
+D1 0HR 2_png.rf.pBkydjxMgVt0vB999uLo.png,test,HUVEC,0,originais||None||D1,originais,nativo,0.70242,138.35,0.8222,4192.69
+D1 12H 1_png.rf.mKsxEDejqQN6qCQxLyns.png,test,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.64108,40.51,0.5563,1439.4
+D1 12H 1_png.rf.vnjXHiF1GI01imDeAgku.png,train,HUVEC,12,LUIS RAW||PET||D1,LUIS RAW,nativo,0.76156,282.66,0.7862,5585.3
+D1 12H 1_png.rf.aMJ1RYwhajSgp6IwJHpg.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.67504,103.3,0.7939,3769.63
+D3 12H 2_png.rf.mGax8cZwIT4dFQnOordS.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.58597,26.02,0.6886,418.88
+D3 12H 2_png.rf.ogJD0ugl7j4sImIsr5p9.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.60179,39.82,0.6754,744.5
+D3 12H 2_png.rf.bk65RyMB9bMlU59S1RY7.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.6311,71.2,0.7086,1831.77
+A1 12H 2_png.rf.mPIf5FtesN7Js9gYPSKt.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.72108,79.63,0.6701,3715.1
+A1 12H 2_png.rf.dAVbzvgvDzaa4i3J6C3M.png,train,HUVEC,12,LUIS RAW||PEP||A1,LUIS RAW,nativo,0.75867,379.21,0.8128,5911.19
+A1 12H 2_png.rf.eHmr1uNqdPXHXXf5QmS1.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.72264,88.6,0.906,4109.72
+B2 12H 1_png.rf.q46PdRz1qnOtxZV3Argn.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.652,41.65,0.5692,828.07
+B2 12H 1_png.rf.i2YOCT2Mj90ei2midq9S.png,train,HUVEC,12,LUIS RAW||PEP+MET3||B2,LUIS RAW,nativo,0.73975,343.87,0.8552,5444.85
+B2 12H 1_png.rf.OrFcCcRPUkqBkLiAghoY.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.60664,71.78,0.7348,1122.9
+B1 8H 2_png.rf.qX8hsIWTYUCHB9jiGbcd.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.68227,42.22,0.6512,2447.8
+B1 8H 2_png.rf.gA6SnVr547LgfEenVrRi.png,test,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.62114,65.17,0.724,1539.43
+B1 8H 2_png.rf.3TB3hGpWKxwD8uqIJQTc.png,train,HUVEC,8,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.73655,287.17,0.7746,6022.48
+D4 8H 1_png.rf.xpR4xGrS7xqp2WqsHOdj.png,test,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.72993,117.14,0.6019,6305.85
+D4 8H 1_png.rf.qIcVbJAcG1YNBugruxMI.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.72415,122.88,0.7729,6083.56
+D4 8H 1_png.rf.a8mANb97avVu4hPsbo7a.png,test,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.61633,67.39,0.6416,747.06
+D3 12H 1_png.rf.zbujIQNM7Eu9wWrC5MDN.png,val,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.64446,46.0,0.6951,1254.34
+D3 12H 1_png.rf.C7OjXDLYyYQ82eRjth4A.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.62233,50.73,0.637,820.21
+D3 12H 1_png.rf.vDKmMF3YJlFSbIbFZHci.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.63166,68.06,0.7324,1270.97
+A1 12H 1_png.rf.tw98uu5NmZJ60AaEheGe.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A1,Migração (PET e PEP) n3 - RAW,nativo,0.6947,61.61,0.6912,2547.56
+A1 12H 1_png.rf.kvLVGRHFKPu6WotnBRAH.png,train,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A1,Migração (PET e PEP) n2 - RAW,nativo,0.61936,104.22,0.8216,1931.86
+Snap-27_187_png.rf.Un1xcBRJR9pLwxhz2VBA.png,train,SKOV,24,P1|PTX|F11,P1,nativo,0.84544,154.39,0.9394,10392.0
+Snap-27_127_png.rf.u0sqqUf8hnanDrudhQQG.png,train,SKOV,48,P1|PTX|F11,P1,nativo,0.8441,383.64,0.9247,7023.89
+Snap-27_282_png.rf.vCcp3UXdXcDmFuHR7aax.png,train,SKOV,72,P1|GEO|F7,P1,nativo,0.81751,402.03,0.922,2248.95
+Snap-27_53_png.rf.YALqveujaUVhAWskGlbw.png,train,SKOV,48,P2|CARBO|F11,P2,nativo,0.81299,88.8,0.9498,7815.33
+Snap-27_98_png.rf.lZ0XIyhITkksp9eS9PWL.png,train,SKOV,24,P2|CARBO|F12,P2,nativo,0.8023,119.29,0.9436,7432.54
+Snap-27_png.rf.fKKLKbf92TUDKJORvts2.png,train,SKOV,0,P2|CARBO|F11,P2,nativo,0.90219,136.48,0.8016,12236.13
+B8 8HR 2_png.rf.0BiUzebEwW7shJEaBWEc.png,train,HUVEC,8,Originais (1)||None||B8,Originais (1),nativo,0.70728,74.78,0.7977,4844.49
+B8 8HR 2_png.rf.jxqMjN8g1DglrNrucNPX.png,train,HUVEC,8,originais||None||B8,originais,nativo,0.7007,40.11,0.8739,3935.46
+C5 8HR 2_png.rf.4S1ZdP33ODrC9e0Lly20.png,train,HUVEC,8,Originais (1)||None||C5,Originais (1),nativo,0.65714,39.99,0.7997,3524.18
+B5 8HR 2_png.rf.1bM2nfrE3C3SuMgkQzIF.png,test,HUVEC,8,Originais (1)||None||B5,Originais (1),nativo,0.67966,40.67,0.8129,3702.09
+B5 8HR 2_png.rf.BzRPidTOrz4nL1zIlvSL.png,test,HUVEC,8,originais||None||B5,originais,nativo,0.66717,29.54,0.8475,2911.51
+A3 8HR 2_png.rf.NH3fSomZbzpcrUv2Zpj9.png,train,HUVEC,8,Originais (1)||None||A3,Originais (1),nativo,0.68695,93.47,0.8864,2688.01
+A3 8HR 2_png.rf.hdZJ4bXhrTGMuIig6P2Y.png,train,HUVEC,8,originais||None||A3,originais,nativo,0.68971,45.63,0.8472,3658.05
+A3 8H 1_png.rf.v5rT2whdOcVMLHtShbvB.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.66036,45.16,0.5528,1805.01
+A3 8H 1_png.rf.FFxw1ZoJmSoMVskuVwLP.png,train,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.59981,67.21,0.7565,1435.47
+A3 8H 1_png.rf.d60KhXvDmSmp3Oia8S8T.png,test,HUVEC,8,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.78679,260.53,0.8496,7064.86
+D2 8H 2_png.rf.ybK76wkRwzDKiZ0L7MiW.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.69082,120.54,0.8392,3789.34
+D2 8H 2_png.rf.NgKIr2nlQL2vytVPvMdS.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.68701,58.88,0.8062,3690.18
+B4 8H 1_png.rf.ukDlkARNqBsdv0bFwPQq.png,train,HUVEC,8,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.65365,90.35,0.5919,3318.36
+B4 8H 1_png.rf.KtpKkXfpwTmEw7CHch9M.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.6617,85.06,0.6704,2268.45
+B4 8H 1_png.rf.hxk5CCjSUNevIOwm2e67.png,val,HUVEC,8,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.67683,93.85,0.6872,4327.86
+B4 8H 1_png.rf.OVZZyofXQpVrU06rEdEV.png,test,HUVEC,8,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.75716,168.28,0.8058,5571.38
+D3 8HR 1_png.rf.FaoUiRzagpKacKgSYTBM.png,train,HUVEC,8,Originais (1)||None||D3,Originais (1),nativo,0.79383,116.74,0.8464,7716.64
+D3 8HR 1_png.rf.GI5XC8sWiPTRUqJb0YiP.png,train,HUVEC,8,originais||None||D3,originais,nativo,0.72355,56.78,0.7984,5684.1
+C2 0HR 2_png.rf.J6kywh7upwXA9tcJN3CM.png,train,HUVEC,0,Originais (1)||None||C2,Originais (1),nativo,0.69383,79.13,0.7767,4855.05
+B5 0HR 1_png.rf.J6hP1h51BcAFg4KFN6lN.png,test,HUVEC,0,Originais (1)||None||B5,Originais (1),nativo,0.68993,90.4,0.7592,4723.18
+B5 0HR 1_png.rf.HyxAq2SZFEx1y342m6b9.png,test,HUVEC,0,originais||None||B5,originais,nativo,0.65357,59.79,0.8504,1826.09
+A6 8HR 2_png.rf.WsRny9cGQOty4V3HiL8d.png,train,HUVEC,8,Originais (1)||None||A6,Originais (1),nativo,0.76022,102.07,0.8587,6598.93
+A6 8HR 2_png.rf.IjykSzEw9bYxIHgxehIC.png,train,HUVEC,8,originais||None||A6,originais,nativo,0.7492,67.8,0.8565,6465.63
+A6 12HR 2_png.rf.lDdi03mKpHO8MuNzUwbQ.png,train,HUVEC,12,Originais (1)||None||A6,Originais (1),nativo,0.68889,47.31,0.794,3209.4
+A6 12HR 2_png.rf.GMb60emeHysjXcHliF6w.png,train,HUVEC,12,originais||None||A6,originais,nativo,0.80527,156.89,0.8536,8110.93
+Snap-01_29_png.rf.mg28uhmxn5A9je1hvBDV.png,val,SKOV,48,P2|CT|F1,P2,nativo,0.77512,57.72,0.9392,5752.17
+Snap-01_256_png.rf.UMEeIdDQ1Tdk0wE2TII4.png,train,SKOV,72,P1|CT|F1,P1,nativo,0.82122,150.0,0.9607,6123.9
+Snap-01_74_png.rf.WcVEXB4f7Y64yyixQhom.png,val,SKOV,24,P2|CT|F1,P2,nativo,0.7302,66.08,0.9431,4600.68
+Snap-01_148_png.rf.csd0SJGzDaEHVmJESnpM.png,train,SKOV,48,P1|CT|F1,P1,nativo,0.82584,158.32,0.9622,5827.77
+C3 24HR 2_png.rf.nwCMqVszVo4q9siM9NBd.png,train,HUVEC,24,Originais (1)||None||C3,Originais (1),nativo,0.75439,57.87,0.7815,5845.87
+75ug+ptx3_2_png.rf.SrbDSCvTa81lj9UBc0ZR.png,val,SKOV,0,P1|GEO+PTX|F12,P1,nativo,0.92943,204.19,1.023,13189.12
+E8 12H 1_png.rf.dypWhfNRSbBs1ZJ05Vww.png,train,HUVEC,12,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.81452,452.4,0.7901,6850.3
+E7 8H 1_png.rf.gdYM2hFU7wl1MjzGuBEr.png,train,HUVEC,8,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.7925,264.89,0.7991,8041.81
+A6 24H 2_png.rf.fnzQMmHMSJJ6YxflXcKp.png,test,HUVEC,24,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.80164,342.57,0.8067,6290.28
+E7 0H 1_png.rf.eq57LnM2LtCIhSeyDrQF.png,train,HUVEC,0,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.74016,357.78,0.722,5982.67
+E6 24H 1_png.rf.Ukxe2UGpEbEFK0yZCv4y.png,train,HUVEC,24,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.81716,439.39,0.8301,7243.63
+E6 24H 1_png.rf.SM4It4M2ifLy61R2HAsW.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.64741,101.9,0.8576,1360.11
+A5 8H 1_png.rf.ytVoOCPRdcre6LH0ZiVo.png,val,HUVEC,8,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.7559,278.67,0.8107,5203.1
+B5 0H 2_png.rf.HYxIIkEiSgJIkbsyH67d.png,val,HUVEC,0,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.75558,348.11,0.8637,4460.63
+B5 0H 2_png.rf.WRwrrI9JRjNDFvDrJ455.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.6719,60.95,0.8124,2955.48
+A3 24HR 1_png.rf.zutG6W5yRQFxDl2XXgPv.png,train,HUVEC,24,originais||None||A3,originais,nativo,0.71574,58.69,0.7713,4864.34
+A7 8HR 1_png.rf.GjVsnZRPmRuHeMhtZUsG.png,train,HUVEC,8,originais||None||A7,originais,nativo,0.7321,56.03,0.7598,4584.93
+A7 8HR 1_png.rf.xk5ZqEQFoQIPE57EFSUg.png,train,HUVEC,8,Originais (1)||None||A7,Originais (1),nativo,0.73064,133.73,0.8271,6011.03
+D7 8HR 1_png.rf.yiUSiqMky143n8J01psP.png,train,HUVEC,8,originais||None||D7,originais,nativo,0.77641,180.02,0.8329,6952.17
+D4 8HR 1_png.rf.VEshHRtiysfYv1YrXVR9.png,test,HUVEC,8,originais||None||D4,originais,nativo,0.71985,52.56,0.7103,5484.7
+E1 12H 2_png.rf.GKeGTBMimaglOZhGi5n6.png,test,HUVEC,12,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.76264,223.36,0.8589,6117.54
+A8 0HR 2_png.rf.NV2jswG9TWuajrNnrF1h.png,train,HUVEC,0,originais||None||A8,originais,nativo,0.70249,122.73,0.8351,3621.41
+A8 0HR 2_png.rf.bBTZEJTn14rSmKt22Tgo.png,train,HUVEC,0,Originais (1)||None||A8,Originais (1),nativo,0.69005,238.75,0.765,4046.45
+A5 0HR 1_png.rf.LrEs0i1uQ22QfDiczsil.png,train,HUVEC,0,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,nativo,0.64191,99.17,0.8482,1889.1
+A5 0HR 1_png.rf.ckTpizxWhCzqrJmwetqV.png,test,HUVEC,0,Originais (1)||None||A5,Originais (1),nativo,0.75648,196.98,0.8059,6834.68
+A5 0hr 1_png.rf.P21lFbirAUEUdzrYW43W.png,train,HUVEC,0,Pré-Eclâmpsia||None||A5,Pré-Eclâmpsia,640,0.68837,64.43,0.9422,3848.12
+D5 8HR 2_png.rf.P7QsrLpJ4DFTTJhgOjMR.png,train,HUVEC,8,originais||None||D5,originais,nativo,0.74669,270.64,0.8406,6788.17
+D2 0HR 1_png.rf.Yseya69BivbK87V7yoaI.png,val,HUVEC,0,originais||None||D2,originais,nativo,0.73434,136.13,0.8376,6503.71
+D2 0HR 1_png.rf.bPcALf4uyzKTnwN0fLop.png,val,HUVEC,0,Originais (1)||None||D2,Originais (1),nativo,0.69924,143.46,0.7274,4390.22
+B4 12H 1_png.rf.um4DWqBv1Ipa6K71V8XD.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.64274,40.18,0.4988,1746.13
+B4 12H 1_png.rf.fWkPkc0DWac0jf1b3cMy.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.63861,40.25,0.671,1623.57
+B4 12H 1_png.rf.1ULnxID5MP426B41agfS.png,test,HUVEC,12,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.76315,283.91,0.8278,5450.72
+B4 12H 1_png.rf.JGwJLxV0CVH4bWwe6o5e.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.63322,100.0,0.7525,1652.3
+A4 12H 1_png.rf.f914DraQGTSAXxlM75wQ.png,train,HUVEC,12,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.79975,233.05,0.9353,7895.61
+D1 8HR 1_png.rf.Pm37sn4g0olAl9FUCP58.png,test,HUVEC,8,Originais (1)||None||D1,Originais (1),nativo,0.63235,36.17,0.8001,3093.92
+D1 8HR 1_png.rf.7pXlMXWWJkv2xLuAp89c.png,test,HUVEC,8,originais||None||D1,originais,nativo,0.83693,133.55,0.7582,8275.54
+C4 0HR 2_png.rf.JlOkG4pOgUprJJbRw5eR.png,train,HUVEC,0,Originais (1)||None||C4,Originais (1),nativo,0.63566,162.45,0.7972,2702.41
+C3 8HR 2_png.rf.NDuVMEvWWQUYtYk3QJzS.png,train,HUVEC,8,Originais (1)||None||C3,Originais (1),nativo,0.65897,36.27,0.8277,3005.07
+C3 0HR 1_png.rf.OA8x6g62ex8LdXxsap7v.png,train,HUVEC,0,Originais (1)||None||C3,Originais (1),nativo,0.67621,158.11,0.76,4550.33
+C8 0HR 2_png.rf.ksYRDeDDBvRanUMEGDwa.png,train,HUVEC,0,Originais (1)||None||C8,Originais (1),nativo,0.8019,178.45,0.765,9586.52
+A6 24HR 1_png.rf.CZ0i116BOFib9CK6D6Hv.png,train,HUVEC,24,originais||None||A6,originais,nativo,0.76104,99.95,0.7976,6076.68
+A8 24HR 1_png.rf.F2SAC8rwjoPatolKRN77.png,train,HUVEC,24,originais||None||A8,originais,nativo,0.70621,89.42,0.691,3501.6
+A6 24HR 2_png.rf.F3wCxWuKgUbiNXYsfCns.png,train,HUVEC,24,originais||None||A6,originais,nativo,0.80446,113.85,0.8961,7440.95
+D5 24HR 2_png.rf.Gkher8iaMtSCl47ZU9Su.png,train,HUVEC,24,originais||None||D5,originais,nativo,0.74088,279.49,0.8635,5804.54
+B4 0HR 2_png.rf.7USPOPdGDFudVKwE8pKs.png,val,HUVEC,0,originais||None||B4,originais,nativo,0.62813,46.75,0.833,1058.08
+B4 0HR 2_png.rf.R9MSxxUNnkRnpGTFpH6a.png,val,HUVEC,0,Originais (1)||None||B4,Originais (1),nativo,0.72369,120.02,0.7698,6346.95
+C6 8HR 2_png.rf.ZTn7cYhBLwnj3BXm8diw.png,train,HUVEC,8,Originais (1)||None||C6,Originais (1),nativo,0.65019,35.07,0.8315,3394.52
+B4 8HR 1_png.rf.Zx3F3jtSvOWycP03uETm.png,val,HUVEC,8,Originais (1)||None||B4,Originais (1),nativo,0.64679,37.65,0.7559,2298.17
+B4 8HR 1_png.rf.B29qeJZkdECj8CR3RnLZ.png,val,HUVEC,8,originais||None||B4,originais,nativo,0.70855,50.36,0.7959,4166.81
+C4 0HR 1_png.rf.hxKvqnSdYZdDCX5ISZcP.png,train,HUVEC,0,Originais (1)||None||C4,Originais (1),nativo,0.66008,180.66,0.7523,3128.49
+Snap-18_png.rf.0cME4hjYM0557eYc0iSp.png,train,SKOV,0,P2|CARBO|F2,P2,nativo,0.92938,142.62,0.8026,12477.35
+Snap-18_122_png.rf.rEzRHI9DOsMmEv8NXGFz.png,test,SKOV,48,P1|PTX|F2,P1,nativo,0.84425,437.92,0.9126,5937.06
+Snap-18_182_png.rf.0olrnxTCWxDIVmtPK3HA.png,test,SKOV,24,P1|PTX|F2,P1,nativo,0.88215,435.6,0.885,8739.3
+Snap-18_48_png.rf.dOk2ClCgbcYApxR6XtAY.png,train,SKOV,48,P2|CARBO|F2,P2,nativo,0.80419,102.18,0.9456,7450.27
+Snap-18_242_png.rf.sg4fkcHavt8IVG7Qq0vy.png,train,SKOV,72,P1|PTX|F13,P1,nativo,0.87383,502.85,0.9134,7816.86
+Snap-18_93_png.rf.vdsK3Pm2Jw59MfN6akCm.png,train,SKOV,24,P2|CARBO|F3,P2,nativo,0.76646,228.9,0.9431,5582.87
+C1 0HR 2_png.rf.cofLTSxW3gxzQSKdJLlN.png,train,HUVEC,0,Originais (1)||None||C1,Originais (1),nativo,0.76205,169.42,0.7866,7603.64
+D8 0HR 2_png.rf.6vZ69MlNa4M4RK00CrsX.png,train,HUVEC,0,originais||None||D8,originais,nativo,0.79345,195.95,0.7717,8023.95
+D6 8HR 2_png.rf.5nPaWGjUg2mp8jLco95k.png,train,HUVEC,8,originais||None||D6,originais,nativo,0.7334,86.2,0.752,5976.4
+D6 0HR 1_png.rf.4oKYhxLKMYTeZrBOsGpy.png,train,HUVEC,0,originais||None||D6,originais,nativo,0.68801,92.68,0.729,3331.44
+B6 24H 2_png.rf.g9EmKb8Cdam9r5SMpZY2.png,train,HUVEC,24,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.70096,181.16,0.7904,3728.21
+B6 24H 2_png.rf.on5eSF0it6xiMzlvQBIL.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.65135,18.47,0.7024,1048.23
+B8 0H 2_png.rf.fGRjTfUOLs3peda6Im4w.png,val,HUVEC,0,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.71681,343.03,0.8322,3982.56
+F1 0H 2_png.rf.gBMJC85G4OOdikrMFcEc.png,val,HUVEC,0,LUIS RAW||PET||F1,LUIS RAW,nativo,0.62092,165.26,0.8197,1530.37
+E6 12H 2_png.rf.TsrNibUXSGYTAPRKTkyw.png,train,HUVEC,12,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.71751,226.17,0.8067,4458.09
+E6 12H 2_png.rf.BlAfZigMj5CseFC1MU6w.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.68077,183.61,0.6802,3476.07
+B1 24H 2_png.rf.aL5f9PxXXKHrQSCq7Jm9.png,train,HUVEC,24,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.72733,273.66,0.8093,4448.0
+B1 24H 2_png.rf.4qaCftKSaA7xUEOjNTbd.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.63273,24.2,0.6339,223.65
+B1 24h 2_png.rf.DK9BzMN7LNGZvsVA1LaO.png,train,HUVEC,24,Pré-Eclâmpsia||None||B1,Pré-Eclâmpsia,640,0.71244,40.04,0.7883,2891.78
+B1 24H 2_png.rf.WAXPIALQ8VqzYoMup3J4.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.65195,71.48,0.7897,2218.22
+E4 8H 1_png.rf.fGHz8CYQImAFmfxXWS4M.png,val,HUVEC,8,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.76878,591.71,0.7481,7879.38
+E4 8H 1_png.rf.yngxpz19E6gtMv7TZwNY.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.66768,39.96,0.6258,819.12
+A3 0H 1_png.rf.4oL1M95z5XQoppHkibCl.png,test,HUVEC,0,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.68625,620.73,0.9175,4338.41
+A3 0H 1_png.rf.SCgzOX4C9GJqoXUBS7cD.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.58522,57.5,0.7184,1046.76
+A3 0H 1_png.rf.yPTg0IPNv7ljio0JDYZp.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.61261,31.39,0.8504,1001.45
+E7 8H 2_png.rf.hLyWTNk9OoU7ZNBzFrnm.png,train,HUVEC,8,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.7606,404.15,0.7426,7144.51
+A6 8H 1_png.rf.0Ed4k50VKrxz80UdTuUb.png,test,HUVEC,8,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.71902,178.47,0.8318,3437.4
+B7 8H 1_png.rf.lBFggiIcKNjlvkxM2hRK.png,train,HUVEC,8,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.73659,191.05,0.8754,4378.54
+E1 12H 1_png.rf.MXhOPdUnNbYD4WTRbftP.png,test,HUVEC,12,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.78071,332.0,0.8138,6114.78
+E5 0H 1_png.rf.1vQjKt50QZjN64Psv9NT.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.8387,151.92,0.8479,8931.76
+E5 0H 1_png.rf.yqnlcPCi4sN1IZNgGJZF.png,train,HUVEC,0,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.72286,450.31,0.7398,5716.86
+C3 24H 2_png.rf.28tWjp0UrmmsCvlzDtvg.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.64766,52.38,0.84,1729.06
+C3 24H 2_png.rf.1wSY2UkYqgHSdnWl4F25.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.61858,18.7,0.675,59.99
+C3 24H 2_png.rf.OVnzFMX0yCURjr7b0E0V.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.77397,122.16,0.6685,5870.38
+E5 24H 2_png.rf.6vTK4uKSq2so4Qygh6pa.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.68758,63.83,0.7651,2603.9
+E5 24H 2_png.rf.fcYsl0fEP4LX8ywk9lvr.png,train,HUVEC,24,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.69204,287.68,0.8268,3151.16
+A6 0HR 1_png.rf.pklUjEh23onboVeWaw4x.png,train,HUVEC,0,Originais (1)||None||A6,Originais (1),nativo,0.72895,210.48,0.7561,5180.6
+A6 0HR 1_png.rf.8JKmt3fFlm2xNDphYqOO.png,train,HUVEC,0,originais||None||A6,originais,nativo,0.67037,86.32,0.7338,2545.3
+B7 12H 2_png.rf.m99XnRmyLF7wLmP2Pgs0.png,train,HUVEC,12,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.75601,182.74,0.8675,4852.1
+D8 8HR 1_png.rf.IJVQBws0SzQ90LsiLaCx.png,train,HUVEC,8,originais||None||D8,originais,nativo,0.84459,288.48,0.8158,6594.82
+D1 0HR 1_png.rf.X95BBgcop2LdYBHvWj7G.png,test,HUVEC,0,originais||None||D1,originais,nativo,0.72885,178.81,0.8506,5684.3
+D1 0HR 1_png.rf.pXGKiyw6dpCjGOogRcBS.png,test,HUVEC,0,Originais (1)||None||D1,Originais (1),nativo,0.76249,128.78,0.6794,7849.86
+A1 8HR 1_png.rf.VABkXkmpYjE9yLo5gSBX.png,test,HUVEC,8,Originais (1)||None||A1,Originais (1),nativo,0.70226,77.0,0.8594,3851.67
+A1 8HR 1_png.rf.7N4eAqgpqfPKb1eNWowl.png,test,HUVEC,8,originais||None||A1,originais,nativo,0.73343,58.14,0.8489,5258.91
+C6 0HR 2_png.rf.zyNAR1CwDZpAV3QTNmAK.png,train,HUVEC,0,Originais (1)||None||C6,Originais (1),nativo,0.71752,191.71,0.7545,6250.27
+E5 0H 2_png.rf.8p5NkHtrp3u9YOFn9tyS.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.87089,102.66,0.9092,9813.55
+E5 0H 2_png.rf.7Z9jfrXhtVmhLQrXDviu.png,train,HUVEC,0,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.70788,373.57,0.7719,4558.0
+A8 8HR 2_png.rf.Sl3eGhF0H3bFdH9ednkA.png,train,HUVEC,8,Originais (1)||None||A8,Originais (1),nativo,0.79137,160.88,0.9088,8057.94
+A8 8HR 2_png.rf.EJjkqscJBx39tXPg49pe.png,train,HUVEC,8,originais||None||A8,originais,nativo,0.76865,82.21,0.8452,6994.49
+C2 0HR 1_png.rf.Yu3NwZ7ww6snJr7UM5dr.png,train,HUVEC,0,Originais (1)||None||C2,Originais (1),nativo,0.68242,82.49,0.7405,4490.19
+C5 0HR 2_png.rf.RILXqlwl7sgu60wnNZj4.png,train,HUVEC,0,Originais (1)||None||C5,Originais (1),nativo,0.66322,172.61,0.7562,3691.78
+D3 0HR 1_png.rf.UTdVqreVFkXPnGSBUDx1.png,train,HUVEC,0,Originais (1)||None||D3,Originais (1),nativo,0.78047,231.71,0.8349,8346.9
+D3 0HR 1_png.rf.qw9FMyUJOaS44J6sP1Ql.png,train,HUVEC,0,originais||None||D3,originais,nativo,0.6722,117.61,0.883,3388.58
+A7 8HR 2_png.rf.XLvSf5YShAgMNDunOMd0.png,train,HUVEC,8,Originais (1)||None||A7,Originais (1),nativo,0.73513,136.86,0.872,5928.25
+A7 8HR 2_png.rf.dobLaJPosWiABykLZnGP.png,train,HUVEC,8,originais||None||A7,originais,nativo,0.76363,94.11,0.8429,6859.91
+A6 0HR 2_png.rf.JMN4V6CmL5NKT47K3mPk.png,train,HUVEC,0,Originais (1)||None||A6,Originais (1),nativo,0.6909,190.92,0.8043,3427.79
+A6 0HR 2_png.rf.U8U5IbHwqCKRxWcOiaKk.png,train,HUVEC,0,originais||None||A6,originais,nativo,0.6486,78.86,0.8401,2019.79
+C3 0HR 2_png.rf.fB58mPGwNgzpEsam8ilX.png,train,HUVEC,0,Originais (1)||None||C3,Originais (1),nativo,0.68215,129.08,0.7662,4443.89
+D2 0HR 2_png.rf.hkAX0DMAdAmUUEg8u8ih.png,val,HUVEC,0,Originais (1)||None||D2,Originais (1),nativo,0.78086,156.74,0.798,8381.08
+D2 0HR 2_png.rf.VDReyc4tQ21pFdV55mR5.png,val,HUVEC,0,originais||None||D2,originais,nativo,0.69567,117.88,0.8129,4647.72
+C1 0HR 1_png.rf.io0V83H2okswSGviYmJX.png,train,HUVEC,0,Originais (1)||None||C1,Originais (1),nativo,0.70013,115.41,0.7099,5083.66
+B1 24H 1_png.rf.0deSBQxLbdnRzJ0lo2os.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.62212,18.73,0.7209,91.11
+B1 24H 1_png.rf.GJ99b6zJDkCcdldeprAL.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.64635,43.44,0.764,520.65
+B1 24H 1_png.rf.HqYokt9sZNbgk1oXPrdr.png,train,HUVEC,24,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.68533,253.79,0.7947,3522.69
+A7 0HR 2_png.rf.0uB1uwLgRUfuU7JqF0kR.png,train,HUVEC,0,originais||None||A7,originais,nativo,0.67516,63.78,0.82,2646.88
+A7 0HR 2_png.rf.vAp3lFd9w8FX4VCJhMZl.png,train,HUVEC,0,Originais (1)||None||A7,Originais (1),nativo,0.64294,192.55,0.839,2165.9
+D2 24H 1_png.rf.3dVBVsdA0iITfaZ15lQH.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.63613,26.98,0.7634,203.01
+D2 24H 1_png.rf.Bc0RVmhmtihtWRrOu3Sx.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.67807,65.34,0.7667,2550.78
+D4 12HR 2_png.rf.3mHz6QXfVp3bYuBorSyN.png,test,HUVEC,12,originais||None||D4,originais,nativo,0.7889,113.38,0.8353,7067.21
+B1 24HR 1_png.rf.ZOXgAwm7pCyA0PxFBFkk.png,test,HUVEC,24,Controle+Saudavel||None||B1,Controle+Saudavel,nativo,0.81484,209.93,0.8025,5384.89
+B1 24hr 1_png.rf.wZriPsVdQe9B1XYh0ypQ.png,test,HUVEC,24,Controle+Saudavel||None||B1,Controle+Saudavel,640,0.62773,28.0,0.9148,1783.55
+A4 24h 1_png.rf.33dy4hIcNF63XsaZetPY.png,train,HUVEC,24,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.65401,100.96,0.922,2781.64
+A4 24H 1_png.rf.gJwCrLc590rY2WH4Ned6.png,train,HUVEC,24,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.82035,1117.73,0.8691,4638.45
+B1 24 1_png.rf.4kESSl903ETfZ8RacXmq.png,train,HUVEC,24,Pré-Eclâmpsia||None||B1,Pré-Eclâmpsia,640,0.71207,45.88,0.7314,3609.96
+B6 24HR 2_png.rf.JjCpIX0SSKPtprUC1AUV.png,train,HUVEC,24,originais||None||B6,originais,nativo,0.65302,23.33,0.8188,1553.71
+D5 12HR 2_png.rf.R9D5BB9IshtABWWWswKd.png,train,HUVEC,12,originais||None||D5,originais,nativo,0.81929,77.87,0.7906,8249.33
+A2 24HR 1_png.rf.Ui49cupMaTI531NWJK6R.png,train,HUVEC,24,originais||None||A2,originais,nativo,0.79781,92.42,0.6806,7804.88
+A2 24HR 1_png.rf.zHEN1vEwcIUcwRWJIw0w.png,train,HUVEC,24,Originais (1)||None||A2,Originais (1),nativo,0.69002,30.96,0.6884,2501.92
+B3 24HR 2_png.rf.KdQdPqIplBH5LttSEuYM.png,train,HUVEC,24,originais||None||B3,originais,nativo,0.74505,75.31,0.8639,5624.57
+D7 12HR 2_png.rf.Mx3Pfn3ormlryV7b2yzz.png,train,HUVEC,12,originais||None||D7,originais,nativo,0.80022,284.29,0.8732,6702.75
+B4 12hr 1_png.rf.67F2wb5gCj5GQZg22JeL.png,val,HUVEC,12,Pré-Eclâmpsia||None||B4,Pré-Eclâmpsia,640,0.69278,58.47,0.8925,4121.42
+B4 12HR 1_png.rf.KaR1X3qveVurnKSmeOz8.png,val,HUVEC,12,Pré-Eclâmpsia||None||B4,Pré-Eclâmpsia,nativo,0.74942,51.53,0.7599,6183.11
+B4 12HR 1_png.rf.guNhxNPcFlti4hUxkpql.png,val,HUVEC,12,Originais (1)||None||B4,Originais (1),nativo,0.70099,47.45,0.7923,4172.98
+B4 12hr 2_png.rf.6MFKtv79wCTIK0YDsTYm.png,train,HUVEC,12,Controle+Saudavel||None||B4,Controle+Saudavel,640,0.60372,49.72,0.8548,1494.22
+B4 12HR 2_png.rf.T9zwB1CKrAIJWPxFGcE5.png,train,HUVEC,12,Controle+Saudavel||None||B4,Controle+Saudavel,nativo,0.76274,60.72,0.8666,7194.11
+B4 12HR 2_png.rf.jxZ0dYKAVdNPmJQFPifR.png,val,HUVEC,12,Originais (1)||None||B4,Originais (1),nativo,0.70917,54.16,0.8377,5207.58
+B6 24h 1_png.rf.HqRokqEzDfBP5O3ZtezT.png,test,HUVEC,24,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,640,0.63293,76.15,0.8859,2033.34
+B6 24H 1_png.rf.j9lG9KfzRzSXyhye5PlS.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.70883,38.9,0.581,2652.91
+B6 24h 1_png.rf.Mqv4F4d5b4AUQiStkAzE.png,test,HUVEC,24,Pré-Eclâmpsia||None||B6,Pré-Eclâmpsia,640,0.61853,53.86,0.8808,965.16
+B6 24H 1_png.rf.z1gnHGqIpgOdff4cmlwF.png,train,HUVEC,24,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.6514,145.3,0.8064,2129.05
+D3 12HR 2_png.rf.cc5ORiU1L0tYW9JwzMnT.png,train,HUVEC,12,originais||None||D3,originais,nativo,0.80965,134.28,0.8549,6830.49
+D3 12HR 2_png.rf.nlwr0hPwCsrwhcGywwyF.png,train,HUVEC,12,Originais (1)||None||D3,Originais (1),nativo,0.64946,38.11,0.8275,2552.28
+D4 24HR 1_png.rf.ZeWox4g9WSQYjCRdF5Hj.png,test,HUVEC,24,originais||None||D4,originais,nativo,0.70419,56.91,0.7046,4835.98
+D7 24HR 2_png.rf.XWVFfZxkpp5fMF6O9txt.png,train,HUVEC,24,originais||None||D7,originais,nativo,0.7834,309.61,0.7705,6040.49
+C2 24H 2_png.rf.nK9nS1IZLcocNvwfcE7w.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.64823,23.52,0.6538,304.38
+C2 24H 2_png.rf.3iAkFoyGnnXiK0b7aJfO.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.74478,56.7,0.7721,4730.92
+B4 0HR 1_png.rf.vUKPySAwB6c4ma0fBFDE.png,val,HUVEC,0,originais||None||B4,originais,nativo,0.64829,60.59,0.8156,1789.88
+B4 0HR 1_png.rf.Sr70U7YhZrmMlrGO89Iv.png,val,HUVEC,0,Originais (1)||None||B4,Originais (1),nativo,0.74359,128.47,0.7303,6908.78
+B6 8HR 1_png.rf.ezE4khDWYhT8i1EBIy2m.png,train,HUVEC,8,Originais (1)||None||B6,Originais (1),nativo,0.65685,29.05,0.773,2249.8
+B6 8HR 1_png.rf.p2EJqFyR41XjsHo60u8I.png,train,HUVEC,8,originais||None||B6,originais,nativo,0.67718,39.94,0.7628,3380.13
+Snap-15_60_png.rf.AUB9Da86Zc4f2GiWRpgF.png,test,SKOV,24,P2|CT|F15,P2,nativo,0.63548,86.1,0.8254,1802.93
+Snap-15_134_png.rf.PT0eio2SodTEch0Oowqe.png,val,SKOV,48,P1|CT|F15,P1,nativo,0.7102,98.26,0.941,2315.9
+Snap-15_194_png.rf.jyDxznPzUcDKPrXPinis.png,train,SKOV,24,P1|CT|F14,P1,nativo,0.75852,104.12,0.9607,5230.7
+Snap-15_15_png.rf.oEkUKHxOZ7qcBLxMlF5e.png,test,SKOV,48,P2|CT|F15,P2,nativo,0.75193,126.39,0.9491,4185.52
+Snap-15_png.rf.QpISbBkKeIMbu6a2p8wX.png,train,SKOV,0,P2|CT|F14,P2,nativo,0.95789,121.91,0.8022,13921.65
+Snap-19_png.rf.54NjFnaveSX8V7dKaXCe.png,train,SKOV,0,P2|CARBO|F3,P2,nativo,0.8862,162.11,0.8029,11669.93
+Snap-19_179_png.rf.LbI9UqUYPM9MI69fTMLd.png,train,SKOV,24,P1|PTX|F3,P1,nativo,0.8934,241.41,0.9544,11554.16
+Snap-19_45_png.rf.h26s2hEWJo5PGBPNWzbv.png,train,SKOV,48,P2|CARBO|F3,P2,nativo,0.85023,73.08,0.9193,10078.61
+Snap-19_119_png.rf.rL8vPl5ijPVO0I4eyA1W.png,train,SKOV,48,P1|PTX|F3,P1,nativo,0.87456,169.36,0.9101,10652.98
+Snap-19_90_png.rf.LTW9T6mUiyeyn573QLTY.png,train,SKOV,24,P2|CARBO|F4,P2,nativo,0.77961,201.53,0.9039,7791.81
+Snap-20_png.rf.CTNy3Rv16m36Khsp3xJc.png,train,SKOV,0,P2|CARBO|F4,P2,nativo,0.94486,167.26,0.8068,13522.3
+Snap-20_133_png.rf.wotHCE8IfJ6UYBmxNc4i.png,train,SKOV,48,P1|PTX|F4,P1,nativo,0.85443,326.45,0.9682,9574.86
+Snap-20_59_png.rf.cuUsjVgyqu6QpoUYSKTl.png,train,SKOV,48,P2|CARBO|F4,P2,nativo,0.84224,163.78,0.9603,5797.26
+Snap-20_193_png.rf.OGPjmr6AN3p8v8qf5RaD.png,train,SKOV,24,P1|PTX|F4,P1,nativo,0.89366,291.6,0.9494,11765.24
+Snap-20_104_png.rf.lu9wLu7mqVxquLAseXNa.png,test,SKOV,24,P2|CARBO|F5,P2,nativo,0.7328,208.8,0.9232,5864.78
+A1 8HR 2_png.rf.bvjlWbubzYS3fVyOKsCU.png,test,HUVEC,8,Originais (1)||None||A1,Originais (1),nativo,0.70274,68.57,0.8465,3567.67
+A1 8HR 2_png.rf.emd32984S6mQhEIM0RXU.png,test,HUVEC,8,originais||None||A1,originais,nativo,0.69709,61.27,0.8655,4035.79
+Snap-17_102_png.rf.L35h25Y208weJrkXRPl5.png,train,SKOV,24,P2|CARBO|F2,P2,nativo,0.78946,256.64,0.9427,5402.24
+Snap-17_191_png.rf.VaUfcjat6tcky3mpq2eY.png,train,SKOV,24,P1|PTX|F1,P1,nativo,0.86278,211.19,0.9627,10015.68
+Snap-17_57_png.rf.eHlOfkRwkZdoOjiE6Mxj.png,val,SKOV,48,P2|CARBO|F1,P2,nativo,0.83086,147.78,0.9568,5496.83
+Snap-17_131_png.rf.w04wolCzNfH78hvtq37N.png,train,SKOV,48,P1|PTX|F1,P1,nativo,0.85394,311.52,0.9713,8614.73
+Snap-17_png.rf.wQPtTYXFL94gKLen5q7D.png,val,SKOV,0,P2|CARBO|F1,P2,nativo,0.90626,193.83,0.7779,10642.57
+Snap-17_252_png.rf.bulki6Z5lbUSEa4uMo6D.png,val,SKOV,72,P1|PTX|F12,P1,nativo,0.8671,582.32,0.916,4447.34
+E1 8H 2_png.rf.5qtx5quA0obTJbOUZCxP.png,test,HUVEC,8,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.79425,300.23,0.8312,7151.06
+E1 8H 1_png.rf.8l6bvVJjLSjiFIlOhJkG.png,test,HUVEC,8,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.76855,327.06,0.8382,6267.8
+E2 8H 2_png.rf.A1FxKlPrQIHjZQ9mdCtD.png,train,HUVEC,8,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.78637,336.78,0.8106,6196.88
+B4 24HR 2_png.rf.MNt9ujzb7mPjEN7Zxr8a.png,val,HUVEC,24,originais||None||B4,originais,nativo,0.72445,42.54,0.86,5128.94
+B4 24HR 2_png.rf.AY9pmWT2DlfnRIvRg3as.png,val,HUVEC,24,Originais (1)||None||B4,Originais (1),nativo,0.6954,28.29,0.8108,3298.09
+A6 8H 2_png.rf.8H5VYogwRaw3bc7Ufnp7.png,test,HUVEC,8,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.72354,336.89,0.7978,3867.88
+A7 8H 1_png.rf.imdEFsHE1mYvXy3RRzPv.png,train,HUVEC,8,LUIS RAW||PEP+GB||A7,LUIS RAW,nativo,0.78909,328.7,0.8359,5766.19
+B6 8H 1_png.rf.qDArlyAzfww0cgi6FENm.png,train,HUVEC,8,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.69824,199.61,0.8169,4125.98
+B6 8H 1_png.rf.EJolHbiqIDsWm7XwyCFX.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.75676,136.63,0.7694,6448.9
+E4 8H 2_png.rf.rdW8kPWMuRg50sCI0meX.png,val,HUVEC,8,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.77066,502.73,0.7363,7744.34
+E4 8H 2_png.rf.jlW5HpmI2m57qY2TSPDs.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.61669,51.88,0.7871,911.29
+A3 24H 1_png.rf.tfdHOCRouEH53EDqy7G0.png,test,HUVEC,24,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.80976,252.5,0.873,6862.84
+A3 24H 1_png.rf.ZkTdxPADA9eK1ZS8wJQP.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.63843,98.06,0.7674,1340.99
+A3 24H 1_png.rf.ZNOTbMmKYzpfIiFiyzJl.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.61824,22.76,0.6636,242.68
+E6 24H 2_png.rf.xPxa5zfkuhQQMYWCu9UE.png,train,HUVEC,24,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.78794,276.66,0.7631,6979.3
+E6 24H 2_png.rf.c0Q0aeG3uzgZqNDW0NS5.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.68686,109.44,0.7729,2364.27
+E3 8H 1_png.rf.ydjYbDPXt2Ll0FuF5dXC.png,train,HUVEC,8,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.73055,525.37,0.8177,5756.22
+E3 8H 1_png.rf.UfzabC0joqrxRr8cl3uJ.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.68637,43.66,0.8366,1265.43
+B5 8H 1_png.rf.OgNl7n5SIXkGIuU1InnN.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.67225,78.88,0.6802,2409.83
+B5 8H 1_png.rf.ge3SG45JV1gKhWc7ifdS.png,val,HUVEC,8,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.72763,279.67,0.8491,5132.47
+B5 8H 2_png.rf.SgUUZx4vrliHz3cQhHZG.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.65202,42.08,0.6733,1510.77
+B5 8H 2_png.rf.p8rDOeacacLxFiD0aAkc.png,val,HUVEC,8,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.71187,255.05,0.8897,3146.72
+D5 0HR 2_png.rf.e3GMlxLnQsu8m7577fEm.png,train,HUVEC,0,originais||None||D5,originais,nativo,0.7253,149.72,0.8794,5629.48
+D4 0H 2_png.rf.7RFXNZEElcEIxiB134la.png,test,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.6925,59.6,0.9177,2378.17
+D4 0H 2_png.rf.eVEb58gAMbcellIRwKuX.png,test,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.65971,63.58,0.8076,1490.82
+D4 0H 2_png.rf.yvJgcXkN2Fgn4uyudNxv.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.61599,65.87,0.8375,1417.84
+C4 12H 2_png.rf.H2Y5R9zDxcuoXPVFCHZX.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.62334,52.72,0.659,1009.83
+C3 0H 1_png.rf.GUP2WCnC3j3AaenQzSMG.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.74889,96.12,1.1809,3133.42
+C3 0H 1_png.rf.RnULYdovSpgOgllwCh6N.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.63505,45.99,0.6545,1069.27
+C3 0H 1_png.rf.1GcjwCTkABCFtVVPXmAu.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.62533,140.88,0.6676,2238.95
+E6 8H 1_png.rf.aiTpRNkpOLX1i5ifEBmk.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.63286,105.47,0.5899,2501.72
+E6 8H 1_png.rf.9FbfyZAyJYAjvbhnQKNC.png,train,HUVEC,8,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.81878,477.74,0.8106,6708.26
+C5 12H 1_png.rf.eqPnAQCG5aI0rvfthMNV.png,test,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.59296,56.89,0.638,1244.91
+C5 12H 1_png.rf.OLiywuVh8Y6xj17HnU6e.png,test,HUVEC,12,LUIS RAW||PET||C5,LUIS RAW,nativo,0.73464,169.5,0.7967,3940.09
+E4 12H 1_png.rf.KRVDSp5DFhpm9hFLfjy9.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.62218,34.86,0.6829,1206.47
+E4 12H 1_png.rf.35ZjiXuLnQ3VKuAQmtoa.png,val,HUVEC,12,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.74359,302.73,0.7797,5720.61
+E3 8H 2_png.rf.JTkZ7wGK8TZqcNr0iQ9Z.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.66936,56.65,0.8884,1581.47
+C4 8H 1_png.rf.OhDSqkiCC7cBz300AryE.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.64853,56.65,0.6685,1058.59
+C4 24H 1_png.rf.PrzpHu9et1vWKc2r3zCq.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.67274,37.72,0.836,1976.9
+E3 24H 2_png.rf.V8dxaWov8z3KO2UEETWV.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.62587,81.22,0.6548,1292.73
+E3 24H 2_png.rf.CqrKP3UzCHpoiMQnTwYf.png,train,HUVEC,24,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.76774,198.28,0.8491,5711.2
+E4 0H 1_png.rf.Odx4K5xl2aDlImnpj0G5.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.69331,44.92,1.0421,2437.9
+E4 0H 1_png.rf.guF4XcIWsACmegRAd2IS.png,val,HUVEC,0,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.74437,513.88,0.7443,6851.81
+C5 12H 2_png.rf.oLP5pb7BztRNGjNEDlAS.png,test,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.61913,56.64,0.775,802.56
+C5 12H 2_png.rf.yGOWuMwCESVagvk7Q4HY.png,test,HUVEC,12,LUIS RAW||PET||C5,LUIS RAW,nativo,0.69686,139.69,0.8557,3233.98
+D2 24H 2_png.rf.Dr2SascrSZ4uku6feLCZ.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.60757,29.35,0.644,319.02
+D2 24H 2_png.rf.Dr42hWA0VdnglReM9CyU.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.67415,88.23,0.7185,2778.25
+D3 24H 2_png.rf.Guj6hzRwo4KztSHLvC8P.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.63806,31.62,0.7133,661.93
+D3 24H 2_png.rf.wrSFiDUm4y3l7OfQ8x8P.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.66047,61.41,0.8408,1691.07
+D3 24H 2_png.rf.vu9MuWKRyoy3WKGkVrI5.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.71937,59.33,0.755,4472.01
+B1 0H 1_png.rf.wkE6SnIAQml6UyDMQy02.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.66317,49.44,0.73,548.61
+B1 0H 1_png.rf.j3ckb2OmuPoN1D2ZNrsL.png,test,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.71647,40.89,0.9461,4117.99
+B1 0H 1_png.rf.C8YpfhQojmLektIYz0IQ.png,train,HUVEC,0,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.72058,323.17,0.8102,4908.33
+B4 24H 2_png.rf.xxfOaydli3MnWDQgI8Hg.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.61137,19.61,0.6925,77.71
+B4 24h 2_png.rf.Of8T2fD4qf0cAdWJbOuF.png,train,HUVEC,24,Controle+Saudavel||None||B4,Controle+Saudavel,640,0.64188,75.28,0.8084,1617.44
+B4 24H 2_png.rf.Dy3NkPc0L9HXhRCtCbkW.png,test,HUVEC,24,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.7525,188.14,0.8059,4852.74
+B4 24H 2_png.rf.YGDDHBmTvfvwYQHk10DN.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.60746,40.11,0.7508,558.33
+C7 12hr 2_png.rf.On4PgSthEawXN0tYNcLD.png,train,HUVEC,12,Pré-Eclâmpsia||None||C7,Pré-Eclâmpsia,640,0.59926,38.69,0.8301,918.45
+C7 12HR 2_png.rf.FcP7oeCPkBbZtSE7blxW.png,train,HUVEC,12,Originais (1)||None||C7,Originais (1),nativo,0.75455,47.8,0.8299,7103.5
+B1 0H 2_png.rf.rKSV6ynjn8T0ad0TIIgc.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.6856,73.66,0.8482,2529.15
+B1 0H 2_png.rf.M9qDqnfqVRQAN3kixv3Y.png,test,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.82296,114.54,1.1806,9551.49
+A4 24h 2_png.rf.DwIiawL7voUvJVSqtTOP.png,train,HUVEC,24,Controle+Saudavel||None||A4,Controle+Saudavel,640,0.58089,45.7,0.7533,1058.42
+A4 24H 2_png.rf.6b9w5pz0deHWDEkWlDtt.png,train,HUVEC,24,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.85298,809.68,0.888,7995.47
+B8 24h 2_png.rf.sUtMqQeZCI3m3wJKsgaH.png,train,HUVEC,24,Pré-Eclâmpsia||None||B8,Pré-Eclâmpsia,640,0.6333,54.36,0.7672,2059.65
+B8 24H 2_png.rf.gu9aYftIV22WAXso95Mk.png,val,HUVEC,24,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.702,202.82,0.7809,3397.46
+B7 24hr _png.rf.wGcmDPhq7jcRwYk9p9Cf.png,train,HUVEC,24,Controle+Saudavel||None||B7,Controle+Saudavel,640,0.63836,57.28,0.859,487.49
+B7 24HR _png.rf.rxcJQmf6CqfJwy73jb0T.png,train,HUVEC,24,Originais (1)||None||B7,Originais (1),nativo,0.65969,22.16,0.7583,2023.5
+A2 24h 1_png.rf.S59irGLLQgWFqJLa5bki.png,train,HUVEC,24,Controle+Saudavel||None||A2,Controle+Saudavel,640,0.71348,121.66,0.8414,4422.8
+A2 24H 1_png.rf.f0Gpa2ejRKiGBpMkFNBA.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.63001,23.74,0.559,232.02
+A2 24H 1_png.rf.EFavmtKTLhhnJThESvF0.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.63777,88.97,0.7527,2229.69
+A2 24H 1_png.rf.0khSfDP2dVePLbJBhUvS.png,train,HUVEC,24,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.68981,164.54,0.7722,2871.66
+75geo1_3_png.rf.3ssQ4kMF9TGfwhFa0NBy.png,train,SKOV,0,P1|GEO|F3,P1,nativo,0.98079,345.81,0.9721,14028.44
+75geo3_2_png.rf.74WCC6Yog9fXc1mKJxkf.png,val,SKOV,0,P1|GEO|F12,P1,nativo,0.97755,177.78,1.0321,14350.59
+75ug+ptx3_5_png.rf.8zKge5Sez8aWKKyW2i6z.png,val,SKOV,0,P1|GEO+PTX|F15,P1,nativo,0.96693,243.13,1.0333,14237.71
+Snap-16_103_png.rf.xOCVzm7U41jEUSGkNIbA.png,val,SKOV,24,P2|CARBO|F1,P2,nativo,0.76374,208.96,0.9291,6349.36
+Snap-16_253_png.rf.tk6oVd2Y7bRBeFcFLmiY.png,train,SKOV,72,P1|PTX|F11,P1,nativo,0.84368,579.72,0.9416,6122.45
+D7 8HR 2_png.rf.a4Rq2C5edIO0EU87k5E6.png,train,HUVEC,8,originais||None||D7,originais,nativo,0.77497,192.18,0.7932,6841.16
+B6 24HR 1_png.rf.RnlHPNjVrMgPZkF7L64E.png,train,HUVEC,24,originais||None||B6,originais,nativo,0.6288,20.57,0.7969,1140.05
+Snap-23_png.rf.28O298H93RbxNCkERjpH.png,train,SKOV,0,P2|CARBO|F7,P2,nativo,0.87404,201.53,0.7963,11449.16
+Snap-23_272_png.rf.3S7I4N2iyDHQ2WCQnx2e.png,train,SKOV,72,P1|GEO|F3,P1,nativo,0.80124,180.99,0.8909,6315.35
+Snap-23_120_png.rf.RTu1fn8eOhvIxcBB0XgF.png,train,SKOV,48,P1|PTX|F7,P1,nativo,0.86105,358.81,0.909,7865.12
+Snap-23_46_png.rf.OLrkwsHRaOlVABql7EJC.png,train,SKOV,48,P2|CARBO|F7,P2,nativo,0.8268,109.23,0.9304,6838.5
+Snap-23_180_png.rf.SxoeyqweD8MEywpcCrsl.png,train,SKOV,24,P1|PTX|F7,P1,nativo,0.90141,416.59,0.9038,10570.99
+Snap-23_91_png.rf.prr7kpB0aPBDSrY8NIW0.png,train,SKOV,24,P2|CARBO|F8,P2,nativo,0.79357,249.62,0.9143,6063.17
+D6 0HR 2_png.rf.poe4ZabzUgeIVciNuuZd.png,train,HUVEC,0,originais||None||D6,originais,nativo,0.72105,147.2,0.7288,5657.56
+B8 24HR 1_png.rf.quDKVUdqcJJHaOE4wcfs.png,train,HUVEC,24,originais||None||B8,originais,nativo,0.72988,73.32,0.7669,4317.09
+B8 24HR 1_png.rf.RVgJPEc6dRHa3W4h9tQR.png,train,HUVEC,24,Originais (1)||None||B8,Originais (1),nativo,0.66615,23.8,0.8082,2314.25
+Snap-25_95_png.rf.4nMlAyh4jT2uWFXeHFEu.png,val,SKOV,24,P2|CARBO|F10,P2,nativo,0.80579,340.97,0.9378,4362.44
+Snap-25_50_png.rf.CHeux2nrD5owQB0rBnrP.png,test,SKOV,48,P2|CARBO|F9,P2,nativo,0.8041,138.57,0.9741,6603.03
+Snap-25_png.rf.NZSC2ldRJFXa4414jttF.png,test,SKOV,0,P2|CARBO|F9,P2,nativo,0.89981,334.56,0.7792,9786.66
+Snap-25_184_png.rf.fnCmHOHxb5uRZMEeY7RB.png,test,SKOV,24,P1|PTX|F9,P1,nativo,0.89069,168.02,0.9572,12269.06
+Snap-25_124_png.rf.qhyZRieBWx1vF8Vfj4ck.png,test,SKOV,48,P1|PTX|F9,P1,nativo,0.8429,340.75,0.9769,8875.3
+B5 12H 1_png.rf.JBkKkt45PibbMNJxopzH.png,val,HUVEC,12,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.69439,169.55,0.8182,3385.03
+B5 12H 1_png.rf.2fxitd0BjLxjPsCVaEPq.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.63815,33.14,0.5847,1837.61
+E6 0H 2_png.rf.u4YJXBgFUrlOfZi4Xdbk.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.83702,303.5,1.1591,9796.2
+E6 0H 2_png.rf.qIyWYgA9w4tryEhjNmUS.png,train,HUVEC,0,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.79759,575.67,0.7195,8461.85
+75geo2_5_png.rf.BzRF0Z5bvFroC3TaIbat.png,train,SKOV,0,P1|GEO|F10,P1,nativo,0.98917,249.07,1.0591,15189.36
+Snap-42_165_png.rf.3eAR7nfV8aWUfPbBc82Q.png,test,SKOV,48,P1|GEO|F11,P1,nativo,0.80596,104.18,0.9211,5742.39
+Snap-42_76_png.rf.erwRb4d1blf6lhZ6UFWy.png,test,SKOV,24,P2|GEO|F11,P2,nativo,0.75925,177.26,0.9468,6959.03
+Snap-42_31_png.rf.J9V2UJndHRoslGdxrcqU.png,train,SKOV,48,P2|GEO|F12,P2,nativo,0.7657,120.02,0.9429,6843.72
+Snap-42_258_png.rf.hETwVZpuNUgJrChjohxD.png,train,SKOV,72,P1|GEO+PTX|F7,P1,nativo,0.82528,264.1,0.9438,8554.44
+Snap-42_225_png.rf.mQxoBxfdEUUtVkhWybfs.png,test,SKOV,24,P1|GEO|F11,P1,nativo,0.7843,68.97,0.9144,7301.17
+Snap-42_png.rf.vXnbjKiFLjrY6iWZoR1j.png,test,SKOV,0,P2|GEO|F11,P2,nativo,0.93901,127.18,0.7877,12464.88
+D1 24H 2_png.rf.JPXsJfPNRWwnAkf2OC68.png,test,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.62777,21.84,0.7158,201.88
+D1 24H 2_png.rf.MYNSbfcrSOJQNTgrFTJq.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.68917,54.96,0.7136,2705.94
+D1 24H 2_png.rf.Lvfay3pzrKUgPOiBsEUA.png,train,HUVEC,24,LUIS RAW||PET||D1,LUIS RAW,nativo,0.81134,320.66,0.7784,7182.25
+C2 24H 1_png.rf.OdgDvLYa6oJIDJUccXc4.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.6635,19.68,0.667,50.49
+C2 24H 1_png.rf.HSmhO8ggpsXiYVCigAYN.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.63552,36.41,0.7145,1365.17
+D8 12HR 1_png.rf.JKs3STlcbpg5fEO1WWeO.png,train,HUVEC,12,originais||None||D8,originais,nativo,0.82181,323.33,0.8181,6981.95
+Snap-41_270_png.rf.46zb8PtP1Yuu9Wit1FpP.png,test,SKOV,72,P1|GEO+PTX|F6,P1,nativo,0.83762,335.61,0.9478,7656.49
+Snap-41_177_png.rf.J9Vigcki7oDbHiMC0150.png,train,SKOV,48,P1|GEO|F10,P1,nativo,0.8044,153.83,0.9049,6696.89
+ptx1_5_png.rf.5e7WIfGslbrzFPCuSHDZ.png,train,SKOV,0,P1|PTX|F5,P1,nativo,0.95309,230.94,1.0523,14330.24
+D4 24H 1_png.rf.l74W6BtAd1h2vbDdLYa7.png,test,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D4,Migração (PET e PEP) n3 - RAW,nativo,0.63294,21.72,0.6771,467.25
+D4 24H 1_png.rf.4NmTRoRHXyugKUw10i8s.png,test,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.70456,40.44,0.7027,1767.61
+D4 24H 1_png.rf.LYHwLpivhcwZEPvlr0jZ.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.58233,70.1,0.7014,1253.35
+D3 0H 1_png.rf.yjPUyWDnVzgaKohQ1S6l.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.65508,94.9,0.8122,2922.44
+D3 0H 1_png.rf.jWsUip53LaCF4OaEEFcb.png,test,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.58955,88.69,0.8524,861.66
+D3 0H 1_png.rf.b1sSavdi7Hd62AjZzMXH.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.7303,71.3,1.2458,3118.15
+75ug+ptx1_3_png.rf.IcEKL4ZipsbcvBf9x2iH.png,train,SKOV,0,P1|GEO+PTX|F3,P1,nativo,0.98123,236.9,0.9505,14111.25
+75ug+ptx2_4_png.rf.N3lZqZpjOb6amiXbUGPo.png,train,SKOV,0,P1|GEO+PTX|F9,P1,nativo,0.96011,294.85,0.9217,14384.98
+75ug+ptx2_5_png.rf.SKN9uE4jbXSPHttCL7Fn.png,train,SKOV,0,P1|GEO+PTX|F10,P1,nativo,0.95669,251.94,1.0211,14108.5
+75ug+ptx3_4_png.rf.IcAvoXcG34V8LoEG7Sik.png,train,SKOV,0,P1|GEO+PTX|F14,P1,nativo,0.97986,229.66,0.9633,14657.52
+75ug+ptx2_2_png.rf.GCxTvubAoWABRjXmjDjX.png,train,SKOV,0,P1|GEO+PTX|F7,P1,nativo,0.97062,236.97,1.0148,13768.31
+75geo3_5_png.rf.RzruoobW8Ib712laqLeg.png,val,SKOV,0,P1|GEO|F15,P1,nativo,0.98674,257.78,1.0617,15054.47
+B2 0H 1_png.rf.QVDYxCAVBSgrpofFVEjh.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.71622,77.98,0.5671,5068.36
+B2 0H 1_png.rf.YrE4a3IJb8tbUo1hxHOL.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.7098,25.57,0.8386,3895.32
+B3 0H 2_png.rf.QrVPpwk8bLI8oOafOqxw.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B3,Migração (PET e PEP) n3 - RAW,nativo,0.65547,33.15,0.7439,836.54
+B3 0H 2_png.rf.f395RxYLVfCR25kIWk9V.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B3,Migração (PET e PEP) n1 - RAW,nativo,0.81617,130.39,0.9753,7095.41
+B3 0H 2_png.rf.qkQ8oAXFHv0sxBmtvOUJ.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B3,Migração (PET e PEP) n2 - RAW,nativo,0.76476,121.18,0.7691,5629.72
+B3 0H 2_png.rf.I7y6fugB4J3nkiJ2BnxH.png,val,HUVEC,0,LUIS RAW||PEP+GB||B3,LUIS RAW,nativo,0.70609,506.82,0.8021,4739.98
+C1 0H 1_png.rf.RI1ESfJsvQUUFGL0s8eu.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.64166,79.27,0.6965,2734.49
+C1 0H 1_png.rf.g4HgRdp03wzPfFdqyUh3.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.62756,204.16,0.8353,2490.77
+C1 0H 1_png.rf.40FBeyD3EEz7TwI3PZJk.png,train,HUVEC,0,LUIS RAW||PET||C1,LUIS RAW,nativo,0.70748,368.39,0.763,4359.02
+C2 0H 2_png.rf.UwqdmZv3ntAvzn8IikTc.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.72348,57.67,0.6098,3932.94
+C2 0H 2_png.rf.Y2RsiA1AXARyJEXkVIUC.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.73096,74.9,0.8352,3272.37
+B5 12H 2_png.rf.nn4g84NcZPLWXbKG2VPU.png,val,HUVEC,12,LUIS RAW||PEP||B5,LUIS RAW,nativo,0.78512,210.7,0.9027,6317.56
+B5 12H 2_png.rf.nYYzQ0IVdWzjIE93TQVB.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.64612,56.16,0.6526,1450.67
+Snap-22_92_png.rf.F9B8iIX7XdfGxT454Uyl.png,train,SKOV,24,P2|CARBO|F7,P2,nativo,0.86134,62.53,0.9424,8942.67
+Snap-22_121_png.rf.4Zd3SMsh9JTMlsxulPWv.png,train,SKOV,48,P1|PTX|F6,P1,nativo,0.86875,391.17,0.9105,7890.56
+Snap-22_47_png.rf.goBhEPZmqBfPgEE2CLWx.png,train,SKOV,48,P2|CARBO|F6,P2,nativo,0.795,80.31,0.9504,8221.15
+Snap-22_274_png.rf.xQYr65FKGdk7yTT9LTTR.png,train,SKOV,72,P1|GEO|F2,P1,nativo,0.77441,284.61,0.9319,5432.84
+Snap-22_png.rf.zjKkhyXwllP02ve3rmYE.png,train,SKOV,0,P2|CARBO|F6,P2,nativo,0.90422,145.18,0.817,12379.15
+Snap-22_181_png.rf.zpr2WVVOlPR2Tqafq1RE.png,train,SKOV,24,P1|PTX|F6,P1,nativo,0.87257,139.81,0.9368,11400.45
+Snap-24_125_png.rf.8bLo1h7ToplIJ7tet6Th.png,train,SKOV,48,P1|PTX|F8,P1,nativo,0.86663,245.89,0.9026,10013.99
+Snap-24_png.rf.hueodPGU9icd7QmEArCe.png,train,SKOV,0,P2|CARBO|F8,P2,nativo,0.87716,98.37,0.809,10631.07
+Snap-24_51_png.rf.Wgg78LykMI1DoKAeqOy4.png,train,SKOV,48,P2|CARBO|F8,P2,nativo,0.81386,84.76,0.9156,7062.32
+Snap-24_96_png.rf.s6DeTIAvmh6iZiaYgj4W.png,test,SKOV,24,P2|CARBO|F9,P2,nativo,0.84267,88.46,0.8871,9958.06
+Snap-24_279_png.rf.zdt5pR8v2pQwJ2i4ix6P.png,train,SKOV,72,P1|GEO|F4,P1,nativo,0.80466,252.97,0.9977,5782.22
+Snap-24_185_png.rf.id0eOvbOlN7Sgpvw3g9K.png,train,SKOV,24,P1|PTX|F8,P1,nativo,0.86861,99.2,0.8984,11497.77
+B4 0H 2_png.rf.fifsiXXgXeSxEnoNdxAa.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B4,Migração (PET e PEP) n1 - RAW,nativo,0.64326,30.85,0.9904,793.82
+B4 0H 2_png.rf.Obm6iHfD9YqIMfaIi7jC.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B4,Migração (PET e PEP) n3 - RAW,nativo,0.73319,83.07,0.7252,5163.17
+B4 0H 2_png.rf.f3SBJYc893OVfpUHLeb7.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 5uM||B4,Migração (PET e PEP) n2 - RAW,nativo,0.78966,101.04,1.0733,5419.84
+B4 0H 2_png.rf.rXION3PvUG9p2y5KH5ZG.png,test,HUVEC,0,LUIS RAW||PEP+MCC||B4,LUIS RAW,nativo,0.74051,585.84,0.8837,5755.81
+D1 0H 2_png.rf.jUT312N8lU7n2aO1Z7bp.png,train,HUVEC,0,LUIS RAW||PET||D1,LUIS RAW,nativo,0.74517,414.73,0.7584,6657.28
+D1 0H 2_png.rf.In3g26PLvIPVilZ9guvK.png,test,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.68005,86.28,0.858,2630.3
+D1 0H 2_png.rf.vQjYicMYCPjmiZ6t9wzR.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.68466,122.74,0.7614,3136.77
+A8 12H 2_png.rf.iwAAm3aDnFW8KsAeSu6J.png,train,HUVEC,12,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.77906,262.68,0.9245,7586.17
+D3 24H 1_png.rf.OIhLrRxOSOtuNUqMevUJ.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.64813,32.71,0.7202,2049.7
+D3 24H 1_png.rf.eCkpgZ7lBRFTxvkfGeDK.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.62087,27.26,0.6812,393.93
+D3 24H 1_png.rf.lgES3xZvT7KoszPGhV44.png,test,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.6498,57.24,0.6492,2648.22
+D4 24H 2_png.rf.RklTkqfkG2jxmrJIVlDw.png,test,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,Migração (PET e PEP) n1 - RAW,nativo,0.5689,55.56,0.7252,364.76
+D4 24H 2_png.rf.bXNtPd8AhEwgaAh3hG1b.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D4,Migração (PET e PEP) n2 - RAW,nativo,0.65117,57.23,0.9851,2179.4
+Snap-47_267_png.rf.97cMYlFczNhQv3UX19fR.png,val,SKOV,72,P1|GEO+PTX|F12,P1,nativo,0.83985,228.51,0.9387,8083.08
+Snap-47_219_png.rf.tXiQQL4hg3VyVt8yhPHg.png,test,SKOV,24,P1|GEO+PTX|F1,P1,nativo,0.83372,165.8,0.9778,10348.35
+Snap-47_png.rf.4IcA4CJVTVvxJv2QbhQ9.png,val,SKOV,0,P2|CARBO+GEO|F1,P2,nativo,0.87666,222.46,0.8155,11469.65
+Snap-47_10_png.rf.82JBOB2C6eUM9hqcxY2g.png,val,SKOV,48,P2|CARBO+GEO|F1,P2,nativo,0.77943,117.0,0.9344,7151.95
+Snap-47_115_png.rf.AwDB0H3rugMK2ImzBgZw.png,val,SKOV,24,P2|CARBO+GEO|F1,P2,nativo,0.77591,257.74,0.9202,6759.45
+Snap-47_159_png.rf.iWHwHxKcpvJIH7RHtxRu.png,test,SKOV,48,P1|GEO+PTX|F1,P1,nativo,0.83165,169.76,0.9671,8691.11
+75ug+ptx1_2_png.rf.miBH5V5VEGJZEqXxEWPw.png,train,SKOV,0,P1|GEO+PTX|F2,P1,nativo,0.91817,201.57,1.0186,13104.87
+D7 0HR 1_png.rf.VyOkBvuzY65cf9MJnXZB.png,train,HUVEC,0,originais||None||D7,originais,nativo,0.78171,152.43,0.8302,7803.18
+Snap-26_283_png.rf.YFDkIZNg1W2rRyv6xoZQ.png,test,SKOV,72,P1|GEO|F6,P1,nativo,0.82243,310.48,0.9395,4725.35
+D4 12HR 1_png.rf.coQP5Rm68FoQiPA5lE4l.png,test,HUVEC,12,originais||None||D4,originais,nativo,0.77319,88.16,0.7119,6802.33
+A1 0HR 1_png.rf.bBmfdS8DK3Ixtw1fZ9P3.png,test,HUVEC,0,originais||None||A1,originais,nativo,0.6859,117.77,0.8716,3752.66
+A1 0HR 1_png.rf.F8WfJZAyU8hXcsKytbcA.png,test,HUVEC,0,Originais (1)||None||A1,Originais (1),nativo,0.72524,155.85,0.8013,5461.28
+Snap-49_111_png.rf.2YBYBWf0TlnhbYXiIarp.png,train,SKOV,24,P2|CARBO+GEO|F3,P2,nativo,0.82048,147.47,0.883,9787.02
+Snap-49_png.rf.jaxP6t3jEXJwvcs3TeXW.png,train,SKOV,0,P2|CARBO+GEO|F3,P2,nativo,0.88477,86.92,0.801,10236.28
+Snap-49_6_png.rf.vxdpb188ymQ8bK2rzafD.png,train,SKOV,48,P2|CARBO+GEO|F3,P2,nativo,0.85077,119.11,0.9193,10736.48
+Snap-49_264_png.rf.Ig21lSZL1n8lAFqwIinJ.png,train,SKOV,72,P1|GEO+PTX|F14,P1,nativo,0.82127,352.1,0.9914,8050.53
+Snap-49_155_png.rf.9Txc7Y2olfQH0Fk9KsNp.png,train,SKOV,48,P1|GEO+PTX|F3,P1,nativo,0.84684,246.97,0.913,8564.4
+Snap-49_215_png.rf.TiULqayQwDfte2RpYtpc.png,train,SKOV,24,P1|GEO+PTX|F3,P1,nativo,0.86101,246.83,0.9281,10813.44
+75ug+ptx2_3_png.rf.mqrdw4y9iJq7wHo3ocCR.png,train,SKOV,0,P1|GEO+PTX|F8,P1,nativo,0.88302,198.46,0.8857,11911.71
+75geo2_3_png.rf.uagsLlU5nL9O3bnb8OYp.png,train,SKOV,0,P1|GEO|F8,P1,nativo,0.96943,345.22,0.9884,13725.62
+75geo3_3_png.rf.zMTyj0cFNm8nT2bevevK.png,train,SKOV,0,P1|GEO|F13,P1,nativo,0.97229,235.8,0.9989,14250.59
+75geo1_5_png.rf.XBplXOgSlZGL9MkIqKUx.png,train,SKOV,0,P1|GEO|F5,P1,nativo,0.98211,349.18,1.0697,15083.2
+75geo2_2_png.rf.BRU7Qn76FC0ISEwjiWgR.png,train,SKOV,0,P1|GEO|F7,P1,nativo,0.91208,256.66,1.0363,12880.52
+75geo3_4_png.rf.W62VVb5aq2155gYgVdJ3.png,train,SKOV,0,P1|GEO|F14,P1,nativo,0.98246,192.26,0.9701,15025.65
+75ug+ptx1_5_png.rf.Y9WFvFN9xkZyL6E0mD9N.png,train,SKOV,0,P1|GEO+PTX|F5,P1,nativo,0.9814,199.57,1.0287,15120.14
+75ug+ptx3_3_png.rf.c4WVnjFscy6T0HItfkyn.png,train,SKOV,0,P1|GEO+PTX|F13,P1,nativo,0.95598,240.76,0.9655,13609.35
+75geo1_2_png.rf.ikJJwdU2sRMteDT7nrjh.png,train,SKOV,0,P1|GEO|F2,P1,nativo,0.97577,186.03,1.0043,14064.46
+75geo2_4_png.rf.GSy2oJWtOBsFeAkolPsJ.png,train,SKOV,0,P1|GEO|F9,P1,nativo,0.98097,264.82,0.9771,14974.45
+B1 12H 2_png.rf.XB9579ManLTdbXacXqbn.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.67383,43.48,0.6985,1448.32
+B1 12H 2_png.rf.cFU7xmBfmqqkIIa5q7nh.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.75246,105.23,0.826,3770.92
+B1 12H 2_png.rf.80CRi2GWTeZLSA1jOyls.png,train,HUVEC,12,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.67653,143.77,0.8377,3083.87
+C1 24H 2_png.rf.YUbYquBirGpSwyBLMJ4b.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.59482,20.13,0.6823,347.24
+C1 24H 2_png.rf.Pgfpm7Y6eqWlKW6dKTAy.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.64877,65.69,0.8318,2537.84
+A3 0H 2_png.rf.KcxWyQCly3s3MLGJoF7y.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A3,Migração (PET e PEP) n3 - RAW,nativo,0.68666,55.24,0.6046,1848.57
+A3 0H 2_png.rf.QDCtQGDH1pznmeHT0BNJ.png,test,HUVEC,0,LUIS RAW||PEP+GB||A3,LUIS RAW,nativo,0.72633,660.12,0.76,5360.31
+A3 0H 2_png.rf.wlBFyFj8l9rKyrbSV1n0.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP||A3,Migração (PET e PEP) n2 - RAW,nativo,0.73699,55.31,1.2215,5017.12
+C1 24H 1_png.rf.OksDet59fvNqLNsi18rq.png,val,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.64474,19.85,0.7077,123.58
+C1 24H 1_png.rf.qNFK4kiEtQd3x6PhBznR.png,val,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.66802,94.49,0.6941,1947.16
+C1 24H 1_png.rf.MmBCxnmelweNZCs07Wjh.png,train,HUVEC,24,LUIS RAW||PET||C1,LUIS RAW,nativo,0.79752,221.9,0.8093,6018.34
+A2 0H 1_png.rf.a5VwxH3XSG8ycPWjgw1m.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.62059,49.43,0.7131,1377.57
+A2 0H 1_png.rf.2hwnOfsNvVtFFjEPfzyP.png,train,HUVEC,0,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.75328,369.13,0.7549,6035.75
+A2 0H 2_png.rf.bZxKlJP6svuZ8bqXNeIV.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.74195,85.6,0.836,4230.09
+A2 0H 2_png.rf.wLkBHcGvevKm0A73Vxcz.png,test,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.73698,32.9,0.7461,5231.2
+A2 0H 2_png.rf.FS0GVTfItDwHaET3Kb6j.png,train,HUVEC,0,LUIS RAW||PEP+MET3||A2,LUIS RAW,nativo,0.74326,492.21,0.8391,5235.14
+Snap-21_285_png.rf.Rj9uYJWuHCUuf7mNZJ2N.png,train,SKOV,72,P1|GEO|F1,P1,nativo,0.79535,137.4,0.9416,6430.21
+Snap-21_56_png.rf.ycoY7vPUknblypXrORx3.png,test,SKOV,48,P2|CARBO|F5,P2,nativo,0.81755,116.15,0.9406,7884.29
+D1 0H 1_png.rf.pkAbrogIQaGpnfBfEZnF.png,train,HUVEC,0,LUIS RAW||PET||D1,LUIS RAW,nativo,0.78324,492.51,0.7519,7025.64
+D1 0H 1_png.rf.lyGwKQ55XW9Rox9MUQ2W.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D1,Migração (PET e PEP) n2 - RAW,nativo,0.60588,119.41,0.7492,1605.01
+D1 0H 1_png.rf.fw3oXHFKRwGBIpMcBKY2.png,test,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D1,Migração (PET e PEP) n3 - RAW,nativo,0.65301,86.1,0.6813,1658.08
+E7 12H 2_png.rf.vUUdCbtuiKl5Ft31hpY1.png,train,HUVEC,12,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.75179,178.16,0.8366,5318.88
+A8 12H 1_png.rf.vsP0DPblvSgKVrucYaIO.png,train,HUVEC,12,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.7748,335.2,0.8664,7148.83
+D5 0H 2_png.rf.xGrdSoDTKtnwBuh4Cj2d.png,train,HUVEC,0,LUIS RAW||PET||D5,LUIS RAW,nativo,0.75269,277.11,0.798,4947.9
+D5 0H 2_png.rf.GG9kMtodPkWI48rREDiB.png,val,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||D5,Migração (PET e PEP) n1 - RAW,nativo,0.67819,46.75,1.1435,1945.3
+C5 8H 1_png.rf.m0k3TjlxKvLXDFhuBq52.png,test,HUVEC,8,LUIS RAW||PET||C5,LUIS RAW,nativo,0.71207,216.67,0.7928,4549.02
+C5 8H 1_png.rf.QRwHfTeZ3iXOWs30KZOS.png,test,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.59244,74.8,0.6138,1251.9
+A6 24H 1_png.rf.nNdt9zlpThgANxpw0Afd.png,test,HUVEC,24,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.76905,242.99,0.7989,5711.83
+E3 12H 1_png.rf.ybUIm3WuR8reiKcz0SpQ.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.67816,40.24,0.8376,1278.22
+E3 12H 1_png.rf.jJifoEwEiTeMrkQvogrH.png,train,HUVEC,12,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.74388,261.08,0.8015,5545.25
+C5 0H 1_png.rf.qfmzlYXXLFM1UbctuHo5.png,test,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.85256,167.98,0.9839,10106.89
+C5 0H 1_png.rf.OdwF3vyzWYOgZ8CvxU5t.png,test,HUVEC,0,LUIS RAW||PET||C5,LUIS RAW,nativo,0.75427,385.91,0.8791,5747.98
+C3 24H 1_png.rf.fTWEUHwuJj41k4YLPaQD.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.60312,28.88,0.6917,1186.76
+C3 24H 1_png.rf.c7jfA1r2lo83FCC1x3TB.png,train,HUVEC,24,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.64007,18.57,0.6384,50.39
+C3 24H 1_png.rf.Ff5U0kH6IFpvS3alXpPn.png,train,HUVEC,24,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.71457,90.42,0.6977,4119.19
+Snap-40_png.rf.9EwCDE1uNgyFYRkkBNbp.png,train,SKOV,0,P2|GEO|F9,P2,nativo,0.93804,333.44,0.7896,12657.3
+Snap-40_42_png.rf.rY6NW4fe0CRTDdg8MHYz.png,train,SKOV,48,P2|GEO|F10,P2,nativo,0.82505,232.9,0.9281,6086.03
+Snap-40_87_png.rf.OMb2zuYN14uYpuw2r6ha.png,train,SKOV,24,P2|GEO|F9,P2,nativo,0.7872,331.48,0.9242,4670.92
+Snap-40_176_png.rf.bUgGtZALmBRNrpjdVId8.png,train,SKOV,48,P1|GEO|F9,P1,nativo,0.76279,129.54,0.9483,4836.66
+Snap-40_236_png.rf.yItOl1do8t3f0fCtVuP1.png,train,SKOV,24,P1|GEO|F9,P1,nativo,0.75799,78.48,0.925,5975.47
+Snap-43_34_png.rf.GOHyfDBrhvieEKwOZ4eD.png,train,SKOV,48,P2|GEO|F13,P2,nativo,0.81961,159.42,0.9288,5860.15
+Snap-43_168_png.rf.bvsTjSLpRnA4A5wLM0jg.png,val,SKOV,48,P1|GEO|F12,P1,nativo,0.76895,93.02,0.918,5035.75
+Snap-43_79_png.rf.QHy7X5fw5paLTpJkeudB.png,train,SKOV,24,P2|GEO|F12,P2,nativo,0.82191,298.49,0.9434,4300.1
+Snap-43_228_png.rf.RjMXXyaPc2A6ORQuUL1x.png,val,SKOV,24,P1|GEO|F12,P1,nativo,0.73735,68.86,0.9085,6244.16
+Snap-43_261_png.rf.ggKc9XCcU2o4oFi3pgsw.png,train,SKOV,72,P1|GEO+PTX|F8,P1,nativo,0.84475,368.08,0.9093,8563.71
+Snap-43_png.rf.bYOjGbrbBkNUs0zIljYx.png,train,SKOV,0,P2|GEO|F12,P2,nativo,0.94231,370.72,0.7798,10600.5
+75ug+ptx1_4_png.rf.SJoeBR5kFLTCJXsYTKnd.png,train,SKOV,0,P1|GEO+PTX|F4,P1,nativo,0.98258,208.17,0.959,15105.44
+B6 24HR _png.rf.3MFWVuTR1gXhrTMlxCtK.png,train,HUVEC,24,Originais (1)||None||B6,Originais (1),nativo,0.65537,23.28,0.8219,2191.5
+D3 24HR 2_png.rf.72HLl708G6tkMaH5GLZL.png,train,HUVEC,24,Originais (1)||None||D3,Originais (1),nativo,0.65421,14.69,0.7968,943.92
+D3 24HR 2_png.rf.yFACQ0BfAkvnbEhAHECd.png,train,HUVEC,24,originais||None||D3,originais,nativo,0.76125,120.96,0.8313,5331.13
+D3 24HR 1_png.rf.CIVDMQLez5VThDU7Rmkp.png,train,HUVEC,24,Originais (1)||None||D3,Originais (1),nativo,0.67976,23.69,0.8718,2422.24
+D3 24HR 1_png.rf.lybVWBdbvZ81Rnavz0xt.png,train,HUVEC,24,originais||None||D3,originais,nativo,0.74334,95.24,0.8045,5251.89
+D1 24HR 1_png.rf.EHcrx6DNEOw8vqgtCyC2.png,test,HUVEC,24,Originais (1)||None||D1,Originais (1),nativo,0.75659,68.1,0.7489,5953.93
+D1 24HR 1_png.rf.D7yfyoxo08GRgfqWxkKs.png,test,HUVEC,24,originais||None||D1,originais,nativo,0.80752,156.16,0.7924,7213.09
+B2 0H 2_png.rf.hSCWG8Fad2RCMrJcKW7X.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||B2,Migração (PET e PEP) n3 - RAW,nativo,0.77233,128.42,0.6435,6732.37
+B2 0H 2_png.rf.C9LTtIpDLLKBGCfBNHkN.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B2,Migração (PET e PEP) n2 - RAW,nativo,0.77817,130.45,0.7442,6698.37
+A2 12H 2_png.rf.Zohd9tAlJmF6zir4Qa7l.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||A2,Migração (PET e PEP) n3 - RAW,nativo,0.63523,36.17,0.6909,1104.24
+A2 12H 2_png.rf.N7tpAQyq0PEGrhaTGLJT.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW,nativo,0.69048,85.41,0.7946,3239.35
+E7 24H 1_png.rf.zAvr03Xcu012AlIqOaJU.png,train,HUVEC,24,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.81094,388.27,0.8031,7133.11
+F2 0H 1_png.rf.zPl6vPkH5HpqtxJsWJxj.png,test,HUVEC,0,LUIS RAW||PET||F2,LUIS RAW,nativo,0.79096,779.71,0.8656,8132.39
+E4 24H 2_png.rf.zRn2mkdbLkfop4s4V8xV.png,val,HUVEC,24,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.82408,175.62,0.8359,7446.22
+E4 24H 2_png.rf.m4dcOTmKcNBfb5aYg2ft.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET||E4,Migração (PET e PEP) n1 - RAW,nativo,0.63814,31.5,0.6475,934.64
+ptx2_2_png.rf.ZcYuXZyYfPIfgOypnn5Z.png,train,SKOV,0,P1|PTX|F7,P1,nativo,0.92807,176.56,1.0067,13149.51
+75geo1_4_png.rf.gXnQOso0XaCNeb2iSQ5d.png,train,SKOV,0,P1|GEO|F4,P1,nativo,0.96978,235.92,0.9373,14822.39
+Snap-60_12_png.rf.AiY33Mo4Daj2M4cZgUnh.png,test,SKOV,48,P2|CARBO+GEO|F14,P2,nativo,0.75803,184.78,0.9377,7454.1
+Snap-60_png.rf.RpcRTxyR97nXnbvR3urB.png,test,SKOV,0,P2|CARBO+GEO|F14,P2,nativo,0.96386,298.43,0.8167,13027.86
+Snap-60_221_png.rf.3hBjZALI1RFDCXb1MMT9.png,train,SKOV,24,P1|GEO+PTX|F14,P1,nativo,0.83937,248.83,0.9888,10084.39
+Snap-60_161_png.rf.bERIfIfLBiocZsdlYi1s.png,train,SKOV,48,P1|GEO+PTX|F14,P1,nativo,0.79968,203.44,1.0193,8074.76
+Snap-44_230_png.rf.DTYO8Kp6HurpQGqbOhho.png,train,SKOV,24,P1|GEO|F13,P1,nativo,0.74508,70.58,0.8889,5683.4
+Snap-44_81_png.rf.TGvVmP3lIRrM3iTJoyVs.png,train,SKOV,24,P2|GEO|F13,P2,nativo,0.8133,279.16,0.8979,7995.9
+Snap-44_png.rf.Ys2ZD04BJk4p3T7zAkIt.png,train,SKOV,0,P2|GEO|F13,P2,nativo,0.90723,181.13,0.7843,11618.43
+Snap-44_36_png.rf.TROYQwK4sRxpgSs22NpY.png,train,SKOV,48,P2|GEO|F14,P2,nativo,0.79915,99.01,0.9063,7661.59
+Snap-44_170_png.rf.zUBxx8E0b0UKDnm5q1Jy.png,train,SKOV,48,P1|GEO|F13,P1,nativo,0.80771,115.98,0.8756,5332.33
+Snap-44_262_png.rf.lTvBtNUt4oywkU5QtcJ7.png,train,SKOV,72,P1|GEO+PTX|F9,P1,nativo,0.8246,193.46,0.9698,8875.75
+Snap-54_1_png.rf.LYlBIIJ3KoqRfd7QemOX.png,test,SKOV,48,P2|CARBO+GEO|F8,P2,nativo,0.80538,199.87,0.9008,7580.64
+Snap-54_106_png.rf.VOFbghvZhHsPNSqUFFkZ.png,test,SKOV,24,P2|CARBO+GEO|F8,P2,nativo,0.79509,279.96,0.9136,7448.27
+Snap-54_150_png.rf.BbXD2AQgA8naVrH0wTEE.png,train,SKOV,48,P1|GEO+PTX|F8,P1,nativo,0.84136,154.07,0.8781,9404.36
+Snap-54_png.rf.HGYLhnxL2tQsTiXRBg9n.png,test,SKOV,0,P2|CARBO+GEO|F8,P2,nativo,0.88888,156.44,0.7619,11597.92
+Snap-54_210_png.rf.BQ3GBpltnc6IdhOhKvJv.png,train,SKOV,24,P1|GEO+PTX|F8,P1,nativo,0.85975,196.41,0.9046,10992.12
+Snap-45_39_png.rf.PKurQMo8B3ygR4NZVCB3.png,val,SKOV,48,P2|GEO|F15,P2,nativo,0.78054,144.41,0.9455,6329.77
+Snap-45_png.rf.8mEoXejuMEvhSOq5NbIp.png,train,SKOV,0,P2|GEO|F14,P2,nativo,0.94879,227.5,0.8349,12234.97
+Snap-45_84_png.rf.PwtbQ0TcIu75QL9i4MKM.png,train,SKOV,24,P2|GEO|F14,P2,nativo,0.76936,211.11,0.9303,5783.1
+Snap-45_233_png.rf.e0d4At5O0A55XswWkUGG.png,train,SKOV,24,P1|GEO|F14,P1,nativo,0.78156,66.72,0.9254,6599.91
+B2 24HR _png.rf.PIVpOfHUhZq8EVpEdJo0.png,train,HUVEC,24,Originais (1)||None||B2,Originais (1),nativo,0.66118,23.81,0.808,2123.95
+B1 24HR_png.rf.XaMxiAWNkoEWqiyieIvY.png,val,HUVEC,24,Originais (1)||None||B1,Originais (1),nativo,0.65914,21.58,0.7187,2216.38
+B3 24HR _png.rf.f3BROmuTSW4SEY5FcLrM.png,train,HUVEC,24,Originais (1)||None||B3,Originais (1),nativo,0.65421,23.01,0.7713,1847.71
+D3 0H 2_png.rf.lL7YSo8VoAJWzvF12TBt.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||D3,Migração (PET e PEP) n3 - RAW,nativo,0.69062,92.56,0.8388,3824.71
+D3 0H 2_png.rf.yYcVsHyN2N7kW6l1R49u.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D3,Migração (PET e PEP) n1 - RAW,nativo,0.74852,77.69,1.1715,2434.78
+D3 0H 2_png.rf.lkEcbAGS1IAwabi3cMT3.png,test,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,Migração (PET e PEP) n2 - RAW,nativo,0.65067,60.32,0.8144,1232.49
+C2 0H 1_png.rf.mJluI1yGBePiio8WTdDm.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C2,Migração (PET e PEP) n3 - RAW,nativo,0.67088,42.73,0.6192,979.46
+C2 0H 1_png.rf.KB47PNKZ7jytQgV8U2Wg.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C2,Migração (PET e PEP) n2 - RAW,nativo,0.61703,79.51,0.8846,788.28
+D2 12H 1_png.rf.mezBEqY820hvyAhYbL2o.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||D2,Migração (PET e PEP) n3 - RAW,nativo,0.62379,41.14,0.6708,668.97
+D2 12H 1_png.rf.WXQzzTbsjkN1jrcwr3jh.png,val,HUVEC,12,Migração (PET e PEP) n2 - RAW||PET + NEB 1uM||D2,Migração (PET e PEP) n2 - RAW,nativo,0.64319,63.13,0.7561,2220.04
+C1 0H 2_png.rf.roYe44B7qcp2jHTQiDFR.png,val,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C1,Migração (PET e PEP) n3 - RAW,nativo,0.6999,48.1,0.6751,2452.24
+C1 0H 2_png.rf.NIaj6ZfxU7W8Sisl4O7V.png,train,HUVEC,0,LUIS RAW||PET||C1,LUIS RAW,nativo,0.84453,889.59,0.7968,8329.04
+C1 0H 2_png.rf.9303F5oUsp2TrVTUxFVS.png,val,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C1,Migração (PET e PEP) n2 - RAW,nativo,0.73728,100.87,0.9716,4517.58
+C3 0H 2_png.rf.xbZO9Bb0ELGvFvQqg9Ga.png,train,HUVEC,0,Migração (PET e PEP) n3 - RAW||None||C3,Migração (PET e PEP) n3 - RAW,nativo,0.67375,47.36,0.8051,2551.39
+C3 0H 2_png.rf.vi6kwDP5hcJTtZbSmmNR.png,train,HUVEC,0,Migração (PET e PEP) n2 - RAW||PET||C3,Migração (PET e PEP) n2 - RAW,nativo,0.67176,161.33,0.7097,4121.65
+C3 0H 2_png.rf.xDlt4bOJAYcO2uTZApSi.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C3,Migração (PET e PEP) n1 - RAW,nativo,0.73495,86.01,1.1452,2685.89
+Snap-34_229_png.rf.KJvv2XXHVgpLiZwVt9mg.png,train,SKOV,24,P1|GEO|F3,P1,nativo,0.77853,69.15,0.877,6448.41
+Snap-34_png.rf.GLZbrOT2myk9kc5oA6aX.png,train,SKOV,0,P2|GEO|F3,P2,nativo,0.91725,93.15,0.7729,12618.58
+Snap-34_35_png.rf.cCBbQ4DkqD2S1DhdFMv4.png,train,SKOV,48,P2|GEO|F4,P2,nativo,0.78362,178.19,0.907,7983.82
+Snap-34_80_png.rf.OTwRABBb2h7sLs5br5Es.png,train,SKOV,24,P2|GEO|F3,P2,nativo,0.85503,145.15,0.9067,9547.02
+Snap-34_169_png.rf.ecNc96UyH80MDbVQXJGF.png,train,SKOV,48,P1|GEO|F3,P1,nativo,0.78792,101.6,0.8664,4295.17
+Snap-34_273_png.rf.dlwVdBfC0b4Uz3SdOjOc.png,train,SKOV,72,P1|GEO|F14,P1,nativo,0.77983,298.29,0.9673,1514.37
+B1 12H 1_png.rf.yeNg2GCjWfRngtwXJUie.png,train,HUVEC,12,Migração (PET e PEP) n3 - RAW||None||B1,Migração (PET e PEP) n3 - RAW,nativo,0.60341,39.26,0.643,383.47
+B1 12H 1_png.rf.hxez3ZUDKYx4aEhWMxMN.png,train,HUVEC,12,LUIS RAW||PEP||B1,LUIS RAW,nativo,0.71754,324.45,0.8265,4595.62
+B1 12H 1_png.rf.VB9B0BXSFCbQoytWKIkL.png,test,HUVEC,12,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,Migração (PET e PEP) n2 - RAW,nativo,0.61872,61.42,0.7204,1156.46
+Snap-37_268_png.rf.N3W1ypt0pMmCc4GIxO5t.png,train,SKOV,72,P1|GEO+PTX|F2,P1,nativo,0.83018,329.98,0.9434,5443.66
+Snap-37_175_png.rf.FF9MN09bmlSbN40cxQRu.png,test,SKOV,48,P1|GEO|F6,P1,nativo,0.80947,85.4,0.9178,5965.19
+Snap-37_41_png.rf.OsCpPjm2DJG8qbSq8Ons.png,train,SKOV,48,P2|GEO|F7,P2,nativo,0.74913,132.49,0.938,6557.1
+Snap-37_235_png.rf.fp1LasdFT1TZbfgrTie6.png,test,SKOV,24,P1|GEO|F6,P1,nativo,0.7923,72.49,0.9016,6705.33
+Snap-37_86_png.rf.pYptoZNCglZAWUG9VoJY.png,train,SKOV,24,P2|GEO|F6,P2,nativo,0.76386,284.36,0.9336,6433.67
+Snap-37_png.rf.s7RPNeDaj3ymHHF9zaPj.png,train,SKOV,0,P2|GEO|F6,P2,nativo,0.93635,186.53,0.7765,12544.73
+Snap-38_167_png.rf.81c3SeZTSEMy4ciG0Dyg.png,train,SKOV,48,P1|GEO|F7,P1,nativo,0.79029,86.85,0.8928,5801.08
+Snap-38_78_png.rf.PaqjOBWZbWnDZZ0RJ1ZA.png,train,SKOV,24,P2|GEO|F7,P2,nativo,0.80818,352.72,0.9151,5989.9
+Snap-38_png.rf.hr6aZTEXF60YzgUNJy8a.png,train,SKOV,0,P2|GEO|F7,P2,nativo,0.94886,324.87,0.7628,11654.95
+Snap-38_227_png.rf.kK61yb2zZ2y3LBaAWQce.png,train,SKOV,24,P1|GEO|F7,P1,nativo,0.78866,133.37,0.8982,6509.63
+Snap-38_260_png.rf.yEEj76fEVPAcN4GxNnYn.png,train,SKOV,72,P1|GEO+PTX|F3,P1,nativo,0.84466,368.21,0.9313,7116.6
+D5 0H 1_png.rf.nqJsqxU0ATyfyESqew8k.png,train,HUVEC,0,LUIS RAW||PET||D5,LUIS RAW,nativo,0.68834,258.86,0.7627,2450.31
+D5 0H 1_png.rf.9j0Q0q1RchMC9JDN2vvD.png,val,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||D5,Migração (PET e PEP) n1 - RAW,nativo,0.72742,109.63,1.3622,3909.77
+B5 24HR _png.rf.g9PDGT1tjMWdiPw6OCJg.png,test,HUVEC,24,Originais (1)||None||B5,Originais (1),nativo,0.68429,24.69,0.8502,2758.35
+C2 24HR 1_png.rf.gv1L6LnEPjTvqD1xvTex.png,train,HUVEC,24,Originais (1)||None||C2,Originais (1),nativo,0.68404,20.52,0.729,3207.69
+A1 0HR 2_png.rf.hVdiwx06lI7rOZ5rr9vC.png,test,HUVEC,0,Originais (1)||None||A1,Originais (1),nativo,0.75032,212.03,0.8472,6780.49
+A1 0HR 2_png.rf.wFANdrijgcCbWaNPdyi0.png,test,HUVEC,0,originais||None||A1,originais,nativo,0.68907,120.02,0.8721,3349.16
+D4 0HR 1_png.rf.eLqJwBy4PkAeXHhqw8Ir.png,test,HUVEC,0,originais||None||D4,originais,nativo,0.66946,98.91,0.7185,3361.59
+ptx1_4_png.rf.B58ENbe2QLEA2a5XA2zj.png,train,SKOV,0,P1|PTX|F4,P1,nativo,0.95687,174.54,0.9683,14107.6
+A7 24HR _png.rf.jH3xQl6pREcGN7kyjHCV.png,train,HUVEC,24,Originais (1)||None||A7,Originais (1),nativo,0.76314,73.71,0.7005,5868.5
+B4 24HR 1_png.rf.lN0MXk4tlJUMy6E9zAj1.png,val,HUVEC,24,Originais (1)||None||B4,Originais (1),nativo,0.64804,16.07,0.7495,1613.94
+B4 24HR 1_png.rf.pmxHFJ15gOgFjiDVrNst.png,val,HUVEC,24,originais||None||B4,originais,nativo,0.69945,33.99,0.7531,3844.33
+C5 24HR 1_png.rf.nnj5eCDL2rrGHVaGJgIh.png,train,HUVEC,24,Originais (1)||None||C5,Originais (1),nativo,0.78043,38.41,0.749,6526.7
+C5 24HR 2_png.rf.IhgU6NfEh2mQLY5UnIxs.png,train,HUVEC,24,Originais (1)||None||C5,Originais (1),nativo,0.75612,40.83,0.7646,5917.49
+C8 24HR 1_png.rf.ATUVW4TlOHoViHXbherk.png,train,HUVEC,24,Originais (1)||None||C8,Originais (1),nativo,0.81354,75.39,0.7332,6471.3
+Snap-35_30_png.rf.HFgFuSTR9HjcV1lmD48Y.png,train,SKOV,48,P2|GEO|F5,P2,nativo,0.75984,209.48,0.9311,6008.08
+Snap-35_75_png.rf.ZWAOtrcgayqhDponTPfJ.png,train,SKOV,24,P2|GEO|F4,P2,nativo,0.75502,143.39,0.9115,6928.51
+Snap-35_164_png.rf.b3DJJM2AtGNEln2avfI1.png,train,SKOV,48,P1|GEO|F4,P1,nativo,0.65245,130.2,0.9606,2098.93
+Snap-35_png.rf.RT3Bf99xhBs9fwFUnHMV.png,train,SKOV,0,P2|GEO|F4,P2,nativo,0.91908,274.81,0.8127,13114.81
+Snap-35_224_png.rf.Yl7Y3PdpoIYfMmZrgbvL.png,train,SKOV,24,P1|GEO|F4,P1,nativo,0.77351,66.12,0.9587,6087.21
+B7 12H 1_png.rf.0M5oRvIMdWuewK90yYyN.png,train,HUVEC,12,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.6851,146.4,0.8088,2904.52
+D1 24HR 2_png.rf.sKzjQXeeTmG65NxFRo5z.png,test,HUVEC,24,Originais (1)||None||D1,Originais (1),nativo,0.70161,21.74,0.8091,4494.91
+D1 24HR 2_png.rf.uoxKxnADebGlXimnPrEx.png,test,HUVEC,24,originais||None||D1,originais,nativo,0.79937,173.6,0.8372,6811.0
+ct2_2_png.rf.Dvx8WZususU5N4TJ6Cm4.png,train,SKOV,0,P1|CT|F7,P1,nativo,0.87586,133.83,1.0945,12084.64
+ct3_4_png.rf.Q1FfAxwTqKJY5ScqhqHb.png,train,SKOV,0,P1|CT|F14,P1,nativo,0.8848,194.09,0.9402,12083.68
+A6 24HR _png.rf.tdVUE5jOGejtOugdPT4V.png,train,HUVEC,24,Originais (1)||None||A6,Originais (1),nativo,0.765,99.73,0.8012,6030.29
+D2 24HR 2_png.rf.wRKSPxlZPSFXQYyfyIYZ.png,val,HUVEC,24,Originais (1)||None||D2,Originais (1),nativo,0.71198,26.98,0.7946,4516.3
+D2 24HR 2_png.rf.pDLs6S04Umdqac3qosH6.png,val,HUVEC,24,originais||None||D2,originais,nativo,0.80691,177.73,0.8278,5969.25
+C7 24HR 1_png.rf.xqKNrF67OhqmAzlFnqBa.png,train,HUVEC,24,Originais (1)||None||C7,Originais (1),nativo,0.80162,51.43,0.7486,7167.11
+Snap-36_271_png.rf.sfFr7wfzXmMz4JWE34hv.png,test,SKOV,72,P1|GEO+PTX|F1,P1,nativo,0.84819,293.04,0.9716,8266.95
+A5 24H 1_png.rf.6ie4xUJoXHwIt5OqAmfk.png,val,HUVEC,24,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.76159,229.12,0.7726,4962.27
+E2 12H 1_png.rf.mEQXwAOzJk0IJFIXfI76.png,train,HUVEC,12,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.74285,346.95,0.7876,5791.77
+Snap-61_png.rf.jjph9AjAMjC05RAi810r.png,train,SKOV,24,P2|CARBO+GEO|F15,P2,nativo,0.79845,365.86,0.99,6251.9
+D8 8HR 2_png.rf.1L3Omzx8xqzZfciIrFV1.png,train,HUVEC,8,originais||None||D8,originais,nativo,0.84915,316.03,0.7838,6537.09
+ct3_2_png.rf.lLB33dtGMqg7HHl9TRYc.png,train,SKOV,0,P1|CT|F12,P1,nativo,0.84779,165.34,1.0604,11178.14
+ct1_4_png.rf.nvoj5ht7KmVxGyu6qAiI.png,train,SKOV,0,P1|CT|F4,P1,nativo,0.89861,154.25,0.962,12714.18
+ct1_3_png.rf.p5g48N2vmUfQ595DsvAx.png,train,SKOV,0,P1|CT|F3,P1,nativo,0.97463,353.72,1.0009,13575.76
+ptx3_5_png.rf.jKwt368jwlClxFelzVnq.png,val,SKOV,0,P1|PTX|F15,P1,nativo,0.90042,249.66,1.0213,12826.56
+D8 24HR 2_png.rf.6LVfhov35InNNnP8TyCy.png,train,HUVEC,24,originais||None||D8,originais,nativo,0.81115,239.84,0.7093,7451.0
+A4 24HR 1_png.rf.75GZJLc3WH0k8HUxjdH2.png,train,HUVEC,24,originais||None||A4,originais,nativo,0.76959,69.5,0.695,6779.35
+D8 24HR 1_png.rf.N3wjvhmJtPekb934O9zh.png,train,HUVEC,24,originais||None||D8,originais,nativo,0.80026,230.42,0.8068,7039.4
+A7 24HR 2_png.rf.SRRzbIVNAwhQfC9WQUcS.png,train,HUVEC,24,originais||None||A7,originais,nativo,0.78109,143.21,0.8276,6972.69
+A7 24HR 2_png.rf.lcDe029TgbPSpfrW0Pay.png,train,HUVEC,24,Originais (1)||None||A7,Originais (1),nativo,0.74147,81.26,0.7754,5224.67
+E2 12H 2_png.rf.fbTGkq2d4G0KjXGVXnMl.png,train,HUVEC,12,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.76745,221.21,0.7593,6463.74
+E2 8H 1_png.rf.gvQssAqfXsQcZbrYTdOM.png,train,HUVEC,8,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.78739,331.2,0.734,6628.34
+D5 8HR 1_png.rf.vyyVbmUWui3Zf5tfphsL.png,train,HUVEC,8,originais||None||D5,originais,nativo,0.72133,154.1,0.6754,5462.31
+Snap-39_166_png.rf.5gvQkXC8fgXYVuIF4f7T.png,train,SKOV,48,P1|GEO|F8,P1,nativo,0.79208,77.61,0.8668,5321.14
+Snap-39_259_png.rf.66NggF7aoR1cBAe7oHvS.png,train,SKOV,72,P1|GEO+PTX|F4,P1,nativo,0.85756,244.84,0.9857,8455.55
+Snap-39_png.rf.B5ZdhBp8JGAo6JQji9gU.png,test,SKOV,0,P2|GEO|F8,P2,nativo,0.90091,131.44,0.7928,11945.01
+Snap-39_226_png.rf.3eKRFoC6EkRrFYfUCzwm.png,train,SKOV,24,P1|GEO|F8,P1,nativo,0.76079,46.37,0.8841,5939.63
+Snap-39_77_png.rf.FBpms3tKgC2fVOg0pxu7.png,test,SKOV,24,P2|GEO|F8,P2,nativo,0.80986,234.96,0.914,8598.36
+Snap-39_32_png.rf.rJ1yCNkW0jfcy0HevE1x.png,train,SKOV,48,P2|GEO|F9,P2,nativo,0.82329,107.26,0.9334,9074.95
+Snap-46_266_png.rf.BVQ9Gkip9wHmusHLwlcZ.png,train,SKOV,72,P1|GEO+PTX|F11,P1,nativo,0.83609,363.43,0.9409,5814.51
+ct1_2_png.rf.vkrzhchwAd8VGhBZotAn.png,val,SKOV,0,P1|CT|F2,P1,nativo,0.79298,102.76,1.0475,9268.65
+A8 24HR 2_png.rf.Lw1lmr6rn3jDJKeQy2Q6.png,train,HUVEC,24,originais||None||A8,originais,nativo,0.75547,128.86,0.8028,5064.41
+D7 24HR 1_png.rf.gKqLhMBk6iKbxeuE7E9M.png,train,HUVEC,24,originais||None||D7,originais,nativo,0.78206,298.07,0.7933,6117.75
+D7 12HR 1_png.rf.dFUzUezEiRccyrBtvl3h.png,train,HUVEC,12,originais||None||D7,originais,nativo,0.80057,268.32,0.8246,6617.05
+D2 12HR 2_png.rf.cdEKsHuOo9GguaFeEKg2.png,val,HUVEC,12,originais||None||D2,originais,nativo,0.78023,81.18,0.812,7543.68
+D2 12HR 2_png.rf.x5aDDK0avFZphVb6GVcP.png,val,HUVEC,12,Originais (1)||None||D2,Originais (1),nativo,0.73242,67.4,0.8473,6051.26
+ct2_3_png.rf.05gH6Q4BVtzjbT8GvpXk.png,test,SKOV,0,P1|CT|F8,P1,nativo,0.87487,252.06,1.0053,11974.23
+D8 12HR 2_png.rf.nN3nI8qkxWm9AYmHegxJ.png,train,HUVEC,12,originais||None||D8,originais,nativo,0.81354,282.65,0.7377,7713.07
+B5 12HR 2_png.rf.mSR2WAZaiHT4hljqFuAE.png,test,HUVEC,12,originais||None||B5,originais,nativo,0.75575,47.9,0.8702,6765.75
+B5 12HR 2_png.rf.EZH0RYIN3t8Q75rFyebV.png,test,HUVEC,12,Originais (1)||None||B5,Originais (1),nativo,0.6506,28.45,0.8008,2841.54
+B3 24HR 1_png.rf.NESZSvWD763fZVOB2H7p.png,train,HUVEC,24,originais||None||B3,originais,nativo,0.71459,71.47,0.8005,4809.62
+D6 12HR 2_png.rf.b2OIk6z10hZKIcL3Adz4.png,train,HUVEC,12,originais||None||D6,originais,nativo,0.78794,206.04,0.8065,5554.46
+D1 12HR 2_png.rf.c61b9Qj6PnDGEcivk5oi.png,test,HUVEC,12,originais||None||D1,originais,nativo,0.81298,145.71,0.8232,7386.75
+D1 12HR 2_png.rf.E03XFlEmMbe4CLEeQ5L0.png,test,HUVEC,12,Originais (1)||None||D1,Originais (1),nativo,0.76259,83.25,0.8216,6638.22
+D6 24HR 1_png.rf.cspql52EbA0tNLqOTHCN.png,train,HUVEC,24,originais||None||D6,originais,nativo,0.76675,118.72,0.6885,6827.29
+A7 24HR 1_png.rf.g2n0dmWrD3DPjmYcwrqW.png,train,HUVEC,24,originais||None||A7,originais,nativo,0.75336,116.32,0.7705,5723.73
+A4 24HR 2_png.rf.kbXfdYMvDsXs7RdkqPlg.png,train,HUVEC,24,originais||None||A4,originais,nativo,0.77796,107.69,0.8158,6978.02
+D5 24HR 1_png.rf.sDFAJWdDjqdrITgZldmr.png,train,HUVEC,24,originais||None||D5,originais,nativo,0.68263,142.23,0.7437,3704.07
+D1 12HR 1_png.rf.Sa5pwYNBsukEYVE7qdCO.png,test,HUVEC,12,originais||None||D1,originais,nativo,0.83597,113.7,0.8091,7702.07
+D1 12HR 1_png.rf.mtvtObh31Z25eXwo4BTB.png,test,HUVEC,12,Originais (1)||None||D1,Originais (1),nativo,0.75701,103.18,0.7763,6668.84
+C4 0H 1_png.rf.eniwLok0jjLj5a0AzzkR.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.79806,128.59,0.689,8152.64
+E3 12H 2_png.rf.esL3AMsWdCfWIQtjIH0Y.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.70985,38.4,1.1305,2166.85
+E3 12H 2_png.rf.kcUAws5TekLflfAvhxNY.png,train,HUVEC,12,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.6824,227.83,0.8143,3653.46
+E3 0H 2_png.rf.j7ovIenZ5HDYMGZQIqDG.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.82703,369.19,1.0935,9325.05
+C4 0H 2_png.rf.qOkZenYZh8qMMZYL5Xtl.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.72672,110.57,1.0288,4721.25
+E3 0H 1_png.rf.oCpQxeTo3GfI3SKhPtZw.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET||E3,Migração (PET e PEP) n1 - RAW,nativo,0.80739,151.4,0.9188,7457.26
+E3 0H 1_png.rf.y1L8LGZtCBb5mYaRh30F.png,train,HUVEC,0,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.75683,489.69,0.7883,7425.65
+B2 24HR 1_png.rf.w7qTzWrN9asmVRPi0TyM.png,train,HUVEC,24,originais||None||B2,originais,nativo,0.75221,131.92,0.7759,5882.4
+ptx3_2_png.rf.83PwRP4WO592IOLoTAYo.png,val,SKOV,0,P1|PTX|F12,P1,nativo,0.94857,157.06,0.9957,13180.36
+D7 0HR 2_png.rf.mGRaJg4oy22iduWPW8lr.png,train,HUVEC,0,originais||None||D7,originais,nativo,0.76937,185.07,0.8197,7331.63
+ptx2_3_png.rf.6nkf49DKAANKUxGN7G1n.png,train,SKOV,0,P1|PTX|F8,P1,nativo,0.95865,480.62,0.9614,12952.73
+A4 0H 2_png.rf.01eh205oAFDjBIMIeEV2.png,train,HUVEC,0,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.73664,376.43,0.8029,3927.9
+ct2_4_png.rf.LwbtYPKdSnLjWIVRn6Bb.png,train,SKOV,0,P1|CT|F9,P1,nativo,0.91542,346.86,0.9986,13346.7
+ptx3_3_png.rf.Lwqe4rLJr5ezAgBTPW9x.png,train,SKOV,0,P1|PTX|F13,P1,nativo,0.94436,507.83,0.9849,13183.9
+ptx2_4_png.rf.YEH27Bh4es5Hup4qomsA.png,test,SKOV,0,P1|PTX|F9,P1,nativo,0.94428,239.78,0.9379,13925.24
+ptx1_3_png.rf.bncOGXvomWmfQYVg0GEu.png,train,SKOV,0,P1|PTX|F3,P1,nativo,0.97357,665.44,1.031,13172.91
+ct2_5_png.rf.V6uuFIT0hRf8VvfkI0ft.png,test,SKOV,0,P1|CT|F10,P1,nativo,0.91821,174.4,1.0187,13173.01
+A3 12HR 1_png.rf.QtmN1H5n1Ty17BJqAu6s.png,train,HUVEC,12,originais||None||A3,originais,nativo,0.79194,146.56,0.7774,8060.17
+A3 12HR 1_png.rf.FMJp1T7Nqa8Rw6RzP58W.png,train,HUVEC,12,Originais (1)||None||A3,Originais (1),nativo,0.6297,37.69,0.714,1454.41
+B7 24HR 1_png.rf.ZCqTWe79sQfSyxgwns1L.png,train,HUVEC,24,originais||None||B7,originais,nativo,0.69183,46.67,0.8204,3046.43
+D4 24HR 2_png.rf.aSdWjnYDFFICPSVHPh41.png,test,HUVEC,24,originais||None||D4,originais,nativo,0.74337,72.23,0.8321,5283.68
+C5 12HR 2_png.rf.0ajhdgJgl6tuFZJYRfas.png,train,HUVEC,12,Originais (1)||None||C5,Originais (1),nativo,0.73912,43.08,0.8485,6630.86
+B5 24HR 1_png.rf.TJTLDoAzR6YqhVVqJjBV.png,test,HUVEC,24,originais||None||B5,originais,nativo,0.69108,31.22,0.7591,3345.28
+B7 24HR 2_png.rf.sLRnKiW7AKt55yPdOdBZ.png,train,HUVEC,24,originais||None||B7,originais,nativo,0.68695,48.08,0.8555,3055.36
+D6 24HR 2_png.rf.flYMY7ymoZijlh3kbj6H.png,train,HUVEC,24,originais||None||D6,originais,nativo,0.76345,123.18,0.6451,5794.81
+C5 12HR 1_png.rf.88yPD8uIUGh6X426Q3LJ.png,train,HUVEC,12,Originais (1)||None||C5,Originais (1),nativo,0.74175,36.66,0.7353,6234.82
+C8 12HR 2_png.rf.DCKU7lcCERvfS3ttYwjV.png,train,HUVEC,12,Originais (1)||None||C8,Originais (1),nativo,0.86513,147.97,0.866,6453.56
+A3 24HR 2_png.rf.veAAJvQ7Awbgl7YllARv.png,train,HUVEC,24,originais||None||A3,originais,nativo,0.7722,175.11,0.8628,6545.93
+E7 24H 2_png.rf.0p851GwUgWID7MWXKlH0.png,train,HUVEC,24,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.80495,204.03,0.8216,6857.79
+F2 12H 2_png.rf.2goGI5xvDCGG2PJZ8Its.png,test,HUVEC,12,LUIS RAW||PET||F2,LUIS RAW,nativo,0.76532,378.29,0.9392,7117.06
+F1 0H 1_png.rf.2zfG93hU1T5TFNLY48HE.png,val,HUVEC,0,LUIS RAW||PET||F1,LUIS RAW,nativo,0.68628,438.56,0.7372,4315.72
+E8 8H 2_png.rf.5GUYmQeSRhuOm2CXkDiG.png,train,HUVEC,8,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.81601,270.93,0.7871,7924.05
+B8 12H 2_png.rf.5acnuK4ItVvkpgIISiR0.png,val,HUVEC,12,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.77281,260.77,0.8558,6580.68
+B8 12H 1_png.rf.3avH25HpjUEx5nx0LOpQ.png,val,HUVEC,12,LUIS RAW||PEP+MCC||B8,LUIS RAW,nativo,0.74257,157.06,0.794,5090.35
+E5 24H 1_png.rf.vIXfSHGOepyu5FFjdqML.png,train,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.61316,41.83,0.7242,317.09
+E5 12H 1_png.rf.vKjtC2NdhKnfpZY8ceRO.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.62522,37.34,0.6291,980.31
+E5 12H 1_png.rf.8sspdrcmkdLQ9hLnLrVq.png,train,HUVEC,12,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.68881,212.44,0.804,2010.54
+C4 8H 2_png.rf.xf4fX4AvjWKAhdVeX8wx.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.63278,59.24,0.7049,820.98
+D5 8H 2_png.rf.155Q0oMDYSwLghgKcHcD.png,val,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||D5,Migração (PET e PEP) n1 - RAW,nativo,0.668,95.3,0.7848,3364.73
+C4 12H 1_png.rf.nxObaX6CWz1uDD74w2Bh.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PEP + NEB 1uM||C4,Migração (PET e PEP) n1 - RAW,nativo,0.61265,22.82,0.561,701.71
+C5 24H 2_png.rf.1BqtMMJEWOuzOCOM43Zl.png,test,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.65183,34.63,0.8225,1585.42
+Snap-11_145_png.rf.3ge56gMacLMVyGcpZzLe.png,train,SKOV,48,P1|CT|F11,P1,nativo,0.7838,78.71,0.9559,5593.66
+Snap-11_249_png.rf.6QpMCQrXSp8HmL3wsQyY.png,train,SKOV,72,P1|PTX|F6,P1,nativo,0.88854,359.39,0.9539,8875.33
+D6 12HR 1_png.rf.ubRw3PS7ChSpjR6oUsaw.png,train,HUVEC,12,originais||None||D6,originais,nativo,0.77394,127.71,0.6954,7311.1
+C6 12HR 1_png.rf.UmlOMTinnc6R2WwDO5mk.png,train,HUVEC,12,Originais (1)||None||C6,Originais (1),nativo,0.73299,39.63,0.7764,6108.75
+C4 12HR 2_png.rf.VPTdgRzPEXTu9X5rWnHL.png,train,HUVEC,12,Originais (1)||None||C4,Originais (1),nativo,0.71065,41.78,0.8375,5955.28
+C2 12HR 1_png.rf.l390bw2HqVpVFdkva9rC.png,train,HUVEC,12,Originais (1)||None||C2,Originais (1),nativo,0.67791,38.01,0.7089,3213.78
+F1 8H 2_png.rf.FGAYlPy94IRnZ6nrdfwV.png,val,HUVEC,8,LUIS RAW||PET||F1,LUIS RAW,nativo,0.78413,320.65,0.8138,5687.74
+E6 12H 1_png.rf.FCYlut0Z4tjhuOescn8N.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.68923,135.09,0.7028,2344.5
+C7 12HR 1_png.rf.p7Qf3xN5TeeAvsXHE1uc.png,train,HUVEC,12,Originais (1)||None||C7,Originais (1),nativo,0.76602,51.8,0.7521,7169.77
+C2 12HR 2_png.rf.oplRsLQxn4yXEH25o8WX.png,train,HUVEC,12,Originais (1)||None||C2,Originais (1),nativo,0.66941,28.82,0.8837,4486.64
+A4 12H 2_png.rf.IIQI11pJfOdDB7Jzljj6.png,train,HUVEC,12,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.78852,384.46,0.8829,4948.22
+D5 8H 1_png.rf.8Smwv1CdXBGgbbyDxfuB.png,train,HUVEC,8,LUIS RAW||PET||D5,LUIS RAW,nativo,0.73397,181.2,0.838,5483.01
+D5 8H 1_png.rf.PMf85Kc0bDhtSs7nKJJ9.png,val,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||D5,Migração (PET e PEP) n1 - RAW,nativo,0.63325,54.45,0.6422,1794.59
+A8 24H 2_png.rf.AzWxHWfd8wEnR1h6JyIh.png,train,HUVEC,24,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.82754,408.13,0.9249,8124.79
+F1 12H 1_png.rf.8XL2il33ZXaeuRNGBBvy.png,val,HUVEC,12,LUIS RAW||PET||F1,LUIS RAW,nativo,0.6979,142.6,0.7971,4129.09
+D5 24H 1_png.rf.4M4oOwvm60w9FPoTDdeM.png,val,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||D5,Migração (PET e PEP) n1 - RAW,nativo,0.64903,43.17,0.597,1170.29
+E5 8H 1_png.rf.5xYSB6ASuppCwHZp8BkN.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET||E5,Migração (PET e PEP) n1 - RAW,nativo,0.63043,23.56,0.6589,708.09
+E5 8H 1_png.rf.oN4y0TzU89hopazD41ga.png,train,HUVEC,8,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.80617,303.38,0.8271,7078.04
+B6 0H 1_png.rf.MFc9QeJCWIVdMpa93qS5.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.74592,68.13,2.1769,4303.95
+C5 24H 1_png.rf.GRabFdMEvh7NdJQw7srC.png,test,HUVEC,24,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.64461,51.34,0.7975,1358.15
+E7 0H 2_png.rf.LHnsmSxvc7BZBKZiBntY.png,train,HUVEC,0,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.70254,287.75,0.7298,4672.48
+B6 12H 1_png.rf.rSqnFKQYJQ2JAtTTJxhO.png,train,HUVEC,12,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.64715,134.46,0.7525,1849.89
+B6 12H 1_png.rf.TVdjz6cp4LXRKZDaIkDu.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.63507,85.91,0.6902,2141.08
+A8 8H 2_png.rf.Jysjrtl7lUHCdurIWwdE.png,train,HUVEC,8,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.79644,463.69,0.879,7216.05
+E3 24H 1_png.rf.tATYWxcxFlWEDmhIT0aP.png,train,HUVEC,24,LUIS RAW||PEP+MET3||E3,LUIS RAW,nativo,0.78692,414.81,0.7836,5951.33
+A6 12H 1_png.rf.ttiuv3CjzGc6GvMTytlM.png,test,HUVEC,12,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.7796,347.17,0.8201,6199.8
+A6 0H 2_png.rf.xTjPOuBdGBBEAQh6qzcS.png,test,HUVEC,0,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.7197,356.84,0.8834,3983.52
+A5 24H 2_png.rf.8OQnMFYAjQVtHBF6vJjx.png,val,HUVEC,24,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.79106,383.26,0.787,5668.02
+C5 0H 2_png.rf.UQiYCwrvqp79phsQH2z3.png,test,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.76816,100.72,1.2615,5920.14
+E6 8H 2_png.rf.1GadChaQmbQISRH9BRKf.png,train,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.72078,165.9,0.6164,5299.93
+E6 8H 2_png.rf.hEmiyn8BWhtuUW3q3YCM.png,train,HUVEC,8,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.82055,1002.62,0.8598,7403.43
+B6 0H 2_png.rf.GBItdIXjWvldR5xw6WAZ.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.72968,33.45,1.7082,2847.75
+B6 0H 2_png.rf.W8rwB6ecHS5ndhWG6kfs.png,train,HUVEC,0,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.76303,299.3,0.8143,5367.71
+E6 0H 1_png.rf.POLlPvbzIXFuKVcMzKwy.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PET + NEB 5uM||E6,Migração (PET e PEP) n1 - RAW,nativo,0.80783,323.57,1.0225,8803.7
+E6 0H 1_png.rf.u3wMj5y8VskesnR8YfCZ.png,train,HUVEC,0,LUIS RAW||PEP+GB||E6,LUIS RAW,nativo,0.76514,397.95,0.7864,6624.01
+B6 12H 2_png.rf.ZutkmldyzzqngSKDFxC9.png,train,HUVEC,12,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||B6,Migração (PET e PEP) n1 - RAW,nativo,0.60949,43.69,0.775,1259.41
+B6 12H 2_png.rf.2PmOlFypgqIOwtOkSoZR.png,train,HUVEC,12,LUIS RAW||PEP+MET3||B6,LUIS RAW,nativo,0.64001,163.5,0.832,1951.08
+C5 8H 2_png.rf.Su3UAyP9dztNqZtfn0u1.png,test,HUVEC,8,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,Migração (PET e PEP) n1 - RAW,nativo,0.61874,52.03,0.6735,1155.94
+B5 0H 1_png.rf.htjXZjR6bZGr7BAinqzk.png,train,HUVEC,0,Migração (PET e PEP) n1 - RAW||PEP||B5,Migração (PET e PEP) n1 - RAW,nativo,0.66686,61.34,0.9049,2758.64
+E2 0H 2_png.rf.D6csVI0NoWz6NH3Kg8Dt.png,train,HUVEC,0,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.80461,738.59,0.8097,8333.97
+B7 24H 2_png.rf.Evks9BfmmHZJPCnJMfCZ.png,train,HUVEC,24,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.73402,165.1,0.8632,3764.25
+E2 24H 2_png.rf.OkQ3OV9gV6pcZfmThdcD.png,train,HUVEC,24,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.76575,737.14,0.7811,5505.75
+A7 12H 1_png.rf.BUdmQD8lNWeuuRTsWHDX.png,train,HUVEC,12,LUIS RAW||PEP+GB||A7,LUIS RAW,nativo,0.76265,293.32,0.817,6035.42
+E1 0H 1_png.rf.O4klFnPAFBZQG7ZiiWoa.png,test,HUVEC,0,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.67514,381.4,0.7702,4166.75
+A5 0H 2_png.rf.OPqxCgJcEFfem7zDL9Cm.png,val,HUVEC,0,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.72559,289.04,0.8342,2966.38
+E2 24H 1_png.rf.VxLQou4jD5XrkR8hVVEa.png,train,HUVEC,24,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.79726,228.46,0.7513,6609.69
+A4 0H 1_png.rf.QvGfBsZY0oJLzm60bfmZ.png,train,HUVEC,0,LUIS RAW||PEP+MCC||A4,LUIS RAW,nativo,0.70838,608.7,0.8448,5527.32
+A6 12H 2_png.rf.bsoBQRnwC6AtJ5KRBKDv.png,test,HUVEC,12,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.78652,243.85,0.8406,6469.1
+E8 24H 2_png.rf.gNM1Bn8YQmrvmSNIufBH.png,train,HUVEC,24,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.8229,375.26,0.8328,6806.84
+E8 0H 2_png.rf.HgcExEkIzmfKL57kfj0O.png,train,HUVEC,0,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.77375,699.19,0.8752,7561.65
+E4 0H 2_png.rf.D2SNVZ4DM6E3vV5L6s4U.png,val,HUVEC,0,LUIS RAW||PEP+MET3||E4,LUIS RAW,nativo,0.81419,607.27,0.7376,9055.51
+E7 12H 1_png.rf.PoHYxxOK1nnblWJy1poC.png,train,HUVEC,12,LUIS RAW||PEP+MCC||E7,LUIS RAW,nativo,0.69943,279.54,0.8056,4037.2
+A7 0H 2_png.rf.kEPVCcmc0LCQaEhObbck.png,train,HUVEC,0,LUIS RAW||PEP+GB||A7,LUIS RAW,nativo,0.77191,314.04,0.8503,5674.89
+A5 0H 1_png.rf.nBR9GItMllk66biMKebZ.png,val,HUVEC,0,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.7024,378.47,0.805,2926.57
+A7 8H 2_png.rf.Z4XPzmz707V96twR8syf.png,train,HUVEC,8,LUIS RAW||PEP+GB||A7,LUIS RAW,nativo,0.80066,293.6,0.8031,6939.85
+E1 0H 2_png.rf.dwk6Z6HVga7ttj23PmV9.png,test,HUVEC,0,LUIS RAW||PEP||E1,LUIS RAW,nativo,0.71868,409.72,0.763,5159.05
+B7 0H 1_png.rf.qyPkI4Uc25HXxwIDzzb2.png,train,HUVEC,0,LUIS RAW||PEP+GB||B7,LUIS RAW,nativo,0.70571,392.98,0.8666,4170.67
+E8 24H 1_png.rf.NCtTwuOdCGdNV1jvRInG.png,train,HUVEC,24,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.80564,995.1,0.7765,5865.68
+E8 0H 1_png.rf.QW6ssGm9E4YMOA62gaG3.png,train,HUVEC,0,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.77247,1062.64,0.8826,7578.16
+E8 12H 2_png.rf.RuYB2xY0oOAkpMia9akW.png,train,HUVEC,12,LUIS RAW||PEP+MCC||E8,LUIS RAW,nativo,0.80719,528.36,0.797,6446.19
+F2 12H 1_png.rf.h05DU2gxBlXL6JdotHmg.png,test,HUVEC,12,LUIS RAW||PET||F2,LUIS RAW,nativo,0.7859,270.78,0.7308,7515.61
+A8 0H 1_png.rf.Y70C9nwsZe8IHbVjQ7ye.png,train,HUVEC,0,LUIS RAW||PEP+MCC||A8,LUIS RAW,nativo,0.72403,422.75,0.9963,4896.06
+F1 8H 1_png.rf.lx0WrFx5ug5XjuqCnrYl.png,val,HUVEC,8,LUIS RAW||PET||F1,LUIS RAW,nativo,0.76349,438.04,0.7939,6327.66
+E5 8H 2_png.rf.qiYtP4UGzE4Bcbq2kdNv.png,train,HUVEC,8,LUIS RAW||PEP+GB||E5,LUIS RAW,nativo,0.76709,218.68,0.7912,6570.81
+A6 0H 1_png.rf.rKpcg4iYJ50H0XfmG98n.png,test,HUVEC,0,LUIS RAW||PEP+MET3||A6,LUIS RAW,nativo,0.72168,349.34,0.8189,3813.51
+D4 8HR 2_png.rf.1gESfR3nmJtUf5QdqE6H.png,test,HUVEC,8,originais||None||D4,originais,nativo,0.72548,68.01,0.8278,5706.87
+A5 8H 2_png.rf.4o4SKpkxBwxgcOfuL3Zi.png,val,HUVEC,8,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.68269,153.98,0.8484,1812.55
+D8 0HR 1_png.rf.7wO0dPzIcA0LI4de0quS.png,train,HUVEC,0,originais||None||D8,originais,nativo,0.78818,136.33,0.8293,8071.55
+E2 0H 1_png.rf.8Js9pcr7Y57hPhl7o33A.png,train,HUVEC,0,LUIS RAW||PEP||E2,LUIS RAW,nativo,0.77969,853.76,0.7808,7433.97
+A5 12H 2_png.rf.BpoWxZBoZP9BlwUXbmuz.png,val,HUVEC,12,LUIS RAW||PEP||A5,LUIS RAW,nativo,0.6895,133.81,0.8468,2846.42

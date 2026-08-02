@@ -1,0 +1,11 @@
+Series,Field,Timepoint (h),Reference standard,AI
+LUIS RAW||PET||F2||c1,1,12,+0.0212,-0.1465
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,2,8,+0.0627,-0.0359
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,2,12,+0.0082,-0.1239
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,1,8,+0.0820,-0.0143
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,1,12,+0.1174,-0.0166
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,2,8,+0.1089,-0.0162
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,2,12,+0.1405,-0.0279
+Migração (PET e PEP) n3 - RAW||None||D4||c1,1,8,-0.0266,-0.1291
+Migração (PET e PEP) n3 - RAW||None||D4||c1,1,12,+0.1030,-0.0314
+P1|PTX|F9,F9,24,+0.1489,-0.1812

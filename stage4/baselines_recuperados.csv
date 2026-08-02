@@ -1,0 +1,6 @@
+﻿whst_input_file,cell_line,analysis_unit,series_key,campo,timepoint_h,raw_file_original,raw_rel,raw_md5,origem,tamanho_mb
+8ed03d3c08__BASELINE_REC__HUVEC__LUIS_RAW_PET_C5__tp0h__C5_0H_2.tiff,HUVEC,LUIS RAW||PET||C5,LUIS RAW||PET||C5||c2,2,0,C5 0H 2.tiff,LUIS RAW\PET\0h\C5 0H 2.tiff,8ed03d3c0801b472c23566824390cb37,baseline_recuperado_posteriori,11.51
+a4fc0d486b__BASELINE_REC__HUVEC__LUIS_RAW_PET_F2__tp0h__F2_0H_2.tiff,HUVEC,LUIS RAW||PET||F2,LUIS RAW||PET||F2||c2,2,0,F2 0H 2.tiff,LUIS RAW\PET\0h\F2 0H 2.tiff,a4fc0d486b8bb56a130d02e6546adb35,baseline_recuperado_posteriori,12.55
+f2751b8277__BASELINE_REC__HUVEC__Migra_o_PET_e_PEP_n2_RAW_PEP_A2__tp0h__A2_0H_1.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,Migração (PET e PEP) n2 - RAW||PEP||A2||c1,1,0,A2 0H 1.tiff,Migração (PET e PEP) n2 - RAW\PEP\0h\A2 0H 1.tiff,f2751b8277daa5c75ae67c34b41a8e8c,baseline_recuperado_posteriori,7.25
+fb2b4ab75e__BASELINE_REC__HUVEC__originais_None_A5__tp0h__A5_0HR_2.tiff,HUVEC,originais||None||A5,originais||None||A5||c2,2,0,A5 0HR 2.tiff,originais\0hr\A5 0HR 2.tiff,fb2b4ab75eb6ae516a3a7afe9c2af245,baseline_recuperado_posteriori,8.04
+54b338af67__BASELINE_REC__HUVEC__originais_None_B5__tp0h__B5_0HR_2.tiff,HUVEC,originais||None||B5,originais||None||B5||c2,2,0,B5 0HR 2.tiff,originais\0hr\B5 0HR 2.tiff,54b338af67594bb7d6101d898b16c339,baseline_recuperado_posteriori,7.55

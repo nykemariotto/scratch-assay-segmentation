@@ -1,0 +1,141 @@
+name: Reproducibility Check (agreement analysis)
+
+# Reexecuta a análise de concordância que o manuscrito reporta (§2.8, §3,
+# Figuras 3-5) e confere os valores contra os que estão no texto.
+#
+# SUBSTITUI o `reproduce-stats.yml`, que valida `analysis/paired_analysis.py` —
+# a análise de 225 observações da versão SUBMETIDA. Aquela rodou o modelo
+# implantado, treinado sobre o split com leakage, sem restringir à partição
+# held-out; o script não menciona `train` uma única vez. O workflow antigo
+# continua no repositório como registro do que foi submetido, mas só roda por
+# acionamento manual: enquanto ele disparava sozinho, a automação certificava
+# como reproduzíveis justamente os números que a revisão retratou.
+#
+# A análise nova pareia a predição de cada modelo leakage-free no test set com o
+# padrão de referência supervisionado da Etapa 4, nas 97 observações que os 10
+# runs (5 seeds x 2 arquiteturas) devolvem em comum.
+#
+# O próprio `stage3/concordancia_final.py` já falha se divergir do que a Discussion
+# afirma; aqui a conferência é contra o que o Results e o Abstract afirmam.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'stage3/concordancia_final.py'
+      - 'stage3/_concordancia_estat.py'
+      - 'stage3/cmp_*_paired_new_longo.csv'
+      - 'data/closure_final_longo.csv'
+      - '.github/workflows/reproduce-agreement.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'stage3/concordancia_final.py'
+      - 'stage3/_concordancia_estat.py'
+      - 'stage3/cmp_*_paired_new_longo.csv'
+      - 'data/closure_final_longo.csv'
+      - '.github/workflows/reproduce-agreement.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: Agreement analysis on ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-analysis.txt
+
+      - name: Run the agreement analysis
+        run: python stage3/concordancia_final.py
+
+      - name: Verify the values reported in the manuscript
+        shell: python
+        run: |
+          import json
+          import sys
+
+          D = json.load(open('stage3/concordancia_final.json', encoding='utf-8'))
+          Y, U = D['bracos']['YOLO M'], D['bracos']['U-Net']
+
+          # (rótulo, valor obtido, valor no manuscrito, tolerância)
+          # Tolerância de 5e-4: os valores aparecem no texto com 3 casas, então
+          # qualquer deriva que mude o texto é maior que isso.
+          checks = [
+              ('n de observações',        D['n_observacoes'],      97,      0),
+              ('n de séries',             D['n_series'],           45,      0),
+              ('HUVEC, observações',      D['composicao']['HUVEC']['n'],   82, 0),
+              ('SKOV-3, observações',     D['composicao']['SKOV-3']['n'],  15, 0),
+              # Abstract, §3 ¶201 e legenda da Figura 4
+              ('Pearson r',               Y['r']['media'],         0.8196,  5e-4),
+              ('Pearson r, DP',           Y['r']['dp'],            0.0424,  5e-4),
+              ('Spearman rho',            Y['rho']['media'],       0.8413,  5e-4),
+              ("Lin's CCC",               Y['ccc']['media'],       0.8032,  5e-4),
+              ("Lin's CCC, DP",           Y['ccc']['dp'],          0.0486,  5e-4),
+              ('regressão, slope',        Y['slope']['media'],     0.8729,  5e-4),
+              ('regressão, intercepto',   Y['intercept']['media'], 0.1232,  5e-4),
+              # §3 ¶205 e legenda da Figura 5
+              ('viés',                    Y['vies']['media'],      0.0534,  5e-4),
+              ('viés, DP',                Y['vies']['dp'],         0.0178,  5e-4),
+              ('LoA inferior',            Y['loa_lo']['media'],   -0.2883,  5e-4),
+              ('LoA superior',            Y['loa_hi']['media'],    0.3950,  5e-4),
+              ('dentro da LoA (%)',       Y['dentro_loa']['media'], 93.4021, 5e-3),
+              # o comparador U-Net, no mesmo parágrafo
+              ('U-Net viés',              U['vies']['media'],      0.0119,  5e-4),
+              ('U-Net LoA inferior',      U['loa_lo']['media'],   -0.2773,  5e-4),
+              ('U-Net LoA superior',      U['loa_hi']['media'],    0.3011,  5e-4),
+              # a sensibilidade citada no ¶201
+              ('sensibilidade, n',        D['sensibilidade_plausiveis']['YOLO M']['n'], 89, 0),
+          ]
+
+          falhas = []
+          for rot, obtido, esperado, tol in checks:
+              if abs(obtido - esperado) > tol:
+                  falhas.append(f"  {rot}: obtido {obtido}, manuscrito {esperado}")
+
+          # os TOST são a afirmação central do ¶205 e do Abstract
+          tost = [
+              ('TOST ±0.10, seeds equivalentes', Y['tost']['0.10']['equivalentes'], 4),
+              ('TOST ±0.05, seeds equivalentes', Y['tost']['0.05']['equivalentes'], 0),
+              ('U-Net TOST ±0.10',               U['tost']['0.10']['equivalentes'], 5),
+              ('U-Net TOST ±0.05',               U['tost']['0.05']['equivalentes'], 5),
+          ]
+          for rot, obtido, esperado in tost:
+              if obtido != esperado:
+                  falhas.append(f"  {rot}: obtido {obtido}, manuscrito {esperado}")
+
+          if falhas:
+              print('Reproducibility check FAILED:', file=sys.stderr)
+              print('\n'.join(falhas), file=sys.stderr)
+              sys.exit(1)
+
+          print(f'Reproducibility check PASSED '
+                f'({len(checks) + len(tost)} values verified).')
+
+      - name: Upload the analysis output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agreement-${{ matrix.os }}-py${{ matrix.python-version }}
+          path: |
+            stage3/concordancia_final.json
+            stage3/concordancia_final_longo.csv
+          retention-days: 30

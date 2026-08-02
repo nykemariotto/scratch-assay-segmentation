@@ -1,0 +1,13 @@
+# Example set — 4 images from the held-out test set, so that the pipeline can
+# be run without downloading the full dataset from Zenodo.
+#
+# `path` is relative to this file. Ultralytics resolves a relative path against
+# its global `datasets_dir` setting, not against this file, so from a fresh
+# checkout run either `yolo settings datasets_dir=<repo>` first or replace the
+# line below with an absolute path.
+path: examples
+train: images
+val: images
+test: images
+names:
+  0: wound

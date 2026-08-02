@@ -1,0 +1,128 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, dataset, or analysis pipeline,
+  please cite both the companion paper and the Zenodo deposit
+  using the metadata below.
+title: >-
+  Deep Learning Instance Segmentation for Wound Healing Assays --
+  Annotated Image Dataset, Trained Models, and Analysis Pipeline
+abstract: >-
+  Companion code repository for the manuscript "Deep Learning
+  Instance Segmentation for Quantitative Analysis of Cell Migration
+  in Wound Healing Assays: A Benchmark and Web-Accessible Tool"
+  submitted to Cytometry Part A (2026). Provides the statistical
+  analysis pipeline (Pearson, Lin's CCC, Bland-Altman, TOST) and
+  paired ImageJ vs AI measurements (n = 225). The associated
+  annotated image dataset (n = 1,149) and four trained PyTorch
+  model weights are archived at Zenodo under the concept DOI
+  10.5281/zenodo.20298129.
+type: software
+version: "1.0.0"
+date-released: "2026-05-25"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/nykemariotto/scratch-assay-segmentation"
+url: "https://huggingface.co/spaces/nmariotto/Scratch-assay-segmentation"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20298129
+    description: >-
+      Zenodo concept DOI that always resolves to the latest
+      version of the deposit (dataset + models + analysis pipeline).
+  - type: doi
+    value: 10.5281/zenodo.20298130
+    description: >-
+      Zenodo version DOI for v1.0.0 specifically (the version
+      archived for this study).
+keywords:
+  - instance segmentation
+  - wound healing assay
+  - scratch assay
+  - HUVEC
+  - SKOV-3
+  - YOLOv11
+  - Roboflow 3.0
+  - RF-DETR
+  - brightfield microscopy
+  - Segment Anything Model
+  - deep learning
+  - cell migration assays
+authors:
+  - family-names: Mariotto
+    given-names: Nycolas
+    orcid: "https://orcid.org/0009-0000-3586-2020"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: "Dos Santos"
+    given-names: "Geovana A."
+    orcid: "https://orcid.org/0009-0003-0965-027X"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Fioschi
+    given-names: "Geovana R."
+    orcid: "https://orcid.org/0009-0004-7516-5018"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Higino
+    given-names: "Andria C. M."
+    orcid: "https://orcid.org/0009-0006-0574-1301"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Passeti
+    given-names: "Luis F. P."
+    orcid: "https://orcid.org/0009-0005-2282-7951"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Pereira
+    given-names: "Thaina O. B."
+    orcid: "https://orcid.org/0000-0002-4257-3822"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Zampieri
+    given-names: "Gabriela M."
+    orcid: "https://orcid.org/0000-0002-2808-5849"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Aal
+    given-names: "Mirian C. E."
+    orcid: "https://orcid.org/0000-0002-8444-4092"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Delella
+    given-names: "Flavia Karina"
+    orcid: "https://orcid.org/0000-0001-6362-5882"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Sandrim
+    given-names: "Valeria C."
+    orcid: "https://orcid.org/0000-0002-6168-7470"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+  - family-names: Alves
+    given-names: "Allan Felipe Fattori"
+    orcid: "https://orcid.org/0000-0002-0954-9919"
+    affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
+    email: allan.alves@unesp.br
+preferred-citation:
+  type: article
+  title: >-
+    Deep Learning Instance Segmentation for Quantitative Analysis
+    of Cell Migration in Wound Healing Assays: A Benchmark and
+    Web-Accessible Tool
+  journal: "Cytometry Part A"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Mariotto
+      given-names: Nycolas
+    - family-names: "Dos Santos"
+      given-names: "Geovana A."
+    - family-names: Fioschi
+      given-names: "Geovana R."
+    - family-names: Higino
+      given-names: "Andria C. M."
+    - family-names: Passeti
+      given-names: "Luis F. P."
+    - family-names: Pereira
+      given-names: "Thaina O. B."
+    - family-names: Zampieri
+      given-names: "Gabriela M."
+    - family-names: Aal
+      given-names: "Mirian C. E."
+    - family-names: Delella
+      given-names: "Flavia Karina"
+    - family-names: Sandrim
+      given-names: "Valeria C."
+    - family-names: Alves
+      given-names: "Allan Felipe Fattori"

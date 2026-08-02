@@ -1,0 +1,152 @@
+[
+  {
+    "run": "yolo11s-seg_black_coco_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 3688.9
+  },
+  {
+    "run": "yolo11s-seg_black_coco_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 3674.8
+  },
+  {
+    "run": "yolo11s-seg_black_coco_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 3767.1
+  },
+  {
+    "run": "yolo11s-seg_black_coco_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 3812.0
+  },
+  {
+    "run": "yolo11s-seg_black_coco_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 3814.3
+  },
+  {
+    "run": "yolo11m-seg_black_coco_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4749.6
+  },
+  {
+    "run": "yolo11m-seg_black_coco_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4683.6
+  },
+  {
+    "run": "yolo11m-seg_black_coco_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4720.0
+  },
+  {
+    "run": "yolo11m-seg_black_coco_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4644.8
+  },
+  {
+    "run": "yolo11m-seg_black_coco_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4701.6
+  },
+  {
+    "run": "yolo11x-seg_black_coco_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 7517.0
+  },
+  {
+    "run": "yolo11x-seg_black_coco_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 7457.3
+  },
+  {
+    "run": "yolo11x-seg_black_coco_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 7493.0
+  },
+  {
+    "run": "yolo11x-seg_black_coco_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 7526.5
+  },
+  {
+    "run": "yolo11x-seg_black_coco_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 7512.0
+  },
+  {
+    "run": "yolo11m-seg_white_coco_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4679.9
+  },
+  {
+    "run": "yolo11m-seg_white_coco_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4731.8
+  },
+  {
+    "run": "yolo11m-seg_white_coco_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4611.9
+  },
+  {
+    "run": "yolo11m-seg_white_coco_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4710.7
+  },
+  {
+    "run": "yolo11m-seg_white_coco_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4731.4
+  },
+  {
+    "run": "yolo11m-seg_black_scratch_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4712.1
+  },
+  {
+    "run": "yolo11m-seg_black_scratch_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4703.4
+  },
+  {
+    "run": "yolo11m-seg_black_scratch_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4673.0
+  },
+  {
+    "run": "yolo11m-seg_black_scratch_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4586.4
+  },
+  {
+    "run": "yolo11m-seg_black_scratch_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 4694.7
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "n": 409,
+  "with_dt": 409,
+  "stability": {
+    "P1/CT": {
+      "pos_consistent_across_tp": false,
+      "temporal_order_eq_numeric": false,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h",
+        "72h"
+      ]
+    },
+    "P1/GEO": {
+      "pos_consistent_across_tp": false,
+      "temporal_order_eq_numeric": true,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h",
+        "72h"
+      ]
+    },
+    "P1/GEO+PTX": {
+      "pos_consistent_across_tp": false,
+      "temporal_order_eq_numeric": false,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h",
+        "72h"
+      ]
+    },
+    "P1/PTX": {
+      "pos_consistent_across_tp": false,
+      "temporal_order_eq_numeric": true,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h",
+        "72h"
+      ]
+    },
+    "P2/CARBO": {
+      "pos_consistent_across_tp": true,
+      "temporal_order_eq_numeric": true,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h"
+      ]
+    },
+    "P2/CARBO+GEO": {
+      "pos_consistent_across_tp": false,
+      "temporal_order_eq_numeric": true,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h"
+      ]
+    },
+    "P2/CT": {
+      "pos_consistent_across_tp": true,
+      "temporal_order_eq_numeric": false,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h"
+      ]
+    },
+    "P2/GEO": {
+      "pos_consistent_across_tp": true,
+      "temporal_order_eq_numeric": true,
+      "timepoints": [
+        "0h",
+        "24h",
+        "48h"
+      ]
+    }
+  }
+}

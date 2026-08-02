@@ -1,0 +1,154 @@
+name: Reproducibility Check (SUPERSEDED — submitted-version paired analysis)
+
+# ⚠️ HISTORICAL. This workflow validates `analysis/paired_analysis.py`, the
+# agreement analysis of an earlier version of this work: 225 observations, a model
+# trained on a partition that turned out to leak, paired with three annotators'
+# ImageJ measurements and with NO restriction to the held-out partition — the
+# script does not mention `train` once. It has been superseded; see
+# `.github/workflows/reproduce-agreement.yml`.
+#
+# The 23 assertions below remain TRUE in the strict sense: the script reproduces
+# the numbers it has always produced. What changed is their standing — they are no
+# longer the numbers of the paper. That is why the workflow no longer fires on push
+# and pull request: while it did, the automation was certifying as reproducible
+# exactly the values that were later withdrawn.
+#
+# Kept rather than deleted because it is the record that the earlier version was
+# internally reproducible — the defect was in the partition, not in the arithmetic.
+# Manual dispatch only.
+#
+# (23 assertions spanning Pearson r, Lin's CCC, Bland-Altman, TOST,
+# per-timepoint descriptives, paired t-tests with Cohen's d, and linear
+# regression.)
+#
+# It does NOT validate any per-clinical-group analysis: that analysis was removed,
+# and keeping the assertion would have blocked the removal.
+#
+# Bootstrap seed is fixed (seed=42), so results are deterministic across
+# Linux/macOS/Windows runners. Dependencies come from
+# requirements-analysis.txt, pinned to the same versions as requirements.txt.
+
+on:
+  workflow_dispatch:        # SÓ manual — ver a nota no cabeçalho
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: Reproduce paired_analysis.py on ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('.github/workflows/reproduce-stats.yml') }}
+
+      - name: Install dependencies
+        # Versões vêm de requirements-analysis.txt (subconjunto de
+        # requirements.txt, mesmas versões). Antes o CI fixava scipy 1.13 /
+        # pandas 2.2 — divergente do ambiente documentado, de modo que o CI
+        # validava reprodutibilidade sob versões que ninguém usava.
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-analysis.txt
+
+      - name: Run paired_analysis.py
+        run: python analysis/paired_analysis.py | tee paired_output.txt
+
+      - name: Verify key statistics match reported values
+        shell: python
+        run: |
+          import re
+          import sys
+
+          with open('paired_output.txt', 'r') as f:
+              out = f.read()
+
+          # Expected statistics (paper Section 3, method-agreement analysis)
+          expected = {
+              # Core method-agreement (from RAW DATA block)
+              'Pearson r (raw)':              ('Pearson r        = 0.8396', 'RAW DATA'),
+              'Spearman rho (raw)':           ('Spearman rho     = 0.8231', 'RAW DATA'),
+              "Lin's CCC (raw)":              ("Lin's CCC        = 0.8385", 'RAW DATA'),
+              'Bland-Altman bias (raw)':      ('Bias (AI - ImageJ)  = -0.0144', 'RAW DATA'),
+              'SD of differences (raw)':      ('SD of differences   = 0.1640', 'RAW DATA'),
+              'Within LoA (raw)':             ('Within LoA          = 92.4%', 'RAW DATA'),
+              # Per-timepoint Pearson
+              't = 8h Pearson r':             ('Pearson r = 0.7748', 't =  8h'),
+              't = 12h Pearson r':            ('Pearson r = 0.7018', 't = 12h'),
+              't = 24h Pearson r':            ('Pearson r = 0.7914', 't = 24h'),
+              # ---------------------------------------------------------
+              # REMOVED: per-clinical-group assertions (early-/late-onset).
+              #
+              # The per-clinical-group analysis was dropped from the manuscript and
+              # from paired_analysis.py: agreement between the automated and the
+              # reference measurement is a property of the image and of the
+              # algorithm, not of the biological treatment, and Cytometry Part A is
+              # a methods journal.
+              #
+              # Enquanto estas asserções existirem, o CI FALHA no momento em que
+              # D1 for aplicada — isto é, a automação passa a travar a própria
+              # correção que a revisão exige. Removidas por isso, não por
+              # conveniência. Se a análise clínica for reintroduzida algum dia,
+              # reinserir aqui:
+              #     'Early-onset Pearson r': ('r=0.7836', 'Early-onset'),
+              #     'Late-onset  Pearson r': ('r=0.8803', 'Late-onset'),
+              # ---------------------------------------------------------
+              # NEW: Per-timepoint descriptive stats (mean +/- SD as % closure)
+              # Note: format uses 2 spaces of padding before SD value due to %5.1f
+              'ImageJ 8h  mean/SD %':         ('34.7 +/-  20.4', 'PER-TIMEPOINT DESCRIPTIVE'),
+              'AI     8h  mean/SD %':         ('35.9 +/-  20.5', 'PER-TIMEPOINT DESCRIPTIVE'),
+              'ImageJ 12h mean/SD %':         ('50.5 +/-  22.6', 'PER-TIMEPOINT DESCRIPTIVE'),
+              'AI     12h mean/SD %':         ('47.8 +/-  25.1', 'PER-TIMEPOINT DESCRIPTIVE'),
+              'ImageJ 24h mean/SD %':         ('78.2 +/-  24.6', 'PER-TIMEPOINT DESCRIPTIVE'),
+              'AI     24h mean/SD %':         ('75.4 +/-  26.2', 'PER-TIMEPOINT DESCRIPTIVE'),
+              # NEW: Per-timepoint paired t-test p-values + Cohen's d
+              'Paired 8h  p':                 ('0.4560', "PAIRED t-TEST"),
+              "Cohen's d 8h":                 ('+0.087', "PAIRED t-TEST"),
+              'Paired 12h p':                 ('0.2077', "PAIRED t-TEST"),
+              "Cohen's d 12h":                ('-0.147', "PAIRED t-TEST"),
+              'Paired 24h p':                 ('0.1483', "PAIRED t-TEST"),
+              "Cohen's d 24h":                ('-0.169', "PAIRED t-TEST"),
+              # NEW: Linear regression
+              'Regression slope':             ('slope     = 0.8488', 'LINEAR REGRESSION'),
+              'Regression intercept':         ('intercept = 0.0680', 'LINEAR REGRESSION'),
+          }
+
+          failures = []
+          for label, (snippet, context_marker) in expected.items():
+              if snippet not in out:
+                  failures.append(f"  MISSING in '{label}': expected '{snippet}' (near '{context_marker}')")
+
+          if failures:
+              print("Reproducibility check FAILED:", file=sys.stderr)
+              for f in failures:
+                  print(f, file=sys.stderr)
+              print("\nFull output below for debugging:\n", file=sys.stderr)
+              print(out, file=sys.stderr)
+              sys.exit(1)
+
+          print(f"Reproducibility check PASSED ({len(expected)} key statistics verified).")
+
+      - name: Upload paired_analysis.py output as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paired-output-${{ matrix.os }}-py${{ matrix.python-version }}
+          path: paired_output.txt
+          retention-days: 30

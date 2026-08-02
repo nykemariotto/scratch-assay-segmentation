@@ -1,0 +1,14 @@
+{
+  "seed": 85,
+  "imagens": {
+    "val": 49,
+    "train": 234,
+    "test": 50
+  },
+  "grupos": {
+    "test": 16,
+    "val": 16,
+    "train": 86
+  },
+  "grupos_partidos": 0
+}

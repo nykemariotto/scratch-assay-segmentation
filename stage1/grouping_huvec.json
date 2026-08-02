@@ -1,0 +1,302 @@
+{
+ "n_huvec": 1034,
+ "lotes_achatados": [
+  "Originais (1)",
+  "originais",
+  "Migração (PET e PEP) n3 - RAW",
+  "Controle",
+  "Pré-Eclâmpsia",
+  "Saudável"
+ ],
+ "lotes_com_subpasta": [
+  "LUIS RAW",
+  "Migração (PET e PEP) n2 - RAW",
+  "Migração (PET e PEP) n1 - RAW"
+ ],
+ "lote_trats": {
+  "Controle": {
+   "": 67
+  },
+  "Migração (PET e PEP) n3 - RAW": {
+   "": 110
+  },
+  "Migração (PET e PEP) n2 - RAW": {
+   "PEP": 23,
+   "PEP + NEB 5uM": 15,
+   "PET + NEB 1uM": 16,
+   "PET + NEB 5uM": 16,
+   "PEP + NEB 1uM": 15,
+   "PET": 24
+  },
+  "LUIS RAW": {
+   "PEP+MET3": 40,
+   "PEP+MCC": 45,
+   "PEP+GB": 40,
+   "PEP": 41,
+   "PET": 30
+  },
+  "Originais (1)": {
+   "": 206
+  },
+  "Saudável": {
+   "": 39
+  },
+  "": {
+   "": 12
+  },
+  "Pré-Eclâmpsia": {
+   "": 53
+  },
+  "originais": {
+   "": 138
+  },
+  "Migração (PET e PEP) n1 - RAW": {
+   "PEP": 24,
+   "PET": 20,
+   "PEP + NEB 5uM": 16,
+   "PEP + NEB 1uM": 15,
+   "PET + NEB 1uM": 16,
+   "PET + NEB 5uM": 13
+  }
+ },
+ "wells_com_multi_trat_no_lote": 0,
+ "wells_distintos": 42,
+ "wells_cruzando_contexto": 32,
+ "fusao_aplicada": {
+  "lotes": [
+   "Controle",
+   "Saudável"
+  ],
+  "canonico": "Controle+Saudavel"
+ },
+ "origem_lote": {
+  "hash": 963,
+  "nome_norm": 59,
+  "": 12
+ },
+ "ambiguas": {
+  "Controle/None|Saudável/None": 11,
+  "LUIS RAW/PET|Migração (PET e PEP) n3 - RAW/None": 1
+ },
+ "ambiguas_resolvidas_por_fusao": 11,
+ "excluidas": [
+  "d1 8h 2"
+ ],
+ "utilizaveis": 1033,
+ "timepoints_por_well": {
+  "1": 9,
+  "2": 10,
+  "3": 17,
+  "4": 111
+ },
+ "wells_multi_timepoint": 138,
+ "wells_total_C": 147,
+ "medicao_chaves": {
+  "A_well": {
+   "chave": "A_well",
+   "n_grupos": 42,
+   "n_imagens": 1033,
+   "img_min": 4,
+   "img_mediana": 23,
+   "img_max": 56,
+   "img_media": 24.6,
+   "grupos_com_1_img": 0,
+   "tp_por_grupo_dist": {
+    "3": 2,
+    "4": 40
+   },
+   "wells_fisicos_partidos": 0,
+   "grupos_multi_well_fisico": 32
+  },
+  "B_lote_well": {
+   "chave": "B_lote_well",
+   "n_grupos": 147,
+   "n_imagens": 1033,
+   "img_min": 1,
+   "img_mediana": 8,
+   "img_max": 23,
+   "img_media": 7.03,
+   "grupos_com_1_img": 4,
+   "tp_por_grupo_dist": {
+    "1": 9,
+    "2": 10,
+    "3": 17,
+    "4": 111
+   },
+   "wells_fisicos_partidos": 0,
+   "grupos_multi_well_fisico": 0
+  },
+  "C_lote_trat_well": {
+   "chave": "C_lote_trat_well",
+   "n_grupos": 147,
+   "n_imagens": 1033,
+   "img_min": 1,
+   "img_mediana": 8,
+   "img_max": 23,
+   "img_media": 7.03,
+   "grupos_com_1_img": 4,
+   "tp_por_grupo_dist": {
+    "1": 9,
+    "2": 10,
+    "3": 17,
+    "4": 111
+   },
+   "wells_fisicos_partidos": 0,
+   "grupos_multi_well_fisico": 0
+  },
+  "D_lote_trat": {
+   "chave": "D_lote_trat",
+   "n_grupos": 22,
+   "n_imagens": 1033,
+   "img_min": 13,
+   "img_mediana": 24,
+   "img_max": 206,
+   "img_media": 46.95,
+   "grupos_com_1_img": 0,
+   "tp_por_grupo_dist": {
+    "4": 22
+   },
+   "wells_fisicos_partidos": 0,
+   "grupos_multi_well_fisico": 22
+  }
+ },
+ "cobertura_total": true,
+ "split": {
+  "seed": 5,
+  "chave": "C_lote_trat_well",
+  "imagens": {
+   "train": 706,
+   "test": 166,
+   "val": 161
+  },
+  "grupos": {
+   "train": 91,
+   "val": 28,
+   "test": 28
+  },
+  "total": 1033,
+  "pct": {
+   "train": 68.34,
+   "test": 16.07,
+   "val": 15.59
+  },
+  "por_timepoint": {
+   "8": {
+    "train": 178,
+    "test": 44,
+    "val": 43
+   },
+   "12": {
+    "train": 182,
+    "test": 41,
+    "val": 41
+   },
+   "24": {
+    "train": 163,
+    "test": 42,
+    "val": 37
+   },
+   "0": {
+    "train": 183,
+    "test": 39,
+    "val": 40
+   }
+  },
+  "por_lote": {
+   "Controle+Saudavel": {
+    "train": 82,
+    "val": 17,
+    "test": 18
+   },
+   "Migração (PET e PEP) n3 - RAW": {
+    "train": 79,
+    "val": 15,
+    "test": 16
+   },
+   "Migração (PET e PEP) n2 - RAW": {
+    "test": 21,
+    "train": 72,
+    "val": 16
+   },
+   "LUIS RAW": {
+    "train": 129,
+    "test": 31,
+    "val": 36
+   },
+   "Originais (1)": {
+    "train": 148,
+    "val": 29,
+    "test": 29
+   },
+   "Pré-Eclâmpsia": {
+    "train": 37,
+    "val": 8,
+    "test": 8
+   },
+   "originais": {
+    "train": 96,
+    "test": 21,
+    "val": 21
+   },
+   "Migração (PET e PEP) n1 - RAW": {
+    "train": 63,
+    "test": 22,
+    "val": 19
+   }
+  },
+  "por_tratamento": {
+   "(sem rotulo)": {
+    "train": 442,
+    "val": 90,
+    "test": 92
+   },
+   "PEP": {
+    "test": 14,
+    "train": 60,
+    "val": 14
+   },
+   "PEP+MET3": {
+    "train": 27,
+    "test": 7,
+    "val": 6
+   },
+   "PEP+MCC": {
+    "test": 7,
+    "train": 32,
+    "val": 6
+   },
+   "PEP+GB": {
+    "train": 28,
+    "val": 6,
+    "test": 6
+   },
+   "PEP + NEB 5uM": {
+    "val": 8,
+    "test": 7,
+    "train": 16
+   },
+   "PET": {
+    "train": 53,
+    "test": 10,
+    "val": 11
+   },
+   "PET + NEB 1uM": {
+    "val": 8,
+    "train": 16,
+    "test": 8
+   },
+   "PET + NEB 5uM": {
+    "train": 16,
+    "test": 8,
+    "val": 5
+   },
+   "PEP + NEB 1uM": {
+    "train": 16,
+    "test": 7,
+    "val": 7
+   }
+  }
+ },
+ "leakage_wells_partidos": 0,
+ "leakage_stems_partidos": 169
+}

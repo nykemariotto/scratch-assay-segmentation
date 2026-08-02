@@ -1,0 +1,44 @@
+# =====================================================================
+# Scratch Assay Segmentation — dependências fixadas
+# Manuscript 4336348, Cytometry Part A (revisão)
+#
+# Versões exatas do ambiente em que os resultados reportados foram
+# produzidos (gestão de dependências · C9: reprodutibilidade).
+#
+# Instalação:
+#   python -m venv .venv
+#   .venv\Scripts\activate          # Windows
+#   source .venv/bin/activate       # Linux/macOS
+#   pip install -r requirements.txt
+#
+# ATENÇÃO — PyTorch com CUDA:
+#   torch/torchvision abaixo são as builds CUDA 12.4. O PyPI padrão serve
+#   a build CPU, que treina ordens de magnitude mais devagar. Para GPU:
+#     pip install torch==2.6.0 torchvision==0.21.0 \
+#         --index-url https://download.pytorch.org/whl/cu124
+#   Confirme com:  python -c "import torch; print(torch.cuda.is_available())"
+#
+# Ambiente de referência: Python 3.13.11 · Windows 11 · RTX 4060 Ti (8 GB)
+# =====================================================================
+
+# ----- treino e inferência -----
+ultralytics==8.4.102
+torch==2.6.0
+torchvision==0.21.0
+
+# ----- numérico e imagem -----
+numpy==2.4.4
+opencv-python==5.0.0.93
+pillow==12.3.0
+scipy==1.18.0
+
+# ----- dados e planilhas -----
+pandas==3.0.2
+pyyaml==6.0.3
+openpyxl==3.1.5
+
+# ----- figuras -----
+matplotlib==3.11.1
+
+# ----- utilidades -----
+tqdm==4.67.1

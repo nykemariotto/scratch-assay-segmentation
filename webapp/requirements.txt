@@ -1,0 +1,14 @@
+streamlit
+pandas
+matplotlib
+Pillow
+openpyxl
+google-auth
+google-api-python-client
+gspread
+huggingface_hub
+ultralytics
+torch
+torchvision
+opencv-python-headless
+numpy

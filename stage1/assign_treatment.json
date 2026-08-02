@@ -1,0 +1,46 @@
+{
+  "n_source": 408,
+  "n_bd": 409,
+  "n_matched": 409,
+  "bd_counts": {
+    "0h|P2|CARBO": 15,
+    "0h|P2|GEO": 15,
+    "0h|P2|CARBO+GEO": 15,
+    "0h|P2|CT": 16,
+    "0h|P1|PTX": 15,
+    "0h|P1|GEO": 15,
+    "0h|P1|GEO+PTX": 15,
+    "0h|P1|CT": 15,
+    "24h|P2|CARBO": 15,
+    "24h|P2|CARBO+GEO": 15,
+    "24h|P2|CT": 15,
+    "24h|P2|GEO": 15,
+    "24h|P1|GEO": 15,
+    "24h|P1|GEO+PTX": 15,
+    "24h|P1|CT": 15,
+    "24h|P1|PTX": 15,
+    "48h|P2|CARBO+GEO": 15,
+    "48h|P2|CT": 15,
+    "48h|P2|CARBO": 15,
+    "48h|P2|GEO": 15,
+    "48h|P1|GEO+PTX": 15,
+    "48h|P1|GEO": 15,
+    "48h|P1|CT": 15,
+    "48h|P1|PTX": 15,
+    "72h|P1|CT": 3,
+    "72h|P1|GEO": 15,
+    "72h|P1|GEO+PTX": 15,
+    "72h|P1|PTX": 15
+  },
+  "join_stats": {
+    "skov_ok": 333
+  },
+  "skov_treatment_dist": {
+    "CARBO+GEO": 36,
+    "GEO+PTX": 48,
+    "CT": 82,
+    "PTX": 45,
+    "GEO": 84,
+    "CARBO": 38
+  }
+}
