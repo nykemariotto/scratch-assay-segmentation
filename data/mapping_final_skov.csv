@@ -1,0 +1,334 @@
+arquivo_b,stem_normalizado,arquivo_a,pasta_a,linha_celular,well_campo,timepoint_h,similaridade,margem_2o_melhor,status,experimento,tratamento,creation_dt,field_id,grp_field,grp_treat,split_skov
+Snap-48_5_png.rf.cqWnY0bh8WHNUbPpOr1X.png,snap-48,Snap-48.tiff,SKOV/48h,SKOV,snap-48,48,0.9995,0.1881,ok,P2,CARBO+GEO,,2,P2|CARBO+GEO|F2,P2|CARBO+GEO,val
+Snap-48_png.rf.gFj32XMP1AE8ivadgFZ2.png,snap-48,Snap-48.tiff,SKOV/0h,SKOV,snap-48,0,0.9998,0.1891,ok,P2,CARBO+GEO,,2,P2|CARBO+GEO|F2,P2|CARBO+GEO,val
+Snap-48_263_png.rf.m3ZXyMmPHbQPpj19hAhv.png,snap-48,Snap-48.tiff,SKOV/72h,SKOV,snap-48,72,0.9996,0.264,ok,P1,GEO+PTX,,13,P1|GEO+PTX|F13,P1|GEO+PTX,val
+Snap-48_110_png.rf.6W4SsaL8UNRSLJ5llLr8.png,snap-48,Snap-48.tiff,SKOV/24h,SKOV,snap-48,24,0.9995,0.2,ok,P2,CARBO+GEO,,2,P2|CARBO+GEO|F2,P2|CARBO+GEO,val
+Snap-48_214_png.rf.W39NuOZewyYyiyIabBmm.png,snap-48,Snap-48 (2).tiff,SKOV/24h,SKOV,snap-48,24,0.9996,0.19,ok,P1,GEO+PTX,,2,P1|GEO+PTX|F2,P1|GEO+PTX,train
+Snap-48_154_png.rf.V7qG7LsfdmdR0HUAFpGy.png,snap-48,Snap-48 (2).tiff,SKOV/48h,SKOV,snap-48,48,0.9995,0.2167,ok,P1,GEO+PTX,,2,P1|GEO+PTX|F2,P1|GEO+PTX,train
+Snap-58_209_png.rf.dbUw0s4aSvUw7mzdslRe.png,snap-58,Snap-58 (2).tiff,SKOV/24h,SKOV,snap-58,24,0.9997,0.1862,ok,P1,GEO+PTX,,12,P1|GEO+PTX|F12,P1|GEO+PTX,train
+Snap-58_png.rf.5bdBujv1yq4UbPqw35L3.png,snap-58,Snap-58.tiff,SKOV/0h,SKOV,snap-58,0,0.9998,0.1931,ok,P2,CARBO+GEO,,12,P2|CARBO+GEO|F12,P2|CARBO+GEO,train
+Snap-58_105_png.rf.S6dGBs8nCJirevpjONB2.png,snap-58,Snap-58.tiff,SKOV/24h,SKOV,snap-58,24,0.9953,0.1902,ok,P2,CARBO+GEO,,12,P2|CARBO+GEO|F12,P2|CARBO+GEO,train
+Snap-58_149_png.rf.gGNFmJIkalAHR9rJANe3.png,snap-58,Snap-58 (2).tiff,SKOV/48h,SKOV,snap-58,48,0.9996,0.1873,ok,P1,GEO+PTX,,12,P1|GEO+PTX|F12,P1|GEO+PTX,train
+Snap-58_0_png.rf.LwKLpPTz09rttth9yXyJ.png,snap-58,Snap-58.tiff,SKOV/48h,SKOV,snap-58,48,0.9994,0.2262,ok,P2,CARBO+GEO,,12,P2|CARBO+GEO|F12,P2|CARBO+GEO,train
+Snap-59_152_png.rf.epaimzc0srccqJG6nJAH.png,snap-59,Snap-59 (2).tiff,SKOV/48h,SKOV,snap-59,48,0.9995,0.1465,ok,P1,GEO+PTX,,13,P1|GEO+PTX|F13,P1|GEO+PTX,val
+Snap-59_png.rf.QAzP72FtBpszeTf2Mrk5.png,snap-59,Snap-59.tiff,SKOV/0h,SKOV,snap-59,0,0.9998,0.1468,ok,P2,CARBO+GEO,,13,P2|CARBO+GEO|F13,P2|CARBO+GEO,train
+Snap-59_108_png.rf.pcjqa4byhXHVWqchoMza.png,snap-59,Snap-59.tiff,SKOV/24h,SKOV,snap-59,24,0.997,0.2019,ok,P2,CARBO+GEO,,13,P2|CARBO+GEO|F13,P2|CARBO+GEO,train
+Snap-59_3_png.rf.GOvQjtVZo8TiQHDmnSM2.png,snap-59,Snap-59.tiff,SKOV/48h,SKOV,snap-59,48,0.9996,0.1669,ok,P2,CARBO+GEO,,13,P2|CARBO+GEO|F13,P2|CARBO+GEO,train
+Snap-59_212_png.rf.mFpPNMwFcq90Zp1o20IQ.png,snap-59,Snap-59 (2).tiff,SKOV/24h,SKOV,snap-59,24,0.9996,0.1709,ok,P1,GEO+PTX,,13,P1|GEO+PTX|F13,P1|GEO+PTX,val
+Snap-09_140_png.rf.MLfBljl6KhYw7N82HEXA.png,snap-9,Snap-09 (2).tiff,SKOV/48h,SKOV,snap-9,48,0.9994,0.1598,ok,P1,CT,,9,P1|CT|F9,P1|CT,train
+Snap-09_245_png.rf.Sk2QN2VbMrtgID67t9q5.png,snap-9,Snap-09.tiff,SKOV/72h,SKOV,snap-9,72,0.9993,0.3111,ok,P1,PTX,,4,P1|PTX|F4,P1|PTX,train
+Snap-09_200_png.rf.T1DuJr60ClWyEIrNPE9K.png,snap-9,Snap-09 (2).tiff,SKOV/24h,SKOV,snap-9,24,0.9995,0.1335,ok,P1,CT,,8,P1|CT|F8,P1|CT,train
+Snap-09_21_png.rf.eX9WeCW8GgIO8pb44zNf.png,snap-9,Snap-09.tiff,SKOV/48h,SKOV,snap-9,48,0.9995,0.1473,ok,P2,CT,,9,P2|CT|F9,P2|CT,train
+Snap-09_png.rf.8rxFGfmpj3ofgVOjtLkE.png,snap-9,Snap-09.tiff,SKOV/0h,SKOV,snap-9,0,0.9998,0.134,ok,P2,CT,,8,P2|CT|F8,P2|CT,train
+Snap-09_66_png.rf.DXbLfCegxmVs4TDoenmh.png,snap-9,Snap-09.tiff,SKOV/24h,SKOV,snap-9,24,0.9993,0.1964,ok,P2,CT,,9,P2|CT|F9,P2|CT,train
+Snap-52_153_png.rf.jWozliFwqBh7FtxPjDhr.png,snap-52,Snap-52 (2).tiff,SKOV/48h,SKOV,snap-52,48,0.9995,0.2985,ok,P1,GEO+PTX,,6,P1|GEO+PTX|F6,P1|GEO+PTX,test
+Snap-52_109_png.rf.uchITFihZ7aBNqGdXlak.png,snap-52,Snap-52.tiff,SKOV/24h,SKOV,snap-52,24,0.9996,0.2479,ok,P2,CARBO+GEO,,6,P2|CARBO+GEO|F6,P2|CARBO+GEO,train
+Snap-52_213_png.rf.YrkkVK1Bonf3TxwPZWyE.png,snap-52,Snap-52 (2).tiff,SKOV/24h,SKOV,snap-52,24,0.9996,0.3038,ok,P1,GEO+PTX,,6,P1|GEO+PTX|F6,P1|GEO+PTX,test
+Snap-52_png.rf.quPTO48loQ0BH1YV5D1Z.png,snap-52,Snap-52.tiff,SKOV/0h,SKOV,snap-52,0,0.9985,0.2462,ok,P2,CARBO+GEO,,6,P2|CARBO+GEO|F6,P2|CARBO+GEO,train
+Snap-52_4_png.rf.QgOXnOk246Qj4V3lKXiq.png,snap-52,Snap-52.tiff,SKOV/48h,SKOV,snap-52,48,0.9995,0.2836,ok,P2,CARBO+GEO,,6,P2|CARBO+GEO|F6,P2|CARBO+GEO,train
+Snap-12_143_png.rf.Rm5zxWJpiG4cZ3oTCpJH.png,snap-12,Snap-12 (2).tiff,SKOV/48h,SKOV,snap-12,48,0.9994,0.1839,ok,P1,CT,,12,P1|CT|F12,P1|CT,train
+Snap-12_69_png.rf.WicraKQ0CdhUH1IJtnIT.png,snap-12,Snap-12.tiff,SKOV/24h,SKOV,snap-12,24,0.9994,0.1295,ok,P2,CT,,12,P2|CT|F12,P2|CT,train
+Snap-12_24_png.rf.Ru6LnkVq8ptg2oaXuud7.png,snap-12,Snap-12.tiff,SKOV/48h,SKOV,snap-12,48,0.9996,0.1296,ok,P2,CT,,12,P2|CT|F12,P2|CT,train
+Snap-12_247_png.rf.bejYN9qav9OwHOvHDtwA.png,snap-12,Snap-12.tiff,SKOV/72h,SKOV,snap-12,72,0.9992,0.289,ok,P1,PTX,,7,P1|PTX|F7,P1|PTX,test
+Snap-12_203_png.rf.JEql0PcElKuzYrOsXGDk.png,snap-12,Snap-12 (2).tiff,SKOV/24h,SKOV,snap-12,24,0.9995,0.1886,ok,P1,CT,,11,P1|CT|F11,P1|CT,train
+Snap-12_png.rf.JaRx2jnw5N6x11Hp0geO.png,snap-12,Snap-12.tiff,SKOV/0h,SKOV,snap-12,0,0.9998,0.1299,ok,P2,CT,,11,P2|CT|F11,P2|CT,train
+Snap-08_246_png.rf.RqnG5jTrBo52eftjs5DV.png,snap-8,Snap-08.tiff,SKOV/72h,SKOV,snap-8,72,0.9992,0.2357,ok,P1,PTX,,3,P1|PTX|F3,P1|PTX,train
+Snap-08_201_png.rf.chUbIWmSPfojmz0KJLAC.png,snap-8,Snap-08 (2).tiff,SKOV/24h,SKOV,snap-8,24,0.9995,0.2305,ok,P1,CT,,7,P1|CT|F7,P1|CT,train
+Snap-08_67_png.rf.pJTf39K2wKaqnC1k9jIb.png,snap-8,Snap-08.tiff,SKOV/24h,SKOV,snap-8,24,0.9992,0.2556,ok,P2,CT,,8,P2|CT|F8,P2|CT,train
+Snap-08_141_png.rf.xxwXm4vgaTgEnxfrDBvk.png,snap-8,Snap-08 (2).tiff,SKOV/48h,SKOV,snap-8,48,0.9994,0.2185,ok,P1,CT,,8,P1|CT|F8,P1|CT,train
+Snap-08_png.rf.nMSmGWytV5eO27dMe1ee.png,snap-8,Snap-08.tiff,SKOV/0h,SKOV,snap-8,0,0.9996,0.1985,ok,P2,CT,,7,P2|CT|F7,P2|CT,train
+Snap-08_22_png.rf.GCWDDmkNJNGxWqA6yAIT.png,snap-8,Snap-08.tiff,SKOV/48h,SKOV,snap-8,48,0.9995,0.198,ok,P2,CT,,8,P2|CT|F8,P2|CT,train
+Snap-55_png.rf.mdqwr9JeLjcb6ofmfYgj.png,snap-55,Snap-55.tiff,SKOV/0h,SKOV,snap-55,0,0.9987,0.2016,ok,P2,CARBO+GEO,,9,P2|CARBO+GEO|F9,P2|CARBO+GEO,train
+Snap-55_151_png.rf.HB3SBxZfAuHyuw16MFoY.png,snap-55,Snap-55 (2).tiff,SKOV/48h,SKOV,snap-55,48,0.9995,0.1452,ok,P1,GEO+PTX,,9,P1|GEO+PTX|F9,P1|GEO+PTX,train
+Snap-55_2_png.rf.yBgBsBStUWm9nrHoWzT9.png,snap-55,Snap-55.tiff,SKOV/48h,SKOV,snap-55,48,0.9997,0.1453,ok,P2,CARBO+GEO,,9,P2|CARBO+GEO|F9,P2|CARBO+GEO,train
+Snap-55_211_png.rf.EPNfhr87AJkv5f9UxEy5.png,snap-55,Snap-55 (2).tiff,SKOV/24h,SKOV,snap-55,24,0.9995,0.1939,ok,P1,GEO+PTX,,9,P1|GEO+PTX|F9,P1|GEO+PTX,train
+Snap-55_107_png.rf.sR9Ln7DKRgZ1U7IHe31n.png,snap-55,Snap-55.tiff,SKOV/24h,SKOV,snap-55,24,0.9996,0.1598,ok,P2,CARBO+GEO,,9,P2|CARBO+GEO|F9,P2|CARBO+GEO,train
+Snap-50_217_png.rf.rf55ujFurc07N7cDRLSR.png,snap-50,Snap-50 (2).tiff,SKOV/24h,SKOV,snap-50,24,0.9997,0.1754,ok,P1,GEO+PTX,,4,P1|GEO+PTX|F4,P1|GEO+PTX,val
+Snap-50_8_png.rf.GllVB6GPGv2m6wnXP8At.png,snap-50,Snap-50.tiff,SKOV/48h,SKOV,snap-50,48,0.9994,0.2215,ok,P2,CARBO+GEO,,4,P2|CARBO+GEO|F4,P2|CARBO+GEO,val
+Snap-50_113_png.rf.tvrHilkt9qEzTsmrzhEz.png,snap-50,Snap-50.tiff,SKOV/24h,SKOV,snap-50,24,0.9995,0.1888,ok,P2,CARBO+GEO,,4,P2|CARBO+GEO|F4,P2|CARBO+GEO,val
+Snap-50_157_png.rf.O8bQtgrO9JA4I4wWYrex.png,snap-50,Snap-50 (2).tiff,SKOV/48h,SKOV,snap-50,48,0.9997,0.1757,ok,P1,GEO+PTX,,4,P1|GEO+PTX|F4,P1|GEO+PTX,val
+Snap-50_png.rf.HA7jd2gx3sJmNEaL5hJZ.png,snap-50,Snap-50.tiff,SKOV/0h,SKOV,snap-50,0,0.9975,0.2078,ok,P2,CARBO+GEO,,4,P2|CARBO+GEO|F4,P2|CARBO+GEO,val
+ct3_5_png.rf.rPD7kpqEkJ4PcSKpPkrP.png,ct3 5,ct3_5.tiff,SKOV/0h,SKOV,ct3_5,0,0.9997,,ok,P1,CT,,15,P1|CT|F15,P1|CT,train
+ct3_3_png.rf.vFYj9FMCGAqQ32xosxLR.png,ct3 3,ct3_3.tiff,SKOV/0h,SKOV,ct3_3,0,0.9995,,ok,P1,CT,,13,P1|CT|F13,P1|CT,val
+Snap-14_18_png.rf.cTI14kZnt7qLocJDEl8J.png,snap-14,Snap-14.tiff,SKOV/48h,SKOV,snap-14,48,0.9995,0.1726,ok,P2,CT,,14,P2|CT|F14,P2|CT,val
+Snap-14_63_png.rf.CP0h7e9qVBHWMIowPwi3.png,snap-14,Snap-14.tiff,SKOV/24h,SKOV,snap-14,24,0.9993,0.1886,ok,P2,CT,,14,P2|CT|F14,P2|CT,val
+Snap-14_197_png.rf.BYX13QN3Hg5IwWB1K8CE.png,snap-14,Snap-14 (2).tiff,SKOV/24h,SKOV,snap-14,24,0.9996,0.1981,ok,P1,CT,,13,P1|CT|F13,P1|CT,val
+Snap-14_png.rf.s2v9VcqXVmUKf34AJR9n.png,snap-14,Snap-14.tiff,SKOV/0h,SKOV,snap-14,0,0.9997,0.1635,ok,P2,CT,,13,P2|CT|F13,P2|CT,train
+Snap-14_137_png.rf.JGQAHR1rLHubpmhNmWKG.png,snap-14,Snap-14 (2).tiff,SKOV/48h,SKOV,snap-14,48,0.9995,0.1631,ok,P1,CT,,14,P1|CT|F14,P1|CT,train
+Snap-57_14_png.rf.zzuxYUS6GURsSfNtRXi0.png,snap-57,Snap-57.tiff,SKOV/48h,SKOV,snap-57,48,0.9995,0.2606,ok,P2,CARBO+GEO,,11,P2|CARBO+GEO|F11,P2|CARBO+GEO,train
+Snap-57_163_png.rf.pDbnqWgyxSpfj13CWb0J.png,snap-57,Snap-57 (2).tiff,SKOV/48h,SKOV,snap-57,48,0.9995,0.2454,ok,P1,GEO+PTX,,11,P1|GEO+PTX|F11,P1|GEO+PTX,train
+Snap-57_223_png.rf.Y5JAUxICexxY7SL4iYkm.png,snap-57,Snap-57 (2).tiff,SKOV/24h,SKOV,snap-57,24,0.9996,0.2474,ok,P1,GEO+PTX,,11,P1|GEO+PTX|F11,P1|GEO+PTX,train
+Snap-57_png.rf.bdYboWX9ErOHYRCWsvjV.png,snap-57,Snap-57.tiff,SKOV/0h,SKOV,snap-57,0,0.9997,0.2454,ok,P2,CARBO+GEO,,11,P2|CARBO+GEO|F11,P2|CARBO+GEO,train
+Snap-57_118_png.rf.ujk8XtRp7brOc2jVj3FQ.png,snap-57,Snap-57.tiff,SKOV/24h,SKOV,snap-57,24,0.9984,0.2836,ok,P2,CARBO+GEO,,11,P2|CARBO+GEO|F11,P2|CARBO+GEO,train
+Snap-13_png.rf.TDZyVXJDnI8SJNuM33dy.png,snap-13,Snap-13.tiff,SKOV/0h,SKOV,snap-13,0,0.9998,0.2251,ok,P2,CT,,12,P2|CT|F12,P2|CT,train
+Snap-13_19_png.rf.b6sHGo2amM793rhoOAp1.png,snap-13,Snap-13.tiff,SKOV/48h,SKOV,snap-13,48,0.9994,0.2387,ok,P2,CT,,13,P2|CT|F13,P2|CT,train
+Snap-13_138_png.rf.l88Miu2G7y8rOkIqtnCW.png,snap-13,Snap-13 (2).tiff,SKOV/48h,SKOV,snap-13,48,0.9994,0.2247,ok,P1,CT,,13,P1|CT|F13,P1|CT,val
+Snap-13_64_png.rf.RyKN7O5yesCpISX8jvQV.png,snap-13,Snap-13.tiff,SKOV/24h,SKOV,snap-13,24,0.9992,0.2322,ok,P2,CT,,13,P2|CT|F13,P2|CT,train
+Snap-13_243_png.rf.tUzcuWuytl6VQBEZn5pP.png,snap-13,Snap-13.tiff,SKOV/72h,SKOV,snap-13,72,0.9988,0.2381,ok,P1,PTX,,8,P1|PTX|F8,P1|PTX,test
+Snap-13_198_png.rf.0xLGaLBejIuzOY4c8uT2.png,snap-13,Snap-13 (2).tiff,SKOV/24h,SKOV,snap-13,24,0.9995,0.232,ok,P1,CT,,12,P1|CT|F12,P1|CT,train
+Snap-10_72_png.rf.n7hfG13etFn8yDPHlWXd.png,snap-10,Snap-10.tiff,SKOV/24h,SKOV,snap-10,24,0.9992,0.1743,ok,P2,CT,,10,P2|CT|F10,P2|CT,val
+Snap-10_png.rf.yj7fOx6nAZtfK19C65wZ.png,snap-10,Snap-10.tiff,SKOV/0h,SKOV,snap-10,0,0.9997,0.1867,ok,P2,CT,,9,P2|CT|F9,P2|CT,train
+Snap-10_206_png.rf.qsKnxTuSvux45mlYUYLk.png,snap-10,Snap-10 (2).tiff,SKOV/24h,SKOV,snap-10,24,0.9995,0.18,ok,P1,CT,,9,P1|CT|F9,P1|CT,train
+Snap-10_146_png.rf.J1zTbpCRqsOW6DtsIPzv.png,snap-10,Snap-10 (2).tiff,SKOV/48h,SKOV,snap-10,48,0.9994,0.1603,ok,P1,CT,,10,P1|CT|F10,P1|CT,val
+Snap-10_27_png.rf.InxxspUYRgK57BBNVAEq.png,snap-10,Snap-10.tiff,SKOV/48h,SKOV,snap-10,48,0.9996,0.1608,ok,P2,CT,,10,P2|CT|F10,P2|CT,val
+Snap-07_70_png.rf.vNyGAtPWPJA0rF6FhxvN.png,snap-7,Snap-07.tiff,SKOV/24h,SKOV,snap-7,24,0.9994,0.1718,ok,P2,CT,,7,P2|CT|F7,P2|CT,train
+Snap-07_204_png.rf.H0N5xKu4UYwZk6TNY3Xd.png,snap-7,Snap-07 (2).tiff,SKOV/24h,SKOV,snap-7,24,0.9994,0.19,ok,P1,CT,,6,P1|CT|F6,P1|CT,train
+Snap-07_png.rf.g6SCaXQJinM4lCI6wdd5.png,snap-7,Snap-07.tiff,SKOV/0h,SKOV,snap-7,0,0.9996,0.1518,ok,P2,CT,,6,P2|CT|F6,P2|CT,train
+Snap-07_25_png.rf.XApzD0Pw1QxeCLShLeqI.png,snap-7,Snap-07.tiff,SKOV/48h,SKOV,snap-7,48,0.9996,0.1517,ok,P2,CT,,7,P2|CT|F7,P2|CT,train
+Snap-07_144_png.rf.vfJMuF8YRLj9hUriVTPL.png,snap-7,Snap-07 (2).tiff,SKOV/48h,SKOV,snap-7,48,0.9994,0.2224,ok,P1,CT,,7,P1|CT|F7,P1|CT,train
+Snap-33_37_png.rf.9no99MZvmBZOLsdg6Atx.png,snap-33,Snap-33.tiff,SKOV/48h,SKOV,snap-33,48,0.9996,0.2,ok,P2,GEO,,3,P2|GEO|F3,P2|GEO,train
+Snap-33_82_png.rf.0OBavEsnW2E5DqKbGtgA.png,snap-33,Snap-33.tiff,SKOV/24h,SKOV,snap-33,24,0.9995,0.2214,ok,P2,GEO,,2,P2|GEO|F2,P2|GEO,train
+Snap-33_171_png.rf.E47tm0ycTBxOqSzcCzoG.png,snap-33,Snap-33 (2).tiff,SKOV/48h,SKOV,snap-33,48,0.9994,0.1683,ok,P1,GEO,,2,P1|GEO|F2,P1|GEO,train
+Snap-33_231_png.rf.JAemjrnP9ImKmVmpRfzn.png,snap-33,Snap-33 (2).tiff,SKOV/24h,SKOV,snap-33,24,0.9995,0.1683,ok,P1,GEO,,2,P1|GEO|F2,P1|GEO,train
+Snap-33_277_png.rf.VKo8X4odufnCCAnDoQ0P.png,snap-33,Snap-33.tiff,SKOV/72h,SKOV,snap-33,72,0.9996,0.2849,ok,P1,GEO,,13,P1|GEO|F13,P1|GEO,test
+Snap-33_png.rf.lRxwtWAAAbkEpA18HoVS.png,snap-33,Snap-33.tiff,SKOV/0h,SKOV,snap-33,0,0.9998,0.1982,ok,P2,GEO,,2,P2|GEO|F2,P2|GEO,train
+ct1_5_png.rf.xygVTmZfimx6b9L39l2C.png,ct1 5,ct1_5.tiff,SKOV/0h,SKOV,ct1_5,0,0.9994,,ok,P1,CT,,5,P1|CT|F5,P1|CT,train
+ptx2_5_png.rf.ZcYzvy2P9SDnI5FO7SZ3.png,ptx2 5,ptx2_5.tiff,SKOV/0h,SKOV,ptx2_5,0,0.9995,,ok,P1,PTX,,10,P1|PTX|F10,P1|PTX,train
+Snap-53_216_png.rf.ceY07VS1O3yBsoN0i4yF.png,snap-53,Snap-53 (2).tiff,SKOV/24h,SKOV,snap-53,24,0.9996,0.2141,ok,P1,GEO+PTX,,7,P1|GEO+PTX|F7,P1|GEO+PTX,train
+Snap-53_156_png.rf.2KewamwDRhiW6t7lbzHC.png,snap-53,Snap-53 (2).tiff,SKOV/48h,SKOV,snap-53,48,0.9995,0.216,ok,P1,GEO+PTX,,7,P1|GEO+PTX|F7,P1|GEO+PTX,train
+Snap-53_png.rf.SPyaEqsIv6YUwm8RQELh.png,snap-53,Snap-53.tiff,SKOV/0h,SKOV,snap-53,0,0.9995,0.2135,ok,P2,CARBO+GEO,,7,P2|CARBO+GEO|F7,P2|CARBO+GEO,test
+Snap-53_112_png.rf.y85Lfcr4yLHN2tGaM2NL.png,snap-53,Snap-53.tiff,SKOV/24h,SKOV,snap-53,24,0.9995,0.2194,ok,P2,CARBO+GEO,,7,P2|CARBO+GEO|F7,P2|CARBO+GEO,test
+Snap-53_7_png.rf.2ct09e2HAorv0Sj4JVs5.png,snap-53,Snap-53.tiff,SKOV/48h,SKOV,snap-53,48,0.9995,0.2583,ok,P2,CARBO+GEO,,7,P2|CARBO+GEO|F7,P2|CARBO+GEO,test
+Snap-30_55_png.rf.6m4MweF1gXcaFnLD23yF.png,snap-30,Snap-30.tiff,SKOV/48h,SKOV,snap-30,48,0.9996,0.2314,ok,P2,CARBO,,14,P2|CARBO|F14,P2|CARBO,train
+Snap-30_100_png.rf.DcdJxw6OPtMDzDx5c3Lq.png,snap-30,Snap-30.tiff,SKOV/24h,SKOV,snap-30,24,0.9996,0.2251,ok,P2,CARBO,,15,P2|CARBO|F15,P2|CARBO,train
+Snap-30_png.rf.Xojuz9v1uRZimBXRpyJ2.png,snap-30,Snap-30.tiff,SKOV/0h,SKOV,snap-30,0,0.9997,0.2265,ok,P2,CARBO,,14,P2|CARBO|F14,P2|CARBO,train
+Snap-30_129_png.rf.KEvLsnuWxsJl9q7Pk2G2.png,snap-30,Snap-30 (2).tiff,SKOV/48h,SKOV,snap-30,48,0.9995,0.2535,ok,P1,PTX,,14,P1|PTX|F14,P1|PTX,train
+Snap-30_189_png.rf.U7DtY68aa2qOKJpDCR2K.png,snap-30,Snap-30 (2).tiff,SKOV/24h,SKOV,snap-30,24,0.9998,0.2543,ok,P1,PTX,,14,P1|PTX|F14,P1|PTX,train
+ptx1_2_png.rf.mOSxinMIUOQxQUjpAhxb.png,ptx1 2,ptx1_2.tiff,SKOV/0h,SKOV,ptx1_2,0,0.9996,,ok,P1,PTX,,2,P1|PTX|F2,P1|PTX,train
+Snap-28_png.rf.53e1fT3dOkKzOIbE7A2L.png,snap-28,Snap-28.tiff,SKOV/0h,SKOV,snap-28,0,0.9994,0.1918,ok,P2,CARBO,,12,P2|CARBO|F12,P2|CARBO,train
+Snap-28_52_png.rf.DmC6ddQwMqlVy1m8BSG0.png,snap-28,Snap-28.tiff,SKOV/48h,SKOV,snap-28,48,0.9996,0.2335,ok,P2,CARBO,,12,P2|CARBO|F12,P2|CARBO,train
+Snap-28_280_png.rf.Xe3kQDC14ewhHfBA8CUW.png,snap-28,Snap-28.tiff,SKOV/72h,SKOV,snap-28,72,0.9987,0.2061,ok,P1,GEO,,8,P1|GEO|F8,P1|GEO,test
+Snap-28_126_png.rf.V9gVxGXcQuCpVJLB39Zx.png,snap-28,Snap-28 (2).tiff,SKOV/48h,SKOV,snap-28,48,0.9996,0.2749,ok,P1,PTX,,12,P1|PTX|F12,P1|PTX,train
+Snap-28_186_png.rf.Pxc3A3OicklntYPjiAag.png,snap-28,Snap-28 (2).tiff,SKOV/24h,SKOV,snap-28,24,0.9996,0.2223,ok,P1,PTX,,12,P1|PTX|F12,P1|PTX,train
+Snap-28_97_png.rf.XDLmTq2FjXvy3Vkcqds3.png,snap-28,Snap-28.tiff,SKOV/24h,SKOV,snap-28,24,0.9995,0.1914,ok,P2,CARBO,,13,P2|CARBO|F13,P2|CARBO,train
+Snap-32_232_png.rf.H6ouoiFAv5Y1rFVDrWAl.png,snap-32,Snap-32 (2).tiff,SKOV/24h,SKOV,snap-32,24,0.9995,0.1782,ok,P1,GEO,,1,P1|GEO|F1,P1|GEO,train
+Snap-32_172_png.rf.v8kSqKvdYhYnQPNDX2xH.png,snap-32,Snap-32 (2).tiff,SKOV/48h,SKOV,snap-32,48,0.9994,0.178,ok,P1,GEO,,1,P1|GEO|F1,P1|GEO,train
+Snap-32_278_png.rf.nLijQDvNEE80IhapSa8o.png,snap-32,Snap-32.tiff,SKOV/72h,SKOV,snap-32,72,0.9996,0.3177,ok,P1,GEO,,12,P1|GEO|F12,P1|GEO,train
+Snap-32_83_png.rf.zimIKCDN8Am3qdwGC4kR.png,snap-32,Snap-32.tiff,SKOV/24h,SKOV,snap-32,24,0.9995,0.2146,ok,P2,GEO,,1,P2|GEO|F1,P2|GEO,train
+Snap-32_38_png.rf.Bax0fFvBhSAiX72iQPds.png,snap-32,Snap-32.tiff,SKOV/48h,SKOV,snap-32,48,0.9995,0.2412,ok,P2,GEO,,2,P2|GEO|F2,P2|GEO,train
+Snap-32_png.rf.gnPsOfWEBlQ88rOXjxL2.png,snap-32,Snap-32.tiff,SKOV/0h,SKOV,snap-32,0,0.9997,0.1996,ok,P2,GEO,,1,P2|GEO|F1,P2|GEO,train
+Snap-29_183_png.rf.TEtTesrejABE2zAfrCRO.png,snap-29,Snap-29 (2).tiff,SKOV/24h,SKOV,snap-29,24,0.9996,0.139,ok,P1,PTX,,13,P1|PTX|F13,P1|PTX,val
+Snap-29_275_png.rf.XkckzJWNljmGBj0JLo7I.png,snap-29,Snap-29.tiff,SKOV/72h,SKOV,snap-29,72,0.9991,0.2231,ok,P1,GEO,,9,P1|GEO|F9,P1|GEO,train
+Snap-29_png.rf.HhjvWugqHNOuxEUR80xT.png,snap-29,Snap-29.tiff,SKOV/0h,SKOV,snap-29,0,0.9998,0.1393,ok,P2,CARBO,,13,P2|CARBO|F13,P2|CARBO,train
+Snap-29_123_png.rf.VWdEayiXaSZj0sRvU9Lh.png,snap-29,Snap-29 (2).tiff,SKOV/48h,SKOV,snap-29,48,0.9996,0.16,ok,P1,PTX,,13,P1|PTX|F13,P1|PTX,val
+Snap-29_94_png.rf.qaT0a4MOXWeFqaJqDMsT.png,snap-29,Snap-29.tiff,SKOV/24h,SKOV,snap-29,24,0.9988,0.1798,ok,P2,CARBO,,14,P2|CARBO|F14,P2|CARBO,train
+Snap-29_49_png.rf.sO8t65IvPbrmOmeTdSFp.png,snap-29,Snap-29.tiff,SKOV/48h,SKOV,snap-29,48,0.9996,0.1523,ok,P2,CARBO,,13,P2|CARBO|F13,P2|CARBO,train
+Snap-31_40_png.rf.MlgkW5XJAczCgefQquEJ.png,snap-31,Snap-31.tiff,SKOV/48h,SKOV,snap-31,48,0.9995,0.2443,ok,P2,GEO,,1,P2|GEO|F1,P2|GEO,train
+Snap-31_281_png.rf.HrwVzS03qTHBX5RB7awf.png,snap-31,Snap-31.tiff,SKOV/72h,SKOV,snap-31,72,0.9996,0.2652,ok,P1,GEO,,11,P1|GEO|F11,P1|GEO,train
+ptx3_4_png.rf.zUAP19LA8H9wE86pzDel.png,ptx3 4,ptx3_4.tiff,SKOV/0h,SKOV,ptx3_4,0,0.9996,,ok,P1,PTX,,14,P1|PTX|F14,P1|PTX,train
+Snap-04_23_png.rf.1BJgEenRWx1JWIEQf9Lv.png,snap-4,Snap-04.tiff,SKOV/48h,SKOV,snap-4,48,0.9867,0.2091,ok,P2,CT,,4,P2|CT|F4,P2|CT,train
+Snap-04_142_png.rf.M2wnhWd1Sd8Ifvp6QzaX.png,snap-4,Snap-04 (2).tiff,SKOV/48h,SKOV,snap-4,48,0.9996,0.148,ok,P1,CT,,4,P1|CT|F4,P1|CT,test
+Snap-04_202_png.rf.NR0kpfukSEnlSMYMSLQj.png,snap-4,Snap-04 (2).tiff,SKOV/24h,SKOV,snap-4,24,0.9995,0.1639,ok,P1,CT,,3,P1|CT|F3,P1|CT,test
+Snap-04_png.rf.sMGktY9BFWuJUYIgaqQM.png,snap-4,Snap-04.tiff,SKOV/0h,SKOV,snap-4,0,0.9997,0.1486,ok,P2,CT,,3,P2|CT|F3,P2|CT,train
+Snap-04_68_png.rf.qa33swNedVvsWNkINBRJ.png,snap-4,Snap-04.tiff,SKOV/24h,SKOV,snap-4,24,0.9992,0.2358,ok,P2,CT,,4,P2|CT|F4,P2|CT,train
+Snap-05_199_png.rf.6Q1Bw549TYJ3y3mfuvz8.png,snap-5,Snap-05 (2).tiff,SKOV/24h,SKOV,snap-5,24,0.9994,0.1648,ok,P1,CT,,4,P1|CT|F4,P1|CT,test
+Snap-05_65_png.rf.DoDrkBOFzLTZlfhsvn9K.png,snap-5,Snap-05.tiff,SKOV/24h,SKOV,snap-5,24,0.9991,0.1967,ok,P2,CT,,5,P2|CT|F5,P2|CT,train
+Snap-05_139_png.rf.niBpFx50l8Vf2AVZYkEa.png,snap-5,Snap-05 (2).tiff,SKOV/48h,SKOV,snap-5,48,0.9995,0.1649,ok,P1,CT,,5,P1|CT|F5,P1|CT,train
+Snap-05_png.rf.wkFRpHndlLEZ8vXfITkh.png,snap-5,Snap-05.tiff,SKOV/0h,SKOV,snap-5,0,0.9997,0.1838,ok,P2,CT,,4,P2|CT|F4,P2|CT,train
+Snap-05_20_png.rf.0ZVYxRfLCmMj9Gx6Z8HM.png,snap-5,Snap-05.tiff,SKOV/48h,SKOV,snap-5,48,0.9989,0.3229,ok,P2,CT,,5,P2|CT|F5,P2|CT,train
+Snap-06_147_png.rf.GD6EP0bfiqbQELx2DbXk.png,snap-6,Snap-06 (2).tiff,SKOV/48h,SKOV,snap-6,48,0.9994,0.2588,ok,P1,CT,,6,P1|CT|F6,P1|CT,train
+Snap-06_28_png.rf.B16Hi9B61ihSVrFqD8EM.png,snap-6,Snap-06.tiff,SKOV/48h,SKOV,snap-6,48,0.9996,0.1447,ok,P2,CT,,6,P2|CT|F6,P2|CT,train
+Snap-06_251_png.rf.RTJFsjqwbqP4Ma6aageY.png,snap-6,Snap-06.tiff,SKOV/72h,SKOV,snap-6,72,0.9986,0.2749,ok,P1,PTX,,1,P1|PTX|F1,P1|PTX,train
+Snap-06_207_png.rf.m5JajGmMom6qRqZWTY3C.png,snap-6,Snap-06 (2).tiff,SKOV/24h,SKOV,snap-6,24,0.9994,0.1954,ok,P1,CT,,5,P1|CT|F5,P1|CT,train
+Snap-03_16_png.rf.8FYQJMkw0jfVRFMq4naV.png,snap-3,Snap-03.tiff,SKOV/48h,SKOV,snap-3,48,0.9926,0.2051,ok,P2,CT,,3,P2|CT|F3,P2|CT,train
+Snap-03_135_png.rf.86k5Vru6ipllZqtNKdG2.png,snap-3,Snap-03 (2).tiff,SKOV/48h,SKOV,snap-3,48,0.9995,0.2906,ok,P1,CT,,3,P1|CT|F3,P1|CT,test
+Snap-03_254_png.rf.BtyeXVgh2zc19JcqpFCK.png,snap-3,Snap-03.tiff,SKOV/72h,SKOV,snap-3,72,0.9974,0.2507,ok,P1,CT,,3,P1|CT|F3,P1|CT,test
+Snap-03_61_png.rf.1FYqRGNLJIklJ5YdlPHa.png,snap-3,Snap-03.tiff,SKOV/24h,SKOV,snap-3,24,0.9992,0.2399,ok,P2,CT,,3,P2|CT|F3,P2|CT,train
+Snap-03_png.rf.v38nE8mp2K7iYYSbvq0E.png,snap-3,Snap-03.tiff,SKOV/0h,SKOV,snap-3,0,0.9996,0.2096,ok,P2,CT,,2,P2|CT|F2,P2|CT,test
+Snap-03_195_png.rf.YYuGBJMJvk1Uc2AUOhKN.png,snap-3,Snap-03 (2).tiff,SKOV/24h,SKOV,snap-3,24,0.9995,0.2094,ok,P1,CT,,2,P1|CT|F2,P1|CT,train
+Snap-02_196_png.rf.BKEbI8Gj7FVgCYPUSi9g.png,snap-2,Snap-02 (2).tiff,SKOV/24h,SKOV,snap-2,24,0.9995,0.1924,ok,P1,CT,,1,P1|CT|F1,P1|CT,train
+Snap-02_255_png.rf.JaJ4bou8Ic3AaIPtCfZV.png,snap-2,Snap-02.tiff,SKOV/72h,SKOV,snap-2,72,0.9961,0.3096,ok,P1,CT,,2,P1|CT|F2,P1|CT,train
+Snap-02_png.rf.HnokE69U5U658bYwvUrm.png,snap-2,Snap-02.tiff,SKOV/0h,SKOV,snap-2,0,0.9997,0.2436,ok,P2,CT,,1,P2|CT|F1,P2|CT,test
+Snap-02_62_png.rf.K7PjQ8CqA8XVhNTW659F.png,snap-2,Snap-02.tiff,SKOV/24h,SKOV,snap-2,24,0.9994,0.2034,ok,P2,CT,,2,P2|CT|F2,P2|CT,test
+Snap-02_17_png.rf.Lpe2QyqaZsGgJFeCYcvT.png,snap-2,Snap-02.tiff,SKOV/48h,SKOV,snap-2,48,0.9966,0.2212,ok,P2,CT,,2,P2|CT|F2,P2|CT,test
+Snap-02_136_png.rf.m6MHqhz3vjy6x2KcsX7N.png,snap-2,Snap-02 (2).tiff,SKOV/48h,SKOV,snap-2,48,0.9992,0.1892,ok,P1,CT,,2,P1|CT|F2,P1|CT,train
+Snap-27_187_png.rf.Un1xcBRJR9pLwxhz2VBA.png,snap-27,Snap-27 (2).tiff,SKOV/24h,SKOV,snap-27,24,0.9996,0.2056,ok,P1,PTX,,11,P1|PTX|F11,P1|PTX,val
+Snap-27_127_png.rf.u0sqqUf8hnanDrudhQQG.png,snap-27,Snap-27 (2).tiff,SKOV/48h,SKOV,snap-27,48,0.9996,0.2404,ok,P1,PTX,,11,P1|PTX|F11,P1|PTX,val
+Snap-27_282_png.rf.vCcp3UXdXcDmFuHR7aax.png,snap-27,Snap-27.tiff,SKOV/72h,SKOV,snap-27,72,0.9993,0.2564,ok,P1,GEO,,7,P1|GEO|F7,P1|GEO,train
+Snap-27_53_png.rf.YALqveujaUVhAWskGlbw.png,snap-27,Snap-27.tiff,SKOV/48h,SKOV,snap-27,48,0.9995,0.2204,ok,P2,CARBO,,11,P2|CARBO|F11,P2|CARBO,train
+Snap-27_98_png.rf.lZ0XIyhITkksp9eS9PWL.png,snap-27,Snap-27.tiff,SKOV/24h,SKOV,snap-27,24,0.9994,0.2157,ok,P2,CARBO,,12,P2|CARBO|F12,P2|CARBO,train
+Snap-27_png.rf.fKKLKbf92TUDKJORvts2.png,snap-27,Snap-27.tiff,SKOV/0h,SKOV,snap-27,0,0.9998,0.2057,ok,P2,CARBO,,11,P2|CARBO|F11,P2|CARBO,train
+Snap-01_29_png.rf.mg28uhmxn5A9je1hvBDV.png,snap-1,Snap-01.tiff,SKOV/48h,SKOV,snap-1,48,0.9926,0.2376,ok,P2,CT,,1,P2|CT|F1,P2|CT,test
+Snap-01_256_png.rf.UMEeIdDQ1Tdk0wE2TII4.png,snap-1,Snap-01.tiff,SKOV/72h,SKOV,snap-1,72,0.998,0.2363,ok,P1,CT,,1,P1|CT|F1,P1|CT,train
+Snap-01_74_png.rf.WcVEXB4f7Y64yyixQhom.png,snap-1,Snap-01.tiff,SKOV/24h,SKOV,snap-1,24,0.9994,0.2335,ok,P2,CT,,1,P2|CT|F1,P2|CT,test
+Snap-01_148_png.rf.csd0SJGzDaEHVmJESnpM.png,snap-1,Snap-01 (2).tiff,SKOV/48h,SKOV,snap-1,48,0.9989,0.1668,ok,P1,CT,,1,P1|CT|F1,P1|CT,train
+75ug+ptx3_2_png.rf.SrbDSCvTa81lj9UBc0ZR.png,75ug+ptx3 2,75ug+ptx3_2.tiff,SKOV/0h,SKOV,75ug+ptx3_2,0,0.9997,,ok,P1,GEO+PTX,,12,P1|GEO+PTX|F12,P1|GEO+PTX,train
+Snap-18_png.rf.0cME4hjYM0557eYc0iSp.png,snap-18,Snap-18.tiff,SKOV/0h,SKOV,snap-18,0,0.9998,0.2106,ok,P2,CARBO,,2,P2|CARBO|F2,P2|CARBO,train
+Snap-18_122_png.rf.rEzRHI9DOsMmEv8NXGFz.png,snap-18,Snap-18 (2).tiff,SKOV/48h,SKOV,snap-18,48,0.9996,0.312,ok,P1,PTX,,2,P1|PTX|F2,P1|PTX,train
+Snap-18_182_png.rf.0olrnxTCWxDIVmtPK3HA.png,snap-18,Snap-18 (2).tiff,SKOV/24h,SKOV,snap-18,24,0.9996,0.3332,ok,P1,PTX,,2,P1|PTX|F2,P1|PTX,train
+Snap-18_48_png.rf.dOk2ClCgbcYApxR6XtAY.png,snap-18,Snap-18.tiff,SKOV/48h,SKOV,snap-18,48,0.9974,0.2485,ok,P2,CARBO,,2,P2|CARBO|F2,P2|CARBO,train
+Snap-18_242_png.rf.sg4fkcHavt8IVG7Qq0vy.png,snap-18,Snap-18.tiff,SKOV/72h,SKOV,snap-18,72,0.9994,0.22,ok,P1,PTX,,13,P1|PTX|F13,P1|PTX,val
+Snap-18_93_png.rf.vdsK3Pm2Jw59MfN6akCm.png,snap-18,Snap-18.tiff,SKOV/24h,SKOV,snap-18,24,0.9996,0.2098,ok,P2,CARBO,,3,P2|CARBO|F3,P2|CARBO,val
+Snap-15_60_png.rf.AUB9Da86Zc4f2GiWRpgF.png,snap-15,Snap-15.tiff,SKOV/24h,SKOV,snap-15,24,0.9989,0.1158,ok,P2,CT,,15,P2|CT|F15,P2|CT,train
+Snap-15_134_png.rf.PT0eio2SodTEch0Oowqe.png,snap-15,Snap-15 (2).tiff,SKOV/48h,SKOV,snap-15,48,0.9991,0.1208,ok,P1,CT,,15,P1|CT|F15,P1|CT,train
+Snap-15_194_png.rf.jyDxznPzUcDKPrXPinis.png,snap-15,Snap-15 (2).tiff,SKOV/24h,SKOV,snap-15,24,0.9996,0.1541,ok,P1,CT,,14,P1|CT|F14,P1|CT,train
+Snap-15_15_png.rf.oEkUKHxOZ7qcBLxMlF5e.png,snap-15,Snap-15.tiff,SKOV/48h,SKOV,snap-15,48,0.9996,0.1181,ok,P2,CT,,15,P2|CT|F15,P2|CT,train
+Snap-15_png.rf.QpISbBkKeIMbu6a2p8wX.png,snap-15,Snap-15.tiff,SKOV/0h,SKOV,snap-15,0,0.9996,0.1884,ok,P2,CT,,14,P2|CT|F14,P2|CT,val
+Snap-19_png.rf.54NjFnaveSX8V7dKaXCe.png,snap-19,Snap-19.tiff,SKOV/0h,SKOV,snap-19,0,0.9998,0.1853,ok,P2,CARBO,,3,P2|CARBO|F3,P2|CARBO,val
+Snap-19_179_png.rf.LbI9UqUYPM9MI69fTMLd.png,snap-19,Snap-19 (2).tiff,SKOV/24h,SKOV,snap-19,24,0.9995,0.1852,ok,P1,PTX,,3,P1|PTX|F3,P1|PTX,train
+Snap-19_45_png.rf.h26s2hEWJo5PGBPNWzbv.png,snap-19,Snap-19.tiff,SKOV/48h,SKOV,snap-19,48,0.9982,0.1923,ok,P2,CARBO,,3,P2|CARBO|F3,P2|CARBO,val
+Snap-19_119_png.rf.rL8vPl5ijPVO0I4eyA1W.png,snap-19,Snap-19 (2).tiff,SKOV/48h,SKOV,snap-19,48,0.9997,0.2043,ok,P1,PTX,,3,P1|PTX|F3,P1|PTX,train
+Snap-19_90_png.rf.LTW9T6mUiyeyn573QLTY.png,snap-19,Snap-19.tiff,SKOV/24h,SKOV,snap-19,24,0.9995,0.1873,ok,P2,CARBO,,4,P2|CARBO|F4,P2|CARBO,val
+Snap-20_png.rf.CTNy3Rv16m36Khsp3xJc.png,snap-20,Snap-20.tiff,SKOV/0h,SKOV,snap-20,0,0.9997,0.2107,ok,P2,CARBO,,4,P2|CARBO|F4,P2|CARBO,val
+Snap-20_133_png.rf.wotHCE8IfJ6UYBmxNc4i.png,snap-20,Snap-20 (2).tiff,SKOV/48h,SKOV,snap-20,48,0.9995,0.2484,ok,P1,PTX,,4,P1|PTX|F4,P1|PTX,train
+Snap-20_59_png.rf.cuUsjVgyqu6QpoUYSKTl.png,snap-20,Snap-20.tiff,SKOV/48h,SKOV,snap-20,48,0.998,0.313,ok,P2,CARBO,,4,P2|CARBO|F4,P2|CARBO,val
+Snap-20_193_png.rf.OGPjmr6AN3p8v8qf5RaD.png,snap-20,Snap-20 (2).tiff,SKOV/24h,SKOV,snap-20,24,0.9995,0.2106,ok,P1,PTX,,4,P1|PTX|F4,P1|PTX,train
+Snap-20_104_png.rf.lu9wLu7mqVxquLAseXNa.png,snap-20,Snap-20.tiff,SKOV/24h,SKOV,snap-20,24,0.9996,0.2099,ok,P2,CARBO,,5,P2|CARBO|F5,P2|CARBO,test
+Snap-17_102_png.rf.L35h25Y208weJrkXRPl5.png,snap-17,Snap-17.tiff,SKOV/24h,SKOV,snap-17,24,0.9996,0.2069,ok,P2,CARBO,,2,P2|CARBO|F2,P2|CARBO,train
+Snap-17_191_png.rf.VaUfcjat6tcky3mpq2eY.png,snap-17,Snap-17 (2).tiff,SKOV/24h,SKOV,snap-17,24,0.9996,0.2073,ok,P1,PTX,,1,P1|PTX|F1,P1|PTX,train
+Snap-17_57_png.rf.eHlOfkRwkZdoOjiE6Mxj.png,snap-17,Snap-17.tiff,SKOV/48h,SKOV,snap-17,48,0.9959,0.2932,ok,P2,CARBO,,1,P2|CARBO|F1,P2|CARBO,test
+Snap-17_131_png.rf.w04wolCzNfH78hvtq37N.png,snap-17,Snap-17 (2).tiff,SKOV/48h,SKOV,snap-17,48,0.9996,0.2581,ok,P1,PTX,,1,P1|PTX|F1,P1|PTX,train
+Snap-17_png.rf.wQPtTYXFL94gKLen5q7D.png,snap-17,Snap-17.tiff,SKOV/0h,SKOV,snap-17,0,0.9998,0.2106,ok,P2,CARBO,,1,P2|CARBO|F1,P2|CARBO,test
+Snap-17_252_png.rf.bulki6Z5lbUSEa4uMo6D.png,snap-17,Snap-17.tiff,SKOV/72h,SKOV,snap-17,72,0.9996,0.2953,ok,P1,PTX,,12,P1|PTX|F12,P1|PTX,train
+75geo1_3_png.rf.3ssQ4kMF9TGfwhFa0NBy.png,75geo1 3,75geo1_3.tiff,SKOV/0h,SKOV,75geo1_3,0,0.9997,,ok,P1,GEO,,3,P1|GEO|F3,P1|GEO,val
+75geo3_2_png.rf.74WCC6Yog9fXc1mKJxkf.png,75geo3 2,75geo3_2.tiff,SKOV/0h,SKOV,75geo3_2,0,0.9997,,ok,P1,GEO,,12,P1|GEO|F12,P1|GEO,train
+75ug+ptx3_5_png.rf.8zKge5Sez8aWKKyW2i6z.png,75ug+ptx3 5,75ug+ptx3_5.tiff,SKOV/0h,SKOV,75ug+ptx3_5,0,0.9996,,ok,P1,GEO+PTX,,15,P1|GEO+PTX|F15,P1|GEO+PTX,train
+Snap-16_103_png.rf.xOCVzm7U41jEUSGkNIbA.png,snap-16,Snap-16.tiff,SKOV/24h,SKOV,snap-16,24,0.9996,0.1994,ok,P2,CARBO,,1,P2|CARBO|F1,P2|CARBO,test
+Snap-16_253_png.rf.tk6oVd2Y7bRBeFcFLmiY.png,snap-16,Snap-16.tiff,SKOV/72h,SKOV,snap-16,72,0.9995,0.1905,ok,P1,PTX,,11,P1|PTX|F11,P1|PTX,val
+Snap-23_png.rf.28O298H93RbxNCkERjpH.png,snap-23,Snap-23.tiff,SKOV/0h,SKOV,snap-23,0,0.9998,0.1084,ok,P2,CARBO,,7,P2|CARBO|F7,P2|CARBO,train
+Snap-23_272_png.rf.3S7I4N2iyDHQ2WCQnx2e.png,snap-23,Snap-23.tiff,SKOV/72h,SKOV,snap-23,72,0.9995,0.1064,ok,P1,GEO,,3,P1|GEO|F3,P1|GEO,val
+Snap-23_120_png.rf.RTu1fn8eOhvIxcBB0XgF.png,snap-23,Snap-23 (2).tiff,SKOV/48h,SKOV,snap-23,48,0.9996,0.2822,ok,P1,PTX,,7,P1|PTX|F7,P1|PTX,test
+Snap-23_46_png.rf.OLrkwsHRaOlVABql7EJC.png,snap-23,Snap-23.tiff,SKOV/48h,SKOV,snap-23,48,0.9991,0.2808,ok,P2,CARBO,,7,P2|CARBO|F7,P2|CARBO,train
+Snap-23_180_png.rf.SxoeyqweD8MEywpcCrsl.png,snap-23,Snap-23 (2).tiff,SKOV/24h,SKOV,snap-23,24,0.9996,0.2192,ok,P1,PTX,,7,P1|PTX|F7,P1|PTX,test
+Snap-23_91_png.rf.prr7kpB0aPBDSrY8NIW0.png,snap-23,Snap-23.tiff,SKOV/24h,SKOV,snap-23,24,0.9994,0.257,ok,P2,CARBO,,8,P2|CARBO|F8,P2|CARBO,train
+Snap-25_95_png.rf.4nMlAyh4jT2uWFXeHFEu.png,snap-25,Snap-25.tiff,SKOV/24h,SKOV,snap-25,24,0.9994,0.2696,ok,P2,CARBO,,10,P2|CARBO|F10,P2|CARBO,train
+Snap-25_50_png.rf.CHeux2nrD5owQB0rBnrP.png,snap-25,Snap-25.tiff,SKOV/48h,SKOV,snap-25,48,0.9995,0.2611,ok,P2,CARBO,,9,P2|CARBO|F9,P2|CARBO,train
+Snap-25_png.rf.NZSC2ldRJFXa4414jttF.png,snap-25,Snap-25.tiff,SKOV/0h,SKOV,snap-25,0,0.9998,0.2634,ok,P2,CARBO,,9,P2|CARBO|F9,P2|CARBO,train
+Snap-25_184_png.rf.fnCmHOHxb5uRZMEeY7RB.png,snap-25,Snap-25 (2).tiff,SKOV/24h,SKOV,snap-25,24,0.9995,0.2887,ok,P1,PTX,,9,P1|PTX|F9,P1|PTX,train
+Snap-25_124_png.rf.qhyZRieBWx1vF8Vfj4ck.png,snap-25,Snap-25 (2).tiff,SKOV/48h,SKOV,snap-25,48,0.9994,0.2921,ok,P1,PTX,,9,P1|PTX|F9,P1|PTX,train
+75geo2_5_png.rf.BzRF0Z5bvFroC3TaIbat.png,75geo2 5,75geo2_5.tiff,SKOV/0h,SKOV,75geo2_5,0,0.9996,,ok,P1,GEO,,10,P1|GEO|F10,P1|GEO,train
+Snap-42_165_png.rf.3eAR7nfV8aWUfPbBc82Q.png,snap-42,Snap-42 (2).tiff,SKOV/48h,SKOV,snap-42,48,0.9993,0.2059,ok,P1,GEO,,11,P1|GEO|F11,P1|GEO,train
+Snap-42_76_png.rf.erwRb4d1blf6lhZ6UFWy.png,snap-42,Snap-42.tiff,SKOV/24h,SKOV,snap-42,24,0.9993,0.2214,ok,P2,GEO,,11,P2|GEO|F11,P2|GEO,test
+Snap-42_31_png.rf.J9V2UJndHRoslGdxrcqU.png,snap-42,Snap-42.tiff,SKOV/48h,SKOV,snap-42,48,0.9994,0.2319,ok,P2,GEO,,12,P2|GEO|F12,P2|GEO,train
+Snap-42_258_png.rf.hETwVZpuNUgJrChjohxD.png,snap-42,Snap-42.tiff,SKOV/72h,SKOV,snap-42,72,0.9995,0.2395,ok,P1,GEO+PTX,,7,P1|GEO+PTX|F7,P1|GEO+PTX,train
+Snap-42_225_png.rf.mQxoBxfdEUUtVkhWybfs.png,snap-42,Snap-42 (2).tiff,SKOV/24h,SKOV,snap-42,24,0.9996,0.2119,ok,P1,GEO,,11,P1|GEO|F11,P1|GEO,train
+Snap-42_png.rf.vXnbjKiFLjrY6iWZoR1j.png,snap-42,Snap-42.tiff,SKOV/0h,SKOV,snap-42,0,0.9997,0.2065,ok,P2,GEO,,11,P2|GEO|F11,P2|GEO,test
+Snap-41_270_png.rf.46zb8PtP1Yuu9Wit1FpP.png,snap-41,Snap-41.tiff,SKOV/72h,SKOV,snap-41,72,0.9995,0.2485,ok,P1,GEO+PTX,,6,P1|GEO+PTX|F6,P1|GEO+PTX,test
+Snap-41_177_png.rf.J9Vigcki7oDbHiMC0150.png,snap-41,Snap-41 (2).tiff,SKOV/48h,SKOV,snap-41,48,0.9993,0.197,ok,P1,GEO,,10,P1|GEO|F10,P1|GEO,train
+ptx1_5_png.rf.5e7WIfGslbrzFPCuSHDZ.png,ptx1 5,ptx1_5.tiff,SKOV/0h,SKOV,ptx1_5,0,0.9996,,ok,P1,PTX,,5,P1|PTX|F5,P1|PTX,train
+75ug+ptx1_3_png.rf.IcEKL4ZipsbcvBf9x2iH.png,75ug+ptx1 3,75ug+ptx1_3.tiff,SKOV/0h,SKOV,75ug+ptx1_3,0,0.9996,,ok,P1,GEO+PTX,,3,P1|GEO+PTX|F3,P1|GEO+PTX,train
+75ug+ptx2_4_png.rf.N3lZqZpjOb6amiXbUGPo.png,75ug+ptx2 4,75ug+ptx2_4.tiff,SKOV/0h,SKOV,75ug+ptx2_4,0,0.9997,,ok,P1,GEO+PTX,,9,P1|GEO+PTX|F9,P1|GEO+PTX,train
+75ug+ptx2_5_png.rf.SKN9uE4jbXSPHttCL7Fn.png,75ug+ptx2 5,75ug+ptx2_5.tiff,SKOV/0h,SKOV,75ug+ptx2_5,0,0.9996,,ok,P1,GEO+PTX,,10,P1|GEO+PTX|F10,P1|GEO+PTX,train
+75ug+ptx3_4_png.rf.IcAvoXcG34V8LoEG7Sik.png,75ug+ptx3 4,75ug+ptx3_4.tiff,SKOV/0h,SKOV,75ug+ptx3_4,0,0.9997,,ok,P1,GEO+PTX,,14,P1|GEO+PTX|F14,P1|GEO+PTX,test
+75ug+ptx2_2_png.rf.GCxTvubAoWABRjXmjDjX.png,75ug+ptx2 2,75ug+ptx2_2.tiff,SKOV/0h,SKOV,75ug+ptx2_2,0,0.9997,,ok,P1,GEO+PTX,,7,P1|GEO+PTX|F7,P1|GEO+PTX,train
+75geo3_5_png.rf.RzruoobW8Ib712laqLeg.png,75geo3 5,75geo3_5.tiff,SKOV/0h,SKOV,75geo3_5,0,0.9996,,ok,P1,GEO,,15,P1|GEO|F15,P1|GEO,train
+Snap-22_92_png.rf.F9B8iIX7XdfGxT454Uyl.png,snap-22,Snap-22.tiff,SKOV/24h,SKOV,snap-22,24,0.9996,0.2543,ok,P2,CARBO,,7,P2|CARBO|F7,P2|CARBO,train
+Snap-22_121_png.rf.4Zd3SMsh9JTMlsxulPWv.png,snap-22,Snap-22 (2).tiff,SKOV/48h,SKOV,snap-22,48,0.9996,0.2849,ok,P1,PTX,,6,P1|PTX|F6,P1|PTX,train
+Snap-22_47_png.rf.goBhEPZmqBfPgEE2CLWx.png,snap-22,Snap-22.tiff,SKOV/48h,SKOV,snap-22,48,0.9995,0.1884,ok,P2,CARBO,,6,P2|CARBO|F6,P2|CARBO,train
+Snap-22_274_png.rf.xQYr65FKGdk7yTT9LTTR.png,snap-22,Snap-22.tiff,SKOV/72h,SKOV,snap-22,72,0.9995,0.1527,ok,P1,GEO,,2,P1|GEO|F2,P1|GEO,train
+Snap-22_png.rf.zjKkhyXwllP02ve3rmYE.png,snap-22,Snap-22.tiff,SKOV/0h,SKOV,snap-22,0,0.999,0.15,ok,P2,CARBO,,6,P2|CARBO|F6,P2|CARBO,train
+Snap-22_181_png.rf.zpr2WVVOlPR2Tqafq1RE.png,snap-22,Snap-22 (2).tiff,SKOV/24h,SKOV,snap-22,24,0.9996,0.2186,ok,P1,PTX,,6,P1|PTX|F6,P1|PTX,train
+Snap-24_125_png.rf.8bLo1h7ToplIJ7tet6Th.png,snap-24,Snap-24 (2).tiff,SKOV/48h,SKOV,snap-24,48,0.9996,0.207,ok,P1,PTX,,8,P1|PTX|F8,P1|PTX,test
+Snap-24_png.rf.hueodPGU9icd7QmEArCe.png,snap-24,Snap-24.tiff,SKOV/0h,SKOV,snap-24,0,0.9998,0.1624,ok,P2,CARBO,,8,P2|CARBO|F8,P2|CARBO,train
+Snap-24_51_png.rf.Wgg78LykMI1DoKAeqOy4.png,snap-24,Snap-24.tiff,SKOV/48h,SKOV,snap-24,48,0.9993,0.201,ok,P2,CARBO,,8,P2|CARBO|F8,P2|CARBO,train
+Snap-24_96_png.rf.s6DeTIAvmh6iZiaYgj4W.png,snap-24,Snap-24.tiff,SKOV/24h,SKOV,snap-24,24,0.9997,0.1606,ok,P2,CARBO,,9,P2|CARBO|F9,P2|CARBO,train
+Snap-24_279_png.rf.zdt5pR8v2pQwJ2i4ix6P.png,snap-24,Snap-24.tiff,SKOV/72h,SKOV,snap-24,72,0.9993,0.1846,ok,P1,GEO,,4,P1|GEO|F4,P1|GEO,train
+Snap-24_185_png.rf.id0eOvbOlN7Sgpvw3g9K.png,snap-24,Snap-24 (2).tiff,SKOV/24h,SKOV,snap-24,24,0.9996,0.1762,ok,P1,PTX,,8,P1|PTX|F8,P1|PTX,test
+Snap-47_267_png.rf.97cMYlFczNhQv3UX19fR.png,snap-47,Snap-47.tiff,SKOV/72h,SKOV,snap-47,72,0.9987,0.2019,ok,P1,GEO+PTX,,12,P1|GEO+PTX|F12,P1|GEO+PTX,train
+Snap-47_219_png.rf.tXiQQL4hg3VyVt8yhPHg.png,snap-47,Snap-47 (2).tiff,SKOV/24h,SKOV,snap-47,24,0.9996,0.1703,ok,P1,GEO+PTX,,1,P1|GEO+PTX|F1,P1|GEO+PTX,train
+Snap-47_png.rf.4IcA4CJVTVvxJv2QbhQ9.png,snap-47,Snap-47.tiff,SKOV/0h,SKOV,snap-47,0,0.9998,0.1716,ok,P2,CARBO+GEO,,1,P2|CARBO+GEO|F1,P2|CARBO+GEO,test
+Snap-47_10_png.rf.82JBOB2C6eUM9hqcxY2g.png,snap-47,Snap-47.tiff,SKOV/48h,SKOV,snap-47,48,0.9992,0.2004,ok,P2,CARBO+GEO,,1,P2|CARBO+GEO|F1,P2|CARBO+GEO,test
+Snap-47_115_png.rf.AwDB0H3rugMK2ImzBgZw.png,snap-47,Snap-47.tiff,SKOV/24h,SKOV,snap-47,24,0.9985,0.1766,ok,P2,CARBO+GEO,,1,P2|CARBO+GEO|F1,P2|CARBO+GEO,test
+Snap-47_159_png.rf.iWHwHxKcpvJIH7RHtxRu.png,snap-47,Snap-47 (2).tiff,SKOV/48h,SKOV,snap-47,48,0.9995,0.2591,ok,P1,GEO+PTX,,1,P1|GEO+PTX|F1,P1|GEO+PTX,train
+75ug+ptx1_2_png.rf.miBH5V5VEGJZEqXxEWPw.png,75ug+ptx1 2,75ug+ptx1_2.tiff,SKOV/0h,SKOV,75ug+ptx1_2,0,0.9996,,ok,P1,GEO+PTX,,2,P1|GEO+PTX|F2,P1|GEO+PTX,train
+Snap-26_283_png.rf.YFDkIZNg1W2rRyv6xoZQ.png,snap-26,Snap-26.tiff,SKOV/72h,SKOV,snap-26,72,0.9987,0.2416,ok,P1,GEO,,6,P1|GEO|F6,P1|GEO,val
+Snap-49_111_png.rf.2YBYBWf0TlnhbYXiIarp.png,snap-49,Snap-49.tiff,SKOV/24h,SKOV,snap-49,24,0.9996,0.146,ok,P2,CARBO+GEO,,3,P2|CARBO+GEO|F3,P2|CARBO+GEO,train
+Snap-49_png.rf.jaxP6t3jEXJwvcs3TeXW.png,snap-49,Snap-49.tiff,SKOV/0h,SKOV,snap-49,0,0.9995,0.1465,ok,P2,CARBO+GEO,,3,P2|CARBO+GEO|F3,P2|CARBO+GEO,train
+Snap-49_6_png.rf.vxdpb188ymQ8bK2rzafD.png,snap-49,Snap-49.tiff,SKOV/48h,SKOV,snap-49,48,0.9996,0.1552,ok,P2,CARBO+GEO,,3,P2|CARBO+GEO|F3,P2|CARBO+GEO,train
+Snap-49_264_png.rf.Ig21lSZL1n8lAFqwIinJ.png,snap-49,Snap-49.tiff,SKOV/72h,SKOV,snap-49,72,0.9986,0.1441,ok,P1,GEO+PTX,,14,P1|GEO+PTX|F14,P1|GEO+PTX,test
+Snap-49_155_png.rf.9Txc7Y2olfQH0Fk9KsNp.png,snap-49,Snap-49 (2).tiff,SKOV/48h,SKOV,snap-49,48,0.9996,0.2005,ok,P1,GEO+PTX,,3,P1|GEO+PTX|F3,P1|GEO+PTX,train
+Snap-49_215_png.rf.TiULqayQwDfte2RpYtpc.png,snap-49,Snap-49 (2).tiff,SKOV/24h,SKOV,snap-49,24,0.9997,0.153,ok,P1,GEO+PTX,,3,P1|GEO+PTX|F3,P1|GEO+PTX,train
+75ug+ptx2_3_png.rf.mqrdw4y9iJq7wHo3ocCR.png,75ug+ptx2 3,75ug+ptx2_3.tiff,SKOV/0h,SKOV,75ug+ptx2_3,0,0.9997,,ok,P1,GEO+PTX,,8,P1|GEO+PTX|F8,P1|GEO+PTX,train
+75geo2_3_png.rf.uagsLlU5nL9O3bnb8OYp.png,75geo2 3,75geo2_3.tiff,SKOV/0h,SKOV,75geo2_3,0,0.9997,,ok,P1,GEO,,8,P1|GEO|F8,P1|GEO,test
+75geo3_3_png.rf.zMTyj0cFNm8nT2bevevK.png,75geo3 3,75geo3_3.tiff,SKOV/0h,SKOV,75geo3_3,0,0.9997,,ok,P1,GEO,,13,P1|GEO|F13,P1|GEO,test
+75geo1_5_png.rf.XBplXOgSlZGL9MkIqKUx.png,75geo1 5,75geo1_5.tiff,SKOV/0h,SKOV,75geo1_5,0,0.9996,,ok,P1,GEO,,5,P1|GEO|F5,P1|GEO,train
+75geo2_2_png.rf.BRU7Qn76FC0ISEwjiWgR.png,75geo2 2,75geo2_2.tiff,SKOV/0h,SKOV,75geo2_2,0,0.9996,,ok,P1,GEO,,7,P1|GEO|F7,P1|GEO,train
+75geo3_4_png.rf.W62VVb5aq2155gYgVdJ3.png,75geo3 4,75geo3_4.tiff,SKOV/0h,SKOV,75geo3_4,0,0.9997,,ok,P1,GEO,,14,P1|GEO|F14,P1|GEO,train
+75ug+ptx1_5_png.rf.Y9WFvFN9xkZyL6E0mD9N.png,75ug+ptx1 5,75ug+ptx1_5.tiff,SKOV/0h,SKOV,75ug+ptx1_5,0,0.9997,,ok,P1,GEO+PTX,,5,P1|GEO+PTX|F5,P1|GEO+PTX,train
+75ug+ptx3_3_png.rf.c4WVnjFscy6T0HItfkyn.png,75ug+ptx3 3,75ug+ptx3_3.tiff,SKOV/0h,SKOV,75ug+ptx3_3,0,0.9997,,ok,P1,GEO+PTX,,13,P1|GEO+PTX|F13,P1|GEO+PTX,val
+75geo1_2_png.rf.ikJJwdU2sRMteDT7nrjh.png,75geo1 2,75geo1_2.tiff,SKOV/0h,SKOV,75geo1_2,0,0.9996,,ok,P1,GEO,,2,P1|GEO|F2,P1|GEO,train
+75geo2_4_png.rf.GSy2oJWtOBsFeAkolPsJ.png,75geo2 4,75geo2_4.tiff,SKOV/0h,SKOV,75geo2_4,0,0.9997,,ok,P1,GEO,,9,P1|GEO|F9,P1|GEO,train
+Snap-21_285_png.rf.Rj9uYJWuHCUuf7mNZJ2N.png,snap-21,Snap-21.tiff,SKOV/72h,SKOV,snap-21,72,0.9993,0.1664,ok,P1,GEO,,1,P1|GEO|F1,P1|GEO,train
+Snap-21_56_png.rf.ycoY7vPUknblypXrORx3.png,snap-21,Snap-21.tiff,SKOV/48h,SKOV,snap-21,48,0.9992,0.256,ok,P2,CARBO,,5,P2|CARBO|F5,P2|CARBO,test
+Snap-40_png.rf.9EwCDE1uNgyFYRkkBNbp.png,snap-40,Snap-40.tiff,SKOV/0h,SKOV,snap-40,0,0.9995,0.2078,ok,P2,GEO,,9,P2|GEO|F9,P2|GEO,train
+Snap-40_42_png.rf.rY6NW4fe0CRTDdg8MHYz.png,snap-40,Snap-40.tiff,SKOV/48h,SKOV,snap-40,48,0.9995,0.2546,ok,P2,GEO,,10,P2|GEO|F10,P2|GEO,train
+Snap-40_87_png.rf.OMb2zuYN14uYpuw2r6ha.png,snap-40,Snap-40.tiff,SKOV/24h,SKOV,snap-40,24,0.9996,0.1849,ok,P2,GEO,,9,P2|GEO|F9,P2|GEO,train
+Snap-40_176_png.rf.bUgGtZALmBRNrpjdVId8.png,snap-40,Snap-40 (2).tiff,SKOV/48h,SKOV,snap-40,48,0.9994,0.1852,ok,P1,GEO,,9,P1|GEO|F9,P1|GEO,train
+Snap-40_236_png.rf.yItOl1do8t3f0fCtVuP1.png,snap-40,Snap-40 (2).tiff,SKOV/24h,SKOV,snap-40,24,0.9994,0.2079,ok,P1,GEO,,9,P1|GEO|F9,P1|GEO,train
+Snap-43_34_png.rf.GOHyfDBrhvieEKwOZ4eD.png,snap-43,Snap-43.tiff,SKOV/48h,SKOV,snap-43,48,0.9994,0.2517,ok,P2,GEO,,13,P2|GEO|F13,P2|GEO,train
+Snap-43_168_png.rf.bvsTjSLpRnA4A5wLM0jg.png,snap-43,Snap-43 (2).tiff,SKOV/48h,SKOV,snap-43,48,0.9994,0.1978,ok,P1,GEO,,12,P1|GEO|F12,P1|GEO,train
+Snap-43_79_png.rf.QHy7X5fw5paLTpJkeudB.png,snap-43,Snap-43.tiff,SKOV/24h,SKOV,snap-43,24,0.9993,0.2864,ok,P2,GEO,,12,P2|GEO|F12,P2|GEO,train
+Snap-43_228_png.rf.RjMXXyaPc2A6ORQuUL1x.png,snap-43,Snap-43 (2).tiff,SKOV/24h,SKOV,snap-43,24,0.9995,0.1915,ok,P1,GEO,,12,P1|GEO|F12,P1|GEO,train
+Snap-43_261_png.rf.ggKc9XCcU2o4oFi3pgsw.png,snap-43,Snap-43.tiff,SKOV/72h,SKOV,snap-43,72,0.9996,0.2007,ok,P1,GEO+PTX,,8,P1|GEO+PTX|F8,P1|GEO+PTX,train
+Snap-43_png.rf.bYOjGbrbBkNUs0zIljYx.png,snap-43,Snap-43.tiff,SKOV/0h,SKOV,snap-43,0,0.9997,0.1915,ok,P2,GEO,,12,P2|GEO|F12,P2|GEO,train
+75ug+ptx1_4_png.rf.SJoeBR5kFLTCJXsYTKnd.png,75ug+ptx1 4,75ug+ptx1_4.tiff,SKOV/0h,SKOV,75ug+ptx1_4,0,0.9997,,ok,P1,GEO+PTX,,4,P1|GEO+PTX|F4,P1|GEO+PTX,val
+ptx2_2_png.rf.ZcYuXZyYfPIfgOypnn5Z.png,ptx2 2,ptx2_2.tiff,SKOV/0h,SKOV,ptx2_2,0,0.9997,,ok,P1,PTX,,7,P1|PTX|F7,P1|PTX,test
+75geo1_4_png.rf.gXnQOso0XaCNeb2iSQ5d.png,75geo1 4,75geo1_4.tiff,SKOV/0h,SKOV,75geo1_4,0,0.9997,,ok,P1,GEO,,4,P1|GEO|F4,P1|GEO,train
+Snap-60_12_png.rf.AiY33Mo4Daj2M4cZgUnh.png,snap-60,Snap-60.tiff,SKOV/48h,SKOV,snap-60,48,0.9997,0.1247,ok,P2,CARBO+GEO,,14,P2|CARBO+GEO|F14,P2|CARBO+GEO,train
+Snap-60_png.rf.RpcRTxyR97nXnbvR3urB.png,snap-60,Snap-60.tiff,SKOV/0h,SKOV,snap-60,0,0.9997,0.1708,ok,P2,CARBO+GEO,,14,P2|CARBO+GEO|F14,P2|CARBO+GEO,train
+Snap-60_221_png.rf.3hBjZALI1RFDCXb1MMT9.png,snap-60,Snap-60.tiff,SKOV/24h,SKOV,snap-60,24,0.9997,0.1215,ok,P1,GEO+PTX,,14,P1|GEO+PTX|F14,P1|GEO+PTX,test
+Snap-60_161_png.rf.bERIfIfLBiocZsdlYi1s.png,snap-60,Snap-60 (2).tiff,SKOV/48h,SKOV,snap-60,48,0.9997,0.1222,ok,P1,GEO+PTX,,14,P1|GEO+PTX|F14,P1|GEO+PTX,test
+Snap-44_230_png.rf.DTYO8Kp6HurpQGqbOhho.png,snap-44,Snap-44 (2).tiff,SKOV/24h,SKOV,snap-44,24,0.9996,0.1436,ok,P1,GEO,,13,P1|GEO|F13,P1|GEO,test
+Snap-44_81_png.rf.TGvVmP3lIRrM3iTJoyVs.png,snap-44,Snap-44.tiff,SKOV/24h,SKOV,snap-44,24,0.9993,0.2416,ok,P2,GEO,,13,P2|GEO|F13,P2|GEO,train
+Snap-44_png.rf.Ys2ZD04BJk4p3T7zAkIt.png,snap-44,Snap-44.tiff,SKOV/0h,SKOV,snap-44,0,0.9998,0.1436,ok,P2,GEO,,13,P2|GEO|F13,P2|GEO,train
+Snap-44_36_png.rf.TROYQwK4sRxpgSs22NpY.png,snap-44,Snap-44.tiff,SKOV/48h,SKOV,snap-44,48,0.9995,0.2034,ok,P2,GEO,,14,P2|GEO|F14,P2|GEO,train
+Snap-44_170_png.rf.zUBxx8E0b0UKDnm5q1Jy.png,snap-44,Snap-44 (2).tiff,SKOV/48h,SKOV,snap-44,48,0.9995,0.1433,ok,P1,GEO,,13,P1|GEO|F13,P1|GEO,test
+Snap-44_262_png.rf.lTvBtNUt4oywkU5QtcJ7.png,snap-44,Snap-44.tiff,SKOV/72h,SKOV,snap-44,72,0.9992,0.2151,ok,P1,GEO+PTX,,9,P1|GEO+PTX|F9,P1|GEO+PTX,train
+Snap-54_1_png.rf.LYlBIIJ3KoqRfd7QemOX.png,snap-54,Snap-54.tiff,SKOV/48h,SKOV,snap-54,48,0.9996,0.1825,ok,P2,CARBO+GEO,,8,P2|CARBO+GEO|F8,P2|CARBO+GEO,train
+Snap-54_106_png.rf.VOFbghvZhHsPNSqUFFkZ.png,snap-54,Snap-54.tiff,SKOV/24h,SKOV,snap-54,24,0.9994,0.221,ok,P2,CARBO+GEO,,8,P2|CARBO+GEO|F8,P2|CARBO+GEO,train
+Snap-54_150_png.rf.BbXD2AQgA8naVrH0wTEE.png,snap-54,Snap-54 (2).tiff,SKOV/48h,SKOV,snap-54,48,0.9996,0.1769,ok,P1,GEO+PTX,,8,P1|GEO+PTX|F8,P1|GEO+PTX,train
+Snap-54_png.rf.HGYLhnxL2tQsTiXRBg9n.png,snap-54,Snap-54.tiff,SKOV/0h,SKOV,snap-54,0,0.9997,0.164,ok,P2,CARBO+GEO,,8,P2|CARBO+GEO|F8,P2|CARBO+GEO,train
+Snap-54_210_png.rf.BQ3GBpltnc6IdhOhKvJv.png,snap-54,Snap-54 (2).tiff,SKOV/24h,SKOV,snap-54,24,0.9996,0.1643,ok,P1,GEO+PTX,,8,P1|GEO+PTX|F8,P1|GEO+PTX,train
+Snap-45_39_png.rf.PKurQMo8B3ygR4NZVCB3.png,snap-45,Snap-45.tiff,SKOV/48h,SKOV,snap-45,48,0.9996,0.1699,ok,P2,GEO,,15,P2|GEO|F15,P2|GEO,test
+Snap-45_png.rf.8mEoXejuMEvhSOq5NbIp.png,snap-45,Snap-45.tiff,SKOV/0h,SKOV,snap-45,0,0.9996,0.2241,ok,P2,GEO,,14,P2|GEO|F14,P2|GEO,train
+Snap-45_84_png.rf.PwtbQ0TcIu75QL9i4MKM.png,snap-45,Snap-45.tiff,SKOV/24h,SKOV,snap-45,24,0.9995,0.1691,ok,P2,GEO,,14,P2|GEO|F14,P2|GEO,train
+Snap-45_233_png.rf.e0d4At5O0A55XswWkUGG.png,snap-45,Snap-45 (2).tiff,SKOV/24h,SKOV,snap-45,24,0.9994,0.2624,ok,P1,GEO,,14,P1|GEO|F14,P1|GEO,train
+Snap-34_229_png.rf.KJvv2XXHVgpLiZwVt9mg.png,snap-34,Snap-34 (2).tiff,SKOV/24h,SKOV,snap-34,24,0.9996,0.124,ok,P1,GEO,,3,P1|GEO|F3,P1|GEO,val
+Snap-34_png.rf.GLZbrOT2myk9kc5oA6aX.png,snap-34,Snap-34.tiff,SKOV/0h,SKOV,snap-34,0,0.9998,0.1103,ok,P2,GEO,,3,P2|GEO|F3,P2|GEO,train
+Snap-34_35_png.rf.cCBbQ4DkqD2S1DhdFMv4.png,snap-34,Snap-34.tiff,SKOV/48h,SKOV,snap-34,48,0.9996,0.1791,ok,P2,GEO,,4,P2|GEO|F4,P2|GEO,val
+Snap-34_80_png.rf.OTwRABBb2h7sLs5br5Es.png,snap-34,Snap-34.tiff,SKOV/24h,SKOV,snap-34,24,0.9992,0.2474,ok,P2,GEO,,3,P2|GEO|F3,P2|GEO,train
+Snap-34_169_png.rf.ecNc96UyH80MDbVQXJGF.png,snap-34,Snap-34 (2).tiff,SKOV/48h,SKOV,snap-34,48,0.9995,0.11,ok,P1,GEO,,3,P1|GEO|F3,P1|GEO,val
+Snap-34_273_png.rf.dlwVdBfC0b4Uz3SdOjOc.png,snap-34,Snap-34.tiff,SKOV/72h,SKOV,snap-34,72,0.9995,0.2534,ok,P1,GEO,,14,P1|GEO|F14,P1|GEO,train
+Snap-37_268_png.rf.N3W1ypt0pMmCc4GIxO5t.png,snap-37,Snap-37.tiff,SKOV/72h,SKOV,snap-37,72,0.9993,0.2947,ok,P1,GEO+PTX,,2,P1|GEO+PTX|F2,P1|GEO+PTX,train
+Snap-37_175_png.rf.FF9MN09bmlSbN40cxQRu.png,snap-37,Snap-37 (2).tiff,SKOV/48h,SKOV,snap-37,48,0.9994,0.2008,ok,P1,GEO,,6,P1|GEO|F6,P1|GEO,val
+Snap-37_41_png.rf.OsCpPjm2DJG8qbSq8Ons.png,snap-37,Snap-37.tiff,SKOV/48h,SKOV,snap-37,48,0.9996,0.214,ok,P2,GEO,,7,P2|GEO|F7,P2|GEO,train
+Snap-37_235_png.rf.fp1LasdFT1TZbfgrTie6.png,snap-37,Snap-37 (2).tiff,SKOV/24h,SKOV,snap-37,24,0.9995,0.203,ok,P1,GEO,,6,P1|GEO|F6,P1|GEO,val
+Snap-37_86_png.rf.pYptoZNCglZAWUG9VoJY.png,snap-37,Snap-37.tiff,SKOV/24h,SKOV,snap-37,24,0.9994,0.2443,ok,P2,GEO,,6,P2|GEO|F6,P2|GEO,train
+Snap-37_png.rf.s7RPNeDaj3ymHHF9zaPj.png,snap-37,Snap-37.tiff,SKOV/0h,SKOV,snap-37,0,0.9997,0.2008,ok,P2,GEO,,6,P2|GEO|F6,P2|GEO,train
+Snap-38_167_png.rf.81c3SeZTSEMy4ciG0Dyg.png,snap-38,Snap-38 (2).tiff,SKOV/48h,SKOV,snap-38,48,0.9994,0.2173,ok,P1,GEO,,7,P1|GEO|F7,P1|GEO,train
+Snap-38_78_png.rf.PaqjOBWZbWnDZZ0RJ1ZA.png,snap-38,Snap-38.tiff,SKOV/24h,SKOV,snap-38,24,0.9995,0.2502,ok,P2,GEO,,7,P2|GEO|F7,P2|GEO,train
+Snap-38_png.rf.hr6aZTEXF60YzgUNJy8a.png,snap-38,Snap-38.tiff,SKOV/0h,SKOV,snap-38,0,0.9997,0.2032,ok,P2,GEO,,7,P2|GEO|F7,P2|GEO,train
+Snap-38_227_png.rf.kK61yb2zZ2y3LBaAWQce.png,snap-38,Snap-38 (2).tiff,SKOV/24h,SKOV,snap-38,24,0.9995,0.2032,ok,P1,GEO,,7,P1|GEO|F7,P1|GEO,train
+Snap-38_260_png.rf.yEEj76fEVPAcN4GxNnYn.png,snap-38,Snap-38.tiff,SKOV/72h,SKOV,snap-38,72,0.9993,0.2766,ok,P1,GEO+PTX,,3,P1|GEO+PTX|F3,P1|GEO+PTX,train
+ptx1_4_png.rf.B58ENbe2QLEA2a5XA2zj.png,ptx1 4,ptx1_4.tiff,SKOV/0h,SKOV,ptx1_4,0,0.9997,,ok,P1,PTX,,4,P1|PTX|F4,P1|PTX,train
+Snap-35_30_png.rf.HFgFuSTR9HjcV1lmD48Y.png,snap-35,Snap-35.tiff,SKOV/48h,SKOV,snap-35,48,0.9996,0.1302,ok,P2,GEO,,5,P2|GEO|F5,P2|GEO,train
+Snap-35_75_png.rf.ZWAOtrcgayqhDponTPfJ.png,snap-35,Snap-35.tiff,SKOV/24h,SKOV,snap-35,24,0.9995,0.1687,ok,P2,GEO,,4,P2|GEO|F4,P2|GEO,val
+Snap-35_164_png.rf.b3DJJM2AtGNEln2avfI1.png,snap-35,Snap-35 (2).tiff,SKOV/48h,SKOV,snap-35,48,0.9995,0.13,ok,P1,GEO,,4,P1|GEO|F4,P1|GEO,train
+Snap-35_png.rf.RT3Bf99xhBs9fwFUnHMV.png,snap-35,Snap-35.tiff,SKOV/0h,SKOV,snap-35,0,0.9997,0.1457,ok,P2,GEO,,4,P2|GEO|F4,P2|GEO,val
+Snap-35_224_png.rf.Yl7Y3PdpoIYfMmZrgbvL.png,snap-35,Snap-35 (2).tiff,SKOV/24h,SKOV,snap-35,24,0.9995,0.1791,ok,P1,GEO,,4,P1|GEO|F4,P1|GEO,train
+ct2_2_png.rf.Dvx8WZususU5N4TJ6Cm4.png,ct2 2,ct2_2.tiff,SKOV/0h,SKOV,ct2_2,0,0.9994,,ok,P1,CT,,7,P1|CT|F7,P1|CT,train
+ct3_4_png.rf.Q1FfAxwTqKJY5ScqhqHb.png,ct3 4,ct3_4.tiff,SKOV/0h,SKOV,ct3_4,0,0.9996,,ok,P1,CT,,14,P1|CT|F14,P1|CT,train
+Snap-36_271_png.rf.sfFr7wfzXmMz4JWE34hv.png,snap-36,Snap-36.tiff,SKOV/72h,SKOV,snap-36,72,0.999,0.2662,ok,P1,GEO+PTX,,1,P1|GEO+PTX|F1,P1|GEO+PTX,train
+Snap-61_png.rf.jjph9AjAMjC05RAi810r.png,snap-61,Snap-61.tiff,SKOV/24h,SKOV,snap-61,24,0.9953,,ok,P2,CARBO+GEO,,15,P2|CARBO+GEO|F15,P2|CARBO+GEO,train
+ct3_2_png.rf.lLB33dtGMqg7HHl9TRYc.png,ct3 2,ct3_2.tiff,SKOV/0h,SKOV,ct3_2,0,0.9996,,ok,P1,CT,,12,P1|CT|F12,P1|CT,train
+ct1_4_png.rf.nvoj5ht7KmVxGyu6qAiI.png,ct1 4,ct1_4.tiff,SKOV/0h,SKOV,ct1_4,0,0.9996,,ok,P1,CT,,4,P1|CT|F4,P1|CT,test
+ct1_3_png.rf.p5g48N2vmUfQ595DsvAx.png,ct1 3,ct1_3.tiff,SKOV/0h,SKOV,ct1_3,0,0.9996,,ok,P1,CT,,3,P1|CT|F3,P1|CT,test
+ptx3_5_png.rf.jKwt368jwlClxFelzVnq.png,ptx3 5,ptx3_5.tiff,SKOV/0h,SKOV,ptx3_5,0,0.9995,,ok,P1,PTX,,15,P1|PTX|F15,P1|PTX,train
+Snap-39_166_png.rf.5gvQkXC8fgXYVuIF4f7T.png,snap-39,Snap-39 (2).tiff,SKOV/48h,SKOV,snap-39,48,0.9995,0.1288,ok,P1,GEO,,8,P1|GEO|F8,P1|GEO,test
+Snap-39_259_png.rf.66NggF7aoR1cBAe7oHvS.png,snap-39,Snap-39.tiff,SKOV/72h,SKOV,snap-39,72,0.9988,0.2072,ok,P1,GEO+PTX,,4,P1|GEO+PTX|F4,P1|GEO+PTX,val
+Snap-39_png.rf.B5ZdhBp8JGAo6JQji9gU.png,snap-39,Snap-39.tiff,SKOV/0h,SKOV,snap-39,0,0.9998,0.1292,ok,P2,GEO,,8,P2|GEO|F8,P2|GEO,val
+Snap-39_226_png.rf.3eKRFoC6EkRrFYfUCzwm.png,snap-39,Snap-39 (2).tiff,SKOV/24h,SKOV,snap-39,24,0.9996,0.1357,ok,P1,GEO,,8,P1|GEO|F8,P1|GEO,test
+Snap-39_77_png.rf.FBpms3tKgC2fVOg0pxu7.png,snap-39,Snap-39.tiff,SKOV/24h,SKOV,snap-39,24,0.9993,0.227,ok,P2,GEO,,8,P2|GEO|F8,P2|GEO,val
+Snap-39_32_png.rf.rJ1yCNkW0jfcy0HevE1x.png,snap-39,Snap-39.tiff,SKOV/48h,SKOV,snap-39,48,0.9996,0.1954,ok,P2,GEO,,9,P2|GEO|F9,P2|GEO,train
+Snap-46_266_png.rf.BVQ9Gkip9wHmusHLwlcZ.png,snap-46,Snap-46.tiff,SKOV/72h,SKOV,snap-46,72,0.999,0.2156,ok,P1,GEO+PTX,,11,P1|GEO+PTX|F11,P1|GEO+PTX,train
+ct1_2_png.rf.vkrzhchwAd8VGhBZotAn.png,ct1 2,ct1_2.tiff,SKOV/0h,SKOV,ct1_2,0,0.9994,,ok,P1,CT,,2,P1|CT|F2,P1|CT,train
+ct2_3_png.rf.05gH6Q4BVtzjbT8GvpXk.png,ct2 3,ct2_3.tiff,SKOV/0h,SKOV,ct2_3,0,0.9992,,ok,P1,CT,,8,P1|CT|F8,P1|CT,train
+ptx3_2_png.rf.83PwRP4WO592IOLoTAYo.png,ptx3 2,ptx3_2.tiff,SKOV/0h,SKOV,ptx3_2,0,0.9997,,ok,P1,PTX,,12,P1|PTX|F12,P1|PTX,train
+ptx2_3_png.rf.6nkf49DKAANKUxGN7G1n.png,ptx2 3,ptx2_3.tiff,SKOV/0h,SKOV,ptx2_3,0,0.9997,,ok,P1,PTX,,8,P1|PTX|F8,P1|PTX,test
+ct2_4_png.rf.LwbtYPKdSnLjWIVRn6Bb.png,ct2 4,ct2_4.tiff,SKOV/0h,SKOV,ct2_4,0,0.9996,,ok,P1,CT,,9,P1|CT|F9,P1|CT,train
+ptx3_3_png.rf.Lwqe4rLJr5ezAgBTPW9x.png,ptx3 3,ptx3_3.tiff,SKOV/0h,SKOV,ptx3_3,0,0.9997,,ok,P1,PTX,,13,P1|PTX|F13,P1|PTX,val
+ptx2_4_png.rf.YEH27Bh4es5Hup4qomsA.png,ptx2 4,ptx2_4.tiff,SKOV/0h,SKOV,ptx2_4,0,0.9997,,ok,P1,PTX,,9,P1|PTX|F9,P1|PTX,train
+ptx1_3_png.rf.bncOGXvomWmfQYVg0GEu.png,ptx1 3,ptx1_3.tiff,SKOV/0h,SKOV,ptx1_3,0,0.9997,,ok,P1,PTX,,3,P1|PTX|F3,P1|PTX,train
+ct2_5_png.rf.V6uuFIT0hRf8VvfkI0ft.png,ct2 5,ct2_5.tiff,SKOV/0h,SKOV,ct2_5,0,0.9995,,ok,P1,CT,,10,P1|CT|F10,P1|CT,val
+Snap-11_145_png.rf.3ge56gMacLMVyGcpZzLe.png,snap-11,Snap-11 (2).tiff,SKOV/48h,SKOV,snap-11,48,0.9994,0.2553,ok,P1,CT,,11,P1|CT|F11,P1|CT,train
+Snap-11_249_png.rf.6QpMCQrXSp8HmL3wsQyY.png,snap-11,Snap-11.tiff,SKOV/72h,SKOV,snap-11,72,0.9985,0.2814,ok,P1,PTX,,6,P1|PTX|F6,P1|PTX,train

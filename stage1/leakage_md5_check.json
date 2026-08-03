@@ -1,0 +1,44 @@
+{
+  "n_ativas_com_cru": 1296,
+  "n_caminhos_unicos": 1296,
+  "n_inexistentes": 0,
+  "n_md5_distintos": 1293,
+  "n_grupos_md5_duplicado": 3,
+  "n_cruzam_particao": 0,
+  "cross_particao": [],
+  "duplicados_intra": [
+    {
+      "md5": "6b57b8895c63b5cd63849fcdb7955c37",
+      "particao": "train",
+      "arquivos": [
+        "A2 12hr 2.tiff",
+        "A2 12hr 2.tiff"
+      ],
+      "grupos": [
+        "Controle+Saudavel||None||A2"
+      ]
+    },
+    {
+      "md5": "80b32436352d1ceaeeeb2bcf6c1b1845",
+      "particao": "test",
+      "arquivos": [
+        "B1_8hr 2.tiff",
+        "B1 8hr 2.tiff"
+      ],
+      "grupos": [
+        "Controle+Saudavel||None||B1"
+      ]
+    },
+    {
+      "md5": "1d6d9ef823c4ede8780727ecb042a811",
+      "particao": "train",
+      "arquivos": [
+        "A2 0hr 2.tiff",
+        "A2 0hr 2.tiff"
+      ],
+      "grupos": [
+        "Controle+Saudavel||None||A2"
+      ]
+    }
+  ]
+}

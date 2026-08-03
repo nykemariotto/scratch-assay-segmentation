@@ -1,0 +1,77 @@
+{
+  "0h": {
+    "bd_snaps": 120,
+    "match_P1": 60,
+    "match_P2": 60,
+    "match_ambos": 0,
+    "sem_match": 0,
+    "unmatched_examples": [],
+    "P1_treatments_hit": {
+      "PTX": 15,
+      "75ug": 15,
+      "75ug+PTX": 15,
+      "CT": 15
+    },
+    "P2_treatments_hit": {
+      "carbo": 15,
+      "geo": 15,
+      "carbo_geo": 15,
+      "ct": 15
+    }
+  },
+  "24h": {
+    "bd_snaps": 120,
+    "match_P1": 60,
+    "match_P2": 60,
+    "match_ambos": 0,
+    "sem_match": 0,
+    "unmatched_examples": [],
+    "P1_treatments_hit": {
+      "75": 15,
+      "75PTX": 15,
+      "CT": 15,
+      "PTX": 15
+    },
+    "P2_treatments_hit": {
+      "carbo": 15,
+      "carbo_geo": 15,
+      "ct": 15,
+      "geo": 15
+    }
+  },
+  "48h": {
+    "bd_snaps": 120,
+    "match_P1": 60,
+    "match_P2": 60,
+    "match_ambos": 0,
+    "sem_match": 0,
+    "unmatched_examples": [],
+    "P1_treatments_hit": {
+      "75PTX": 15,
+      "75": 15,
+      "CT": 15,
+      "PTX": 15
+    },
+    "P2_treatments_hit": {
+      "geo_carbo": 15,
+      "ct": 15,
+      "carbo": 15,
+      "geo": 15
+    }
+  },
+  "72h": {
+    "bd_snaps": 48,
+    "match_P1": 48,
+    "match_P2": 0,
+    "match_ambos": 0,
+    "sem_match": 0,
+    "unmatched_examples": [],
+    "P1_treatments_hit": {
+      "ct": 3,
+      "75": 15,
+      "75ptx": 15,
+      "ptx": 15
+    },
+    "P2_treatments_hit": {}
+  }
+}

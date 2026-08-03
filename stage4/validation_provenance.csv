@@ -1,0 +1,11 @@
+﻿whst_input_file,series_key,area_pct_auto,area_pct_corrigida,delta_pp,delta_rel,iou_auto_vs_corr,status
+157a366d29__HUVEC__Originais_1_None_A1__tp0h__A1_0HR_2_2.tiff,Originais (1)||None||A1||c2,17.962,16.944,-1.018,-0.0567,0.841,ok
+207e171eaf__SKOV-3__P2_CT_F9__tp0h__Snap-10.tiff,P2|CT|F9,42.731,38.982,-3.749,-0.0877,0.8793,ok
+821e5c649b__HUVEC__Controle+Saudavel_None_B1__tp0h__B1_0hr_1.tiff,Saudável||None||B1||c1,18.078,21.195,3.117,0.1724,0.8393,ok
+857d6a0b73__HUVEC__originais_None_D1__tp0h__D1_0HR_1.tiff,originais||None||D1||c1,16.757,18.521,1.764,0.1053,0.8843,ok
+a40bd1473a__HUVEC__Originais_1_None_D1__tp8h__D1_8HR_1_2.tiff,Originais (1)||None||D1||c1,11.164,8.209,-2.955,-0.2647,0.6893,ok
+aceb4fb866__HUVEC__LUIS_RAW_PEP_E1__tp0h__E1_0H_1.tiff,LUIS RAW||PEP||E1||c1,20.328,22.932,2.604,0.1281,0.8773,ok
+b4778b9433__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D1__tp0h__D1_0H_2_3.tiff,Migração (PET e PEP) n3 - RAW||None||D1||c2,16.33,17.89,1.56,0.0955,0.8898,ok
+b98f1d3be8__HUVEC__originais_None_D1__tp8h__D1_8HR_1.tiff,originais||None||D1||c1,10.469,10.416,-0.053,-0.0051,0.7977,ok
+d1bcf749b2__HUVEC__LUIS_RAW_PEP_E1__tp8h__E1_8H_1.tiff,LUIS RAW||PEP||E1||c1,10.818,10.63,-0.188,-0.0174,0.7054,ok
+ec6c7bc6f7__SKOV-3__P2_CARBO_F9__tp24h__Snap-24.tiff,P2|CARBO|F9,25.01,18.34,-6.67,-0.2667,0.669,ok

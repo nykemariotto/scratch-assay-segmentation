@@ -1,0 +1,31 @@
+# Dataset definition for the leakage-free partition (manuscript 4336348).
+#
+# 932 / 197 / 234 images, partitioned at the level of the physical acquisition
+# field so that no field contributes to more than one split. The image-to-group
+# map is in the deposited manifest CSV.
+#
+# `path` is RELATIVE so that this file works from any checkout. Two notes on how
+# it resolves, because the two consumers differ:
+#
+#   * This repository's own scripts (unet_comparator/, stage2/preflight.py) resolve a
+#     relative `path` against the directory of THIS FILE.
+#
+#   * Ultralytics does NOT. It resolves a relative `path` against its global
+#     `datasets_dir` setting (default ~/datasets), not against the working
+#     directory or this file. Before retraining the detection grid, point that
+#     setting at the repository root:
+#
+#         yolo settings datasets_dir=/absolute/path/to/this/repo
+#
+#     or substitute an absolute `path` below. This is a property of Ultralytics,
+#     not of the dataset; it is written down because a relative path that
+#     silently resolves elsewhere produces a plausible wrong number rather than
+#     a crash.
+
+path: dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: wound

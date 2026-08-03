@@ -1,0 +1,4 @@
+﻿md5,particao,group_key,kept_arquivo_b,kept_arquivo_a,kept_anotacoes,kept_vertices,kept_area,removed_arquivo_b,removed_arquivo_a,removed_anotacoes,removed_vertices,removed_area
+6b57b8895c63b5cd63849fcdb7955c37,train,Controle+Saudavel||None||A2,A2 12HR 2_png.rf.tXrld1QaxXbx1JWZQy7N.png,A2 12hr 2.tiff,1,257,920640,A2 12hr 2_png.rf.LZSQW45nx6ui5c5DjElv.png,A2 12hr 2.tiff,1,113,91377
+80b32436352d1ceaeeeb2bcf6c1b1845,test,Controle+Saudavel||None||B1,B1 8HR 2_png.rf.QKXzmdKQE41ccuWFgbwS.png,B1 8hr 2.tiff,1,199,1013115,B1_8hr 2_png.rf.XKx5gS3ghJ7c4u8nIxAL.png,B1_8hr 2.tiff,1,94,155916
+1d6d9ef823c4ede8780727ecb042a811,train,Controle+Saudavel||None||A2,A2 0HR 2_png.rf.uZnHhBG7PNdQodX1DjwB.png,A2 0hr 2.tiff,1,215,1189845,A2 0hr 2_png.rf.KWeoDuzrrjKAePH796rp.png,A2 0hr 2.tiff,1,59,152082

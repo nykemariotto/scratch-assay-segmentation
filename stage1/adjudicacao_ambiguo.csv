@@ -1,0 +1,13 @@
+﻿analysis_unit,timepoint_h,campo,area_pct_auto,whst_input_file,decisao
+Controle||None||A1,24,2,2.095,852829b565__HUVEC__Controle+Saudavel_None_A1__tp24h__A1_24h_2.tiff,OK
+LUIS RAW||PEP+GB||A3,8,1,5.029,a174960b96__HUVEC__LUIS_RAW_PEP+GB_A3__tp8h__A3_8H_1.tiff,sub
+LUIS RAW||PEP+MCC||B4,0,2,11.295,30d94f864c__HUVEC__LUIS_RAW_PEP+MCC_B4__tp0h__B4_0H_2.tiff,sub
+LUIS RAW||PEP+MET3||A6,0,1,16.895,9f614303f3__HUVEC__LUIS_RAW_PEP+MET3_A6__tp0h__A6_0H_1.tiff,sub
+LUIS RAW||PEP||E1,12,2,4.643,6aac6703c3__HUVEC__LUIS_RAW_PEP_E1__tp12h__E1_12H_2.tiff,invalida
+P1|GEO+PTX|F6,48,F6,1.543,58a4cc19a9__SKOV-3__P1_GEO+PTX_F6__tp48h__Snap-52_2.tiff,OK
+P1|GEO|F11,72,F11,1.455,6dfed6db6e__SKOV-3__P1_GEO_F11__tp72h__Snap-31.tiff,invalida
+P1|GEO|F6,72,F6,0.867,4406107ac9__SKOV-3__P1_GEO_F6__tp72h__Snap-26.tiff,invalida
+P2|CARBO|F5,24,F5,9.768,e38b9ca083__SKOV-3__P2_CARBO_F5__tp24h__Snap-20.tiff,OK
+P2|CARBO|F5,48,F5,14.379,e068a53984__SKOV-3__P2_CARBO_F5__tp48h__Snap-21.tiff,sub
+originais||None||D1,24,1,4.703,8ea9f57fed__HUVEC__originais_None_D1__tp24h__D1_24HR_1.tiff,super
+originais||None||D4,8,1,6.95,89b61b11f6__HUVEC__originais_None_D4__tp8h__D4_8HR_1.tiff,super

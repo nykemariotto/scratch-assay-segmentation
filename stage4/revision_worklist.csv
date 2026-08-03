@@ -1,0 +1,16 @@
+﻿ordem,whst_input_file,cell_line,analysis_unit,timepoint_h,campo,eh_baseline,categoria_visual,acao,area_pct_auto
+1,9487facce2__HUVEC__LUIS_RAW_PEP+GB_A3__tp0h__A3_0H_1.tiff,HUVEC,LUIS RAW||PEP+GB||A3,0,1,SIM,IMG_INVALIDA,decidir manter/excluir o frame,0.076
+2,30d94f864c__HUVEC__LUIS_RAW_PEP+MCC_B4__tp0h__B4_0H_2.tiff,HUVEC,LUIS RAW||PEP+MCC||B4,0,2,SIM,IMG_INVALIDA,decidir manter/excluir o frame,11.295
+3,9f614303f3__HUVEC__LUIS_RAW_PEP+MET3_A6__tp0h__A6_0H_1.tiff,HUVEC,LUIS RAW||PEP+MET3||A6,0,1,SIM,IMG_INVALIDA,decidir manter/excluir o frame,16.895
+4,d8240f29e1__HUVEC__Migra_o_PET_e_PEP_n1_-_RAW_PEP_+_NEB_5uM_D4__tp24h__D4_24H_1.tiff,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,24,1,,IMG_INVALIDA,decidir manter/excluir o frame,84.11
+5,9f5991f031__HUVEC__Migra_o_PET_e_PEP_n1_-_RAW_PEP_+_NEB_5uM_D4__tp24h__D4_24H_2.tiff,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,24,2,,IMG_INVALIDA,decidir manter/excluir o frame,96.736
+6,6af51551c0__HUVEC__Migra_o_PET_e_PEP_n1_-_RAW_PET_+_NEB_1uM_C5__tp24h__C5_24H_1_2.tiff,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,24,1,,IMG_INVALIDA,decidir manter/excluir o frame,82.762
+7,17691aa585__HUVEC__Migra_o_PET_e_PEP_n1_-_RAW_PET_+_NEB_1uM_C5__tp24h__C5_24H_2_2.tiff,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,24,2,,IMG_INVALIDA,decidir manter/excluir o frame,75.585
+8,ff629ecc3f__HUVEC__Migra_o_PET_e_PEP_n2_-_RAW_PEP_A2__tp8h__A2_8H_1_2.tiff,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,8,1,,IMG_INVALIDA,decidir manter/excluir o frame,50.08
+9,6e6e66cf02__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D4__tp0h__D4_0H_2_3.tiff,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,0,2,SIM,IMG_INVALIDA,decidir manter/excluir o frame,89.432
+10,c07bc84c98__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D4__tp8h__D4_8H_2_3.tiff,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,8,2,,IMG_INVALIDA,decidir manter/excluir o frame,87.037
+11,de4591208a__HUVEC__Migra_o_PET_e_PEP_n3_-_RAW_None_D4__tp12h__D4_12H_2_3.tiff,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,12,2,,IMG_INVALIDA,decidir manter/excluir o frame,89.506
+12,4c0807427d__HUVEC__Originais_1_None_D1__tp24h__D1_24HR_2_2.tiff,HUVEC,Originais (1)||None||D1,24,2,,IMG_INVALIDA,decidir manter/excluir o frame,7.515
+13,32105a21ed__HUVEC__originais_None_D4__tp12h__D4_12HR_1.tiff,HUVEC,originais||None||D4,12,1,,IMG_INVALIDA,decidir manter/excluir o frame,15.77
+14,58a4cc19a9__SKOV-3__P1_GEO+PTX_F6__tp48h__Snap-52_2.tiff,SKOV-3,P1|GEO+PTX|F6,48,F6,,IMG_INVALIDA,decidir manter/excluir o frame,1.543
+15,81a85f25ae__SKOV-3__P2_GEO_F8__tp0h__Snap-39.tiff,SKOV-3,P2|GEO|F8,0,F8,SIM,IMG_INVALIDA,decidir manter/excluir o frame,64.859

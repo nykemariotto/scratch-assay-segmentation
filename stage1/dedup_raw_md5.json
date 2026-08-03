@@ -1,0 +1,10 @@
+{
+  "n_test": 235,
+  "n_com_cru": 216,
+  "n_crus_unicos_md5": 215,
+  "n_grupos_identidade_multiarquivo": 51,
+  "n_grupos_identicos_md5": 1,
+  "n_grupos_distintos": 50,
+  "n_duplicatas_medicao": 1,
+  "n_orfaos": 19
+}

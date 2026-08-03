@@ -1,0 +1,67 @@
+{
+  "fonte": "data/correction_agreement.csv",
+  "B": 10000,
+  "seed": 42,
+  "alpha": 0.05,
+  "resultados": {
+    "todos_os_pares": {
+      "conjunto": "all pairs (INFLATED - do not use)",
+      "n": 14,
+      "iou_mediana": [
+        0.894405,
+        0.82811,
+        1.0
+      ],
+      "iou_media": [
+        0.8776314285714285,
+        0.8157890000000002,
+        0.9342810714285714
+      ],
+      "ccc_areas": [
+        0.9979192019000535,
+        0.9933003146280159,
+        0.9995630453724524
+      ],
+      "vies_pp": [
+        0.07078571428571413,
+        -0.16228928571428586,
+        0.30685714285714255
+      ],
+      "amplitude_area_pct": [
+        0.0,
+        21.778
+      ],
+      "valores_distintos_mediana_bootstrap": 46
+    },
+    "pares_limpos": {
+      "conjunto": "clean pairs (the ones that count)",
+      "n": 10,
+      "iou_mediana": [
+        0.860525,
+        0.74566,
+        0.9041399999999999
+      ],
+      "iou_media": [
+        0.828684,
+        0.763900525,
+        0.883386225
+      ],
+      "ccc_areas": [
+        0.9962606516088822,
+        0.9848589190800697,
+        0.99912172621055
+      ],
+      "vies_pp": [
+        0.09909999999999979,
+        -0.2227075000000001,
+        0.4318024999999998
+      ],
+      "amplitude_area_pct": [
+        2.559,
+        21.778
+      ],
+      "valores_distintos_mediana_bootstrap": 46
+    }
+  },
+  "nota": "the `pares_limpos` values are the ones that go to the manuscript; `todos_os_pares` is kept on record because it is what was published before the correction"
+}

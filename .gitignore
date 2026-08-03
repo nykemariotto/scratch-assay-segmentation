@@ -1,0 +1,200 @@
+# ====================================================================
+# Scratch Assay Segmentation - .gitignore
+# Extends GitHub's Python template with ML/research-specific patterns
+# ====================================================================
+
+# ----- Byte-compiled / optimized / DLL files -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ----- Distribution / packaging -----
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----- Virtual environments -----
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.pdm-python
+pyvenv.cfg
+
+# ----- PyInstaller -----
+*.manifest
+*.spec
+
+# ----- Installer logs -----
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- Unit test / coverage -----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ----- Jupyter -----
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ----- IDEs / editors -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# ML / research-specific
+# ====================================================================
+
+# ----- Trained model weights (large; live in Zenodo) -----
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+*.h5
+*.pkl
+*.pickle
+
+# ----- Dataset blobs (large; live in Zenodo) -----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+dataset/*/
+!dataset/README.md
+models/*.pt
+!models/README.md
+
+# ----- Generated figures / outputs -----
+analysis/Figure_*.png
+analysis/Figure_*.pdf
+analysis/Figure_*.svg
+analysis/output_*.txt
+*.log
+
+# ----- Local intermediate data (not for redistribution) -----
+analysis/prism_data/
+analysis/paired_data_raw.csv
+*.pzfx
+Analise_Prism/
+Analise Prism/
+
+# ----- Wandb / MLflow / TensorBoard runs -----
+wandb/
+mlruns/
+runs/
+tensorboard_logs/
+
+# ----- Sondas de hiperparametro e gates (efemeras; a grade final vive em runs/) -----
+runs_probe*/
+runs_gate/
+
+# por repack_docx.py. O que vale e o .docx; unp_docx/ e regeneravel a partir dele
+# (`unzip`), pesa 6 MB em PNGs embutidos, e versiona-lo duplicaria o manuscrito.
+unp_docx/
+
+# ----- Roboflow exports / caches -----
+.roboflow/
+roboflow_dataset/
+
+# ----- HuggingFace caches -----
+.cache/
+huggingface/
+
+# ----- Codebase Memory / knowledge-graph index (local tooling; not part of the review package) -----
+.codebase-memory/
+
+# ====================================================================
+# Etapa 4 — reference standard WHST
+# --------------------------------------------------------------------
+# Critério de repartição entre o git e o Zenodo:
+#   git    = código, documentos, mapeamentos e MEDIDAS (texto, poucos MB)
+#   Zenodo = imagens, pesos e derivados regeneráveis (GB)
+# O que fica versionado é o que permite AUDITAR o resultado sem baixar
+# gigabytes; o que sai é regenerável a partir do que fica, ou é dado bruto.
+# ====================================================================
+
+# ----- Imagens brutas do pipeline WHST (~2 GB de TIFF) -> Zenodo -----
+whst_input/
+whst_input_novos/
+whst_output_novos/
+
+# ----- Derivados grandes e REGENERÁVEIS (rodar whst_batch.ijm) -----
+whst_output/overlays/
+whst_output/overlays_sorted/
+whst_output/polygons/
+whst_output/rois/
+whst_output/masks/
+whst_output/_removidas_fora_do_escopo/*
+!whst_output/_removidas_fora_do_escopo/MANIFESTO.csv
+
+# ----- MANTIDOS de propósito (registro primário da correção manual, ~6,6 MB):
+#       whst_output/rois_corrigidos/, rois_recorrecao/, rois_validacao/,
+#       rois_completacao/, rois_baselines/ (ROIs + máscaras) e
+#       whst_output/*.csv — são a EVIDÊNCIA do reference standard, não
+#       regeneráveis, e é o que sustenta IoU/CCC no Methods.
+
+# ----- Caches e logs pesados -----
+feat_cache.npz
+*_cache.npz
+grid_log.txt
+nohup.out
+
+# ----- Painéis e figuras geradas (regeneráveis pelos scripts) -----
+painel_*.png
+inspect_*.png
+sweep_*.png
+overlay_*.png
+qc_overlay.png
+spotcheck_labels.png
+examples/output/
+# (as máscaras em whst_output/rois_*/masks/ NÃO entram aqui: são dado, não figura)
+# (examples/images/ e examples/labels/ SÃO versionados — é o dataset de exemplo)
+
+# ----- Backups automáticos dos scripts (ruído; o histórico é o git) -----
+*.bak
+*.bak_*
+
+# ----- Pacote de revisão: aposentado (docs vivem em revisao/ e na raiz) -----
+REVISAO_4336348_pkg/
+REVISAO_*.zip
+_publicar/

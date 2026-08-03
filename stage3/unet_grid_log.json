@@ -1,0 +1,32 @@
+[
+  {
+    "run": "unet_black_seed42",
+    "returncode": 0,
+    "ok": true,
+    "sec": 10850.8
+  },
+  {
+    "run": "unet_black_seed43",
+    "returncode": 0,
+    "ok": true,
+    "sec": 10752.2
+  },
+  {
+    "run": "unet_black_seed44",
+    "returncode": 0,
+    "ok": true,
+    "sec": 10877.0
+  },
+  {
+    "run": "unet_black_seed45",
+    "returncode": 0,
+    "ok": true,
+    "sec": 10747.9
+  },
+  {
+    "run": "unet_black_seed46",
+    "returncode": 0,
+    "ok": true,
+    "sec": 10747.1
+  }
+]

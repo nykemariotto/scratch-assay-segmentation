@@ -1,0 +1,247 @@
+{
+  "conf": 0.8,
+  "B": 5000,
+  "seed": 42,
+  "ic_por_configuracao": [
+    {
+      "config": "YOLO11s-seg · black · COCO",
+      "cfg": "yolo11s-seg_black_coco",
+      "mAP50": 0.9397635779827593,
+      "ic_agrupado": [
+        0.901270513569292,
+        0.9686222038502671
+      ],
+      "ic_ingenuo": [
+        0.9059354373927891,
+        0.9691856815526391
+      ],
+      "razao_largura": 1.064844747646503
+    },
+    {
+      "config": "YOLO11m-seg · white · COCO",
+      "cfg": "yolo11m-seg_white_coco",
+      "mAP50": 0.9351575352622108,
+      "ic_agrupado": [
+        0.895477493530837,
+        0.9651402377572033
+      ],
+      "ic_ingenuo": [
+        0.902138242753152,
+        0.9644399843571235
+      ],
+      "razao_largura": 1.1181508322702405
+    },
+    {
+      "config": "YOLO11m-seg · black · COCO",
+      "cfg": "yolo11m-seg_black_coco",
+      "mAP50": 0.9340369675987326,
+      "ic_agrupado": [
+        0.8967476991499509,
+        0.9620174774896832
+      ],
+      "ic_ingenuo": [
+        0.9029585792593519,
+        0.9624181241555623
+      ],
+      "razao_largura": 1.0977174220499668
+    },
+    {
+      "config": "YOLO11m-seg · black · scratch",
+      "cfg": "yolo11m-seg_black_scratch",
+      "mAP50": 0.9334653975124361,
+      "ic_agrupado": [
+        0.894447800660282,
+        0.9630975386600058
+      ],
+      "ic_ingenuo": [
+        0.900746394460939,
+        0.9628878941664748
+      ],
+      "razao_largura": 1.1047325591597885
+    },
+    {
+      "config": "YOLO11x-seg · black · COCO",
+      "cfg": "yolo11x-seg_black_coco",
+      "mAP50": 0.9331948811432127,
+      "ic_agrupado": [
+        0.8922858783340107,
+        0.963881785158247
+      ],
+      "ic_ingenuo": [
+        0.8973587066278711,
+        0.9650003987494796
+      ],
+      "razao_largura": 1.0584582463655503
+    }
+  ],
+  "ablacao_padding": {
+    "config_black": "yolo11m-seg_black_coco",
+    "config_white": "yolo11m-seg_white_coco",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "diferencas_pp": [
+      -0.4036912945125315,
+      0.8349421579916805,
+      -2.243191564390312,
+      0.9222521428058572,
+      0.3294047263661781
+    ],
+    "media_pp": -0.11205676634782556,
+    "dp_pp": 1.3027160432390457,
+    "n": 5,
+    "t_pareado": -0.19234164512900714,
+    "gl": 4,
+    "black_vence": 3
+  },
+  "pares": [
+    {
+      "a": "YOLO11s-seg · black · COCO",
+      "b": "YOLO11m-seg · white · COCO",
+      "cfg_a": "yolo11s-seg_black_coco",
+      "cfg_b": "yolo11m-seg_white_coco",
+      "delta_pp": 0.4606042720548542,
+      "ic_lo_pp": -0.4444428554838809,
+      "ic_hi_pp": 1.7143562412778424,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11s-seg · black · COCO",
+      "b": "YOLO11m-seg · black · COCO",
+      "cfg_a": "yolo11s-seg_black_coco",
+      "cfg_b": "yolo11m-seg_black_coco",
+      "delta_pp": 0.5726610384026776,
+      "ic_lo_pp": -0.573590805841403,
+      "ic_hi_pp": 1.9439109342773961,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11s-seg · black · COCO",
+      "b": "YOLO11m-seg · black · scratch",
+      "cfg_a": "yolo11s-seg_black_coco",
+      "cfg_b": "yolo11m-seg_black_scratch",
+      "delta_pp": 0.6298180470323267,
+      "ic_lo_pp": -0.22276655493646294,
+      "ic_hi_pp": 1.593476950655833,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11s-seg · black · COCO",
+      "b": "YOLO11x-seg · black · COCO",
+      "cfg_a": "yolo11s-seg_black_coco",
+      "cfg_b": "yolo11x-seg_black_coco",
+      "delta_pp": 0.6568696839546639,
+      "ic_lo_pp": -0.06715380928213249,
+      "ic_hi_pp": 1.5598838022548347,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · white · COCO",
+      "b": "YOLO11m-seg · black · COCO",
+      "cfg_a": "yolo11m-seg_white_coco",
+      "cfg_b": "yolo11m-seg_black_coco",
+      "delta_pp": 0.11205676634782336,
+      "ic_lo_pp": -0.5315667759713724,
+      "ic_hi_pp": 0.7606945800376858,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · white · COCO",
+      "b": "YOLO11m-seg · black · scratch",
+      "cfg_a": "yolo11m-seg_white_coco",
+      "cfg_b": "yolo11m-seg_black_scratch",
+      "delta_pp": 0.16921377497747248,
+      "ic_lo_pp": -1.1565729804371883,
+      "ic_hi_pp": 1.4196413203658786,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · white · COCO",
+      "b": "YOLO11x-seg · black · COCO",
+      "cfg_a": "yolo11m-seg_white_coco",
+      "cfg_b": "yolo11x-seg_black_coco",
+      "delta_pp": 0.19626541189980973,
+      "ic_lo_pp": -0.5992482217026714,
+      "ic_hi_pp": 0.8144438338119244,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · black · COCO",
+      "b": "YOLO11m-seg · black · scratch",
+      "cfg_a": "yolo11m-seg_black_coco",
+      "cfg_b": "yolo11m-seg_black_scratch",
+      "delta_pp": 0.05715700862964912,
+      "ic_lo_pp": -1.2867478488848478,
+      "ic_hi_pp": 1.402562909122681,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · black · COCO",
+      "b": "YOLO11x-seg · black · COCO",
+      "cfg_a": "yolo11m-seg_black_coco",
+      "cfg_b": "yolo11x-seg_black_coco",
+      "delta_pp": 0.08420864555198637,
+      "ic_lo_pp": -1.0274259380008042,
+      "ic_hi_pp": 1.0835866105225174,
+      "exclui_zero": false
+    },
+    {
+      "a": "YOLO11m-seg · black · scratch",
+      "b": "YOLO11x-seg · black · COCO",
+      "cfg_a": "yolo11m-seg_black_scratch",
+      "cfg_b": "yolo11x-seg_black_coco",
+      "delta_pp": 0.027051636922337252,
+      "ic_lo_pp": -1.049338685536277,
+      "ic_hi_pp": 0.9511974078302543,
+      "exclui_zero": false
+    }
+  ],
+  "indistinguiveis": [
+    [
+      "YOLO11s-seg · black · COCO",
+      "YOLO11m-seg · white · COCO"
+    ],
+    [
+      "YOLO11s-seg · black · COCO",
+      "YOLO11m-seg · black · COCO"
+    ],
+    [
+      "YOLO11s-seg · black · COCO",
+      "YOLO11m-seg · black · scratch"
+    ],
+    [
+      "YOLO11s-seg · black · COCO",
+      "YOLO11x-seg · black · COCO"
+    ],
+    [
+      "YOLO11m-seg · white · COCO",
+      "YOLO11m-seg · black · COCO"
+    ],
+    [
+      "YOLO11m-seg · white · COCO",
+      "YOLO11m-seg · black · scratch"
+    ],
+    [
+      "YOLO11m-seg · white · COCO",
+      "YOLO11x-seg · black · COCO"
+    ],
+    [
+      "YOLO11m-seg · black · COCO",
+      "YOLO11m-seg · black · scratch"
+    ],
+    [
+      "YOLO11m-seg · black · COCO",
+      "YOLO11x-seg · black · COCO"
+    ],
+    [
+      "YOLO11m-seg · black · scratch",
+      "YOLO11x-seg · black · COCO"
+    ]
+  ],
+  "n_pares": 10,
+  "n_indistinguiveis": 10
+}

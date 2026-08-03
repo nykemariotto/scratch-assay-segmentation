@@ -1,0 +1,1171 @@
+{
+ "dups_raw": [
+  {
+   "md5": "80b32436352d1ceaeeeb2bcf6c1b1845",
+   "n": 2,
+   "lotes": [
+    "Controle"
+   ],
+   "files": [
+    "Controle\\8h/B1_8hr 2.tiff",
+    "Controle\\8h/B1 8hr 2.tiff"
+   ],
+   "cross_lote": false
+  },
+  {
+   "md5": "166055abdb2446f3b2bde83d36254e5e",
+   "n": 2,
+   "lotes": [
+    "Saudável"
+   ],
+   "files": [
+    "Saudável\\8h/B3 8hr_1.tiff",
+    "Saudável\\8h/B3 8hr 1.tiff"
+   ],
+   "cross_lote": false
+  }
+ ],
+ "dups_cross_lote": 0,
+ "only_raw_hashes": 0,
+ "only_raw_files": 0,
+ "only_bd_hashes": 0,
+ "only_raw_by_ctx": {},
+ "only_bd_files": [],
+ "bd_dups": [
+  {
+   "md5": "1d6d9ef823c4ede8780727ecb042a811",
+   "files": [
+    "0h/A2 0hr 2.tiff",
+    "A2.TIFF/A2 0hr 2.tiff"
+   ]
+  },
+  {
+   "md5": "166055abdb2446f3b2bde83d36254e5e",
+   "files": [
+    "8h/B3 8hr_11.tiff",
+    "8h/B3 8hr 1.tiff"
+   ]
+  },
+  {
+   "md5": "108c08806aebc6dfddf69b8ab3ad7867",
+   "files": [
+    "8h/A2 8h 2.tiff",
+    "A2.TIFF/A2 8h 2.tiff"
+   ]
+  },
+  {
+   "md5": "80b32436352d1ceaeeeb2bcf6c1b1845",
+   "files": [
+    "8h/B1_8hr 2.tiff",
+    "8h/B1 8hr 2.tiff"
+   ]
+  },
+  {
+   "md5": "6b57b8895c63b5cd63849fcdb7955c37",
+   "files": [
+    "12h/A2 12hr 2.tiff",
+    "A2.TIFF/A2 12hr 2.tiff"
+   ]
+  },
+  {
+   "md5": "a30515f7ddc317d7d8bf8070bc73917c",
+   "files": [
+    "24h/A2 24h 2.tiff",
+    "A2.TIFF/A2 24h 2.tiff"
+   ]
+  }
+ ],
+ "semfonte_total": 71,
+ "semfonte_res": {
+  "recuperado_unico": 59,
+  "ambiguo_multi_lote": 12
+ },
+ "semfonte_well_ok": 71,
+ "semfonte_tp_ok": 71,
+ "semfonte_detalhe": [
+  {
+   "arquivo_b": "B2 12hr 1_png.rf.UxcbtO0l2izDJyfYDkL3.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 12hr 1",
+   "well": "B2",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/B2 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B2 12HR 1_png.rf.w4CHV1tZNpptkrhPRYlw.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 12hr 1",
+   "well": "B2",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/B2 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B2 8hr 2_png.rf.cVpeDQhlWEBD1zht7jp9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 8hr 2",
+   "well": "B2",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/B2 8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 8HR 2_png.rf.CDPLfmkL04TkJQcPXF00.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 8hr 2",
+   "well": "B2",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/B2 8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A4 12HR 2_png.rf.rpQDqLFh0SaadBHHtKo3.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a4 12hr 2",
+   "well": "A4",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A4 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B3 8HR 1_png.rf.6Vj56bqRTpLweyb6RKuh.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b3 8hr 1",
+   "well": "B3",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B3 8hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B5 0hr 2_png.rf.If2IuTwPnX9XldLzwVK8.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b5 0hr 2",
+   "well": "B5",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B5 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B5 0HR 2_png.rf.9vT6ovCVyNe6dvR4soOv.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b5 0hr 2",
+   "well": "B5",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B5 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A2 12HR 1_png.rf.oEQlyOq4mvi3JdVRjcDN.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a2 12hr 1",
+   "well": "A2",
+   "timepoint": "12",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A2 12hr_1.tiff"
+  },
+  {
+   "arquivo_b": "A2 8HR 1_png.rf.sm0Tu7r9j7BYepnmxxKe.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a2 8hr 1",
+   "well": "A2",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/A2 8hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B1 8hr 1_png.rf.pwZlWzk9sZA3CwldABe9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 8hr 1",
+   "well": "B1",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/B1 8hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B1 8HR 1_png.rf.AMXvM5M5gyDuLKC5DTa9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 8hr 1",
+   "well": "B1",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/B1 8hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B2 8hr 1_png.rf.OXjyxpLiDUhYtlxAYXfv.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 8hr 1",
+   "well": "B2",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B2 8hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B2 8hr 1_png.rf.vGxP5rZkLK5MWiN0XW6M.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 8hr 1",
+   "well": "B2",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B2 8hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B2 8hr 1_png.rf.9Dk92mCSquMPc3aIhMLS.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 8hr 1",
+   "well": "B2",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B2 8hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 8hr 2_png.rf.L73Y3X4Dx7HELGkPVNlg.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 8hr 2",
+   "well": "B1",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "8h/B1_8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A1 24HR 1_png.rf.psHGzfQFFYu0q9OMf12P.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a1 24hr 1",
+   "well": "A1",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "24h/A1 24hr 1.tiff"
+  },
+  {
+   "arquivo_b": "A4 12HR 1_png.rf.QTYICw9XjNE9ky97j1dh.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a4 12hr 1",
+   "well": "A4",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A4 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B8 12hr 1_png.rf.iih8Y7cF2NixGIHCxYM5.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 12hr 1",
+   "well": "B8",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B8 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B8 12HR 1_png.rf.nI0MDsT82HP4ly7A64T9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 12hr 1",
+   "well": "B8",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B8 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B7 12HR 1_png.rf.ctLu7rRENpG6jwIQGRSW.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 12hr 1",
+   "well": "B7",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B7 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B8 12HR 2_png.rf.9iYVx629UA8lYga7s72P.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 12hr 2",
+   "well": "B8",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B8 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A5 0HR 2_png.rf.Y8g6msImi3FtQjKV3Wp9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a5 0hr 2",
+   "well": "A5",
+   "timepoint": "0",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/A5 0hr_2.tiff"
+  },
+  {
+   "arquivo_b": "B1 12hr 1_png.rf.Basp8dmX2exqZZBqydBx.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 12hr 1",
+   "well": "B1",
+   "timepoint": "12",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B1 12hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 12hr 1_png.rf.MkOpH7SVtG5q4EYuFmK2.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 12hr 1",
+   "well": "B1",
+   "timepoint": "12",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B1 12hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 12HR 1_png.rf.iGQ0raXb1cPFjLpTE8Qs.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 12hr 1",
+   "well": "B1",
+   "timepoint": "12",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B1 12hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B3 24h 1_png.rf.gZIWOhlU4NcXdxLLJJZ2.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b3 24h 1",
+   "well": "B3",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "24h/B3 24h 1.tiff"
+  },
+  {
+   "arquivo_b": "A1 12HR 1_png.rf.8FGxD5kQMiDucxJswxPl.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a1 12hr 1",
+   "well": "A1",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A1 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "A1 12hr 2_png.rf.Zc7e1rWOmWcCj4dykv3Z.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a1 12hr 2",
+   "well": "A1",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A1 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B1 0hr_1_png.rf.DUGXTEiLp7a24s7ag9dO.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 0hr 1",
+   "well": "B1",
+   "timepoint": "0",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B1 0hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 0hr 1_png.rf.MsTYgRqpBawgbfwCxIBh.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 0hr 1",
+   "well": "B1",
+   "timepoint": "0",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B1 0hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 0hr 1_png.rf.IpACHL1Orw6aFOfMt2L4.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 0hr 1",
+   "well": "B1",
+   "timepoint": "0",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B1 0hr_1.tiff"
+  },
+  {
+   "arquivo_b": "A2 0hr 1_png.rf.vZji6l7eNaGvhsdCUwH3.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a2 0hr 1",
+   "well": "A2",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/A2 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "A2 0HR 1_png.rf.8PMA4P9qg9rH3AjVYmde.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a2 0hr 1",
+   "well": "A2",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/A2 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B6 0HR 1_png.rf.G9IIgGta9Gbbj9yqetJW.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b6 0hr 1",
+   "well": "B6",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B6 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B7 8HR 1_png.rf.U3U7uwlzmFkSpDnTdHXo.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 8hr 1",
+   "well": "B7",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B7 8hr_1.tiff"
+  },
+  {
+   "arquivo_b": "B1 0HR 2_png.rf.GJOlprTE8cvwD4CrUmlP.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 0hr 2",
+   "well": "B1",
+   "timepoint": "0",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "Controle/None",
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B1 0hr_2.tiff"
+  },
+  {
+   "arquivo_b": "B5 12HR 1_png.rf.RtHZKiYSCyEezrDzpSXm.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b5 12hr 1",
+   "well": "B5",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B5 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B3 12HR 1_png.rf.sXw2VuiBVAa9Aftwl9le.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b3 12hr 1",
+   "well": "B3",
+   "timepoint": "12",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B3 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B6 12HR 1_png.rf.gMy5B0cpXrZXzyMCZhuv.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b6 12hr 1",
+   "well": "B6",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B6 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B5 8HR 1_png.rf.GCk3mrv2o7BUwQ2Jvluv.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b5 8hr 1",
+   "well": "B5",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B5 8hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B7 12HR 2_png.rf.2naBscJhLFudgg7E7FPf.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 12hr 2",
+   "well": "B7",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B7 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B6 12HR 2_png.rf.BMDqWV1RTxKKoPMgnLal.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b6 12hr 2",
+   "well": "B6",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B6 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "D1 8H 2_png.rf.m3MGg413oV303xlZFAfV.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "d1 8h 2",
+   "well": "D1",
+   "timepoint": "8",
+   "n_cands": 2,
+   "via": "bd_nome_norm",
+   "status": "ambiguo",
+   "ctxs": [
+    "LUIS RAW/PET",
+    "Migração (PET e PEP) n3 - RAW/None"
+   ],
+   "arquivo_fisico": "8h/D1 8H 2.png"
+  },
+  {
+   "arquivo_b": "A3 0HR 2_png.rf.hZpokQPSOC5byLanjjIO.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a3 0hr 2",
+   "well": "A3",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/A3 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A4 0HR 2_png.rf.ad8NWhUve9wWCADVF4Er.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a4 0hr 2",
+   "well": "A4",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/A4 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A5 8HR 2_png.rf.PkgglquFkEZJxKt3zDYh.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a5 8hr 2",
+   "well": "A5",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "8h/A5 8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "A3 12HR 2_png.rf.EM0ZeH9oXoYjDPrahHYX.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a3 12hr 2",
+   "well": "A3",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/A3 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B3 12HR 2_png.rf.53uaZIgUjykC3AHiGB7Y.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b3 12hr 2",
+   "well": "B3",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B3 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 12hr 2_png.rf.aKY954Ar92bN45Dxpxoo.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 12hr 2",
+   "well": "B2",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/B2 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 12HR 2_png.rf.0Mjn05pgfeKpn7x2HoEU.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 12hr 2",
+   "well": "B2",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "12h/B2 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B8 0hr 1_png.rf.Y8HPYsGls33ML8N4xLQ9.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 0hr 1",
+   "well": "B8",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B8 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B8 0HR 1_png.rf.wcI5BQBhMVPCzXKkI2w6.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 0hr 1",
+   "well": "B8",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B8 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B1 24HR 2_png.rf.Ls9u8THJDkrAcAUiOT0Q.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 24hr 2",
+   "well": "B1",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "24h/B1 24hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 24hr 2_png.rf.huSTBgPOlxWVtCE2FpNP.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 24hr 2",
+   "well": "B2",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "24h/B2 24hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B7 0hr 1_png.rf.QYTRdRmCyko5payKjuNF.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 0hr 1",
+   "well": "B7",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B7 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B7 0HR 1_png.rf.kzoYnFCLdbukY0DFsrTm.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 0hr 1",
+   "well": "B7",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/B7 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B7 0HR 2_png.rf.nntMFnTHGgBpH6aqtdYS.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 0hr 2",
+   "well": "B7",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B7 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 0HR 1_png.rf.rzJTQJsC1FX8HbufhcZr.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 0hr 1",
+   "well": "B2",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/B2 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B2 0hr 2_png.rf.NX9PehcIUtrbpP4AGDjt.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 0hr 2",
+   "well": "B2",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/B2 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B2 0HR 2_png.rf.YbEuLym6tx1G0ByLVH1s.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b2 0hr 2",
+   "well": "B2",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Controle/None"
+   ],
+   "arquivo_fisico": "0h/B2 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B7 8HR 2_png.rf.6EowOoKvvsLORMwWwBzP.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 8hr 2",
+   "well": "B7",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B7 8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B8 0HR 2_png.rf.NmJGNQtA45arpoRi4Nti.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b8 0hr 2",
+   "well": "B8",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "0h/B8 0hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B6 8HR 2_png.rf.bHSaiKrngLQxd2WS4VGz.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b6 8hr 2",
+   "well": "B6",
+   "timepoint": "8",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "8h/B6 8hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B7 24h 1_png.rf.5p9AHhSfxGprdyejHtqc.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b7 24h 1",
+   "well": "B7",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "24h/B7 24h 1.tiff"
+  },
+  {
+   "arquivo_b": "B5 24h 1_png.rf.eRMLDgcaTXW0RnafPtxO.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b5 24h 1",
+   "well": "B5",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "24h/B5 24h 1.tiff"
+  },
+  {
+   "arquivo_b": "A5 0hr 1_png.rf.P21lFbirAUEUdzrYW43W.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "a5 0hr 1",
+   "well": "A5",
+   "timepoint": "0",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "0h/A5 0hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B1 24HR 1_png.rf.ZOXgAwm7pCyA0PxFBFkk.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b1 24hr 1",
+   "well": "B1",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "24h/B1 24hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B4 12HR 1_png.rf.KaR1X3qveVurnKSmeOz8.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b4 12hr 1",
+   "well": "B4",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "12h/B4 12hr 1.tiff"
+  },
+  {
+   "arquivo_b": "B4 12HR 2_png.rf.T9zwB1CKrAIJWPxFGcE5.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b4 12hr 2",
+   "well": "B4",
+   "timepoint": "12",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Saudável/None"
+   ],
+   "arquivo_fisico": "12h/B4 12hr 2.tiff"
+  },
+  {
+   "arquivo_b": "B6 24h 1_png.rf.HqRokqEzDfBP5O3ZtezT.png",
+   "arquivo_a": "",
+   "pasta_a": "",
+   "stem": "b6 24h 1",
+   "well": "B6",
+   "timepoint": "24",
+   "n_cands": 1,
+   "via": "bd_nome_norm",
+   "status": "unico",
+   "ctxs": [
+    "Pré-Eclâmpsia/None"
+   ],
+   "arquivo_fisico": "24h/B6 24h 1.tiff"
+  }
+ ],
+ "hv_total": 1034,
+ "com_lote_hash": 963,
+ "com_lote_final": 1022,
+ "ctx_ambiguo_hash": 0,
+ "well_ok": 1034,
+ "completo_hash": 963,
+ "completo_final": 1022
+}

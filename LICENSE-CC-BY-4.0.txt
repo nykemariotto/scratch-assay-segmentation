@@ -1,0 +1,33 @@
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+The dataset and annotations contained in the `dataset/` folder of this archive
+are licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+  * Share - copy and redistribute the material in any medium or format
+  * Adapt - remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+
+  * Attribution - You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+  * No additional restrictions - You may not apply legal terms or
+    technological measures that legally restrict others from doing anything
+    the license permits.
+
+ATTRIBUTION
+
+When using this dataset, please cite:
+
+  Mariotto N, Dos Santos GA, Fioschi GR, Higino ACM, Passeti LFP,
+  Pereira TOB, Zampieri GM, Aal MCE, Delella FK, Sandrim VC, Alves AFF.
+  Deep Learning Instance Segmentation for Wound Healing Assays -
+  Annotated Image Dataset, Trained Models, and Analysis Pipeline.
+  Zenodo. 2026. https://doi.org/10.5281/zenodo.20298130
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

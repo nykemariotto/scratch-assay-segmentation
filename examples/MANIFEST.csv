@@ -1,0 +1,5 @@
+arquivo,papel,cell_line,timepoint_h,largura,altura,n_instancias,tamanho_kb,md5
+B1 12hr 1_png.rf.sRUPpw6VBKsEL7UWcuqg.png,HUVEC · annotated wound,HUVEC,12,640,640,1,298,4a36f9951d72fb789146969eed707d64
+B6 24h 1_png.rf.Mqv4F4d5b4AUQiStkAzE.png,HUVEC · negative (closed wound),HUVEC,24,640,640,0,372,f46269042a0b181b85aeda9129e515f3
+Snap-37_235_png.rf.fp1LasdFT1TZbfgrTie6.png,SKOV-3 · native resolution,SKOV,24,2452,2056,2,2160,721f8f57c859143783d9b61e5db2ea23
+B1 0hr 2_png.rf.XjumgmgMNkQhrRGLEgFA.png,HUVEC · another timepoint,HUVEC,0,640,640,1,303,85d469684db17cdfb462e958e13a6ff6

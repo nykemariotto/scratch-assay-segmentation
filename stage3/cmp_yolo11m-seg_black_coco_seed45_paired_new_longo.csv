@@ -1,0 +1,98 @@
+series_key,campo,timepoint_h,referencia,ai,diferenca,ai_serie_plausivel,ai_motivo
+Controle||None||B1||c1,1,8,0.2067,0.225136,0.018436,sim,plausivel
+Controle||None||B1||c1,1,12,0.2662,0.273469,0.007269,sim,plausivel
+LUIS RAW||PEP+GB||A3||c2,2,8,0.4273,0.466938,0.039638,sim,plausivel
+LUIS RAW||PEP+GB||A3||c2,2,12,0.8235,1.0,0.1765,sim,plausivel
+LUIS RAW||PEP+GB||A3||c2,2,24,1.0,1.0,0.0,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c1,1,8,0.2894,0.257064,-0.032336,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c1,1,12,0.4624,0.30852,-0.15388,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c1,1,24,0.6844,0.640345,-0.044055,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c2,2,8,0.12,0.203926,0.083926,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c2,2,12,0.3389,0.321059,-0.017841,sim,plausivel
+LUIS RAW||PEP+MET3||A6||c2,2,24,0.6351,1.0,0.3649,sim,plausivel
+LUIS RAW||PEP||E1||c1,1,8,0.5365,0.498377,-0.038123,sim,plausivel
+LUIS RAW||PEP||E1||c1,1,12,0.6814,1.0,0.3186,sim,plausivel
+LUIS RAW||PEP||E1||c1,1,24,1.0,1.0,0.0,sim,plausivel
+LUIS RAW||PEP||E1||c2,2,8,0.6679,0.50086,-0.16704,sim,plausivel
+LUIS RAW||PEP||E1||c2,2,12,0.7848,1.0,0.2152,sim,plausivel
+LUIS RAW||PET||C5||c1,1,8,0.2904,0.291282,0.000882,sim,plausivel
+LUIS RAW||PET||C5||c1,1,12,0.3475,0.350115,0.002615,sim,plausivel
+LUIS RAW||PET||F2||c1,1,12,0.0212,0.559857,0.538657,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c1,1,12,0.863,1.0,0.137,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c2,2,8,0.4227,0.376522,-0.046178,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c2,2,12,0.7243,1.0,0.2757,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c1,1,8,0.5484,0.515981,-0.032419,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c1,1,12,0.7531,0.703776,-0.049324,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,2,8,0.0627,0.356278,0.293578,sim,plausivel
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,2,12,0.0082,0.533796,0.525596,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,1,8,0.5844,0.588031,0.003631,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,1,12,0.5931,0.58453,-0.00857,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,1,24,0.7255,0.735312,0.009812,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c2,2,8,0.604,0.56869,-0.03531,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c2,2,24,0.8762,0.930166,0.053966,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,2,8,0.5942,0.571037,-0.023163,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,2,12,0.6147,0.600174,-0.014526,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,2,24,0.6981,0.693665,-0.004435,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,1,8,0.082,0.120331,0.038331,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,1,12,0.1174,0.159559,0.042159,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,1,24,0.3793,0.382104,0.002804,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,2,8,0.1089,0.096993,-0.011907,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,2,12,0.1405,0.149452,0.008952,sim,plausivel
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,2,24,0.4537,0.419738,-0.033962,sim,plausivel
+Migração (PET e PEP) n3 - RAW||None||D1||c1,1,8,0.2314,0.20862,-0.02278,sim,plausivel
+Migração (PET e PEP) n3 - RAW||None||D1||c1,1,12,0.2959,0.305816,0.009916,sim,plausivel
+Migração (PET e PEP) n3 - RAW||None||D1||c2,2,8,0.2301,1.0,0.7699,nao,nao_monotonica
+Migração (PET e PEP) n3 - RAW||None||D1||c2,2,12,0.2157,0.221762,0.006062,nao,nao_monotonica
+Migração (PET e PEP) n3 - RAW||None||D1||c2,2,24,0.5794,0.537219,-0.042181,nao,nao_monotonica
+Migração (PET e PEP) n3 - RAW||None||D4||c1,1,8,-0.0266,0.003636,0.030236,sim,plausivel
+Migração (PET e PEP) n3 - RAW||None||D4||c1,1,12,0.103,0.109885,0.006885,sim,plausivel
+Migração (PET e PEP) n3 - RAW||None||D4||c1,1,24,0.4371,0.448395,0.011295,sim,plausivel
+Originais (1)||None||A1||c1,1,8,0.5074,0.5634,0.056,sim,plausivel
+Originais (1)||None||A1||c1,1,12,0.7203,1.0,0.2797,sim,plausivel
+Originais (1)||None||A1||c1,1,24,1.0,1.0,0.0,sim,plausivel
+Originais (1)||None||A1||c2,2,8,0.489,0.493112,0.004112,sim,plausivel
+Originais (1)||None||A1||c2,2,12,0.7077,1.0,0.2923,sim,plausivel
+Originais (1)||None||A1||c2,2,24,1.0,1.0,0.0,sim,plausivel
+Originais (1)||None||A5||c1,1,8,0.6163,0.578001,-0.038299,sim,plausivel
+Originais (1)||None||A5||c1,1,12,0.8311,1.0,0.1689,sim,plausivel
+Originais (1)||None||A5||c1,1,24,1.0,1.0,0.0,sim,plausivel
+Originais (1)||None||A5||c2,2,8,0.5978,0.57587,-0.02193,sim,plausivel
+Originais (1)||None||A5||c2,2,12,0.8303,1.0,0.1697,sim,plausivel
+Originais (1)||None||A5||c2,2,24,1.0,1.0,0.0,sim,plausivel
+Originais (1)||None||B5||c1,1,8,0.5039,0.507085,0.003185,sim,plausivel
+Originais (1)||None||B5||c1,1,12,0.6416,0.642989,0.001389,sim,plausivel
+Originais (1)||None||B5||c2,2,8,0.2352,0.449766,0.214566,sim,plausivel
+Originais (1)||None||B5||c2,2,12,0.2843,0.561534,0.277234,sim,plausivel
+Originais (1)||None||D1||c2,2,8,0.2561,0.496874,0.240774,sim,plausivel
+Originais (1)||None||D1||c2,2,12,0.432,1.0,0.568,sim,plausivel
+P1|CT|F10,F10,48,1.0,1.0,0.0,sim,plausivel
+P1|CT|F8,F8,24,1.0,1.0,0.0,sim,plausivel
+P1|CT|F8,F8,48,1.0,1.0,0.0,sim,plausivel
+P1|PTX|F2,F2,24,0.4384,0.49127,0.05287,sim,plausivel
+P1|PTX|F2,F2,48,0.7695,0.699124,-0.070376,sim,plausivel
+P1|PTX|F9,F9,24,0.1489,0.170041,0.021141,sim,plausivel
+P1|PTX|F9,F9,48,0.4793,0.326892,-0.152408,sim,plausivel
+P2|CARBO+GEO|F14,F14,48,0.4971,0.374095,-0.123005,sim,plausivel
+P2|CARBO+GEO|F8,F8,24,0.5044,0.495498,-0.008902,sim,plausivel
+P2|CARBO+GEO|F8,F8,48,0.5957,0.58176,-0.01394,sim,plausivel
+P2|CARBO|F9,F9,24,0.5362,1.0,0.4638,sim,plausivel
+P2|CARBO|F9,F9,48,1.0,1.0,0.0,sim,plausivel
+P2|CT|F9,F9,24,0.8479,0.855281,0.007381,sim,plausivel
+P2|CT|F9,F9,48,1.0,1.0,0.0,sim,plausivel
+P2|GEO|F11,F11,24,0.4712,0.462996,-0.008204,sim,plausivel
+Pré-Eclâmpsia||None||B6||c1,1,12,0.7135,0.683913,-0.029587,sim,plausivel
+Pré-Eclâmpsia||None||B6||c1,1,24,1.0,1.0,0.0,sim,plausivel
+Saudável||None||B1||c1,1,12,0.2474,-0.165146,-0.412546,nao,"fora_[0,1]+nao_monotonica"
+Saudável||None||B1||c1,1,24,0.8772,1.0,0.1228,nao,"fora_[0,1]+nao_monotonica"
+Saudável||None||B1||c2,2,24,0.6237,0.631244,0.007544,sim,plausivel
+originais||None||A1||c1,1,8,0.4187,0.408393,-0.010307,sim,plausivel
+originais||None||A1||c2,2,8,0.2655,0.291724,0.026224,sim,plausivel
+originais||None||B5||c1,1,24,0.4674,1.0,0.5326,sim,plausivel
+originais||None||D1||c1,1,8,0.4376,0.456684,0.019084,sim,plausivel
+originais||None||D1||c1,1,12,0.5513,0.571709,0.020409,sim,plausivel
+originais||None||D1||c1,1,24,0.8835,0.836924,-0.046576,sim,plausivel
+originais||None||D1||c2,2,8,0.4467,0.426022,-0.020678,sim,plausivel
+originais||None||D1||c2,2,12,0.5702,0.549734,-0.020466,sim,plausivel
+originais||None||D1||c2,2,24,0.7929,0.815609,0.022709,sim,plausivel
+originais||None||D4||c1,1,8,0.6003,0.609002,0.008702,sim,plausivel
+originais||None||D4||c1,1,24,0.8093,1.0,0.1907,sim,plausivel

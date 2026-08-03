@@ -1,0 +1,188 @@
+﻿series_key,cell_line,analysis_unit,campo,timepoint_h,area_pct,closure_fraction,procedencia_area,analisavel
+Controle||None||B1||c1,HUVEC,Controle||None||B1,1,0,21.927,0.0,corrigida,sim
+Controle||None||B1||c1,HUVEC,Controle||None||B1,1,8,17.395,0.2067,corrigida,sim
+Controle||None||B1||c1,HUVEC,Controle||None||B1,1,12,16.091,0.2662,corrigida,sim
+Controle||None||B1||c2,HUVEC,Controle||None||B1,2,0,24.332,0.0,mista,nao
+Controle||None||B1||c2,HUVEC,Controle||None||B1,2,8,26.102,-0.0727,mista,nao
+LUIS RAW||PEP+GB||A3||c1,HUVEC,LUIS RAW||PEP+GB||A3,1,0,20.883,0.0,corrigida,sim
+LUIS RAW||PEP+GB||A3||c1,HUVEC,LUIS RAW||PEP+GB||A3,1,8,5.029,0.7592,corrigida,sim
+LUIS RAW||PEP+GB||A3||c1,HUVEC,LUIS RAW||PEP+GB||A3,1,12,4.073,0.805,corrigida,sim
+LUIS RAW||PEP+GB||A3||c1,HUVEC,LUIS RAW||PEP+GB||A3,1,24,0.0,1.0,corrigida,sim
+LUIS RAW||PEP+GB||A3||c2,HUVEC,LUIS RAW||PEP+GB||A3,2,0,20.883,0.0,corrigida,sim
+LUIS RAW||PEP+GB||A3||c2,HUVEC,LUIS RAW||PEP+GB||A3,2,8,11.959,0.4273,corrigida,sim
+LUIS RAW||PEP+GB||A3||c2,HUVEC,LUIS RAW||PEP+GB||A3,2,12,3.685,0.8235,corrigida,sim
+LUIS RAW||PEP+GB||A3||c2,HUVEC,LUIS RAW||PEP+GB||A3,2,24,0.0,1.0,corrigida,sim
+LUIS RAW||PEP+MCC||B4||c1,HUVEC,LUIS RAW||PEP+MCC||B4,1,0,13.261,0.0,mista,nao
+LUIS RAW||PEP+MCC||B4||c1,HUVEC,LUIS RAW||PEP+MCC||B4,1,8,14.665,-0.1059,mista,nao
+LUIS RAW||PEP+MCC||B4||c1,HUVEC,LUIS RAW||PEP+MCC||B4,1,12,1.069,0.9194,mista,nao
+LUIS RAW||PEP+MCC||B4||c1,HUVEC,LUIS RAW||PEP+MCC||B4,1,24,7.084,0.4658,mista,nao
+LUIS RAW||PEP+MCC||B4||c2,HUVEC,LUIS RAW||PEP+MCC||B4,2,0,13.261,0.0,corrigida,nao
+LUIS RAW||PEP+MCC||B4||c2,HUVEC,LUIS RAW||PEP+MCC||B4,2,8,3.339,0.7482,corrigida,nao
+LUIS RAW||PEP+MCC||B4||c2,HUVEC,LUIS RAW||PEP+MCC||B4,2,12,13.871,-0.046,corrigida,nao
+LUIS RAW||PEP+MCC||B4||c2,HUVEC,LUIS RAW||PEP+MCC||B4,2,24,0.0,1.0,corrigida,nao
+LUIS RAW||PEP+MET3||A6||c1,HUVEC,LUIS RAW||PEP+MET3||A6,1,0,22.991,0.0,mista,sim
+LUIS RAW||PEP+MET3||A6||c1,HUVEC,LUIS RAW||PEP+MET3||A6,1,8,16.337,0.2894,mista,sim
+LUIS RAW||PEP+MET3||A6||c1,HUVEC,LUIS RAW||PEP+MET3||A6,1,12,12.361,0.4624,mista,sim
+LUIS RAW||PEP+MET3||A6||c1,HUVEC,LUIS RAW||PEP+MET3||A6,1,24,7.255,0.6844,mista,sim
+LUIS RAW||PEP+MET3||A6||c2,HUVEC,LUIS RAW||PEP+MET3||A6,2,0,22.991,0.0,corrigida,sim
+LUIS RAW||PEP+MET3||A6||c2,HUVEC,LUIS RAW||PEP+MET3||A6,2,8,20.233,0.12,corrigida,sim
+LUIS RAW||PEP+MET3||A6||c2,HUVEC,LUIS RAW||PEP+MET3||A6,2,12,15.2,0.3389,corrigida,sim
+LUIS RAW||PEP+MET3||A6||c2,HUVEC,LUIS RAW||PEP+MET3||A6,2,24,8.389,0.6351,corrigida,sim
+LUIS RAW||PEP||E1||c1,HUVEC,LUIS RAW||PEP||E1,1,0,22.932,0.0,corrigida,sim
+LUIS RAW||PEP||E1||c1,HUVEC,LUIS RAW||PEP||E1,1,8,10.63,0.5365,corrigida,sim
+LUIS RAW||PEP||E1||c1,HUVEC,LUIS RAW||PEP||E1,1,12,7.306,0.6814,corrigida,sim
+LUIS RAW||PEP||E1||c1,HUVEC,LUIS RAW||PEP||E1,1,24,0.0,1.0,corrigida,sim
+LUIS RAW||PEP||E1||c2,HUVEC,LUIS RAW||PEP||E1,2,0,21.572,0.0,mista,sim
+LUIS RAW||PEP||E1||c2,HUVEC,LUIS RAW||PEP||E1,2,8,7.165,0.6679,mista,sim
+LUIS RAW||PEP||E1||c2,HUVEC,LUIS RAW||PEP||E1,2,12,4.643,0.7848,mista,sim
+LUIS RAW||PET||C5||c1,HUVEC,LUIS RAW||PET||C5,1,0,21.009,0.0,corrigida,sim
+LUIS RAW||PET||C5||c1,HUVEC,LUIS RAW||PET||C5,1,8,14.907,0.2904,corrigida,sim
+LUIS RAW||PET||C5||c1,HUVEC,LUIS RAW||PET||C5,1,12,13.709,0.3475,corrigida,sim
+LUIS RAW||PET||C5||c2,HUVEC,LUIS RAW||PET||C5,2,0,21.009,0.0,automatica,sim
+LUIS RAW||PET||C5||c2,HUVEC,LUIS RAW||PET||C5,2,12,9.889,0.5293,automatica,sim
+LUIS RAW||PET||F2||c1,HUVEC,LUIS RAW||PET||F2,1,0,24.153,0.0,automatica,sim
+LUIS RAW||PET||F2||c1,HUVEC,LUIS RAW||PET||F2,1,12,23.64,0.0212,automatica,sim
+LUIS RAW||PET||F2||c2,HUVEC,LUIS RAW||PET||F2,2,0,24.153,0.0,automatica,nao
+LUIS RAW||PET||F2||c2,HUVEC,LUIS RAW||PET||F2,2,8,14.038,0.4188,automatica,nao
+LUIS RAW||PET||F2||c2,HUVEC,LUIS RAW||PET||F2,2,12,25.522,-0.0567,automatica,nao
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c1,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,1,0,18.682,0.0,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c1,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,1,12,2.559,0.863,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,2,0,22.983,0.0,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,2,8,13.269,0.4227,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PEP + NEB 5uM||D4,2,12,6.337,0.7243,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c1,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,1,0,20.429,0.0,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c1,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,1,8,9.225,0.5484,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c1,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,1,12,5.043,0.7531,corrigida,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,2,0,64.566,0.0,automatica,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,2,8,60.516,0.0627,automatica,sim
+Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5||c2,HUVEC,Migração (PET e PEP) n1 - RAW||PET + NEB 1uM||C5,2,12,64.035,0.0082,automatica,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,1,0,32.39,0.0,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,1,8,13.46,0.5844,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,1,12,13.178,0.5931,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,1,24,8.89,0.7255,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,2,0,28.242,0.0,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,2,8,11.184,0.604,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP + NEB 1uM||B1,2,24,3.497,0.8762,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP||A2||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,1,0,38.253,0.0,automatica,nao
+Migração (PET e PEP) n2 - RAW||PEP||A2||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,1,12,53.112,-0.3884,automatica,nao
+Migração (PET e PEP) n2 - RAW||PEP||A2||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,1,24,70.255,-0.8366,automatica,nao
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,2,0,38.253,0.0,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,2,8,15.523,0.5942,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,2,12,14.74,0.6147,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PEP||A2||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PEP||A2,2,24,11.548,0.6981,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,1,0,21.909,0.0,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,1,8,20.112,0.082,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,1,12,19.337,0.1174,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c1,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,1,24,13.598,0.3793,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,2,0,24.44,0.0,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,2,8,21.778,0.1089,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,2,12,21.005,0.1405,corrigida,sim
+Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3||c2,HUVEC,Migração (PET e PEP) n2 - RAW||PET + NEB 5uM||D3,2,24,13.352,0.4537,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,1,0,16.031,0.0,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,1,8,12.321,0.2314,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,1,12,11.288,0.2959,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c2,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,2,0,17.89,0.0,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c2,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,2,8,13.773,0.2301,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c2,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,2,12,14.031,0.2157,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D1||c2,HUVEC,Migração (PET e PEP) n3 - RAW||None||D1,2,24,7.524,0.5794,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D4||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,1,0,19.713,0.0,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D4||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,1,8,20.237,-0.0266,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D4||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,1,12,17.683,0.103,corrigida,sim
+Migração (PET e PEP) n3 - RAW||None||D4||c1,HUVEC,Migração (PET e PEP) n3 - RAW||None||D4,1,24,11.097,0.4371,corrigida,sim
+Originais (1)||None||A1||c1,HUVEC,Originais (1)||None||A1,1,0,15.369,0.0,corrigida,sim
+Originais (1)||None||A1||c1,HUVEC,Originais (1)||None||A1,1,8,7.571,0.5074,corrigida,sim
+Originais (1)||None||A1||c1,HUVEC,Originais (1)||None||A1,1,12,4.298,0.7203,corrigida,sim
+Originais (1)||None||A1||c1,HUVEC,Originais (1)||None||A1,1,24,0.0,1.0,corrigida,sim
+Originais (1)||None||A1||c2,HUVEC,Originais (1)||None||A1,2,0,16.944,0.0,corrigida,sim
+Originais (1)||None||A1||c2,HUVEC,Originais (1)||None||A1,2,8,8.658,0.489,corrigida,sim
+Originais (1)||None||A1||c2,HUVEC,Originais (1)||None||A1,2,12,4.953,0.7077,corrigida,sim
+Originais (1)||None||A1||c2,HUVEC,Originais (1)||None||A1,2,24,0.0,1.0,corrigida,sim
+Originais (1)||None||A5||c1,HUVEC,Originais (1)||None||A5,1,0,14.017,0.0,corrigida,sim
+Originais (1)||None||A5||c1,HUVEC,Originais (1)||None||A5,1,8,5.378,0.6163,corrigida,sim
+Originais (1)||None||A5||c1,HUVEC,Originais (1)||None||A5,1,12,2.367,0.8311,corrigida,sim
+Originais (1)||None||A5||c1,HUVEC,Originais (1)||None||A5,1,24,0.0,1.0,corrigida,sim
+Originais (1)||None||A5||c2,HUVEC,Originais (1)||None||A5,2,0,15.691,0.0,corrigida,sim
+Originais (1)||None||A5||c2,HUVEC,Originais (1)||None||A5,2,8,6.311,0.5978,corrigida,sim
+Originais (1)||None||A5||c2,HUVEC,Originais (1)||None||A5,2,12,2.662,0.8303,corrigida,sim
+Originais (1)||None||A5||c2,HUVEC,Originais (1)||None||A5,2,24,0.0,1.0,corrigida,sim
+Originais (1)||None||B5||c1,HUVEC,Originais (1)||None||B5,1,0,16.726,0.0,corrigida,sim
+Originais (1)||None||B5||c1,HUVEC,Originais (1)||None||B5,1,8,8.297,0.5039,corrigida,sim
+Originais (1)||None||B5||c1,HUVEC,Originais (1)||None||B5,1,12,5.994,0.6416,corrigida,sim
+Originais (1)||None||B5||c2,HUVEC,Originais (1)||None||B5,2,0,22.321,0.0,automatica,sim
+Originais (1)||None||B5||c2,HUVEC,Originais (1)||None||B5,2,8,17.072,0.2352,automatica,sim
+Originais (1)||None||B5||c2,HUVEC,Originais (1)||None||B5,2,12,15.976,0.2843,automatica,sim
+Originais (1)||None||D1||c1,HUVEC,Originais (1)||None||D1,1,0,16.047,0.0,corrigida,nao
+Originais (1)||None||D1||c1,HUVEC,Originais (1)||None||D1,1,8,8.209,0.4884,corrigida,nao
+Originais (1)||None||D1||c1,HUVEC,Originais (1)||None||D1,1,12,10.234,0.3622,corrigida,nao
+Originais (1)||None||D1||c1,HUVEC,Originais (1)||None||D1,1,24,0.0,1.0,corrigida,nao
+Originais (1)||None||D1||c2,HUVEC,Originais (1)||None||D1,2,0,15.756,0.0,automatica,sim
+Originais (1)||None||D1||c2,HUVEC,Originais (1)||None||D1,2,8,11.721,0.2561,automatica,sim
+Originais (1)||None||D1||c2,HUVEC,Originais (1)||None||D1,2,12,8.949,0.432,automatica,sim
+P1|CT|F10,SKOV-3,P1|CT|F10,F10,0,39.654,0.0,corrigida,sim
+P1|CT|F10,SKOV-3,P1|CT|F10,F10,48,0.0,1.0,corrigida,sim
+P1|CT|F8,SKOV-3,P1|CT|F8,F8,0,36.461,0.0,corrigida,sim
+P1|CT|F8,SKOV-3,P1|CT|F8,F8,24,0.0,1.0,corrigida,sim
+P1|CT|F8,SKOV-3,P1|CT|F8,F8,48,0.0,1.0,corrigida,sim
+P1|PTX|F2,SKOV-3,P1|PTX|F2,F2,0,27.336,0.0,automatica,sim
+P1|PTX|F2,SKOV-3,P1|PTX|F2,F2,24,15.352,0.4384,automatica,sim
+P1|PTX|F2,SKOV-3,P1|PTX|F2,F2,48,6.301,0.7695,automatica,sim
+P1|PTX|F9,SKOV-3,P1|PTX|F9,F9,0,40.021,0.0,automatica,sim
+P1|PTX|F9,SKOV-3,P1|PTX|F9,F9,24,34.063,0.1489,automatica,sim
+P1|PTX|F9,SKOV-3,P1|PTX|F9,F9,48,20.838,0.4793,automatica,sim
+P2|CARBO+GEO|F14,SKOV-3,P2|CARBO+GEO|F14,F14,0,38.565,0.0,automatica,sim
+P2|CARBO+GEO|F14,SKOV-3,P2|CARBO+GEO|F14,F14,48,19.396,0.4971,automatica,sim
+P2|CARBO+GEO|F8,SKOV-3,P2|CARBO+GEO|F8,F8,0,36.94,0.0,corrigida,sim
+P2|CARBO+GEO|F8,SKOV-3,P2|CARBO+GEO|F8,F8,24,18.308,0.5044,corrigida,sim
+P2|CARBO+GEO|F8,SKOV-3,P2|CARBO+GEO|F8,F8,48,14.936,0.5957,corrigida,sim
+P2|CARBO|F5,SKOV-3,P2|CARBO|F5,F5,0,42.79,0.0,corrigida,sim
+P2|CARBO|F5,SKOV-3,P2|CARBO|F5,F5,24,9.519,0.7775,corrigida,sim
+P2|CARBO|F5,SKOV-3,P2|CARBO|F5,F5,48,3.999,0.9065,corrigida,sim
+P2|CARBO|F9,SKOV-3,P2|CARBO|F9,F9,0,39.545,0.0,corrigida,sim
+P2|CARBO|F9,SKOV-3,P2|CARBO|F9,F9,24,18.34,0.5362,corrigida,sim
+P2|CARBO|F9,SKOV-3,P2|CARBO|F9,F9,48,0.0,1.0,corrigida,sim
+P2|CT|F15,SKOV-3,P2|CT|F15,F15,0,38.699,0.0,corrigida,sim
+P2|CT|F15,SKOV-3,P2|CT|F15,F15,24,11.104,0.7131,corrigida,sim
+P2|CT|F15,SKOV-3,P2|CT|F15,F15,48,0.0,1.0,corrigida,sim
+P2|CT|F9,SKOV-3,P2|CT|F9,F9,0,38.982,0.0,corrigida,sim
+P2|CT|F9,SKOV-3,P2|CT|F9,F9,24,5.929,0.8479,corrigida,sim
+P2|CT|F9,SKOV-3,P2|CT|F9,F9,48,0.0,1.0,corrigida,sim
+P2|GEO|F11,SKOV-3,P2|GEO|F11,F11,0,30.512,0.0,automatica,sim
+P2|GEO|F11,SKOV-3,P2|GEO|F11,F11,24,16.135,0.4712,automatica,sim
+Pré-Eclâmpsia||None||B6||c1,HUVEC,Pré-Eclâmpsia||None||B6,1,0,21.968,0.0,corrigida,sim
+Pré-Eclâmpsia||None||B6||c1,HUVEC,Pré-Eclâmpsia||None||B6,1,12,6.293,0.7135,corrigida,sim
+Pré-Eclâmpsia||None||B6||c1,HUVEC,Pré-Eclâmpsia||None||B6,1,24,0.0,1.0,corrigida,sim
+Saudável||None||B1||c1,HUVEC,Saudável||None||B1,1,0,21.195,0.0,corrigida,sim
+Saudável||None||B1||c1,HUVEC,Saudável||None||B1,1,12,15.951,0.2474,corrigida,sim
+Saudável||None||B1||c1,HUVEC,Saudável||None||B1,1,24,2.602,0.8772,corrigida,sim
+Saudável||None||B1||c2,HUVEC,Saudável||None||B1,2,0,18.31,0.0,automatica,sim
+Saudável||None||B1||c2,HUVEC,Saudável||None||B1,2,24,6.89,0.6237,automatica,sim
+originais||None||A1||c1,HUVEC,originais||None||A1,1,0,11.856,0.0,corrigida,sim
+originais||None||A1||c1,HUVEC,originais||None||A1,1,8,6.892,0.4187,corrigida,sim
+originais||None||A1||c2,HUVEC,originais||None||A1,2,0,17.165,0.0,corrigida,sim
+originais||None||A1||c2,HUVEC,originais||None||A1,2,8,12.607,0.2655,corrigida,sim
+originais||None||A5||c1,HUVEC,originais||None||A5,1,0,14.884,0.0,corrigida,sim
+originais||None||A5||c1,HUVEC,originais||None||A5,1,8,10.583,0.289,corrigida,sim
+originais||None||A5||c1,HUVEC,originais||None||A5,1,12,9.021,0.3939,corrigida,sim
+originais||None||A5||c2,HUVEC,originais||None||A5,2,0,18.422,0.0,mista,sim
+originais||None||A5||c2,HUVEC,originais||None||A5,2,12,11.542,0.3735,mista,sim
+originais||None||A5||c2,HUVEC,originais||None||A5,2,24,9.272,0.4967,mista,sim
+originais||None||B5||c1,HUVEC,originais||None||B5,1,0,75.491,0.0,automatica,sim
+originais||None||B5||c1,HUVEC,originais||None||B5,1,24,40.204,0.4674,automatica,sim
+originais||None||B5||c2,HUVEC,originais||None||B5,2,0,23.045,0.0,mista,sim
+originais||None||B5||c2,HUVEC,originais||None||B5,2,8,21.037,0.0871,mista,sim
+originais||None||B5||c2,HUVEC,originais||None||B5,2,12,15.404,0.3316,mista,sim
+originais||None||D1||c1,HUVEC,originais||None||D1,1,0,18.521,0.0,corrigida,sim
+originais||None||D1||c1,HUVEC,originais||None||D1,1,8,10.416,0.4376,corrigida,sim
+originais||None||D1||c1,HUVEC,originais||None||D1,1,12,8.311,0.5513,corrigida,sim
+originais||None||D1||c1,HUVEC,originais||None||D1,1,24,2.157,0.8835,corrigida,sim
+originais||None||D1||c2,HUVEC,originais||None||D1,2,0,21.048,0.0,automatica,sim
+originais||None||D1||c2,HUVEC,originais||None||D1,2,8,11.646,0.4467,automatica,sim
+originais||None||D1||c2,HUVEC,originais||None||D1,2,12,9.047,0.5702,automatica,sim
+originais||None||D1||c2,HUVEC,originais||None||D1,2,24,4.36,0.7929,automatica,sim
+originais||None||D4||c1,HUVEC,originais||None||D4,1,0,17.387,0.0,automatica,sim
+originais||None||D4||c1,HUVEC,originais||None||D4,1,8,6.95,0.6003,automatica,sim
+originais||None||D4||c1,HUVEC,originais||None||D4,1,24,3.316,0.8093,automatica,sim
+originais||None||D4||c2,HUVEC,originais||None||D4,2,0,16.432,0.0,mista,nao
+originais||None||D4||c2,HUVEC,originais||None||D4,2,8,5.461,0.6677,mista,nao
+originais||None||D4||c2,HUVEC,originais||None||D4,2,12,7.45,0.5466,mista,nao
+originais||None||D4||c2,HUVEC,originais||None||D4,2,24,0.0,1.0,mista,nao
