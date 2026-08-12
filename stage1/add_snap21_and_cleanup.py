@@ -8,7 +8,7 @@ It brings whst_input/ to 223 images.
 """
 import csv, os, re, hashlib, shutil
 
-P2_CARBO_0H = r"G:\.shortcut-targets-by-id\1CMwTWGfjZgxB1XuvetRHUONTxDknvhDU\WH_Carbo_25-10_27-10-22\0h\carbo\Snap-21.tiff"
+P2_CARBO_0H = os.path.join(os.environ.get("RAW_ARCHIVE_P2", "<raw_archive_p2>"), "0h", "carbo", "Snap-21.tiff")
 OUT = "whst_input"
 CORR = os.path.join(OUT, "correspondencia.csv")
 REMOVED_TEST = "B1_8hr 2_png.rf.XKx5gS3ghJ7c4u8nIxAL.png"  # excluida do dataset na tarefa 1

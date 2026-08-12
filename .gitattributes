@@ -1,0 +1,40 @@
+# Terminador de linha dos CSV.
+#
+# POR QUE EXISTE. Sem isto, `git status` acusa como modificados arquivos que
+# ninguem editou. O repositorio tem DOIS geradores de CSV, e eles nao terminam
+# linha do mesmo jeito:
+#
+#   csv.writer (59 arquivos .py, todos com newline="")  ->  CRLF
+#       Nao e "porque Windows": o modulo csv da biblioteca padrao termina em
+#       \r\n por especificacao (RFC 4180), em qualquer plataforma, e newline=""
+#       existe justamente para o Python nao traduzir isso.
+#
+#   File.append / File.saveString (stage4/*.ijm)        ->  LF
+#       O ImageJ escreve \n. Esses seis arquivos sao o registro congelado da
+#       campanha de anotacao e NAO serao regerados; a forma deles e um fato
+#       historico, nao uma escolha em aberto.
+#
+# Com core.autocrlf=input e sem .gitattributes, o checkout entrega tudo em LF.
+# Na primeira vez que alguem roda a analise, 121 CSV viram CRLF e aparecem como
+# alteracao espuria — inclusive num CI Linux, o que colide com a afirmacao do
+# manuscrito de que os scripts regeneram tudo ponta a ponta.
+#
+# A regra abaixo faz o checkout entregar cada arquivo na forma que o SEU gerador
+# produz. O blob no repositorio continua em LF, entao diff e merge seguem
+# funcionando normalmente.
+#
+# NOTA. Isto nao tenta casar byte a byte com o deposito v2.0.0 do Zenodo, que
+# esta publicado e imutavel. Aquele deposito e um instantaneo congelado e carrega
+# os bytes que carrega; o MANIFEST.csv dele registra os proprios SHA-256 e e
+# autoconsistente. O conteudo e identico nos dois lados — so o terminador de
+# linha difere, e nenhum parser de CSV se importa.
+
+*.csv text eol=crlf
+
+# ...exceto os que o macro do ImageJ escreveu.
+stage4/correcao_manual_pass1.csv        text eol=lf
+stage4/correcao_manual_pass2.csv        text eol=lf
+stage4/correcao_manual_validacao.csv    text eol=lf
+stage4/correcao_manual_completacao.csv  text eol=lf
+stage4/correcao_manual_baselines.csv    text eol=lf
+whst_output/whst_batch_results.csv      text eol=lf

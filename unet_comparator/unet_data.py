@@ -42,7 +42,7 @@ TRANSLATE, SCALE, FLIPLR = 0.1, 0.5, 0.5
 # AUGMENTATION SEED — a constant, NOT the training seed.
 #
 # This mirrors what Ultralytics does: there, the worker seeds derive from a fixed
-# generator (6148914691236517205 + RANK), so data order and augmentation do NOT vary
+# generator (6148914691236517205 + RANK), so data order and augmentation do not vary
 # with the training seed; only weight initialisation varies.
 #
 # If augmentation varied with the seed here, the U-Net arm would carry one more
@@ -149,7 +149,7 @@ class WoundDataset(Dataset):
     """`epoca` MUST be updated every epoch by the training loop.
 
     DEFECT FIXED (review of 2026-07-28). The previous version seeded the RNG with
-    `(seed, index)` only — no epoch. Consequence: each image received ONE fixed
+    `(seed, index)` only — no epoch. Consequence: each image received one fixed
     transform and repeated it across all 100 epochs. That is not stochastic
     augmentation, it is a dataset transformed exactly once — and it broke the
     fairness contract, because YOLO draws a new transform every epoch.
@@ -169,7 +169,7 @@ class WoundDataset(Dataset):
         self.epoca = 0
 
     def set_epoca(self, e):
-        """Call BEFORE creating the epoch's iterator.
+        """Call before creating the epoch's iterator.
 
         With num_workers>0 and persistent_workers=False the dataset is re-pickled
         every epoch, so the updated attribute travels to the workers.
@@ -189,7 +189,7 @@ class WoundDataset(Dataset):
         img, m, lb = letterbox(img, m, self.alvo, self.fill)
 
         if self.treino:
-            # (SEED_AUG, epoch, index): varies across epochs, and does NOT vary with
+            # (SEED_AUG, epoch, index): varies across epochs, and does not vary with
             # the training seed — same as Ultralytics (see SEED_AUG above).
             rng = np.random.default_rng((SEED_AUG, self.epoca, i))
             img = _hsv(img, rng)

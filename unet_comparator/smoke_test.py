@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-smoke_test.py — validates the comparator WITHOUT training and WITHOUT touching the GPU.
+smoke_test.py — validates the comparator without training and without touching the GPU.
 
 It forces CUDA_VISIBLE_DEVICES before importing torch: the YOLO grid may be using
 the card, and an accidental `torch.cuda.init()` here would compete for memory in
@@ -132,7 +132,7 @@ check(not torch.equal(a1, a2),
 ds["train"].set_epoca(1)
 check(not torch.equal(ds["train"][0][0], ds["train"][1][0]), "distinct samples do differ")
 
-# and augmentation must NOT vary with the training seed — the same as Ultralytics,
+# and augmentation must not vary with the training seed — the same as Ultralytics,
 # otherwise the U-Net arm would carry one more source of variance than the YOLO arm
 outro = WoundDataset(sp["train"], 640, treino=True, fill=0, seed=999)
 outro.set_epoca(1)

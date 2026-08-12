@@ -40,8 +40,8 @@ needs, and it reduces the bootstrap to resampling the keys of a dictionary.
 | --- | --- |
 | `stage3/predict_areas.py` | phase 1b (GPU): wound area per test-set image |
 | `stage3/paired_new.py` | the rebuilt paired analysis and Supplementary Table S2 |
-| `stage3/concordancia_final.py` | every agreement statistic the manuscript reports, persisted to JSON |
-| `stage3/figuras_concordancia.py` | Figures 3–5, from that data |
+| `stage3/agreement_final.py` | every agreement statistic the manuscript reports, persisted to JSON |
+| `stage3/figures_agreement.py` | Figures 3–5, from that data |
 | `stage3/make_area_fixture.py` | synthetic areas to validate the **join**, without a GPU |
 
 ### Why two tracks
@@ -69,14 +69,14 @@ replaced. Editing numbers in that file would have been a patch over a broken thi
 | independence | — | the models never saw the reference standard |
 
 The classical arm does **not** have that independence — see the incorporation bias
-documented in `benchmark_classico.py`, at the repository root.
+documented in `benchmark_classical.py`, at the repository root.
 
 ### Pair accounting
 
 ```
 reference standard          223 images measured
   with a test-set image     218      (5 outside the held-out partition)
-data/closure_final_longo.csv     187 observations across 59 series
+data/closure_final_long.csv     187 observations across 59 series
   analysable                163
   less the baselines (t=0)   59      a baseline has no pair by construction
 a single run              97–100 pairs   (three of the five YOLO runs return 97)
@@ -103,7 +103,7 @@ Before the grid exists — validates everything, no GPU:
 ```bash
 python stage3/test_ap_core.py
 python stage3/make_fixtures.py
-python stage3/aggregate.py --dir stage3/registros_fixture --out stage3/table2_fixture.csv --B 400 --permitir-fixture
+python stage3/aggregate.py --dir stage3/records_fixture --out stage3/table2_fixture.csv --B 400 --permitir-fixture
 ```
 
 `--permitir-fixture` is required and deliberate: `stage3/aggregate.py` aborts if the directory holds
@@ -114,8 +114,8 @@ Once the runs exist:
 ```bash
 python stage3/eval_test.py --all
 python stage3/aggregate.py --B 5000
-python stage3/concordancia_final.py
-python stage3/figuras_concordancia.py
+python stage3/agreement_final.py
+python stage3/figures_agreement.py
 ```
 
 ## The four outputs of `stage3/aggregate.py`

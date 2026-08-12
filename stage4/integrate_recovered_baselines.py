@@ -6,7 +6,7 @@ pipeline, depois de medidos pelo stage4/whst_batch.ijm em whst_output_novos/.
 What it does:
   1. moves image, ROI, mask, polygon and overlay to the official directories;
   2. acrescenta linha em whst_input/correspondencia.csv, data/whst_pass1_qc.csv e
-     data/inspecao_visual.csv (empty category: not yet triaged — validity will be
+     data/visual_triage.csv (empty category: not yet triaged — validity will be
      decided during the manual correction itself, as was done with the 4 cases
      'ruidosa_recuperavel');
   3. produces stage4/baseline_worklist.csv for the manual correction (pass 5).
@@ -22,7 +22,7 @@ STAGE_OUT = "whst_output_novos"
 MANIF = "stage4/baselines_recuperados.csv"
 CORR = "whst_input/correspondencia.csv"
 QC = "data/whst_pass1_qc.csv"
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 WL = "stage4/baseline_worklist.csv"
 
 for p in (MANIF, STAGE_OUT):

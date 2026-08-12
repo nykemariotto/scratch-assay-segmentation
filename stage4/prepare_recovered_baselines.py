@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 stage4/prepare_recovered_baselines.py — prepares the 5 t0 recovered from the raw
-bank for measurement, under the SAME convention as every other image in the pipeline.
+bank for measurement, under the same convention as every other image in the pipeline.
 
 CONTEXT: 14 series are outside the paired analysis for lack of a baseline. For 5
 delas existe t0 no banco cru (`Banco de dados/HUVEC-RAW`), no lote, tratamento,

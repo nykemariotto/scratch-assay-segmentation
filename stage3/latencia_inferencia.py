@@ -22,12 +22,12 @@ METHODOLOGY
 TWO LIMITS TO DECLARE, both measured by re-running this script on the same machine
 on a different day:
 
-  · These are wall-clock medians on ONE machine, and they move with how loaded it
+  · These are wall-clock medians on one machine, and they move with how loaded it
     is: the same configurations came out 2-20% faster on a second run. Ratios
     BETWEEN configurations are stable (S stayed at ~50% of M in both); the absolute
     milliseconds are not portable.
 
-  · M, M-white and M-scratch are the SAME architecture — 22.4 M parameters, 45.2 MB
+  · M, M-white and M-scratch are the same architecture — 22.4 M parameters, 45.2 MB
     of weights — differing only in the padding colour and the initialisation used to
     TRAIN them, neither of which touches the cost of a forward pass. Their true
     latency is identical, and the order they come out in is measurement noise. The

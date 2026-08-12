@@ -20,10 +20,10 @@ import csv, os, sys
 import numpy as np
 from PIL import Image
 
-VAL = "stage4/correcao_manual_validacao.csv"
+VAL = "stage4/manual_correction_validation.csv"
 GAB = "stage4/.validacao_gabarito.csv"
 AUTO_MASKS = "whst_output/masks"
-VAL_MASKS = "whst_output/rois_validacao/masks"
+VAL_MASKS = "whst_output/rois_validation/masks"
 OUT = "stage4/validation_provenance.csv"
 
 if not os.path.isfile(VAL):

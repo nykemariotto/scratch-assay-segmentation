@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage2/test_padding_patch.py — the padding patch gate. Runs BEFORE any training.
+stage2/test_padding_patch.py — the padding patch gate. Runs before any training.
 
 It exists because of the 2026-07-27 defect: the patch held in the parent process and not
 in the workers, and the entire grid trained with GREY padding on both arms of the
@@ -96,7 +96,7 @@ def main():
     n114_a = int((a == 114).sum())
     n114_b = int((b == 114).sum())
     check(not np.array_equal(a, b), "the same batch differs between black and white")
-    # Do NOT require 114 to vanish: it is a NATURAL value in these microscopy images
+    # Do not require 114 to vanish: it is a NATURAL value in these microscopy images
     # (~1.6% of pixels). What proves no padding is grey is 114 appearing in the SAME
     # quantity in both modes — if one of them still used grey for
     # preencher, a contagem dele seria muito maior.

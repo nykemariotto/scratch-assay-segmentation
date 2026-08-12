@@ -14,7 +14,7 @@ can run over any subset and test robustness.
 
 Outputs:
   stage4/closure_final_por_serie.csv   (one row per series, with the curve)
-  data/closure_final_longo.csv         (long format: 1 row per measurement, for stats)
+  data/closure_final_long.csv         (long format: 1 row per measurement, for stats)
 """
 import csv, os, sys
 from collections import defaultdict, Counter
@@ -55,7 +55,7 @@ for sk, rs in sorted(bys.items()):
             else "mista")
     # RULE R2 (PROTOCOL section 3.1): t0 invalid with a valid sibling field at t0
     # -> use the sibling as the baseline. stage4/whst_series_analysis.py already
-    # resolved WHICH field to borrow; here it has to be APPLIED, otherwise the
+    # resolved which field to borrow; here it has to be APPLIED, otherwise the
     # series is discarded as 'sem_baseline' and the two analyses disagree.
     emprestado = m.get("baseline_emprestado", "nao")
     if 0 not in ab and emprestado.startswith("sim"):
@@ -102,7 +102,7 @@ for sk, rs in sorted(bys.items()):
                       "analisavel": "sim" if plaus else "nao"})
 
 for nome, dados in ((("stage4/closure_final_por_serie.csv"), linhas),
-                    (("data/closure_final_longo.csv"), longo)):
+                    (("data/closure_final_long.csv"), longo)):
     if dados:
         with open(nome, "w", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(dados[0].keys()))
@@ -121,4 +121,4 @@ if cf:
     print(f"\n  closure at the last timepoint: median={st.median(cf):.3f}  "
           f"min={min(cf):.3f}  max={max(cf):.3f}")
     print(f"  series reaching complete closure (>=0.99): {sum(1 for c in cf if c >= 0.99)}")
-print(f"\nSaved: stage4/closure_final_por_serie.csv ({len(linhas)}) and data/closure_final_longo.csv ({len(longo)})")
+print(f"\nSaved: stage4/closure_final_por_serie.csv ({len(linhas)}) and data/closure_final_long.csv ({len(longo)})")

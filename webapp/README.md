@@ -8,8 +8,17 @@ so that the source of the tool described in the manuscript is auditable from one
 |---|---|
 | `app.py` | Space, root |
 | `requirements.txt` | Space, root |
-| `MODEL_CARD.md` | model repository, as `stage3/README.md` |
-| `SPACE_README.md` | Space, as `stage3/README.md` |
+| `padding_patch.py` | Space, root — `app.py` imports it; without it the Space does not start |
+| `MODEL_CARD.md` | model repository, as its `README.md` — on Hugging Face a model repository's README *is* its model card |
+| `SPACE_README.md` | Space, as its `README.md` — the YAML front matter is what configures the Space |
+
+### `sdk_version` tracks the Space, not the other way round
+
+Hugging Face bumps `sdk_version` in the Space's own `README.md` when it rebuilds, and
+it does so without telling anyone. The copy here has to be updated to match, because a
+redeploy pushes this file over the Space's: on 2026-08-04 the Space was running
+Streamlit 1.60.0 while this copy still declared 1.59.2, so redeploying would have
+silently **downgraded** the runtime. Check the deployed value before pushing, not after.
 
 The weights are **not** stored in the Space. They are downloaded at run time from the
 public model repository <https://huggingface.co/nmariotto/scratch-assay-segmentation>

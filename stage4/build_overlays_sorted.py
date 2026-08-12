@@ -10,7 +10,7 @@ Name pattern:
     'tp8h' would sort after 'tp24h'.
   - the md5 (10 chars) goes LAST: it preserves traceability without affecting order.
 
-BLINDING (critical): this script reads ONLY whst_input/correspondencia.csv. It
+BLINDING (critical): this script reads only whst_input/correspondencia.csv. It
 NEVER opens data/whst_pass1_qc.csv. No QC flag, category or numeric value enters
 the names or the folders -> the manual triage stays blind and can later be crossed
 with the automatic QC to measure sensitivity and specificity.
@@ -114,7 +114,7 @@ def main():
     print(f"OK: {len(rows)} copies in {OUT_DIR}/")
     print(f"    empty triage subfolders: {', '.join(TRIAGE)}")
     print(f"    map: {MAP_CSV}")
-    # a sample of ONE series' ordering, to check the zero-padding
+    # a sample of one series' ordering, to check the zero-padding
     ex = [x["sorted_basename"] for x in rows if "Controle_Saudavel_None_A1" in x["sorted_basename"]]
     print("\n  example of an ordered series (A1):")
     for n in ex[:8]:

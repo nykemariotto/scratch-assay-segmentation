@@ -4,12 +4,12 @@ emoji: 🔬
 colorFrom: indigo
 colorTo: gray
 sdk: streamlit
-sdk_version: 1.59.2
+sdk_version: 1.61.1
 app_file: app.py
 pinned: false
 license: agpl-3.0
 models:
-  - nmariotto/scratch-assay-segmentation
+- nmariotto/scratch-assay-segmentation
 ---
 
 # Scratch Assay Segmentation Tool
@@ -61,7 +61,9 @@ separately under CC BY 4.0 and the statistical analysis code under MIT.
 
 ## Links
 
-- Data and code archive: <https://doi.org/10.5281/zenodo.20298129>
+- Data and code archive: <https://doi.org/10.5281/zenodo.20298129> (concept DOI, always
+  the latest); this interface serves the weights of **v2.0.0**,
+  <https://doi.org/10.5281/zenodo.21779854>
 - Source: <https://github.com/nykemariotto/scratch-assay-segmentation>
 
 Developed by the Medical Physics Laboratory, Department of Biophysics and Pharmacology,

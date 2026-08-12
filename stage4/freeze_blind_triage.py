@@ -3,8 +3,8 @@
 stage4/freeze_blind_triage.py — freezes the BLIND VISUAL TRIAGE as an immutable artefact.
 
 WHY THIS FILE EXISTS
-  The blind triage is the only assessment made WITHOUT knowledge of the automatic
-  QC output. That is what makes it the valid reference for ONE specific claim: the
+  The blind triage is the only assessment made without knowledge of the automatic
+  QC output. That is what makes it the valid reference for one specific claim: the
   sensitivity and specificity of the automatic QC. Any reassessment made after
   seeing the QC results suffers incorporation bias (STARD) and cannot replace it in
   that comparison.
@@ -15,17 +15,17 @@ WHY THIS FILE EXISTS
   the MANUALLY CORRECTED ROI, not this triage.
 
 PROVENANCE
-  Extracted from data/inspecao_visual.csv.pre_adjudicacao.bak, which preserves the
+  Extracted from data/visual_triage.csv.pre_adjudicacao.bak, which preserves the
   state before the 12 AMBIGUO cases were adjudicated. The adjudication was done
-  AFTER the operator saw the QC analysis, so it is NOT blind and does not enter here.
+  AFTER the operator saw the QC analysis, so it is not blind and does not enter here.
 
-Produces: data/inspecao_visual_TRIAGEM_CEGA.csv  (read-only; do not edit)
+Produces: data/visual_triage_TRIAGEM_CEGA.csv  (read-only; do not edit)
 """
 import csv, os, hashlib, stat, sys
 from collections import Counter
 
-SRC = "data/inspecao_visual.csv.pre_adjudicacao.bak"
-OUT = "data/inspecao_visual_TRIAGEM_CEGA.csv"
+SRC = "data/visual_triage.csv.pre_adjudicacao.bak"
+OUT = "data/visual_triage_TRIAGEM_CEGA.csv"
 # only the triage fields themselves plus identification. Nothing derived from analysis.
 KEEP = ["whst_input_file", "sorted_basename", "categoria", "subtipo",
         "cell_line", "group_key", "timepoint_h", "campo",

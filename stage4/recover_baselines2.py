@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 stage4/recover_baselines2.py — part 2, CORRECTED. Resolves the 0h of the missing
-groups by the SAME field_id definition as the dataset
+groups by the same field_id definition as the dataset
 (stage1/final_grouping_skov.py), not by the rank of
 timestamp. Valida a regra contra os 0h JA anotados e atribui nivel de confianca
 conforme a estabilidade do field_id do proprio grupo entre timepoints.
@@ -9,8 +9,8 @@ conforme a estabilidade do field_id do proprio grupo entre timepoints.
 import os, re, csv
 from collections import defaultdict
 
-P1 = r"G:\.shortcut-targets-by-id\16gG82kKalY_NsrHcFf6mK3smW3pw5zmr\Wound Healing"
-P2 = r"G:\.shortcut-targets-by-id\1CMwTWGfjZgxB1XuvetRHUONTxDknvhDU\WH_Carbo_25-10_27-10-22"
+P1 = os.environ.get("RAW_ARCHIVE_P1", "<raw_archive_p1>")
+P2 = os.environ.get("RAW_ARCHIVE_P2", "<raw_archive_p2>")
 HRAW = os.environ.get("BANCO_A", "<banco_a>") + r"\HUVEC-RAW"
 IMG = (".tif", ".tiff", ".bmp", ".png")
 
@@ -83,7 +83,7 @@ P2_FOLDER = {"CT": "ct", "CARBO": "carbo", "GEO": "geo", "CARBO+GEO": "carbo_geo
 
 def p2_snap_file(tr, snap):
     """Blocos P2 sao identicos entre timepoints, entao o snap do grupo (24h/48h)
-    identifies the 0h of the SAME physical field. Direct method (not the annotated
+    identifies the 0h of the same physical field. Direct method (not the annotated
     block_min)."""
     fname = f"Snap-{snap:02d}.tiff"
     return os.path.join(P2, "0h", P2_FOLDER[tr], fname), fname

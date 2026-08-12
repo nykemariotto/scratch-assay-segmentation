@@ -12,7 +12,7 @@ Estrategia: casamento por CONTEUDO (pixel) RESTRITO POR NOME.
   which preserves case, separator and tokens of the ORIGINAL name (without the real
   extension and without the Windows " (N)" collision suffix, which Roboflow strips).
 - For HUVEC the timepoint is in the name itself (0h/8h/12h/24h); for SKOV-treatment the
-  name implies 0h; for the SKOV "Snap-NN" the timepoint is NOT in the name and is
+  name implies 0h; for the SKOV "Snap-NN" the timepoint is not in the name and is
   recoverable only by
   pixel (o mesmo Snap-NN existe em 0h/24h/48h/72h).
 - For each group (same normalised name) the 1:1 assignment B<->A is resolved by

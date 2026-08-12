@@ -2,7 +2,7 @@
 """
 stage1/check_640_population.py — explica a diferenca 118 (inventario) x 115 (dataset).
 
-stage1/check_coco_dims.py has already verified that there is NO divergence between the dimension
+stage1/check_coco_dims.py has already verified that there is no divergence between the dimension
 registrada no COCO e a do arquivo em disco (0/1363), portanto os labels estao
 intact and the question is one of POPULATION, not of scale.
 

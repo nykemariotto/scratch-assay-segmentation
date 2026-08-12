@@ -19,18 +19,18 @@ T2 — severity: for each 'over' image, estimates the RELATIVE EXCESS of the WHS
      excess = area_over/ref - 1. Binned as mild (<20%) / moderate / severe (>50%).
 T3 — correction list = MIXED series + consistent series with an IMPLAUSIBLE
      closure + broken baselines + severe cases outside a usable series.
-     Consistently over-segmented series WITH a plausible closure stay out, and
+     Consistently over-segmented series with a plausible closure stay out, and
      that is declarable.
 
 Outputs:
-  - data/inspecao_visual.csv  (rewritten, + classe_validade and analysis columns)
+  - data/visual_triage.csv  (rewritten, + classe_validade and analysis columns)
   - data/whst_series_analysis.csv  (one row per series)
 """
 import csv, os
 from collections import defaultdict
 import statistics as st
 
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 AUTO = "data/whst_pass1_qc.csv"
 
 # ---------- join ----------
@@ -294,7 +294,7 @@ for sk, s in series.items():
     rs = by_sk[sk]
     indeterminado = (not s["has_base"]) or s["motivo"] in ("sem_baseline", "serie_1_ponto", "baseline_zero")
     consistente = s["pat"].startswith(("CONSISTENTE_SUPER", "CONSISTENTE_OK", "CONSISTENTE_SUB"))
-    # invalid frames NEVER enter the correction (there is no wound to re-segment);
+    # invalid frames never enter the correction (there is no wound to re-segment);
     # they are recorded in the review list for traceability only. The decision about
     # them was already taken by REGRA_INVALIDOS (R1/R2/R3), not case by case.
     for r in rs:
@@ -338,7 +338,7 @@ for sk, s in series.items():
     if s["emprestado"]:
         print(f"        {sk[:52]:<54} baseline {s['emprestado']}")
 
-# ---- classe_validade + enriquecimento do data/inspecao_visual.csv ----
+# ---- classe_validade + enriquecimento do data/visual_triage.csv ----
 CLASSE = {"OK": "valida_ok", "SEG_super": "falha_metodo_WHST", "SEG_sub": "falha_metodo_WHST",
           "IMG_INVALIDA": "invalidez_imagem", "AMBIGUO": "a_adjudicar",
           # baselines recovered afterwards: outside the triage statistics until the

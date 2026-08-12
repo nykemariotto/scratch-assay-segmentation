@@ -87,7 +87,7 @@ with open("stage1/qc_annotation_area.csv", "w", encoding="utf-8-sig", newline=""
         r2 = dict(r); r2["frac"] = round(r["frac"], 3); w.writerow(r2)
 
 # lista da cauda suspeita separada
-with open("data/qc_suspeitas.csv", "w", encoding="utf-8-sig", newline="") as f:
+with open("data/qc_flagged.csv", "w", encoding="utf-8-sig", newline="") as f:
     w = csv.writer(f)
     w.writerow(["file", "cell", "tp", "part", "res", "n_ann", "frac_pct", "motivo"])
     for r in sorted(susp, key=lambda r: r["frac"]):
@@ -95,4 +95,4 @@ with open("data/qc_suspeitas.csv", "w", encoding="utf-8-sig", newline="") as f:
                     round(r["frac"], 3), f"<{thr(r['tp'])}% (fragmento provavel)"])
     for r in sorted(empty, key=lambda r: (r["cell"], r["tp"])):
         w.writerow([r["file"], r["cell"], r["tp"], r["part"], r["res"], 0, 0.0, "sem anotacao (0 poligonos)"])
-print("\nSalvos: stage1/qc_annotation_area.csv (todas), data/qc_suspeitas.csv (cauda + vazias)")
+print("\nSalvos: stage1/qc_annotation_area.csv (todas), data/qc_flagged.csv (cauda + vazias)")

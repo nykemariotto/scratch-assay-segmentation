@@ -31,15 +31,15 @@ CLASSIFICATION (only for frames scored SEG_RUIM with computable containment):
   containment <  0.5 and area_pct >= 5.0 -> deslocada
 Frames with no t0 in the series, or t0 itself, stay 'nao_avaliavel'.
 
-It does NOT change the triage category/subtype nor the correction list: it appends
-the columns 'contencao_t0' and 'modo_falha' to data/inspecao_visual.csv.
+It does not change the triage category/subtype nor the correction list: it appends
+the columns 'contencao_t0' and 'modo_falha' to data/visual_triage.csv.
 """
 import csv, os
 import numpy as np
 from PIL import Image
 from collections import defaultdict, Counter
 
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 AUTO = "data/whst_pass1_qc.csv"
 MASKS = os.path.join("whst_output", "masks")
 THR_CONT, THR_AREA = 0.5, 5.0

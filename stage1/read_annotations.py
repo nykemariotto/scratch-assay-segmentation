@@ -13,7 +13,7 @@ stage1/read_annotations.py — le stage1/annotation_sheet.csv preenchido e produ
       4 boxes, that is a category missing from the scheme.
 
   (3) VALIDACAO INDEPENDENTE DO 'modo_falha'
-      Crosses the operator's justification (given WITHOUT seeing the metric) with the
+      Crosses the operator's justification (given without seeing the metric) with the
       modo_falha computado por contencao geometrica. Concordancia = evidencia
       convergent; disagreement localises an error in the metric or in the triage.
 
@@ -25,7 +25,7 @@ from collections import Counter, defaultdict
 
 SHEET_CSV = "stage1/annotation_sheet.csv"
 SHEET_XLSX = "stage1/annotation_sheet.xlsx"
-ATUAL = "data/inspecao_visual.csv"
+ATUAL = "data/visual_triage.csv"
 OUT = "data/annotation_report.csv"
 
 CAMPOS = ["motivo", "pasta_correta?", "categoria_sugerida", "confianca"]
@@ -134,7 +134,7 @@ for mf in sorted(cross):
 
 # ---- classificacao do texto livre em modo de falha ----
 # NOTE the distinction that breaks a naive regex:
-#   "caught the wound AND outside it TOO" -> EXCESS  (caught the wound + extra)
+#   "caught the wound and outside it TOO" -> EXCESS  (caught the wound + extra)
 #   "caught outside the wound"           -> DISPLACED (it did not catch the wound)
 # Regras por frase, aplicadas em ordem de especificidade.
 def classifica_motivo(m):
@@ -154,7 +154,7 @@ def classifica_motivo(m):
     # 4) excesso + falta simultaneos (misto)
     if ("e fora dela" in m or "e fora dela tambem" in m) and "faltou" in m:
         return "excesso_e_sub"
-    # 5) excess: caught the wound AND something beyond
+    # 5) excess: caught the wound and something beyond
     if "e fora dela" in m or "pouco super" in m:
         return "excesso"
     # 6) displaced: caught outside / wrong place, without catching the wound

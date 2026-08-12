@@ -4,7 +4,7 @@
   "seed": 42,
   "ic_por_configuracao": [
     {
-      "config": "YOLO11s-seg · black · COCO",
+      "config": "S",
       "cfg": "yolo11s-seg_black_coco",
       "mAP50": 0.9397635779827593,
       "ic_agrupado": [
@@ -18,7 +18,7 @@
       "razao_largura": 1.064844747646503
     },
     {
-      "config": "YOLO11m-seg · white · COCO",
+      "config": "M-white",
       "cfg": "yolo11m-seg_white_coco",
       "mAP50": 0.9351575352622108,
       "ic_agrupado": [
@@ -32,7 +32,7 @@
       "razao_largura": 1.1181508322702405
     },
     {
-      "config": "YOLO11m-seg · black · COCO",
+      "config": "M",
       "cfg": "yolo11m-seg_black_coco",
       "mAP50": 0.9340369675987326,
       "ic_agrupado": [
@@ -46,7 +46,7 @@
       "razao_largura": 1.0977174220499668
     },
     {
-      "config": "YOLO11m-seg · black · scratch",
+      "config": "M-scratch",
       "cfg": "yolo11m-seg_black_scratch",
       "mAP50": 0.9334653975124361,
       "ic_agrupado": [
@@ -60,7 +60,7 @@
       "razao_largura": 1.1047325591597885
     },
     {
-      "config": "YOLO11x-seg · black · COCO",
+      "config": "X",
       "cfg": "yolo11x-seg_black_coco",
       "mAP50": 0.9331948811432127,
       "ic_agrupado": [
@@ -74,7 +74,7 @@
       "razao_largura": 1.0584582463655503
     }
   ],
-  "ablacao_padding": {
+  "padding_ablation": {
     "config_black": "yolo11m-seg_black_coco",
     "config_white": "yolo11m-seg_white_coco",
     "seeds": [
@@ -100,8 +100,8 @@
   },
   "pares": [
     {
-      "a": "YOLO11s-seg · black · COCO",
-      "b": "YOLO11m-seg · white · COCO",
+      "a": "S",
+      "b": "M-white",
       "cfg_a": "yolo11s-seg_black_coco",
       "cfg_b": "yolo11m-seg_white_coco",
       "delta_pp": 0.4606042720548542,
@@ -110,8 +110,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11s-seg · black · COCO",
-      "b": "YOLO11m-seg · black · COCO",
+      "a": "S",
+      "b": "M",
       "cfg_a": "yolo11s-seg_black_coco",
       "cfg_b": "yolo11m-seg_black_coco",
       "delta_pp": 0.5726610384026776,
@@ -120,8 +120,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11s-seg · black · COCO",
-      "b": "YOLO11m-seg · black · scratch",
+      "a": "S",
+      "b": "M-scratch",
       "cfg_a": "yolo11s-seg_black_coco",
       "cfg_b": "yolo11m-seg_black_scratch",
       "delta_pp": 0.6298180470323267,
@@ -130,8 +130,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11s-seg · black · COCO",
-      "b": "YOLO11x-seg · black · COCO",
+      "a": "S",
+      "b": "X",
       "cfg_a": "yolo11s-seg_black_coco",
       "cfg_b": "yolo11x-seg_black_coco",
       "delta_pp": 0.6568696839546639,
@@ -140,8 +140,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · white · COCO",
-      "b": "YOLO11m-seg · black · COCO",
+      "a": "M-white",
+      "b": "M",
       "cfg_a": "yolo11m-seg_white_coco",
       "cfg_b": "yolo11m-seg_black_coco",
       "delta_pp": 0.11205676634782336,
@@ -150,8 +150,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · white · COCO",
-      "b": "YOLO11m-seg · black · scratch",
+      "a": "M-white",
+      "b": "M-scratch",
       "cfg_a": "yolo11m-seg_white_coco",
       "cfg_b": "yolo11m-seg_black_scratch",
       "delta_pp": 0.16921377497747248,
@@ -160,8 +160,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · white · COCO",
-      "b": "YOLO11x-seg · black · COCO",
+      "a": "M-white",
+      "b": "X",
       "cfg_a": "yolo11m-seg_white_coco",
       "cfg_b": "yolo11x-seg_black_coco",
       "delta_pp": 0.19626541189980973,
@@ -170,8 +170,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · black · COCO",
-      "b": "YOLO11m-seg · black · scratch",
+      "a": "M",
+      "b": "M-scratch",
       "cfg_a": "yolo11m-seg_black_coco",
       "cfg_b": "yolo11m-seg_black_scratch",
       "delta_pp": 0.05715700862964912,
@@ -180,8 +180,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · black · COCO",
-      "b": "YOLO11x-seg · black · COCO",
+      "a": "M",
+      "b": "X",
       "cfg_a": "yolo11m-seg_black_coco",
       "cfg_b": "yolo11x-seg_black_coco",
       "delta_pp": 0.08420864555198637,
@@ -190,8 +190,8 @@
       "exclui_zero": false
     },
     {
-      "a": "YOLO11m-seg · black · scratch",
-      "b": "YOLO11x-seg · black · COCO",
+      "a": "M-scratch",
+      "b": "X",
       "cfg_a": "yolo11m-seg_black_scratch",
       "cfg_b": "yolo11x-seg_black_coco",
       "delta_pp": 0.027051636922337252,
@@ -202,44 +202,44 @@
   ],
   "indistinguiveis": [
     [
-      "YOLO11s-seg · black · COCO",
-      "YOLO11m-seg · white · COCO"
+      "S",
+      "M-white"
     ],
     [
-      "YOLO11s-seg · black · COCO",
-      "YOLO11m-seg · black · COCO"
+      "S",
+      "M"
     ],
     [
-      "YOLO11s-seg · black · COCO",
-      "YOLO11m-seg · black · scratch"
+      "S",
+      "M-scratch"
     ],
     [
-      "YOLO11s-seg · black · COCO",
-      "YOLO11x-seg · black · COCO"
+      "S",
+      "X"
     ],
     [
-      "YOLO11m-seg · white · COCO",
-      "YOLO11m-seg · black · COCO"
+      "M-white",
+      "M"
     ],
     [
-      "YOLO11m-seg · white · COCO",
-      "YOLO11m-seg · black · scratch"
+      "M-white",
+      "M-scratch"
     ],
     [
-      "YOLO11m-seg · white · COCO",
-      "YOLO11x-seg · black · COCO"
+      "M-white",
+      "X"
     ],
     [
-      "YOLO11m-seg · black · COCO",
-      "YOLO11m-seg · black · scratch"
+      "M",
+      "M-scratch"
     ],
     [
-      "YOLO11m-seg · black · COCO",
-      "YOLO11x-seg · black · COCO"
+      "M",
+      "X"
     ],
     [
-      "YOLO11m-seg · black · scratch",
-      "YOLO11x-seg · black · COCO"
+      "M-scratch",
+      "X"
     ]
   ],
   "n_pares": 10,

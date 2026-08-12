@@ -22,7 +22,7 @@ AREAS = "data/whst_areas_final.csv"
 CLOS = "stage4/closure_final_por_serie.csv"
 INP = "whst_input"
 M_AUTO = "whst_output/masks"
-M_CORR = "whst_output/rois_corrigidos/masks"
+M_CORR = "whst_output/rois_corrected/masks"
 TH = 250
 
 COR = {"corrigida": (60, 230, 60), "corrigida_fechada": (255, 60, 255),

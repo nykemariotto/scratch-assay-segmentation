@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage3/test_ap_core.py — validates ap_core BEFORE the training grid finishes.
+stage3/test_ap_core.py — validates ap_core before the training grid finishes.
 
 No GPU. The point is to be sure the AP core is right while there is still time to
 fix it: if it were written in a hurry once the 25 runs came out, an error here
@@ -73,10 +73,10 @@ check(np.isnan(average_precision([r_semgt], IDX_50)),
       "AP undefined (NaN), not 0 — an image with no GT cannot 'zero' the mean")
 # AP is RANK-BASED, and that has a counterintuitive consequence which has to be
 # understood before Table 2 is interpreted: a false positive scored BELOW every
-# true positive does NOT reduce AP. The precision envelope takes the maximum to
+# true positive does not reduce AP. The precision envelope takes the maximum to
 # the right, and recall has already reached 1.0 before the FP appears.
 # Only an FP ranked above some TP hurts.
-# the TP is given score 0.50 so that there is ranking space on BOTH sides of it
+# the TP is given score 0.50 so that there is ranking space on both sides of it
 r_bom = registro(g, g, [0.50])
 ap_so_bom = average_precision([r_bom], IDX_50)
 fp_abaixo = registro([quadrado(0, 0, 5)], [], [0.30])     # ranqueado DEPOIS do TP
@@ -89,7 +89,7 @@ check(ap_fp_baixo == ap_so_bom,
 check(ap_fp_alto < ap_so_bom,
       "an FP ranked ABOVE the TP reduces AP",
       f"({ap_so_bom:.3f} -> {ap_fp_alto:.3f})")
-# and in BOTH cases it lowers pointwise precision, which is what the 80% threshold sees
+# and in both cases it lowers pointwise precision, which is what the 80% threshold sees
 p_sem = prf([r_bom], conf=0.2)["precision"]
 p_com = prf([r_bom, fp_abaixo], conf=0.2)["precision"]
 check(p_com < p_sem, "but pointwise precision falls in both cases",

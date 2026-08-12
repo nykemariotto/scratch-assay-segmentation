@@ -6,7 +6,7 @@ CONTEXT: the provenance validation (pass 3, n=10) showed that frames judged OK
 carry no directional bias relative to the manual correction (sign test p=0.754),
 but they do carry dispersion that shifts the closure by ~0.079 (median). Since
 that is ~28% of the between-series standard deviation, the choice was to eliminate
-the noise by correcting ALL automatic frames of the analysable mixed series,
+the noise by correcting all automatic frames of the analysable mixed series,
 rather than restricting the analysis to the homogeneous ones (which would have
 cost half the series).
 

@@ -99,9 +99,9 @@ def casa_imagem(scores, iou_pg, thrs=IOU_THRS):
     # BUG FIXED (review, 2026-07-28). The earlier version used `iou_pg.size` as
     # the guard:
     #     n_pred, n_gt = iou_pg.shape if iou_pg.size else (len(scores), 0)
-    # An image WITH ground truth and NO detection produces a (0, m) matrix, whose
+    # An image with ground truth and no detection produces a (0, m) matrix, whose
     # .size is ZERO — so n_gt became 0 and that ground truth vanished from the
-    # recall denominator. Effect: the model was NOT penalised for finding nothing,
+    # recall denominator. Effect: the model was not penalised for finding nothing,
     # and AP came out inflated. Silent, and worse the worse the model is.
     # The shape, not the size, is what knows how many GT exist.
     n_pred = int(scores.shape[0])
@@ -187,13 +187,18 @@ def metricas(regs, conf=0.8):
 
 
 # ------------------------------------------------------- cluster bootstrap
-def cluster_bootstrap(regs_por_img, grupo_de, fn, B=2000, seed=42, alpha=0.05):
+# B=5000 em todas as assinaturas, igual ao default de stage3/aggregate.py. Cada
+# chamada do pipeline passa B explicitamente, entao estes defaults nunca decidem nada
+# hoje; ficam alinhados para que um chamador futuro que os omita nao produza intervalos
+# diferentes dos publicados. Biblioteca cujo default diverge do pipeline que a usa e
+# uma armadilha esperando o proximo script.
+def cluster_bootstrap(regs_por_img, grupo_de, fn, B=5000, seed=42, alpha=0.05):
     """Percentile CI resampling GROUPS, not images.
 
     The test set has 234 images in 37 groups, and frames of the same field are
     highly correlated. Resampling images treats them as independent and narrows
     the interval artificially. Here the resampling unit is the group: 37 groups
-    are drawn with replacement and ALL images of each drawn group are taken.
+    are drawn with replacement and all images of each drawn group are taken.
 
     Returns {'obs','lo','hi','B_validos'}.
     """
@@ -222,10 +227,10 @@ def cluster_bootstrap(regs_por_img, grupo_de, fn, B=2000, seed=42, alpha=0.05):
             "B_validos": len(vals)}
 
 
-def cluster_bootstrap_pareado(regs_A, regs_B, grupo_de, fn, B=2000, seed=42, alpha=0.05):
+def cluster_bootstrap_pareado(regs_A, regs_B, grupo_de, fn, B=5000, seed=42, alpha=0.05):
     """CI of the DIFFERENCE A−B, resampling the same groups for both.
 
-    WHY NOT COMPARE TWO SEPARATE CIs. Interval overlap is NOT a test of
+    WHY NOT COMPARE TWO SEPARATE CIs. Interval overlap is not a test of
     difference — it is far too conservative, and calls "indistinguishable" things
     that are distinguishable. Both models are evaluated ON THE SAME images, and
     much of the variance belongs to the test set rather than to the model: a hard
@@ -260,7 +265,7 @@ def cluster_bootstrap_pareado(regs_A, regs_B, grupo_de, fn, B=2000, seed=42, alp
             "exclui_zero": bool(lo > 0 or hi < 0), "B_validos": len(difs)}
 
 
-def cluster_bootstrap_config(regs_por_seed, grupo_de, fn, B=2000, seed=42, alpha=0.05):
+def cluster_bootstrap_config(regs_por_seed, grupo_de, fn, B=5000, seed=42, alpha=0.05):
     """CI of the CONFIGURATION MEAN over the seeds, resampling groups.
 
     WHY THIS EXISTS (review, 2026-07-28). The earlier version computed the CI over
@@ -274,7 +279,7 @@ def cluster_bootstrap_config(regs_por_seed, grupo_de, fn, B=2000, seed=42, alpha
         opposite directions depending on the table row;
       * 4 of the 5 runs were discarded.
 
-    Here the group resampling is done ONCE per iteration and applied to ALL seeds;
+    Here the group resampling is done ONCE per iteration and applied to all seeds;
     the statistic of the iteration is the mean across seeds. The interval is then
     of the configuration mean — exactly the number in Table 2.
 
@@ -314,10 +319,10 @@ def cluster_bootstrap_config(regs_por_seed, grupo_de, fn, B=2000, seed=42, alpha
 
 
 def cluster_bootstrap_pareado_config(seeds_A, seeds_B, grupo_de, fn,
-                                     B=2000, seed=42, alpha=0.05):
+                                     B=5000, seed=42, alpha=0.05):
     """CI of the difference between the MEANS of two configurations, resampling groups.
 
-    DEFECT FIXED (2026-07-29). The earlier version compared ONE run of each
+    DEFECT FIXED (2026-07-29). The earlier version compared one run of each
     configuration — `runs[len(runs)//2]`, which is always seed 44. On the real data
     that produced an open contradiction inside the report itself:
 
@@ -330,7 +335,7 @@ def cluster_bootstrap_pareado_config(seeds_A, seeds_B, grupo_de, fn,
     and it would have licensed the manuscript to claim white padding was superior
     on the strength of nothing.
 
-    Here the group resampling is done ONCE per iteration and applied to ALL seeds
+    Here the group resampling is done ONCE per iteration and applied to all seeds
     of both configurations; the statistic is the difference between the means. Two
     variances cancel at once: that of the test set (the same groups for both) and
     that of the seed (the mean over the five).
@@ -369,12 +374,12 @@ def cluster_bootstrap_pareado_config(seeds_A, seeds_B, grupo_de, fn,
             "exclui_zero": bool(lo > 0 or hi < 0), "B_validos": len(difs)}
 
 
-def bootstrap_ingenuo_config(regs_por_seed, fn, B=2000, seed=42, alpha=0.05):
+def bootstrap_ingenuo_config(regs_por_seed, fn, B=5000, seed=42, alpha=0.05):
     """Resamples IMAGES, but over the configuration mean.
 
     It exists so that the comparison against `cluster_bootstrap_config` is
     apples-to-apples. The cluster interval used to be over the mean of the 5 seeds
-    while the naive one was over ONE run — the ratio between the widths compared
+    while the naive one was over one run — the ratio between the widths compared
     different things and came out near 1.0, hiding the effect of grouping.
     """
     chaves = sorted(regs_por_seed[0])
@@ -398,7 +403,7 @@ def bootstrap_ingenuo_config(regs_por_seed, fn, B=2000, seed=42, alpha=0.05):
             "hi": float(np.quantile(vals, 1 - alpha / 2)), "B_validos": len(vals)}
 
 
-def bootstrap_ingenuo(regs_por_img, fn, B=2000, seed=42, alpha=0.05):
+def bootstrap_ingenuo(regs_por_img, fn, B=5000, seed=42, alpha=0.05):
     """Resamples IMAGES. It exists only to demonstrate how much that
     understates the uncertainty."""
     chaves = sorted(regs_por_img)

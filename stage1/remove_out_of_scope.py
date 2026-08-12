@@ -4,20 +4,20 @@ stage1/remove_out_of_scope.py — removes from the pipeline the images the opera
 marked as 'out of analysis scope' (cross-shaped images, used as an algorithm test
 rather than as experimental data).
 
-VERIFIED BEFORE RUNNING: those images do NOT appear in
+VERIFIED BEFORE RUNNING: those images do not appear in
 data/mapping_dataset_final_strat.csv (0 rows), that is, they were never part of the
 model's train/val/test partitions. They are baselines recovered from the raw TIFFs
 for the WHST paired analysis only. The removal therefore does not affect the
 treino, o split leakage-free, nem exige re-treino.
 
-IT DOES NOT DELETE: it moves them to whst_output/_removidas_fora_do_escopo/ with a
+IT DOES NOT DELETE: it moves them to whst_output/_removed_out_of_scope/ with a
 manifest, and backs up every altered CSV (.bak_prefora). Reversible.
 
 Arquivos alterados:
   whst_input/<img>.tiff                    -> quarentena
   whst_input/correspondencia.csv           -> remove linha
   data/whst_pass1_qc.csv                        -> remove linha
-  data/inspecao_visual.csv                      -> remove linha
+  data/visual_triage.csv                      -> remove linha
   data/whst_batch_results.csv                   -> remove linha (se existir)
   whst_output/{overlays,masks,rois,polygons}/<img>*  -> quarentena
   whst_output/overlays_sorted/**/<overlay>          -> quarentena
@@ -25,7 +25,7 @@ Arquivos alterados:
 import csv, os, shutil, sys
 
 REPORT = "data/annotation_report.csv"
-QUAR = os.path.join("whst_output", "_removidas_fora_do_escopo")
+QUAR = os.path.join("whst_output", "_removed_out_of_scope")
 MARCA = "fora_do_escopo"
 
 
@@ -105,7 +105,7 @@ def filtra(path, col, chaves, enc="utf-8-sig"):
 
 for path, col in (("whst_input/correspondencia.csv", "whst_input_file"),
                   ("data/whst_pass1_qc.csv", "whst_input_file"),
-                  ("data/inspecao_visual.csv", "whst_input_file")):
+                  ("data/visual_triage.csv", "whst_input_file")):
     r = filtra(path, col, set(alvo))
     if r:
         print(f"  {path:<38} {r[0]} -> {r[1]}  (removidas {r[2]})")

@@ -10,9 +10,9 @@ the U-Net's false positives in an already closed well.
 Two stratifications, over data that already exists:
 
   A. Mask IoU by WOUND SIZE (the reference standard rasterised at the original
-     resolution). Source: stage3/iou_por_imagem.csv
+     resolution). Source: stage3/iou_per_image.csv
   B. Closure-fraction error by TIMEPOINT and by CELL LINE.
-     Source: stage3/cmp_*_paired_new_longo.csv + data/whst_series_analysis.csv
+     Source: stage3/cmp_*_paired_new_long.csv + data/whst_series_analysis.csv
 
 The closure error is reported WITH ITS SIGN, not in absolute value: the sign is the
 information. Positive = the method reports MORE closure than the reference standard.
@@ -60,9 +60,9 @@ print("=" * 74)
 print("A · MASK IoU BY WOUND SIZE (reference standard)")
 print("=" * 74)
 
-p_iou = os.path.join("stage3", "iou_por_imagem.csv")
+p_iou = os.path.join("stage3", "iou_per_image.csv")
 if not os.path.isfile(p_iou):
-    sys.exit(f"could not find {p_iou} — run stage3/iou_por_imagem.py")
+    sys.exit(f"could not find {p_iou} — run stage3/iou_per_image.py")
 linhas = list(csv.DictReader(open(p_iou, encoding="utf-8")))
 
 d = carrega_splits("data.yaml")["test"]
@@ -111,7 +111,7 @@ obs = defaultdict(lambda: defaultdict(list))       # (braço, estrato) -> difs
 chaves_por_run = {}
 for braco, molde in BRACOS.items():
     for s in SEEDS:
-        p = os.path.join("stage3", f"cmp_{molde.format(s)}_paired_new_longo.csv")
+        p = os.path.join("stage3", f"cmp_{molde.format(s)}_paired_new_long.csv")
         if not os.path.isfile(p):
             continue
         r = list(csv.DictReader(open(p, encoding="utf-8-sig")))

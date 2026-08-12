@@ -40,7 +40,7 @@ DEFAULT_IMGSZ = 640
 HF_MODEL_REPO = "nmariotto/scratch-assay-segmentation"
 
 # Configurations M and S of the companion manuscript (Mariotto et al.,
-# Cytometry Part A). They differ ONLY in model scale; initialisation (COCO),
+# Cytometry Part A). They differ only in model scale; initialisation (COCO),
 # padding colour (black) and training schedule are identical. The five
 # configurations evaluated are not distinguishable in mean Average Precision,
 # so neither of these is "the accurate one": the choice is latency against

@@ -23,8 +23,8 @@ import numpy as np
 from PIL import Image
 
 AUTO_MASKS = "whst_output/masks"
-P1_MASKS = "whst_output/rois_corrigidos/masks"
-P2_MASKS = "whst_output/rois_recorrecao/masks"
+P1_MASKS = "whst_output/rois_corrected/masks"
+P2_MASKS = "whst_output/rois_blind_repeat/masks"
 HIDDEN = "stage4/.recorrecao_oculta.csv"
 OUT = "data/correction_agreement.csv"
 
@@ -33,7 +33,7 @@ OUT = "data/correction_agreement.csv"
 def iou(a, b):
     """IoU between two binary masks (bool arrays of the same shape).
 
-    CONVENTION for an empty union: when BOTH masks are empty, the two readings
+    CONVENTION for an empty union: when both masks are empty, the two readings
     agree that the wound closed (area = 0). Mathematically 0/0 is undefined, but
     discarding those cases as NaN would remove precisely the
     concordancias perfeitas e SUBESTIMARIA a reprodutibilidade. Retorna 1.0.
@@ -187,9 +187,9 @@ def main():
             falta = want - got
             if falta:
                 st = {}
-                if os.path.isfile("stage4/correcao_manual_pass2.csv"):
+                if os.path.isfile("stage4/manual_correction_pass2.csv"):
                     st = {base_of(r["whst_input_file"]): r["status"] for r in
-                          csv.DictReader(open("stage4/correcao_manual_pass2.csv", encoding="utf-8-sig"))}
+                          csv.DictReader(open("stage4/manual_correction_pass2.csv", encoding="utf-8-sig"))}
                 for b in sorted(falta):
                     s = st.get(b, "not processed")
                     print(f"\n  [note] no mask on pass 2: status='{s}'")
@@ -200,7 +200,7 @@ def main():
                 print(f"  [warning] {len(got-want)} re-corrections OUTSIDE the draw")
 
         # ---- STATUS agreement (IoU does not capture this) ----
-        f1, f2 = "stage4/correcao_manual_pass1.csv", "stage4/correcao_manual_pass2.csv"
+        f1, f2 = "stage4/manual_correction_pass1.csv", "stage4/manual_correction_pass2.csv"
         if os.path.isfile(f1) and os.path.isfile(f2):
             s1 = {r["whst_input_file"]: r["status"] for r in
                   csv.DictReader(open(f1, encoding="utf-8-sig"))}

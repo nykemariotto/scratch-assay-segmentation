@@ -15,7 +15,7 @@ identical in form to the others. The operator corrects them without knowing they
 are 'OK' — the worklist does not carry the category. Afterwards,
 stage4/validate_provenance.py compares the automatic against the corrected area.
 
-DECISION CRITERION (declared BEFORE measuring):
+DECISION CRITERION (declared before measuring):
   median |area| delta < 5%    -> the mixing is VALIDATED; declared in the Methods
   median delta >= 20%         -> there is bias; choose between correcting all the
                                  mixed series or restricting the analysis to the
@@ -35,7 +35,7 @@ from collections import Counter
 
 AREAS = "data/whst_areas_final.csv"
 CLOS = "stage4/closure_final_por_serie.csv"
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 AUTO = "data/whst_pass1_qc.csv"
 OUT = "stage4/validation_worklist.csv"
 GAB = "stage4/.validacao_gabarito.csv"

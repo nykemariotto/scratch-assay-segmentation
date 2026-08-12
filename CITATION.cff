@@ -7,47 +7,57 @@ title: >-
   Deep Learning Instance Segmentation for Wound Healing Assays --
   Annotated Image Dataset, Trained Models, and Analysis Pipeline
 abstract: >-
-  Companion code repository for the manuscript "Deep Learning
-  Instance Segmentation for Quantitative Analysis of Cell Migration
-  in Wound Healing Assays: A Benchmark and Web-Accessible Tool"
-  submitted to Cytometry Part A (2026). Provides the statistical
-  analysis pipeline (Pearson, Lin's CCC, Bland-Altman, TOST) and
-  paired ImageJ vs AI measurements (n = 225). The associated
-  annotated image dataset (n = 1,149) and four trained PyTorch
-  model weights are archived at Zenodo under the concept DOI
-  10.5281/zenodo.20298129.
+  Companion repository for the manuscript "Deep Learning Instance
+  Segmentation for Quantitative Analysis of Cell Migration in Wound
+  Healing Assays: A Benchmark and Web-Accessible Tool", under major
+  revision at Cytometry Part A (2026). Provides the complete
+  pipeline: dataset assembly, training, evaluation, the statistical
+  analysis (Pearson, Lin's concordance correlation, Bland-Altman,
+  TOST) and the deployed web application. The associated deposit
+  archives 1,363 annotated brightfield images (1,030 HUVEC and 333
+  SKOV-3) partitioned over 246 acquisition units, 25 YOLO11
+  detection runs (five configurations at five seeds each), five runs
+  of a U-Net architectural comparator, and a supervised reference
+  standard of 223 measured frames from which 97 paired observations
+  across 45 acquisition series enter the agreement analysis.
 type: software
-version: "1.0.0"
-date-released: "2026-05-25"
+version: "2.0.0"
+date-released: "2026-08-03"
 license:
-  - MIT
   - CC-BY-4.0
+  - AGPL-3.0-only
+  - MIT
+license-url: "https://doi.org/10.5281/zenodo.21779854"
 repository-code: "https://github.com/nykemariotto/scratch-assay-segmentation"
 url: "https://huggingface.co/spaces/nmariotto/Scratch-assay-segmentation"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20298129
     description: >-
-      Zenodo concept DOI that always resolves to the latest
-      version of the deposit (dataset + models + analysis pipeline).
+      Zenodo concept DOI, which always resolves to the latest
+      version of the deposit.
   - type: doi
-    value: 10.5281/zenodo.20298130
+    value: 10.5281/zenodo.21779854
     description: >-
-      Zenodo version DOI for v1.0.0 specifically (the version
-      archived for this study).
+      Zenodo version DOI for v2.0.0, the version this study uses.
+      It supersedes v1.0.0 (10.5281/zenodo.20298130) in full: the
+      partition was redrawn over acquisition units, the models were
+      retrained on it, and a supervised reference standard was
+      built, so no count in v1.0.0 is comparable.
 keywords:
   - instance segmentation
   - wound healing assay
   - scratch assay
   - HUVEC
   - SKOV-3
-  - YOLOv11
-  - Roboflow 3.0
-  - RF-DETR
+  - YOLO11
+  - U-Net
   - brightfield microscopy
   - Segment Anything Model
   - deep learning
   - cell migration assays
+  - observer agreement
+  - reference standard
 authors:
   - family-names: Mariotto
     given-names: Nycolas
@@ -78,7 +88,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-2808-5849"
     affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
   - family-names: Aal
-    given-names: "Mirian C. E."
+    given-names: "Mirian Carolini Esgoti"
     orcid: "https://orcid.org/0000-0002-8444-4092"
     affiliation: "Sao Paulo State University (UNESP), Botucatu, SP, Brazil"
   - family-names: Delella
@@ -119,7 +129,7 @@ preferred-citation:
     - family-names: Zampieri
       given-names: "Gabriela M."
     - family-names: Aal
-      given-names: "Mirian C. E."
+      given-names: "Mirian Carolini Esgoti"
     - family-names: Delella
       given-names: "Flavia Karina"
     - family-names: Sandrim

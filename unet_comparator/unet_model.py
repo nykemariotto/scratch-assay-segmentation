@@ -89,7 +89,7 @@ class BCEDiceLoss(nn.Module):
     """BCE-with-logits + Dice.
 
     Dice alone is unstable when the mask is empty — and there are 150 negatives in
-    the dataset, images with NO annotated wound. The BCE term keeps the gradient
+    the dataset, images with no annotated wound. The BCE term keeps the gradient
     defined in those cases; the eps in Dice avoids 0/0.
 
     WARNING — DICE HAS TO BE COMPUTED IN fp32.
@@ -119,7 +119,7 @@ class BCEDiceLoss(nn.Module):
     def forward(self, logits, alvo):
         # BCEWithLogitsLoss is already safe: PyTorch's autocast keeps it in fp32.
         perda_bce = self.bce(logits, alvo)
-        # Dice is not. Disable autocast for the block AND promote to fp32 before any
+        # Dice is not. Disable autocast for the block and promote to fp32 before any
         # reduction — both, because `.float()` alone relies on no intermediate op
         # being recast by the autocast policy.
         with torch.autocast(device_type=logits.device.type, enabled=False):

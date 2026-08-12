@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage1/build_annotation_sheet.py — a spreadsheet for the operator to justify WHY they
+stage1/build_annotation_sheet.py — a spreadsheet for the operator to justify why they
 put each image in the folder they did, during the visual triage of the overlays
 AUTOMATICOS.
 
@@ -13,7 +13,7 @@ OBJETIVO
      geometrically (containment at t0) and not by inspection.
 
 CEGUEIRA DELIBERADA
-  The sheet does NOT show 'modo_falha', 'contencao_t0', nor any QC output
+  The sheet does not show 'modo_falha', 'contencao_t0', nor any QC output
   automatico. Se mostrasse, a justificativa passaria a repetir a metrica em vez
   de testa-la. So aparecem: a pasta escolhida pelo operador, a identificacao da
   the image and the area WHST measured (which was already visible in the overlay).
@@ -28,8 +28,8 @@ Produces: stage1/annotation_sheet.csv
 import csv, os, sys
 from collections import Counter
 
-TRIAGEM = "data/inspecao_visual_TRIAGEM_CEGA.csv"   # estado das PASTAS (congelado)
-ATUAL = "data/inspecao_visual.csv"                  # pos-adjudicacao (p/ contexto)
+TRIAGEM = "data/visual_triage_TRIAGEM_CEGA.csv"   # estado das PASTAS (congelado)
+ATUAL = "data/visual_triage.csv"                  # pos-adjudicacao (p/ contexto)
 AUTO = "data/whst_pass1_qc.csv"
 MAP = "whst_output/overlays_sorted_map.csv"
 OUT = "stage1/annotation_sheet.csv"

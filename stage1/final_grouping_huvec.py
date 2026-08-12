@@ -68,7 +68,7 @@ OUT["wells_cruzando_contexto"] = cross
 # =========================================================================
 # PONTO 3 - fusao de lotes canonicos
 # Fase 1 concluiu: 'Originais (1)', 'originais', 'Migracao n3' sao experimentos
-# DISTINCT -> do NOT merge. The only merge applied: Controle + Saudavel (conservative,
+# DISTINCT -> do not merge. The only merge applied: Controle + Saudavel (conservative,
 # resolve as 11 anotadas ambiguas entre esses dois lotes).
 # =========================================================================
 CONTROLE = [l for l in lote_trats if l.startswith("Controle")]

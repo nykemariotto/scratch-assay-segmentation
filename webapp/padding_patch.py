@@ -3,14 +3,14 @@
 webapp/padding_patch.py — takes EXPLICIT control of Ultralytics' padding fill
 colour, for the black-edge vs white-edge ablation.
 
-Why it is needed: Ultralytics 8.4.x hard-codes 114 (grey) in THREE independent
+Why it is needed: Ultralytics 8.4.x hard-codes 114 (grey) in three independent
 places, none of them exposed in the training config:
   1. Mosaic._mosaic4/_mosaic9 -> np.full(..., 114)          [training]
   2. RandomPerspective        -> borderValue=(114,114,114)  [training]
   3. LetterBox                -> padding_value=114          [val/inference]
 
 Patching LetterBox alone would contaminate the ablation: training would stay
-grey. This module intercepts all three, auditably and verifiably.
+grey. This module intercepts all three, auditably.
 
 Usage:
     import padding_patch; padding_patch.apply("black")   # 0
@@ -38,7 +38,7 @@ def worker_init(worker_id: int) -> None:
 
     LetterBox escaped the problem by accident — padding_value becomes an instance
     attribute in __init__ (executed in the parent) and travels in the dataset
-    pickle. That is why VALIDATION differed and TRAINING did not: exactly the
+    pickle. That is why validation differed and training did not: exactly the
     pattern observed.
 
     This function is passed as `worker_init_fn`. It is pickled BY REFERENCE
@@ -88,7 +88,7 @@ def apply(mode: str, _in_worker: bool = False):
         cv2._orig_warpPerspective = cv2.warpPerspective
 
     # guard BY VALUE (==114), symmetric with _full: intercepts only the grey image
-    # fill in RandomPerspective. Does NOT touch the borderValue=255 used by
+    # fill in RandomPerspective. Does not touch the borderValue=255 used by
     # apply_semantic for the semantic mask (dormant in this pipeline, but shielded).
     def _wa(src, M, dsize, *a, **kw):
         if kw.get("borderValue") == (114, 114, 114):

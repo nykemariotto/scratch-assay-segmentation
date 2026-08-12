@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 # Independent verification of SKOV snap timepoint matching.
-# Re-reads pixels from disk; uses TWO independent descriptors.
+# Re-reads pixels from disk; uses two independent descriptors.
 import os, re, json, csv, random, collections, sys
 import numpy as np
 from PIL import Image

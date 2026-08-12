@@ -16,11 +16,11 @@ WHAT CHANGES RELATIVE TO THE OLD ONE
                     what the coverage criticism was about
   - independence  : the models never saw the reference standard, neither in
                     training nor in its construction. The classical arm (automatic
-                    WHST) does NOT have that property — see the incorporation bias
-                    in `benchmark_classico.py`
+                    WHST) does not have that property — see the incorporation bias
+                    in `benchmark_classical.py`
 
 WHAT IT PRODUCES
-  1. stage3/paired_new_longo.csv       — one row per (series, field, timepoint)
+  1. stage3/paired_new_long.csv       — one row per (series, field, timepoint)
   2. stage3/supplementary_table_S2.csv — the observations with negative closure, in
                                   the format of the manuscript table (regenerated,
                                   not corrected)
@@ -146,14 +146,14 @@ def main():
 
     areas_p = os.path.join("stage3", "areas", f"{args.run}.csv")
     AREAS = {r["arquivo"]: r for r in ler(areas_p)}
-    INSP = ler("data/inspecao_visual.csv")
-    REF = ler("data/closure_final_longo.csv")
+    INSP = ler("data/visual_triage.csv")
+    REF = ler("data/closure_final_long.csv")
     print(f"run              : {args.run}")
     print(f"predicted areas  : {len(AREAS)}")
     print(f"reference (long) : {len(REF)} observations")
 
     # ---- test-set image -> (series, field, timepoint)
-    # data/inspecao_visual.csv has NO series_key, but it has whst_input_file, which is the
+    # data/visual_triage.csv has no series_key, but it has whst_input_file, which is the
     # primary key of data/whst_areas_final.csv, where series_key lives. Direct join
     # on that field; the md5 prefix is only the fallback, in case the name varied.
     WA = {r["whst_input_file"]: r for r in ler("data/whst_areas_final.csv")}
@@ -178,14 +178,14 @@ def main():
     ligadas = {k: v for k, v in chave.items() if v[0] and k in AREAS}
     print(f"images linked    : {len(ligadas)} (reference ∩ test set ∩ predictions)")
     if not ligadas:
-        sys.exit("no links at all — check the test_image column of data/inspecao_visual.csv")
+        sys.exit("no links at all — check the test_image column of data/visual_triage.csv")
 
     # ---- predicted area per (series, field, tp)
     ai_area = {}
     for arq, (sk, campo, tp, cat) in ligadas.items():
         ai_area[(sk, str(campo), str(int(float(tp))))] = num(AREAS[arq]["area_pct"])
 
-    # ---- AI closure, the SAME formula and the SAME unit as the reference
+    # ---- AI closure, the same formula and the same unit as the reference
     por_serie = {}
     for (sk, campo, tp), a in ai_area.items():
         por_serie.setdefault((sk, campo), {})[tp] = a
@@ -194,7 +194,7 @@ def main():
     # POSITIVE but tiny — the model barely detected the wound at t=0 — which makes
     # the ratio (a0-at)/a0 blow up. That is how automatic WHST reached -179.
     #
-    # The answer is NOT to exclude: discarding the series where the model does
+    # The answer is not to exclude: discarding the series where the model does
     # badly is selecting on the outcome, and would inflate agreement artificially.
     # Here the series is FLAGGED by the pre-specified criterion of stage 4, enters
     # the primary analysis, and the restricted analysis appears only as a declared
@@ -289,7 +289,7 @@ def main():
         print("  it as a declared sensitivity, and the primary as the manuscript number.")
 
     pref = args.out_prefix or ""
-    dest = os.path.join("stage3", f"{pref}paired_new_longo.csv")
+    dest = os.path.join("stage3", f"{pref}paired_new_long.csv")
     with open(dest, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["series_key", "campo", "timepoint_h",
                                           "referencia", "ai", "diferenca",

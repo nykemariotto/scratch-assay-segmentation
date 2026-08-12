@@ -4,7 +4,7 @@ stage1/apply_fallback.py — M0 + M1.
 
 M0: unifica HUVEC (data/mapping_huvec_final.csv) e SKOV (data/mapping_final_skov.csv) num
     unico mapa por imagem, com group_key homogenea.
-M1: applies the fallback of the 19 shared wells BEFORE the split, via a super-key
+M1: applies the fallback of the 19 shared wells before the split, via a super-key
     SHARED__<well>, fundindo 'Originais (1)' e 'originais' do mesmo well local.
 """
 import csv
@@ -15,7 +15,7 @@ SKOV_CSV = "data/mapping_final_skov.csv"     # 333 linhas (com grp_field)
 OUT = "stage1/mapping_with_splitkey.csv"
 
 FALLBACK_LOTES = {"originais", "originais (1)"}
-# SHARED_WELLS is NOT hard-coded: it is computed as the real intersection of the two
+# SHARED_WELLS is not hard-coded: it is computed as the real intersection of the two
 # batches' wells (the block after M0). Hard-coding would be silent leakage if a
 # revision of the dataset created a new well in both batches or changed a batch's
 # spelling.

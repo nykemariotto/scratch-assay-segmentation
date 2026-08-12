@@ -8,7 +8,7 @@ Two modes, chosen automatically:
   A) If .pt weights are present (Zenodo, DOI 10.5281/zenodo.20298129): runs the
      deep-learning segmentation and measures the wound fraction.
 
-  B) If NO weights are present: runs the CLASSICAL segmentation (Wound Healing
+  B) If no weights are present: runs the CLASSICAL segmentation (Wound Healing
      Size Tool, frozen P0 parameters — radius=20, threshold=100,
      saturated=0.001), reimplemented in Python and validated against ImageJ
      (median relative difference 0.1%). Useful both to try the pipeline out and

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 stage1/apply_annotation_reclass.py — promotes the operator's ANNOTATION to the classification
-primaria de data/inspecao_visual.csv.
+primaria de data/visual_triage.csv.
 
 Rationale: the original triage used 4 boxes, with no room for a justification; the
 annotation was made with the overlay in view and free text. Where the two diverge,
@@ -17,7 +17,7 @@ It APPLIES only UNAMBIGUOUS mappings:
     deslocada            -> SEG_RUIM/super   (same; it is not 'sub')
     sub                  -> SEG_RUIM/sub
     excesso_e_sub        -> SEG_RUIM/super   (predomina o excesso; marcado)
-It does NOT apply (ambiguous -> keeps the folder and reports):
+It does not apply (ambiguous -> keeps the folder and reports):
     ruidosa_recuperavel  (poor but segmentable image: it says nothing about the
                           quality of the segmentation, so the category cannot be
                           inferred)
@@ -28,7 +28,7 @@ It writes the column 'origem_categoria' = triagem | anotacao, and makes a backup
 import csv, shutil
 from collections import Counter
 
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 REP = "data/annotation_report.csv"
 
 MAP = {"segmentacao_ok": ("OK", ""),

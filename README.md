@@ -17,7 +17,7 @@ Companion repository for the manuscript:
 
 This repository hosts the **runnable workspace** of a deep-learning benchmark for automated wound-gap segmentation in brightfield scratch (wound-healing) assays. It pairs with:
 
-- A permanent **Zenodo archive** (DOI: [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129)) — the annotated image dataset (n = 1,363 at native acquisition resolution), the trained weights of all five evaluated configurations, COCO-format polygonal annotations, the supervised reference-standard measurements, and the analysis pipeline.
+- A permanent **Zenodo archive** — concept DOI [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129), always the latest; this repository corresponds to **v2.0.0**, [`10.5281/zenodo.21779854`](https://doi.org/10.5281/zenodo.21779854) — the annotated image dataset (n = 1,363 at native acquisition resolution), the trained weights of all five evaluated configurations, COCO-format polygonal annotations, the supervised reference-standard measurements, and the analysis pipeline.
 - A **public model repository** (https://huggingface.co/nmariotto/scratch-assay-segmentation) — the two deployed weights, `M.pt` and `S.pt`, downloadable without a token.
 - A **live Hugging Face Space** (https://huggingface.co/spaces/nmariotto/Scratch-assay-segmentation) — inference on user-uploaded images, no installation required.
 
@@ -59,8 +59,7 @@ scratch-assay-segmentation/
 ├── figures/                   Figures 3-5, vector and raster, with their data
 │
 ├── unet_comparator/           the U-Net comparator, with its regression tests
-├── benchmark_classico.py      the classical comparator (WHST, automatic mode)
-├── analysis/                  agreement analysis of an earlier version, superseded
+├── benchmark_classical.py      the classical comparator (WHST, automatic mode)
 ├── webapp/                    source of the deployed Hugging Face Space
 │
 ├── coco_partitions/           COCO annotations per partition (leakage-free)
@@ -83,8 +82,8 @@ stage directory — paths are resolved relative to the root.
 | **1 · Dataset reconstruction** | `stage1/build_final_split.py` · `stage1/build_final_split_strat.py` · `stage1/apply_fallback.py` · `stage1/export_coco_per_partition.py` · `stage1/coco_to_yolo_seg.py` | Groups images by physical acquisition field, builds the leakage-free split, exports COCO per partition and converts to YOLO-seg |
 | **1 · Audit of the split** | `stage1/verify_final.py` · `stage1/check_coco_dims.py` · `stage1/check_640_population.py` · `stage1/leakage_md5_check.py` | Verifies that no acquisition field crosses partitions, label integrity (COCO dims vs file dims), and absence of duplicate images across splits |
 | **2 · Training** | `stage2/run_grid.py` · `stage2/train_config.py` · `stage2/padding_patch.py` | 25-run single-variable ablation (model size · padding · initialisation) × 5 seeds |
-| **3 · Evaluation** | `stage3/eval_test.py` → `stage3/aggregate.py` · `stage3/concordancia_final.py` · `stage3/figuras_concordancia.py` | mAP with cluster-bootstrap CI over acquisition groups, seed-paired padding ablation, agreement with the reference standard, Figures 3–5 |
-| **3 · Comparators** | `benchmark_classico.py` · `unet_comparator/run_unet_grid.py` | The classical arm (WHST in pure automatic mode) and the deep-learning arm (U-Net under identical conditions) |
+| **3 · Evaluation** | `stage3/eval_test.py` → `stage3/aggregate.py` · `stage3/agreement_final.py` · `stage3/figures_agreement.py` | mAP with cluster-bootstrap CI over acquisition groups, seed-paired padding ablation, agreement with the reference standard, Figures 3–5 |
+| **3 · Comparators** | `benchmark_classical.py` · `unet_comparator/run_unet_grid.py` | The classical arm (WHST in pure automatic mode) and the deep-learning arm (U-Net under identical conditions) |
 | **4 · Reference standard** | `stage4/whst_batch.ijm` → `stage4/whst_manual_correction.ijm` → `stage4/apply_corrections.py` → `stage4/final_closure_table.py` | Automated WHST measurement, blind visual triage, supervised manual correction, closure-fraction table |
 | **4 · Validation** | `stage4/correction_agreement.py` · `stage4/intraobs_ci.py` · `stage4/validate_provenance.py` · `stage4/classify_failure_mode.py` | Intra-observer reproducibility (IoU, Lin's CCC), provenance test, failure-mode characterisation |
 
@@ -168,7 +167,7 @@ r = model.predict("examples/images/<file>.png", conf=0.8, imgsz=640, retina_mask
 ### 2 · Reproduce the method-agreement statistics (~30 s)
 
 ```bash
-python stage3/concordancia_final.py
+python stage3/agreement_final.py
 ```
 
 All values reproduce bit-for-bit on Linux, macOS, and Windows (fixed bootstrap
@@ -207,7 +206,7 @@ Three options, in order of convenience:
 
 ```bash
 pip install zenodo-get
-zenodo_get 10.5281/zenodo.20298129     # downloads ALL files (~500 MB)
+zenodo_get 10.5281/zenodo.20298129     # downloads all files (~500 MB)
 # OR fetch individual files:
 # or fetch the deployed weights straight from the model repository:
 wget https://huggingface.co/nmariotto/scratch-assay-segmentation/resolve/main/M.pt
@@ -215,7 +214,33 @@ wget https://huggingface.co/nmariotto/scratch-assay-segmentation/resolve/main/M.
 
 ## Reproducibility
 
-`python stage3/concordancia_final.py` recomputes every agreement statistic the
+### Environment variables for the raw archives
+
+The scripts that read the **original acquisition archives** take their location from the
+environment rather than from a hard-coded path, so that no local or shared-drive path is
+published. Nothing in the *Quick start* section needs them: everything reproduced from the
+deposited CSVs and images runs without setting a single variable. They matter only if you
+are re-deriving the dataset from the raw microscope output, which requires archives that
+are not part of the deposit.
+
+| Variable | Default | What it points to |
+|---|---|---|
+| `BANCO_A` | `<banco_a>` | the curated image bank, with `HUVEC/`, `HUVEC-RAW/` and `SKOV/` beneath it |
+| `RAW_ARCHIVE_P1` | `<raw_archive_p1>` | raw acquisition archive P1, the main wound-healing experiments |
+| `RAW_ARCHIVE_P2` | `<raw_archive_p2>` | raw acquisition archive P2, the carboplatin experiments |
+| `ROBOFLOW_EXPORT` | `<roboflow_export>` | the annotation-platform export the dataset was assembled from |
+| `LAB_SHARE` | `<lab_share>` | the shared location the acquisition files were copied from |
+| `SCRATCH_ASSAY_ROOT` | `.` | the repository root; the default is correct when running from it |
+| `TRIAGE_ROOT`, `TRIAGE_MAP`, `TRIAGE_OUT` | paths inside the repo | inputs and output of the blind visual triage |
+| `FORCE` | unset | set to `1` to let `stage4/build_overlays_sorted.py` overwrite an existing overlay directory instead of refusing |
+
+The angle-bracket defaults are deliberate: a script run without the variable set fails
+immediately on a path that plainly does not exist, instead of silently reading the wrong
+disk and producing a number that looks plausible.
+
+### Recomputing the reported statistics
+
+`python stage3/agreement_final.py` recomputes every agreement statistic the
 manuscript reports, from the deposited CSVs. It pairs the closure fraction predicted by
 each trained model on the held-out partition with the supervised reference standard, over
 the 97 observations returned by all ten runs (five seeds of the deployed configuration and

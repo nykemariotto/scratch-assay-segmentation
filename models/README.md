@@ -7,6 +7,7 @@ The trained model weights (`.pt` files, ~410 MB combined) **are not redistribute
 All four deposited model weights are at:
 
 > **https://doi.org/10.5281/zenodo.20298129** (concept DOI — always resolves to latest version)
+> The weights described here are those of **v2.0.0**, https://doi.org/10.5281/zenodo.21779854
 
 The current version (v1.0.0, archived for the manuscript) is at:
 

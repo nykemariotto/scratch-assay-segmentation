@@ -44,7 +44,7 @@
 // IJM: funcoes so enxergam variaveis GLOBAIS declaradas com 'var'.
 var jaFeito = newArray(0);
 
-root = getDirectory("Selecione a RAIZ do projeto (SCRATCH-ASSAY)");
+root = getDirectory("Select the project root folder (the one containing whst_input)");
 inDir   = root + "whst_input" + File.separator;
 roiAuto = root + "whst_output" + File.separator + "rois" + File.separator;
 
@@ -60,28 +60,28 @@ passada = Dialog.getChoice();
 
 if (startsWith(passada, "1")) {
     listCsv = root + "stage4/correction_worklist.csv";
-    outDir  = root + "whst_output" + File.separator + "rois_corrigidos" + File.separator;
-    outCsv  = root + "stage4/correcao_manual_pass1.csv";
+    outDir  = root + "whst_output" + File.separator + "rois_corrected" + File.separator;
+    outCsv  = root + "stage4/manual_correction_pass1.csv";
     colFile = 1;                          // coluna 'whst_input_file' na worklist
 } else if (startsWith(passada, "3")) {
     listCsv = root + "stage4/validation_worklist.csv";
-    outDir  = root + "whst_output" + File.separator + "rois_validacao" + File.separator;
-    outCsv  = root + "stage4/correcao_manual_validacao.csv";
+    outDir  = root + "whst_output" + File.separator + "rois_validation" + File.separator;
+    outCsv  = root + "stage4/manual_correction_validation.csv";
     colFile = 1;                          // mesma estrutura da worklist principal
 } else if (startsWith(passada, "4")) {
     listCsv = root + "stage4/completion_worklist.csv";
-    outDir  = root + "whst_output" + File.separator + "rois_completacao" + File.separator;
-    outCsv  = root + "stage4/correcao_manual_completacao.csv";
+    outDir  = root + "whst_output" + File.separator + "rois_completion" + File.separator;
+    outCsv  = root + "stage4/manual_correction_completion.csv";
     colFile = 1;
 } else if (startsWith(passada, "5")) {
     listCsv = root + "stage4/baseline_worklist.csv";
     outDir  = root + "whst_output" + File.separator + "rois_baselines" + File.separator;
-    outCsv  = root + "stage4/correcao_manual_baselines.csv";
+    outCsv  = root + "stage4/manual_correction_baselines.csv";
     colFile = 1;
 } else {
     listCsv = root + "stage4/.recorrecao_oculta.csv";
-    outDir  = root + "whst_output" + File.separator + "rois_recorrecao" + File.separator;
-    outCsv  = root + "stage4/correcao_manual_pass2.csv";
+    outDir  = root + "whst_output" + File.separator + "rois_blind_repeat" + File.separator;
+    outCsv  = root + "stage4/manual_correction_pass2.csv";
     colFile = 0;                          // arquivo oculto tem 1 coluna
 }
 if (!File.exists(listCsv)) exit("Nao encontrei a lista: " + listCsv);

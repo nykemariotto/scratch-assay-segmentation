@@ -57,7 +57,7 @@ exact_clusters = {h: fbs for h, fbs in by_hash.items() if len(fbs) > 1}
 print(f"\nClusters de pixel EXATO (>1 imagem): {len(exact_clusters)}")
 
 # -------- near-dup cross-resolucao dentro do mesmo stem (640 vs nativo do mesmo campo) --------
-# only between images with the same normalised stem that do NOT share an exact hash
+# only between images with the same normalised stem that do not share an exact hash
 by_stem = defaultdict(list)
 for fb, d in info.items():
     by_stem[d["row"]["stem_normalizado"]].append(fb)

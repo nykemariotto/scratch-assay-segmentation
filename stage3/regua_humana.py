@@ -22,7 +22,7 @@ TWO PRECAUTIONS, both mandatory:
    would compare difficulties, not methods.
 
 This script reports both sides with and without the degenerate pairs, and restricts
-the automated methods to the SAME area band.
+the automated methods to the same area band.
 
     python stage3/regua_humana.py
 """
@@ -93,7 +93,7 @@ print("\n" + "=" * 72)
 print("2 · THE AUTOMATED METHODS, RESTRICTED TO THE SAME AREA BAND")
 print("=" * 72)
 
-p_iou = os.path.join("stage3", "iou_por_imagem.csv")
+p_iou = os.path.join("stage3", "iou_per_image.csv")
 if not os.path.isfile(p_iou):
     sys.exit(f"could not find {p_iou}")
 linhas = list(csv.DictReader(open(p_iou, encoding="utf-8")))

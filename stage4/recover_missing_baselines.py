@@ -23,9 +23,9 @@ def L(f):
 
 C = L("stage4/closure_final_por_serie.csv")
 A = L("data/whst_areas_final.csv")
-H = {r["whst_input_file"]: r for r in L("data/inspecao_visual.csv")}
+H = {r["whst_input_file"]: r for r in L("data/visual_triage.csv")}
 corr = L("whst_input/correspondencia.csv")
-QUAR = "whst_output/_removidas_fora_do_escopo/MANIFESTO.csv"
+QUAR = "whst_output/_removed_out_of_scope/MANIFESTO.csv"
 removidas = {r["whst_input_file"] for r in L(QUAR)} if os.path.isfile(QUAR) else set()
 
 bys = defaultdict(list)

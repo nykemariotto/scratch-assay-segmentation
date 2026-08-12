@@ -4,7 +4,7 @@ stage4/quality_triangulate.py — tasks 2 and 3.
 T2: the overlap between 3 independent signals (monotonic series, missing or
     fragmentary annotation, the lower tail of bimodality) + enrichment over chance.
 T3: metrics of the images to be inspected visually (3 suspects + 2 controls), on
-    the SAME scale as all 1363, to calibrate the cut.
+    the same scale as all 1363, to calibrate the cut.
 It EXCLUDES nothing.
 """
 import csv, os, json
@@ -40,8 +40,8 @@ for sk, v in ser.items():
 
 # ---------- (b) missing annotation (150) or fragment (25) ----------
 B = set()
-if os.path.exists("data/qc_suspeitas.csv"):
-    for r in csv.DictReader(open("data/qc_suspeitas.csv", encoding="utf-8-sig")):
+if os.path.exists("data/qc_flagged.csv"):
+    for r in csv.DictReader(open("data/qc_flagged.csv", encoding="utf-8-sig")):
         if r["file"] in Q: B.add(r["file"])
 
 # ---------- (c) lower tail of bimodality ----------
@@ -73,7 +73,7 @@ for pctl in (5, 10, 20):
     rep(A, B & TEST, "(a) monotonic series", "(b) annot. missing/frag (test)", TEST)
     print(f"  triple (a&b&c, in test): {len(A & B & C & TEST)}")
 
-# ---------- fraction of the TRAINING set in the tail ----------
+# ---------- fraction of the training set in the tail ----------
 print("\n=== FRACTION OF THE TRAINING SET IN THE BAD TAIL (a delicate decision) ===")
 tr = {k for k, v in Q.items() if v["partition"] == "train"}
 for pctl in (5, 10, 20):

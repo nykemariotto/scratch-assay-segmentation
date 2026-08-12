@@ -6,11 +6,11 @@ ordered by series (temporal context), and draws the BLINDED RE-CORRECTION subset
 REQUIREMENT — intra-observer reproducibility:
   15 images are drawn with a FIXED seed (SEED=4336348, the manuscript number) to be
   corrected TWICE, with an interval, without the observer knowing which they are.
-  -> the worklist handed to Fiji (stage4/correction_worklist.csv) does NOT mark them.
+  -> the worklist handed to Fiji (stage4/correction_worklist.csv) does not mark them.
   -> the drawn list lives in stage4/.recorrecao_oculta.csv (a separate file the
      observer must not open); the second-pass macro reads that file.
-  Pass 1 -> whst_output/rois_corrigidos/
-  Pass 2 -> whst_output/rois_recorrecao/
+  Pass 1 -> whst_output/rois_corrected/
+  Pass 2 -> whst_output/rois_blind_repeat/
   Agreement (IoU + CCC) is computed by stage4/correction_agreement.py.
 
 Ordering: cell_line -> analysis_unit -> timepoint -> field, so the observer walks
@@ -22,13 +22,13 @@ Outputs:
 
 ⚠️ RUN ONCE, NOT REGENERABLE. The worklist is the record of what was actually
 handed to the operator. Re-running it today rebuilds the list from the CURRENT
-state of data/inspecao_visual.csv, in which most corrections are already applied,
+state of data/visual_triage.csv, in which most corrections are already applied,
 so it produces a shorter and different list. The deposited file is the historical
 artefact; do not overwrite it.
 """
 import csv, os, random
 
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 AUTO = "data/whst_pass1_qc.csv"
 OUT = "stage4/correction_worklist.csv"
 HIDDEN = "stage4/.recorrecao_oculta.csv"
@@ -40,7 +40,7 @@ auto = {r["whst_input_file"]: r for r in csv.DictReader(open(AUTO, encoding="utf
 
 if any(r["categoria"] == "AMBIGUO" for r in hum):
     raise SystemExit("ABORTADO: ainda ha AMBIGUO nao adjudicado. "
-                     "Rode stage1/adjudicate_ambiguo.py --template/--apply e "
+                     "Rode stage1/adjudicate_ambiguous.py --template/--apply e "
                      "stage4/whst_series_analysis.py antes desta etapa.")
 if "na_lista_correcao" not in hum[0]:
     raise SystemExit("ABORTADO: rode stage4/whst_series_analysis.py primeiro.")

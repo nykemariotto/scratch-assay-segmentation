@@ -8,13 +8,13 @@ and reproducible, so it lies in something that only appears with the parts toget
 
 Differences between my benchmarks and train_unet.py:
   · the benchmark used `persistent_workers=True`; the real one, False;
-  · the benchmark had ONE DataLoader; the real one has TWO alive at once, each
+  · the benchmark had ONE DataLoader; the real one has two alive at once, each
     with 2 workers and `pin_memory=True` (so two pinning threads);
-  · the dataset does NOT cache — `cv2.imread` on every item, 932 PNGs of 2452x2056
+  · the dataset does not cache — `cv2.imread` on every item, 932 PNGs of 2452x2056
     per epoch. With persistent workers and a warm page cache that is cheap; without
     them, every epoch starts over with fresh processes.
 
-This script replicates the REAL structure and times the phases separately.
+This script replicates the real structure and times the phases separately.
 
     python unet_comparator/diag_fases.py --epochs 2
 """

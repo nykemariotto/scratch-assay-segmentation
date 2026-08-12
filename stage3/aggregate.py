@@ -3,7 +3,7 @@
 stage3/aggregate.py — PHASE 2 (CPU): from the records to Table 2, the CIs and the
 tests.
 
-Consumes `stage3/registros/*.json`, produced by stage3/eval_test.py. Needs no GPU
+Consumes `stage3/records/*.json`, produced by stage3/eval_test.py. Needs no GPU
 and can be re-run freely.
 
 WHAT IT PRODUCES
@@ -57,13 +57,33 @@ except Exception:
 REGS_PADRAO = os.path.join("stage3", "registros")
 
 # run name -> (configuration, seed).  The configuration is what becomes a Table 2 row.
+#
+# ONE NAME FOR EACH CONFIGURATION, and it is the manuscript's. These labels used to be
+# descriptive strings — "YOLO11m-seg · black · COCO" — which the manuscript then had to
+# translate into S / M / X / M-white / M-scratch at writing time. That left the same
+# five configurations carrying three different names: one in the paper, one in the run
+# directories, one in this CSV, with the interface about to add a fourth. The paper's
+# is the one that survives; the others were intermediates.
+#
+# The descriptor is not lost, it moves to its own column. A deposited CSV has to say
+# what M is without the reader holding Table 1 open, and the run directory it came from
+# is what makes the row traceable back to the weights.
 ROTULOS = {
-    "yolo11s-seg_black_coco": "YOLO11s-seg · black · COCO",
-    "yolo11m-seg_black_coco": "YOLO11m-seg · black · COCO",
-    "yolo11x-seg_black_coco": "YOLO11x-seg · black · COCO",
-    "yolo11m-seg_white_coco": "YOLO11m-seg · white · COCO",
-    "yolo11m-seg_black_scratch": "YOLO11m-seg · black · scratch",
-    "unet_black": "U-Net · black · scratch (comparator)",
+    "yolo11s-seg_black_coco": "S",
+    "yolo11m-seg_black_coco": "M",
+    "yolo11x-seg_black_coco": "X",
+    "yolo11m-seg_white_coco": "M-white",
+    "yolo11m-seg_black_scratch": "M-scratch",
+    "unet_black": "U-Net",
+}
+
+DESCRICAO = {
+    "yolo11s-seg_black_coco": "YOLO11s-seg · black padding · COCO init",
+    "yolo11m-seg_black_coco": "YOLO11m-seg · black padding · COCO init",
+    "yolo11x-seg_black_coco": "YOLO11x-seg · black padding · COCO init",
+    "yolo11m-seg_white_coco": "YOLO11m-seg · white padding · COCO init",
+    "yolo11m-seg_black_scratch": "YOLO11m-seg · black padding · from scratch",
+    "unet_black": "canonical U-Net · black padding · from scratch (comparator)",
 }
 
 
@@ -121,10 +141,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--conf", type=float, default=0.8,
                     help="threshold for precision/recall/F1 (does not affect mAP)")
-    ap.add_argument("--B", type=int, default=2000)
+    # 5000, nao 2000. Os intervalos publicados sairam de 5000 reamostragens; com o
+    # default antigo quem clonasse o repositorio e rodasse sem argumento obtinha IC
+    # diferentes dos do artigo, sem nenhum aviso. As estimativas pontuais nao mudam
+    # com B — so os limites de percentil —, o que torna a divergencia discreta o
+    # bastante para passar por ruido de arredondamento. O valor usado fica gravado em
+    # table2_detalhe.json, mas isso audita depois do fato; o default e o que protege
+    # antes.
+    ap.add_argument("--B", type=int, default=5000)
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--dir", default=REGS_PADRAO,
-                    help="records folder (use stage3/registros_fixture for the dry run)")
+                    help="records folder (use stage3/records_fixture for the dry run)")
     ap.add_argument("--out", default=os.path.join("stage3", "table2.csv"))
     ap.add_argument("--permitir-fixture", action="store_true",
                     help="accept synthetic records (only to validate the mechanics)")
@@ -151,7 +178,9 @@ def main():
             m = metricas_de(d, args.conf)
             for k in met:
                 met[k].append(m[k])
-        linha = {"config": ROTULOS.get(cfg, cfg), "cfg": cfg, "n_seeds": len(runs)}
+        linha = {"config": ROTULOS.get(cfg, cfg), "cfg": cfg,
+                 "description": DESCRICAO.get(cfg, ""), "run_base": cfg,
+                 "n_seeds": len(runs)}
         for k, v in met.items():
             mu, sd = ms(v)
             linha[k] = mu
@@ -182,7 +211,7 @@ def main():
     # Accumulator for what used to exist only on the console. A number with no
     # file that generates it is not merely irreproducible: it is UNAUDITABLE.
     PERSIST = {"conf": args.conf, "B": args.B, "seed": args.seed,
-               "ic_por_configuracao": [], "ablacao_padding": {},
+               "ic_por_configuracao": [], "padding_ablation": {},
                "pares": [], "indistinguiveis": []}
     fn = lambda rs: average_precision(rs, IDX_50)
     for r in tabela:
@@ -240,7 +269,7 @@ def main():
             print(f"   paired t = {t:+.2f} with {len(difs)-1} df")
         pos = sum(1 for d in difs if d > 0)
         print(f"   black wins in {pos}/{len(difs)} seeds")
-        PERSIST["ablacao_padding"] = {
+        PERSIST["padding_ablation"] = {
             "config_black": CFG_B, "config_white": CFG_W, "seeds": comuns,
             "diferencas_pp": [100 * d for d in difs],
             "media_pp": 100 * mu, "dp_pp": 100 * sd, "n": len(difs),
@@ -297,7 +326,7 @@ def main():
     os.makedirs("stage3", exist_ok=True)
     dest = args.out
     with open(dest, "w", newline="", encoding="utf-8") as f:
-        cols = ["config", "n_seeds"] + [f"{k}{sf}" for k in
+        cols = ["config", "description", "run_base", "n_seeds"] + [f"{k}{sf}" for k in
                 ("mAP50", "mAP75", "mAP50_95", "precision", "recall", "f1")
                 for sf in ("", "_sd")] + ["ic_lo_mAP50", "ic_hi_mAP50"]
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")

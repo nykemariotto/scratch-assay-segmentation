@@ -2,12 +2,12 @@
 """Testa estabilidade da ordem de aquisicao dentro de (experimento, tratamento)
 usando CreationDateTime do metadata Zeiss. Le o XML inteiro (bug anterior lia so
 4000 chars). Isso avalia se o offset do snap dentro do bloco de tratamento
-identifies the SAME field across timepoints (via metadata, not pixels)."""
+identifies the same field across timepoints (via metadata, not pixels)."""
 import os, re, json
 from collections import defaultdict
 
-P1 = r"G:\.shortcut-targets-by-id\16gG82kKalY_NsrHcFf6mK3smW3pw5zmr\Wound Healing"
-P2 = r"G:\.shortcut-targets-by-id\1CMwTWGfjZgxB1XuvetRHUONTxDknvhDU\WH_Carbo_25-10_27-10-22"
+P1 = os.environ.get("RAW_ARCHIVE_P1", "<raw_archive_p1>")
+P2 = os.environ.get("RAW_ARCHIVE_P2", "<raw_archive_p2>")
 TPS = ["0h", "24h", "48h", "72h"]
 
 

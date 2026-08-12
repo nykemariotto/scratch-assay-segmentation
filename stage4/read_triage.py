@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 stage4/read_triage.py — reads the manual triage from whst_output/overlays_sorted/
-and produces data/inspecao_visual.csv with {categoria, subtipo} deduced from the
+and produces data/visual_triage.csv with {categoria, subtipo} deduced from the
 FOLDER each overlay was placed in, mapping every file back to its original via
 whst_output/overlays_sorted_map.csv.
 
@@ -24,7 +24,7 @@ from collections import defaultdict
 
 ROOT = os.environ.get("TRIAGE_ROOT", "whst_output/overlays_sorted")
 MAP_CSV = os.environ.get("TRIAGE_MAP", "whst_output/overlays_sorted_map.csv")
-OUT = os.environ.get("TRIAGE_OUT", "data/inspecao_visual.csv")
+OUT = os.environ.get("TRIAGE_OUT", "data/visual_triage.csv")
 MD5_RE = re.compile(r"__([0-9a-f]{10})\.jpg$", re.I)
 
 

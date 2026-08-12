@@ -3,7 +3,7 @@
 bench_loop.py — measures the cost of each change made to the training loop.
 
 WHY. After the fp16 patch the epoch went from ~105 s to ~256 s (2.4x). There is a
-suspect — the synchronisation point moved from AFTER the backward to BEFORE it — but
+suspect — the synchronisation point moved from after the backward to before it — but
 the arithmetic does not add up: the difference is 0.69 s per batch, and a sync adds no
 work. So this measures instead of guessing.
 

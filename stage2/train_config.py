@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage2/train_config.py — trains ONE configuration with an explicit seed and
+stage2/train_config.py — trains one configuration with an explicit seed and
 determinism.
 
 Usage:
@@ -11,7 +11,7 @@ Two corrections relative to the draft specification:
     the config; 114 is hard-coded in Mosaic, RandomPerspective and LetterBox, and
     patching only one would contaminate the ablation). Verified at pixel level by
     stage2/verify_padding.py.
-  * 'rtdetr-seg' does NOT exist in Ultralytics (detection only). The script
+  * 'rtdetr-seg' does not exist in Ultralytics (detection only). The script
     refuses it explicitly rather than failing obscurely.
 """
 import argparse, os, random, json, subprocess, sys, time
@@ -49,7 +49,7 @@ def main():
 
     set_deterministic(args.seed)
 
-    # padding BEFORE importing/instantiating the data pipeline
+    # padding before importing/instantiating the data pipeline
     import padding_patch
     fill = padding_patch.apply(args.padding)
 
@@ -71,7 +71,7 @@ def main():
     # histogram of the extreme values. If the padding does not arrive, it is recorded
     # in the run itself, and the preflight canary catches it before another 34 h.
     # ------------------------------------------------------------------
-    # WHERE TO INTERCEPT. The `on_train_batch_start` callback does NOT work: at that
+    # WHERE TO INTERCEPT. The `on_train_batch_start` callback does not work: at that
     # point `trainer.batch` does not exist yet (BaseTrainer never assigns self.batch),
     # and the probe silently reads None — which is what happened in the first version
     # of this instrument. The right point is `preprocess_batch`, which RECEIVES the
@@ -134,7 +134,7 @@ def main():
             "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
             "padding_patch": "Mosaic+RandomPerspective+LetterBox (114 -> %d)" % fill,
             "workers": args.workers,
-            # measured on the first REAL training batch, not on a parallel dataloader
+            # measured on the first real training batch, not on a parallel dataloader
             "evidencia_padding_no_batch": evidencia,
         }, f, indent=2)
 
@@ -163,7 +163,7 @@ def main():
     # ---- completion sentinel (WRITTEN LAST, only after exit 0) ----
     # Counts the epochs actually finished from results.csv and records whether
     # there was a legitimate early stop. stage2/run_grid.py only skips a run that has
-    # THIS file with status=ok — best.pt alone is NOT enough (Ultralytics writes
+    # THIS file with status=ok — best.pt alone is not enough (Ultralytics writes
     # best.pt continuously, so a crash midway leaves best.pt present).
     import csv as _csv
     rcsv = os.path.join(outdir, "results.csv")

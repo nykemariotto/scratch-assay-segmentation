@@ -7,7 +7,7 @@
 > statistic is identical to the original; where the original carries a dated correction note, the
 > note is translated with it. If the two ever disagree, the Portuguese original is the record.
 
-> **Purpose.** Freeze ALL measurement parameters of the Wound Healing Size Tool (WHST) BEFORE any
+> **Purpose.** Freeze all measurement parameters of the Wound Healing Size Tool (WHST) BEFORE any
 > measurement, so that the reference standard is fully documented and reproducible. This settles the
 > citation, the angle correction and the parameters definitively, and forecloses second-round
 > questions.
@@ -111,7 +111,7 @@ Following the authors' own recommendation (test 2–3 images before running ever
 5. From then on, **do not change them** during the campaign.
 
 > **Rationale for separate calibration:** SKOV-3 is a denser monolayer and may require different
-> parameters from HUVEC. Documenting both sets is honest and defensible. What may NOT be done is
+> parameters from HUVEC. Documenting both sets is honest and defensible. What may not be done is
 > adjusting parameters image by image — that would be circular tuning.
 
 ## 7. Measurement scope (decision A5 already taken: HUVEC + SKOV-3)
@@ -211,7 +211,7 @@ with the discordant cases and is reported honestly.
 
 ## 10. Blinding (guard against bias)
 
-- **The WHST operator must NOT see the AI model output while measuring.** This prevents the reference
+- **The WHST operator must not see the AI model output while measuring.** This prevents the reference
   measurement from being unconsciously biased toward the AI.
 - Measure the WHST areas **before** comparing with the AI, or with the AI output hidden.
 - Document in the manuscript that the measurement was blinded → strengthens the validity of the
@@ -275,7 +275,9 @@ localisation error rather than imprecise delineation.
 Frames scored as segmentation failures were re-segmented manually using the plugin's manual-selection
 tool, starting from the automated contour. A total of 140 frames were corrected; 132 of 223 images
 (59%) carry a manually verified measurement. Manual correction reduced the segmented area in 86% of
-cases, with a median change of −22.5 percentage points of image area.
+cases, with a median change of −22.5 percentage points of image area. 
+
+> **Dated correction, 2026-08-04.** The 86% and the −22.5 pp above belong to different sets and the sentence joined them. The −22.5 pp median is from the subset of **96** frames for which both an automatic and a corrected contour exist (`data/correction_agreement.csv`), and over that set the reduction occurs in **85%** (82/96), not 86% — the 86 is not reproducible from any slice of the data. Over the **132 of the 140** corrected frames for which both areas are recorded, the median is **−11.3 pp** and **71%** are reductions, because the completion, baseline and validation passes include frames where the plugin returned no contour and correction could only add area. The data did not change: the CSV regenerates identical.
 
 ### 12.3 Observer reproducibility
 
@@ -318,7 +320,7 @@ of a usable baseline and seven retained implausible closure trajectories after c
 > trajectories were *retained*, as the sentence itself states, so they belong inside the analysable
 > count; 52 is 59 minus those 7, subtracted in error. The 187 measurements are the total over all 59
 > series, which is why that figure was and remains correct. Verifiable from
-> `data/whst_series_analysis.csv` and `data/closure_final_longo.csv`, both deposited. **The protocol itself is
+> `data/whst_series_analysis.csv` and `data/closure_final_long.csv`, both deposited. **The protocol itself is
 > unchanged** — the calibration, the border criterion, the blinding and the correction rule are as
 > frozen. What is corrected is a count computed after freezing. Median closure at the final timepoint
 > was 0.691 (IQR 0.450–0.930); 13 series reached complete closure (≥ 0.99). The final dataset

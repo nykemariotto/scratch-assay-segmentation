@@ -82,7 +82,7 @@ ok(not (nan[0] or degradado[0]),
 ok(any(degradado), "failure stage 1: finite Dice pinned at 1.0 (dead gradient)")
 ok(any(nan), "failure stage 2: Dice = NaN")
 
-# ── 2. the NEW formulation is finite across the whole range ─────────────────────────
+# ── 2. the new formulation is finite across the whole range ─────────────────────────
 print("\n2. corrected BCEDiceLoss: finite for any sigmoid mean")
 crit = BCEDiceLoss()
 for media in (0.01, 0.05, 0.16, 0.20, 0.35, 0.50, 0.75, 0.99):

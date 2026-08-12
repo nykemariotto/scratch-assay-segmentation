@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage1/export_test_set.py — exports the TEST partition for manual measurement (Fiji), ordered
+stage1/export_test_set.py — exports the test partition for manual measurement (Fiji), ordered
 por grupo e timepoint, com o caminho da imagem crua no banco A.
 """
 import csv, os

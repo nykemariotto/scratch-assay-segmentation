@@ -3,7 +3,7 @@
 **Manuscrito 4336348 — Cytometry Part A**
 **Status: definido ANTES do início da correção.** Este documento é versionado no
 repositório junto aos scripts; o commit que o introduz precede qualquer arquivo
-em `whst_output/rois_corrigidos/`, o que torna verificável que o critério não foi
+em `whst_output/rois_corrected/`, o que torna verificável que o critério não foi
 ajustado depois de ver os resultados.
 
 ---
@@ -36,14 +36,14 @@ A triagem visual cega produziu 12 imagens `AMBIGUO`. Elas são adjudicadas
 closure fraction e podem alterar o veredito da série.
 
 ```bash
-python stage1/adjudicate_ambiguo.py --template
+python stage1/adjudicate_ambiguous.py --template
 ```
-Preencher a coluna `decisao` de `stage1/adjudicacao_ambiguo.csv` com
-`OK | super | sub | invalida`, usando o painel `inspect_ambiguo.png`
+Preencher a coluna `decisao` de `stage1/adjudication_ambiguous.csv` com
+`OK | super | sub | invalida`, usando o painel `inspect_ambiguous.png`
 (vermelho = frame a adjudicar; verde = OK; amarelo = super; azul = sub).
 
 ```bash
-python stage1/adjudicate_ambiguo.py --apply
+python stage1/adjudicate_ambiguous.py --apply
 python stage4/whst_series_analysis.py
 python stage4/build_correction_worklist.py
 ```
@@ -128,8 +128,8 @@ está reportada como tal.
 
 | Passada | Lista | Saída | Registro |
 |---|---|---|---|
-| 1 — correção | `stage4/correction_worklist.csv` | `whst_output/rois_corrigidos/` | `stage4/correcao_manual_pass1.csv` |
-| 2 — re-correção cega | `stage4/.recorrecao_oculta.csv` | `whst_output/rois_recorrecao/` | `stage4/correcao_manual_pass2.csv` |
+| 1 — correção | `stage4/correction_worklist.csv` | `whst_output/rois_corrected/` | `stage4/manual_correction_pass1.csv` |
+| 2 — re-correção cega | `stage4/.recorrecao_oculta.csv` | `whst_output/rois_blind_repeat/` | `stage4/manual_correction_pass2.csv` |
 
 ---
 
@@ -200,9 +200,9 @@ na maioria, dado que o WHST super-segmenta).
 ## 7. Ordem de execução (resumo)
 
 ```bash
-python stage1/adjudicate_ambiguo.py --template     # 1. gera template
+python stage1/adjudicate_ambiguous.py --template     # 1. gera template
 #    (preencher a coluna 'decisao')
-python stage1/adjudicate_ambiguo.py --apply        # 2. aplica
+python stage1/adjudicate_ambiguous.py --apply        # 2. aplica
 python stage4/whst_series_analysis.py              # 3. fecha vereditos de série
 python stage4/build_correction_worklist.py         # 4. lista final + sorteio cego
 #    Fiji: stage4/whst_manual_correction.ijm  -> passada 1
@@ -220,8 +220,8 @@ se substituem e ambas são reportadas.
 
 | Avaliação | Arquivo | Válida para | Inválida para |
 |---|---|---|---|
-| **Triagem visual cega** (rastreio) | `data/inspecao_visual_TRIAGEM_CEGA.csv` (congelado, somente leitura) | Sensibilidade/especificidade do QC automático | Ser substituída por reavaliação informada nessa comparação |
-| **Correção manual** (referência) | `whst_output/rois_corrigidos/` | **Reference standard** da análise pareada; área da ferida | — |
+| **Triagem visual cega** (rastreio) | `data/visual_triage_TRIAGEM_CEGA.csv` (congelado, somente leitura) | Sensibilidade/especificidade do QC automático | Ser substituída por reavaliação informada nessa comparação |
+| **Correção manual** (referência) | `whst_output/rois_corrected/` | **Reference standard** da análise pareada; área da ferida | — |
 
 **Justificativa.** "Padrão-ouro" designa a referência **independente do teste
 avaliado**, não a avaliação mais acurada em termos absolutos. Nas duas
@@ -249,7 +249,7 @@ livre** (ambos opcionais):
 `fora_de_foco` · `borda_ambigua` · `sem_ferida_no_campo` ·
 `monolayer_nao_confluente` · `outro`
 
-Registrados em `stage4/correcao_manual_pass1.csv` / `pass2.csv`. Como ficam ancorados
+Registrados em `stage4/manual_correction_pass1.csv` / `pass2.csv`. Como ficam ancorados
 no ROI corrigido, servem de **validação independente** do campo `modo_falha`
 calculado geometricamente por contenção (`stage4/classify_failure_mode.py`):
 concordância entre os dois é evidência convergente; discordância localiza erro
@@ -283,7 +283,7 @@ o desempenho do WHST sobre imagens válidas.
 |---|---|
 | IoU(automático, corrigido) | **0,267** (mediana; IQR 0,101–0,434) |
 | variação de área | **−22,5 pp** (mediana) |
-| correções que reduziram a área | **86%** |
+| correções que reduziram a área | **85%** (82/96, no subconjunto com contorno automático) |
 
 ### 10.3 Reprodutibilidade intra-observador
 
@@ -309,7 +309,7 @@ concorda com ele. A variabilidade está no método, não no observador.
 
 Closure no último timepoint: **mediana 0,691** (IQR 0,450–0,930; faixa
 0,008–1,000); **13 séries** com fechamento completo (≥ 0,99).
-Total: **187 medições** em formato longo (`data/closure_final_longo.csv`).
+Total: **187 medições** em formato longo (`data/closure_final_long.csv`).
 
 Procedência da área nas 52 analisáveis: **35 integralmente corrigidas**,
 **13 integralmente automáticas** (viés cancela) e **4 mistas** — estas últimas
@@ -383,7 +383,7 @@ algoritmo, não dado experimental**, e removidas do pipeline. Verificou-se que
 **não constavam de `data/mapping_dataset_final_strat.csv`** — nunca integraram as
 partições train/val/test — portanto a remoção não afeta o split leakage-free nem
 exige re-treino. Ficam em quarentena com manifesto
-(`whst_output/_removidas_fora_do_escopo/`).
+(`whst_output/_removed_out_of_scope/`).
 
 ### 10.6 Regra de consistência entre rótulo e medida
 
@@ -395,7 +395,7 @@ tabela de closure divergiriam sobre quais frames compõem cada série.
 ## 11. Notas de integridade
 
 - Nenhum script sobrescreve medições ou ROIs originais.
-- `data/inspecao_visual.csv` recebe backup (`.pre_adjudicacao.bak`) antes da adjudicação.
+- `data/visual_triage.csv` recebe backup (`.pre_adjudicacao.bak`) antes da adjudicação.
 - O sorteio é determinístico: mesmo seed ⇒ mesmo subconjunto, reproduzível por
   terceiros a partir do código.
 - A taxa de exclusão do ensaio (**invalidez de imagem**) é reportada

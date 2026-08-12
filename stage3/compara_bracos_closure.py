@@ -92,7 +92,7 @@ def main():
                 print(f"  [SKIPPED] {run}: no areas in stage3/areas/")
                 continue
             pref = f"cmp_{run}_"
-            saida = os.path.join("stage3", f"{pref}paired_new_longo.csv")
+            saida = os.path.join("stage3", f"{pref}paired_new_long.csv")
             if args.force or not os.path.isfile(saida):
                 r = subprocess.run(
                     [PY, os.path.join("stage3", "paired_new.py"), "--run", run,

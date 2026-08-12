@@ -29,8 +29,9 @@ The first submission evaluated models trained on a dataset partitioned at the **
 level, so frames of the same acquisition field appeared in both training and test sets. Every
 performance figure in that version was optimistic. The dataset was rebuilt and partitioned at
 the level of the **physical acquisition field**, and all configurations were retrained. The
-weights here are from the corrected partition. The superseded weights remain available in the
-earlier deposit, marked as such; they should not be used.
+weights here are from the corrected partition. The superseded weights stay in the earlier
+deposit (10.5281/zenodo.20298130), which is marked as superseded in full and should not
+be cited. They are retained for the record, not for use.
 
 ## Files
 
@@ -115,7 +116,10 @@ analysis code under MIT.
 
 ## Citation
 
-Data and code archive: https://doi.org/10.5281/zenodo.20298129
+Data and code archive: https://doi.org/10.5281/zenodo.20298129 (concept DOI, always the
+latest). The figures on this page are those of **v2.0.0**,
+https://doi.org/10.5281/zenodo.21779854 — cite that one to pin the version these weights
+came from.
 Code repository: https://github.com/nykemariotto/scratch-assay-segmentation
 Web interface: https://huggingface.co/spaces/nmariotto/Scratch-assay-segmentation
 

@@ -12,8 +12,8 @@ Estrategia:
 import os, re, csv
 from collections import defaultdict
 
-P1 = r"G:\.shortcut-targets-by-id\16gG82kKalY_NsrHcFf6mK3smW3pw5zmr\Wound Healing"
-P2 = r"G:\.shortcut-targets-by-id\1CMwTWGfjZgxB1XuvetRHUONTxDknvhDU\WH_Carbo_25-10_27-10-22"
+P1 = os.environ.get("RAW_ARCHIVE_P1", "<raw_archive_p1>")
+P2 = os.environ.get("RAW_ARCHIVE_P2", "<raw_archive_p2>")
 HRAW = os.environ.get("BANCO_A", "<banco_a>") + r"\HUVEC-RAW"
 IMG = (".tif", ".tiff", ".bmp", ".png")
 

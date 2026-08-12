@@ -4,13 +4,13 @@ test_sentinela.py — does the sentinel reject the run the old version approved?
 
 This is the question nobody asked about the padding defect or about the fp16
 overflow: a checker is only worth having if it is exercised against the failure it
-is supposed to catch. Here it runs against the REAL results.csv of
+is supposed to catch. Here it runs against the real results.csv of
 unet_black_seed42 — the run that recorded `"status": "ok"` with 60 of 100 epochs
 in NaN.
 
 Beyond that, the test covers the false positives: a synthetic healthy run, a run
-with ONE isolated coincidence of val_iou == val_dice (which must NOT be rejected),
-and a run with three consecutive coincidences (which MUST be rejected).
+with one isolated coincidence of val_iou == val_dice (which must not be rejected),
+and a run with three consecutive coincidences (which must be rejected).
 
     python unet_comparator/test_sentinela.py
 """
@@ -95,7 +95,7 @@ ok(not reprovado(d, 100),
    f"one isolated coincidence does not reject (degenerate={d['epocas_iou_igual_dice']})")
 os.unlink(p)
 
-# ── 4. three in a row MUST be rejected ──────────────────────────────────────────
+# ── 4. three in a row must be rejected ──────────────────────────────────────────
 print("\n4. true positive: three consecutive epochs with val_iou == val_dice")
 tres = [r[:] for r in saudavel]
 for i in (49, 50, 51):

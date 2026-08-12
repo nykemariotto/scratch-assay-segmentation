@@ -7,7 +7,7 @@ One run at a time. For each test-set image:
   predict -> rasterise the COCO ground truth -> match by IoU at 10 thresholds ->
   store {scores, tp[10][n], n_gt} and the image's group.
 
-What comes out are NOT masks (they would be gigabytes over 25 runs): they are the
+What comes out are not masks (they would be gigabytes over 25 runs): they are the
 records, a few kB each. They contain everything AP needs, and they allow AP to be
 recomputed over any subset — which is what the cluster bootstrap requires.
 

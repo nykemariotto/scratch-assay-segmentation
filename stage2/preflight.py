@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stage2/preflight.py — the mandatory check BEFORE spending 34 h of GPU.
+stage2/preflight.py — the mandatory check before spending 34 h of GPU.
 
 Written after losing 34 h because the padding patch held in the parent process and
 not in the workers. `stage2/verify_padding.py` missed it: it built its OWN dataset in
@@ -11,7 +11,7 @@ PRINCIPLE. Verification in a parallel pipeline does not count. What counts is:
   (b) comparing the OUTPUTS of short real training runs.
 
 The canary (phase E) actually trains, for 2 epochs, calling the grid's own
-`stage2/train_config.py`, and asserts three things the broken grid did NOT satisfy:
+`stage2/train_config.py`, and asserts three things the broken grid did not satisfy:
 
     black != white   -> the padding reaches training   (this is what was failing)
     seed42 != seed43 -> the seed changes something
@@ -20,7 +20,7 @@ The canary (phase E) actually trains, for 2 epochs, calling the grid's own
 It costs ~6 min. The grid costs 34 h.
 
     python stage2/preflight.py            # everything
-    python stage2/preflight.py --rapido   # skips the canary (does NOT clear the grid)
+    python stage2/preflight.py --rapido   # skips the canary (does not clear the grid)
 """
 import argparse
 import csv
@@ -173,7 +173,7 @@ def fase_avaliacao():
     ok(os.path.isfile("stage3/eval_test.py") and os.path.isfile("stage3/aggregate.py"),
        "stage3/eval_test.py and stage3/aggregate.py present")
 
-    # guard: the pre-correction runs MUST be refused by the evaluation
+    # guard: the pre-correction runs must be refused by the evaluation
     arq = os.path.join("runs", "segment", "runs_revision_D12_invalido")
     if os.path.isdir(arq):
         import json

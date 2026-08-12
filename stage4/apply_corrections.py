@@ -3,7 +3,7 @@
 stage4/apply_corrections.py — folds in the outcomes of pass 1 (manual correction).
 
 TWO THINGS:
- (1) CLASSIFICATION: status 'invalida' -> IMG_INVALIDA in data/inspecao_visual.csv.
+ (1) CLASSIFICATION: status 'invalida' -> IMG_INVALIDA in data/visual_triage.csv.
  (2) FINAL AREA: writes data/whst_areas_final.csv with the area to be used in the
      paired analysis, per image, with its source declared:
 
@@ -24,9 +24,9 @@ per series so the final analysis can tell the two situations apart.
 import csv, os, shutil, sys
 from collections import Counter, defaultdict
 
-HUM = "data/inspecao_visual.csv"
+HUM = "data/visual_triage.csv"
 AUTO = "data/whst_pass1_qc.csv"
-P1 = "stage4/correcao_manual_pass1.csv"
+P1 = "stage4/manual_correction_pass1.csv"
 OUT = "data/whst_areas_final.csv"
 
 if not os.path.isfile(P1):
@@ -58,9 +58,9 @@ print(f"pass 1: {len(p1)} images | {dict(Counter(r['status'] for r in p1.values(
 # produce valid corrections and enter the final area. Pass 2 does NOT: it is the
 # blinded re-correction of the same subset, it exists to measure reproducibility,
 # and using it would replace the primary measurement with the repeat.
-for extra, rot in (("stage4/correcao_manual_validacao.csv", "pass 3 (validation)"),
-                   ("stage4/correcao_manual_completacao.csv", "pass 4 (completion)"),
-                   ("stage4/correcao_manual_baselines.csv", "pass 5 (recovered baselines)")):
+for extra, rot in (("stage4/manual_correction_validation.csv", "pass 3 (validation)"),
+                   ("stage4/manual_correction_completion.csv", "pass 4 (completion)"),
+                   ("stage4/manual_correction_baselines.csv", "pass 5 (recovered baselines)")):
     if os.path.isfile(extra):
         e = carrega(extra)
         novos = {k: v for k, v in e.items() if k not in p1}
@@ -101,7 +101,7 @@ for r in hum:
                                  if antes == "NAO_TRIADA" else "correcao_manual")
 # ATOMIC write: build a temporary file and only then replace. Avoids truncating the
 # source file if something fails midway (and does not clobber an existing backup).
-assert len(hum) > 100, f"guard: data/inspecao_visual.csv with only {len(hum)} rows"
+assert len(hum) > 100, f"guard: data/visual_triage.csv with only {len(hum)} rows"
 if not os.path.isfile(HUM + ".bak_precorr"):
     shutil.copy2(HUM, HUM + ".bak_precorr")
 _tmp = HUM + ".tmp"

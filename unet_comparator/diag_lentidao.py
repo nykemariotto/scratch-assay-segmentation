@@ -3,7 +3,7 @@
 diag_lentidao.py — where does the gap between 87 s/epoch (bench) and 256 s (real) come from?
 
 bench_loop.py isolated the patch's changes and they cost 2 ms/batch (0.5%). That is:
-the slowness is NOT in the training loop. But the bench projects 87 s/epoch and real
+the slowness is not in the training loop. But the bench projects 87 s/epoch and real
 training spends 256 s. Since the batch code is the same, the difference has to be in
 what the bench does not reproduce. Two candidates:
 

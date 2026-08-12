@@ -4,7 +4,7 @@ stage1/build_final_split_strat.py — ALTERNATIVA ao M2.
 Identical to M2 (same split_key with fallback, SEED=42, 70/15/15 by group), but it
 stratifies by STRATUM (treatment) as well as cell line, so that no
 tratamento fique ausente de val/test.
-It does NOT overwrite stage1/mapping_dataset_final.csv — it writes to a separate file.
+It does not overwrite stage1/mapping_dataset_final.csv — it writes to a separate file.
 
 ⚠️ RUN ONCE, NOT REGENERABLE — IT DRAWS. This is the script that builds the
 leakage-free partition the whole revision rests on.

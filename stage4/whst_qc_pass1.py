@@ -11,7 +11,7 @@ v2 corrige dois problemas da v1:
        FALHA_NAO_MONOTONICO: area sobe > 5 pontos percentuais vs o timepoint
                              anterior da mesma serie
      Quando o baseline tambem esta sinalizado, marca baseline E timepoint.
- (2) FALSE POSITIVE: the merged groups (Controle+Saudavel) mix TWO experiments;
+ (2) FALSE POSITIVE: the merged groups (Controle+Saudavel) mix two experiments;
      the disagreement fired on between-plate variation and the baseline became
      the mean of different plates. For the PAIRED ANALYSIS the unit becomes
      experiment × treatment × well (the split still uses the merged form — that

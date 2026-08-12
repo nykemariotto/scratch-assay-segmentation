@@ -13,7 +13,7 @@ what decides. Two distinct questions, which |delta| alone conflates:
   (b) HOW MUCH DOES THE CLOSURE MOVE IN PRACTICE?  Recomputes the closure of the
       affected series, substituting the automatic area of the drawn frame with the
       corrected area, and measures the absolute shift in closure. Baselines (t0)
-      are handled separately, because an error in a0 propagates to EVERY timepoint
+      are handled separately, because an error in a0 propagates to every timepoint
       of the series.
 """
 import csv, os, sys

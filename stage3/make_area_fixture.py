@@ -8,10 +8,10 @@ whst_input name with an md5 prefix, and series_key with pipe separators). If the
 join is wrong the script does not crash — it simply returns fewer pairs, and nobody
 notices.
 
-This generator builds a `stage3/areas/<run>.csv` from the REAL areas of the
+This generator builds a `stage3/areas/<run>.csv` from the real areas of the
 reference standard, propagated backwards through the join. With controlled noise:
 
-  --ruido 0.0   -> the AI equals the reference exactly. paired_new MUST return
+  --ruido 0.0   -> the AI equals the reference exactly. paired_new must return
                    CCC = 1.000 and bias = 0. Anything else is a matching error,
                    not a model error.
   --ruido 0.05  -> high but imperfect agreement, to exercise the arithmetic.
@@ -52,7 +52,7 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
-    INSP = ler("data/inspecao_visual.csv")
+    INSP = ler("data/visual_triage.csv")
     WA = {r["whst_input_file"]: r for r in ler("data/whst_areas_final.csv")}
     rng = np.random.default_rng(args.seed)
 

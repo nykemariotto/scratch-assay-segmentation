@@ -8,7 +8,7 @@ The three roles do not overlap:
 | Role | Filled by |
 | --- | --- |
 | **Reference standard** (the ruler) | automated WHST **plus supervised manual correction** — Stage 4 |
-| **Classical comparator** | WHST in **pure automatic mode** — `benchmark_classico.py`, already measured |
+| **Classical comparator** | WHST in **pure automatic mode** — `benchmark_classical.py`, already measured |
 | **DL comparator** | **this U-Net** |
 
 This U-Net **does not replace WHST** in either of the other two roles. It fills the row that

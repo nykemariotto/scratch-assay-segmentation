@@ -95,7 +95,7 @@ def diagnostica_csv(rcsv, epochs_esperadas, min_seq=3):
     # IoU == Dice is the signature of a degenerate prediction (all-zeros or all-ones):
     # Dice = 2*IoU/(1+IoU), so they only coincide at 0 or 1. But the columns are MEANS
     # over images, and two means can coincide by chance — with 6 decimals in the CSV
-    # that is a ~1e-6 chance per epoch. Failing a whole run over ONE coincidence would
+    # that is a ~1e-6 chance per epoch. Failing a whole run over one coincidence would
     # be a false positive; we require `min_seq` CONSECUTIVE epochs, which is what the
     # real failure produces (on seed42 there were 60 in a row).
     marca = [math.isfinite(_f(r["val_iou"]))
@@ -170,7 +170,7 @@ def main():
     # The warmup is per ITERATION, not per epoch: at 233 batches per epoch, 3 epochs
     # give 699 ramp steps, which is smooth. Per epoch it would be 3 steps.
     WARMUP_EPOCAS = 3
-    # the cosine only starts counting AFTER the warmup, and starts from args.lr
+    # the cosine only starts counting after the warmup, and starts from args.lr
     sched = torch.optim.lr_scheduler.CosineAnnealingLR(
         opt, T_max=max(1, args.epochs - WARMUP_EPOCAS))
     escala = torch.amp.GradScaler("cuda", enabled=(dev == "cuda"))
@@ -202,7 +202,7 @@ def main():
                 perda = crit(modelo(x), y)
 
             # ABORT on the first NaN/Inf — skipping the batch and carrying on does
-            # not help. The GradScaler protects opt.step(), but NOT the BatchNorm
+            # not help. The GradScaler protects opt.step(), but not the BatchNorm
             # buffers: running_mean/running_var are updated in the FORWARD pass. The
             # moment one activation turns inf/NaN the buffers absorb NaN and the model
             # is dead, even though the weights stay finite. That is what happened to
@@ -234,7 +234,7 @@ def main():
             escala.step(opt)
             escala.update()
             perdas.append(v)
-        # the cosine only acts AFTER the warmup; during it, the lr is the ramp above
+        # the cosine only acts after the warmup; during it, the lr is the ramp above
         if ep > WARMUP_EPOCAS:
             sched.step()
 
@@ -246,7 +246,7 @@ def main():
         # and every cudaMalloc/cudaFree serialises — hence the GPU reading 100%
         # utilisation while drawing only 53 W of 160 W: it was not compute, it was the
         # allocator. The result is BIT-FOR-BIT IDENTICAL (IoU 0.500330 with and without).
-        # Measured in diag_validacao2.py, which compares the four conditions.
+        # Measured in diag_validation2.py, which compares the four conditions.
         if dev == "cuda":
             torch.cuda.empty_cache()
         iou, dice = avalia(modelo, dl_va, dev)

@@ -10,7 +10,7 @@ So the mask is returned to the original space (`desfaz_letterbox`) BEFORE measur
 
 Output: unet_test_areas.csv with one row per test-set image
        (file, area_px, area_pct, n_components), ready for the merge with
-       stage3/benchmark_classico_longo.csv.
+       stage3/benchmark_classical_long.csv.
 
 DO NOT RUN WHILE THE YOLO GRID IS OCCUPYING THE GPU.
 """

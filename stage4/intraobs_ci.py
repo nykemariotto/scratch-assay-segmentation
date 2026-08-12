@@ -19,11 +19,11 @@ TWO THINGS CHANGED ON 2026-07-31.
         "empty over empty" convention — they agree that "there is nothing here",
         which is a different thing. It is the same convention that inflates the
         detector's 1.0000 in a closed well.
-      · ONE (`f8f76efe0c`) has an identical area on both passes AND an IoU of
+      · ONE (`f8f76efe0c`) has an identical area on both passes and an IoU of
         exactly 1.0000. For two independent manual corrections of a visible wound
         that is implausible; it looks like ROI reuse, not re-correction.
 
-    The script reports BOTH sets. The exclusion is visible, not implicit.
+    The script reports both sets. The exclusion is visible, not implicit.
 
 2 · THE OUTPUT IS PERSISTED. The script used to compute, print, and let documents
     copy from the console. The number ended up in EIGHT documents before anyone
