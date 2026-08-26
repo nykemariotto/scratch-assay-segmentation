@@ -96,7 +96,7 @@ def main():
                 if not ev or "erro" in ev or os.path.isfile(
                         os.path.join(d, "AVISO_PADDING.txt")):
                     print(f"  [REFUSED] {nome}: no valid evidence of padding "
-                          f"(run anterior a D12?)")
+                          f"(run anterior ao registro de padding?)")
                     recusados.append(nome)
                     continue
             p = os.path.join(d, "weights", "best.pt")

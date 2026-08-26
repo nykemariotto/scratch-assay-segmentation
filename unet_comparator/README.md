@@ -152,7 +152,7 @@ transformation every epoch.
 
 **The smoke test was certifying the defect.** It asserted *"determinism: same sample, same
 output"* as though that were the desired property. Determinism has to be over **(seed, epoch,
-index)**, not (seed, index) — the same class of error as `stage2/verify_padding.py` in D12: a test
+index)**, not (seed, index) — the same class of error as `stage2/verify_padding.py`: a test
 that cannot fail for the right reason.
 
 Fix: `WoundDataset.set_epoca(e)`, called by the training loop before each epoch; RNG seeded
@@ -160,7 +160,7 @@ with `(SEED_AUG, epoch, index)`.
 
 ### Data order varied with the seed — and in YOLO it does not
 
-The `DataLoader` used `generator.manual_seed(args.seed)`. Ultralytics uses a constant (D13),
+The `DataLoader` used `generator.manual_seed(args.seed)`. Ultralytics uses a constant,
 so there the order does **not** vary with the seed. Had the asymmetry been kept, the U-Net arm
 would have had one more source of variance than the YOLO arm, and the standard deviations in
 Table 2 would not be comparable.

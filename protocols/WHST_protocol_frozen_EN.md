@@ -283,7 +283,7 @@ cases, with a median change of −22.5 percentage points of image area.
 
 To quantify the subjectivity of manual correction, 15 frames were randomly selected (fixed seed) and
 re-corrected after an interval, with the observer blind to both the selection and the first
-correction. Intra-observer agreement was **IoU 0.861** (median, 95% CI 0.746–0.904) and **Lin's
+correction. Intra-observer agreement was **IoU 0.861** (median over the 10 pairs left after excluding three with an empty mask on both passes and one with an identical area; 0.894 over all 14 comparable pairs; 95% CI 0.746–0.904) and **Lin's
 concordance correlation coefficient 0.996** for measured areas, with a bias of +0.10 percentage
 points; the categorical outcome agreed in 14 of 15 frames.
 

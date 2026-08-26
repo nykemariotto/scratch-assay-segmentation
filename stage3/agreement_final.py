@@ -259,8 +259,8 @@ def main():
         out["por_tempo"][braco] = bloco
 
     # ── full agreement statistics BY CELL LINE ───────────────────────────────
-    # R1.5 asked for the reliability claims to be disaggregated by cell line, and
-    # the earlier draft of the response letter said they were when they were not.
+    # The reliability claims are reported per cell line: a pooled figure dominated
+    # by one line would not support a claim about the other.
     # Same procedure as the pooled block, so the two are comparable: each statistic
     # is computed WITHIN a seed over that line's observations, then averaged over
     # the five seeds. SKOV-3 carries 15 observations; its concordance coefficient

@@ -196,7 +196,7 @@ Frames scored as segmentation failures were re-segmented manually using the plug
 ### 12.3 Observer reproducibility 
 
 
-To quantify the subjectivity of manual correction, 15 frames were randomly selected (fixed seed) and re-corrected after an interval, with the observer blind to both the selection and the first correction. Intra-observer agreement was **IoU 0.861** (median, 95% CI 0.746–0.904) and **Lin's concordance correlation coefficient 0.996** for measured areas, with a bias of +0.10 percentage points; the categorical outcome agreed in 14 of 15 frames.
+To quantify the subjectivity of manual correction, 15 frames were randomly selected (fixed seed) and re-corrected after an interval, with the observer blind to both the selection and the first correction. Intra-observer agreement was **IoU 0.861** (median over the 10 pairs left after excluding three with an empty mask on both passes and one with an identical area; 0.894 over all 14 comparable pairs; 95% CI 0.746–0.904) and **Lin's concordance correlation coefficient 0.996** for measured areas, with a bias of +0.10 percentage points; the categorical outcome agreed in 14 of 15 frames.
 
 > **Correction, 2026-07-31.** The values first reported here (IoU 0.894, CCC 0.998) were computed over all 14 repeat pairs. Four of those pairs do not measure boundary reproducibility: in three the observer recorded no wound on either pass, which scores an intersection over union of 1 by the empty-mask convention, and in one the two passes returned an identical area and an exact intersection over union of 1. **The protocol itself is unchanged** — the frame selection, the fixed seed, the blinding and the interval are as frozen. What is corrected is a result computed after freezing.
 >

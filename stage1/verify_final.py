@@ -9,7 +9,7 @@ Verifies at three levels:
 import csv, sys
 from collections import defaultdict, Counter
 
-# D6: a versao estratificada (cell_line x tratamento) e a autoritativa.
+# A versao estratificada (cell_line x tratamento) e a autoritativa.
 SRC = sys.argv[1] if len(sys.argv) > 1 else "data/mapping_dataset_final_strat.csv"
 print(f"Verificando: {SRC}\n")
 rows = list(csv.DictReader(open(SRC, encoding="utf-8")))

@@ -9,7 +9,7 @@ covering the cases that matter:
 
   1. HUVEC with an open, annotated wound    (the typical case)
   2. HUVEC negative (0 instances)           (closed wound — the negatives are
-                                             deliberados; ver D3 no master map)
+                                             deliberados)
   3. SKOV-3 em resolucao nativa             (a outra linha celular, 2452x2056)
   4. HUVEC em outro timepoint               (mostra a progressao temporal)
 

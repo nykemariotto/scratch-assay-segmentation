@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 
 COCO_BASE = (os.environ.get("ROBOFLOW_EXPORT", "<roboflow_export>")
              + r"\Pre Eclampsia.coco-segmentation\train\_annotations.coco.json")
-# D6: versao estratificada por cell_line x tratamento (0 estratos ausentes)
+# Versao estratificada por cell_line x tratamento (0 estratos ausentes)
 MAPPING_FINAL = "data/mapping_dataset_final_strat.csv"
 OUT_DIR = "coco_partitions"
 

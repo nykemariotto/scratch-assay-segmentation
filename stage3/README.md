@@ -93,8 +93,8 @@ Restricting to the observations **all ten runs** return means both arms are meas
 identical set, so the difference between them cannot be an artefact of composition.
 
 97 is fewer than the 225 of the earlier analysis, and better: leakage-free, both cell
-lines, against a supervised standard. The manuscript states that explicitly, because
-otherwise the drop in n reads as lost data.
+lines, against a supervised standard. The drop in n is the price of that restriction,
+not lost data.
 
 ## How to run
 

@@ -2,9 +2,8 @@
 """
 stage3/figureS1_isolated_cells.py — Supplementary Figure S1.
 
-POR QUE EXISTE. O Reviewer 1 (R1.7) observou que quantificar a ferida como um
-unico contorno superestima a area aberta quando celulas se destacam e migram
-individualmente para dentro do vao. O manuscrito ja declara isso no terceiro item
+POR QUE EXISTE. Quantificar a ferida como um unico contorno superestima a area
+aberta quando celulas se destacam e migram individualmente para dentro do vao. O manuscrito ja declara isso no terceiro item
 das Limitacoes; esta figura mostra.
 
 O QUE ELA MOSTRA, E O QUE NAO MOSTRA. Ela e ILUSTRATIVA e nao quantitativa. Nao ha
