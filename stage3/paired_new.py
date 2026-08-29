@@ -12,7 +12,7 @@ WHAT CHANGES RELATIVE TO THE OLD ONE
   - AI side       : retrained leakage-free, predicted on the held-out test set
   - reference side: the supervised reference standard of stage 4 (59 series), not
                     measurements by 3 annotators
-  - coverage      : HUVEC **and SKOV-3** — the old one was HUVEC only, which is
+  - coverage      : HUVEC **and SKOV-3**: the old one was HUVEC only, which is
                     what the coverage criticism was about
   - independence  : the models never saw the reference standard, neither in
                     training nor in its construction. The classical arm (automatic
@@ -191,7 +191,7 @@ def main():
         por_serie.setdefault((sk, campo), {})[tp] = a
     # DEGENERATE BASELINE (raised in the code review of 2026-07-28).
     # The `a0 <= 0` guard does not catch the case that actually happens: a0
-    # POSITIVE but tiny — the model barely detected the wound at t=0 — which makes
+    # POSITIVE but tiny — the model barely detected the wound at t=0, which makes
     # the ratio (a0-at)/a0 blow up. That is how automatic WHST reached -179.
     #
     # The answer is not to exclude: discarding the series where the model does

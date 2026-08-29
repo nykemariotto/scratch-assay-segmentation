@@ -33,8 +33,8 @@ against recall, not accuracy.
 
 | | mAP@50 | Recall | CPU |
 |---|---|---|---|
-| **M** — default | 93.4 ± 1.1% | 78.3 ± 3.0% | ~345 ms |
-| **S** — fast mode | 94.0 ± 0.7% | 74.3 ± 2.3% | ~174 ms |
+| **M**: default | 93.4 ± 1.1% | 78.3 ± 3.0% | ~345 ms |
+| **S**: fast mode | 94.0 ± 0.7% | 74.3 ± 2.3% | ~174 ms |
 
 Mean ± SD over five training seeds on a held-out test set of 234 images.
 

@@ -4,7 +4,7 @@ test_loss_fp16.py — locks in the fix for the float16 overflow in the Dice term
 
 WHAT FAILED. The unet_black_seed42 run trained well up to epoch 40 (val IoU 0.846
 at epoch 34) and from epoch 41 onward reported train_loss = NaN for 60 epochs, with
-val_iou frozen at 0.091371 — which is exactly 18/197, the fraction of negative
+val_iou frozen at 0.091371, which is exactly 18/197, the fraction of negative
 images in the validation set. Weights in last.pt: 31,049,409 of 31,049,409
 parameters NaN. best.pt (epoch 34): zero NaN.
 

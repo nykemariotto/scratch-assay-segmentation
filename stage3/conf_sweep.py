@@ -25,7 +25,7 @@ TWO QUESTIONS IT ANSWERS
      all: WHETHER THE LOSS IS SIZE-DEPENDENT. The endpoint is the closure fraction
      (a0 - at)/a0. A constant multiplicative bias cancels in that ratio; a threshold
      does not act that way. If raising it preferentially drops small, faint wounds,
-     those are the late timepoints — and an undetected wound is an area of zero,
+     those are the late timepoints, and an undetected wound is an area of zero,
      which reads as a closure of 1.0, a false complete closure. Recall is therefore
      also reported stratified by wound size, over bands fixed here in the source
      before the sweep is run.
@@ -34,7 +34,7 @@ TWO QUESTIONS IT ANSWERS
      series P1|CT|F8: at 24 h the reference standard annotates an open wound and the
      model at conf 0.80 returns nothing at all. Zero area over the baseline computes
      to "100.0% closure", so the panel would have asserted a complete closure over a
-     wound that is plainly open. One frame is an anecdote, not a rate — which is
+     wound that is plainly open. One frame is an anecdote, not a rate, which is
      exactly what this sweep exists to supply.
 
 ONE FORWARD PASS PER IMAGE. Predicting at the lowest threshold and filtering the

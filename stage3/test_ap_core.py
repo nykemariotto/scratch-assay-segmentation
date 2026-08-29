@@ -4,7 +4,7 @@ stage3/test_ap_core.py — validates ap_core before the training grid finishes.
 
 No GPU. The point is to be sure the AP core is right while there is still time to
 fix it: if it were written in a hurry once the 25 runs came out, an error here
-would contaminate all of Table 2 and every CI — and nobody would notice, because
+would contaminate all of Table 2 and every CI, and nobody would notice, because
 the number "looks reasonable".
 
 Cases:

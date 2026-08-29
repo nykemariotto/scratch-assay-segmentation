@@ -12,7 +12,7 @@ but over 233 the workers fall behind, the queue empties and the GPU starts waiti
 the augmentation, which runs on the CPU.
 
 It runs a whole epoch and compares the rate of the first 30 batches with that of the
-last 30. If it degrades, the bottleneck is data, not GPU — and the fix is more workers
+last 30. If it degrades, the bottleneck is data, not GPU, and the fix is more workers
 or prefetch, not touching the model.
 
     python unet_comparator/diag_epoca_inteira.py

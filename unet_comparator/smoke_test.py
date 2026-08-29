@@ -22,7 +22,7 @@ import os
 import sys
 
 # "-1", not "": on Windows the empty string is ignored and the card stays visible.
-# Found because the assert further down refused to run — which is why it exists.
+# Found because the assert further down refused to run, which is why it exists.
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"        # BEFORE importing torch
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -115,7 +115,7 @@ check(0.0 <= float(x.min()) and float(x.max()) <= 1.0,
 check(set(np.unique(y.numpy()).tolist()) <= {0.0, 1.0}, "binary mask {0,1}")
 
 # THIS BLOCK WAS WRONG UNTIL 2026-07-28. It asserted "same sample, same output"
-# as the desired property — and so CERTIFIED the defect that augmentation did not
+# as the desired property, and so CERTIFIED the defect that augmentation did not
 # vary between epochs. Determinism has to be over (seed, epoch, index), not over
 # (seed, index).
 ds["train"].set_epoca(1)

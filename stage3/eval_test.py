@@ -9,7 +9,7 @@ One run at a time. For each test-set image:
 
 What comes out are not masks (they would be gigabytes over 25 runs): they are the
 records, a few kB each. They contain everything AP needs, and they allow AP to be
-recomputed over any subset — which is what the cluster bootstrap requires.
+recomputed over any subset, which is what the cluster bootstrap requires.
 
   python stage3/eval_test.py --all
   python stage3/eval_test.py --run yolo11m-seg_black_coco_seed42
@@ -174,7 +174,7 @@ def main():
             if not os.path.exists(os.path.join(d, "COMPLETED.json")):
                 continue
             # PADDING GUARD: a run only enters if it proves the padding reached
-            # training. The 25 pre-correction runs do not carry that field — which
+            # training. The 25 pre-correction runs do not carry that field, which
             # is why they cannot be confused with the new ones despite sharing names.
             prov = os.path.join(d, "provenance.json")
             ev = {}

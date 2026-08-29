@@ -100,7 +100,7 @@ Two known limits:
 
 The ceiling is not the architecture. On blinded repeat corrections the human observer
 reproduced their own delineation at a median intersection over union of 0.861 on the 10
-pairs that measure boundary reproducibility, and 0.894 over all 14 — about what
+pairs that measure boundary reproducibility, and 0.894 over all 14, about what
 the models achieve. What limits agreement here is the reproducibility of the wound boundary
 itself.
 

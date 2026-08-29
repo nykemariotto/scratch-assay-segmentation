@@ -11,7 +11,7 @@ WHY THIS FILE EXISTS
 
   For EVERYTHING ELSE (the correction list, the WHST failure rate, the exclusion
   rate, the failure mode), the better-informed assessment is more accurate and
-  therefore preferable — and the final reference standard of the paired analysis is
+  therefore preferable, and the final reference standard of the paired analysis is
   the MANUALLY CORRECTED ROI, not this triage.
 
 PROVENANCE

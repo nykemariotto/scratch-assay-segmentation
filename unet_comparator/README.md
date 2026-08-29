@@ -7,8 +7,8 @@ The three roles do not overlap:
 
 | Role | Filled by |
 | --- | --- |
-| **Reference standard** (the ruler) | automated WHST **plus supervised manual correction** — Stage 4 |
-| **Classical comparator** | WHST in **pure automatic mode** — `benchmark_classical.py`, already measured |
+| **Reference standard** (the ruler) | automated WHST **plus supervised manual correction**: Stage 4 |
+| **Classical comparator** | WHST in **pure automatic mode**: `benchmark_classical.py`, already measured |
 | **DL comparator** | **this U-Net** |
 
 This U-Net **does not replace WHST** in either of the other two roles. It fills the row that
@@ -63,7 +63,7 @@ What makes the comparison valid. If any row breaks, it becomes advocacy.
 ### The one asymmetry, declared
 
 The grid uses **mosaic** (1.0, switched off for the last 10 epochs). Mosaic is a detection
-augmentation — it tiles four images and crops — and is not part of any standard U-Net
+augmentation — it tiles four images and crops, and is not part of any standard U-Net
 pipeline. Applying it here would be inventing a method; omitting it is the honest choice. It
 is the only augmentation difference between the arms, and it has to be stated in the Methods.
 
@@ -158,7 +158,7 @@ that cannot fail for the right reason.
 Fix: `WoundDataset.set_epoca(e)`, called by the training loop before each epoch; RNG seeded
 with `(SEED_AUG, epoch, index)`.
 
-### Data order varied with the seed — and in YOLO it does not
+### Data order varied with the seed, and in YOLO it does not
 
 The `DataLoader` used `generator.manual_seed(args.seed)`. Ultralytics uses a constant,
 so there the order does **not** vary with the seed. Had the asymmetry been kept, the U-Net arm
@@ -211,7 +211,7 @@ convolution, which is the pattern a GPU parallelises best.
 | 46 | 2.98 h | 0.8653 |
 | **5 seeds** | **15.0 h** | |
 
-**3.00 h/seed against a 4.9 h floor** — the ceiling held, and with room to spare. Measured
+**3.00 h/seed against a 4.9 h floor**: the ceiling held, and with room to spare. Measured
 against YOLO's 1.30 h/seed the real ratio is **2.30×**, not the 5.30× that MACs predict: the
 GPU absorbs the high-resolution convolutions better than a MAC count can express. The lesson
 is the one the estimate already stated — extrapolating GPU cost from MACs or CPU time gives a

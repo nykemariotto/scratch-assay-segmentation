@@ -17,7 +17,7 @@ Companion repository for the manuscript:
 
 This repository hosts the **runnable workspace** of a deep-learning benchmark for automated wound-gap segmentation in brightfield scratch (wound-healing) assays. It pairs with:
 
-- A permanent **Zenodo archive** — concept DOI [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129), always the latest; this repository corresponds to **v2.0.0**, [`10.5281/zenodo.21779854`](https://doi.org/10.5281/zenodo.21779854) — the annotated image dataset (n = 1,363 at native acquisition resolution), the trained weights of all five evaluated configurations, COCO-format polygonal annotations, the supervised reference-standard measurements, and the analysis pipeline.
+- A permanent **Zenodo archive**: concept DOI [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129), always the latest; this repository corresponds to **v2.0.0**, [`10.5281/zenodo.21779854`](https://doi.org/10.5281/zenodo.21779854) — the annotated image dataset (n = 1,363 at native acquisition resolution), the trained weights of all five evaluated configurations, COCO-format polygonal annotations, the supervised reference-standard measurements, and the analysis pipeline.
 - A **public model repository** (https://huggingface.co/nmariotto/scratch-assay-segmentation) — the two deployed weights, `M.pt` and `S.pt`, downloadable without a token.
 - A **live Hugging Face Space** (https://huggingface.co/spaces/nmariotto/Scratch-assay-segmentation) — inference on user-uploaded images, no installation required.
 

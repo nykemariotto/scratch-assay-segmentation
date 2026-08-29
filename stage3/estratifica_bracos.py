@@ -147,7 +147,7 @@ for titulo, chaves in (("by timepoint", sorted(k for k in obs["YOLO M"] if k.sta
 
 print("""HOW TO READ THIS. The sign matters: positive = the method reports MORE
 closure than the reference standard. If the bias grows with time, the cause is
-under-segmentation of the small wound — and the error runs in the direction the
+under-segmentation of the small wound, and the error runs in the direction the
 experiment wants to see success.
 
 The ± is the standard deviation of the differences within the stratum (dispersion

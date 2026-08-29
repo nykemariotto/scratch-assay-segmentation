@@ -13,7 +13,7 @@ This script measures two things, both on CPU:
   (2) wall-clock time of forward+backward on CPU, as an empirical proxy.
 
 Neither predicts GPU wall-clock exactly (memory bandwidth and kernel efficiency
-come into it), but the ratio between the two models is defensible — and it is
+come into it), but the ratio between the two models is defensible, and it is
 anchored on the ~78 min/seed that yolo11m-seg actually took.
 """
 import os

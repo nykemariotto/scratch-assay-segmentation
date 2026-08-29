@@ -101,7 +101,7 @@ def main():
         print(f"----- {r}: {'OK' if ok else 'FAILED rc=%d' % rc}")
 
         # STOPS AT THE FIRST FAILURE. The grid used to move on to the next seed,
-        # which only makes sense if the failures are independent — and they are not:
+        # which only makes sense if the failures are independent, and they are not:
         # the fp16 overflow that killed seed42 is deterministic and would hit all
         # five. Continuing would cost ~3 h per seed to produce more invalid runs.
         if not ok:

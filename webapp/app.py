@@ -73,7 +73,7 @@ def _padding_efetivo():
     """Proves the padding reached LetterBox instead of assuming it did.
 
     A patch that is assumed to have applied, and has not, produces plausible
-    numbers rather than an error — which is the hardest kind of defect to notice.
+    numbers rather than an error, which is the hardest kind of defect to notice.
     The check costs one line, so it is made rather than assumed.
     """
     import ultralytics.data.augment as A
@@ -437,8 +437,8 @@ The two configurations offered here are those of the companion manuscript
 (Mariotto et al., *Cytometry Part A*). They differ **only in model scale**:
 initialisation, padding and training schedule are identical.
 
-- **M** — default. {MODEL_INFO['M']}
-- **S** — fast mode. {MODEL_INFO['S']}
+- **M**: default. {MODEL_INFO['M']}
+- **S**: fast mode. {MODEL_INFO['S']}
 
 Neither is the more accurate: across the five configurations evaluated, mean
 mAP@50 spans 93.3–94.0% and no pairwise difference is distinguishable. The choice

@@ -17,7 +17,7 @@ rises without it having got anything right.
 
 The deep models do not have that property: they never saw the reference standard,
 neither in training nor in its construction. The comparison is therefore
-**unfavourable to them by design** — which makes any advantage of theirs stronger,
+**unfavourable to them by design**, which makes any advantage of theirs stronger,
 and any advantage of the classical arm uninterpretable.
 
 It is the trap STARD calls incorporation bias.
@@ -125,7 +125,7 @@ print(f"  {'reference standard':<27} "
 print("""
   Mechanism: closure = (a0 - at)/a0. If the method under-segments the BASELINE
   frame, a0 becomes tiny and the ratio blows up. A single error at t=0 contaminates
-  the whole series — which is why the manual correction step exists.
+  the whole series, which is why the manual correction step exists.
 
   Reporting the classical CCC without this line would say "it does not agree", when
   what actually happens is "it does not produce an on-scale number for part of the
@@ -163,7 +163,7 @@ print(f"""
   accuracy.
 
   The deep models never saw the reference standard. The comparison is unfavourable
-  to them by construction — which makes any advantage of theirs stronger, and any
+  to them by construction, which makes any advantage of theirs stronger, and any
   advantage of the classical arm meaningless.
 
   This is STARD's incorporation bias, which is why `benchmark_classical.py` already

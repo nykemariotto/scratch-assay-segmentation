@@ -24,7 +24,7 @@ needs, and it reduces the bootstrap to resampling the keys of a dictionary.
 
 ## Files
 
-**Segmentation track** — mAP, confidence intervals, padding ablation, multiple seeds:
+**Segmentation track**: mAP, confidence intervals, padding ablation, multiple seeds:
 
 | File | What it is |
 | --- | --- |
@@ -34,7 +34,7 @@ needs, and it reduces the bootstrap to resampling the keys of a dictionary.
 | `stage3/aggregate.py` | phase 2 (CPU) |
 | `stage3/make_fixtures.py` | synthetic records with the real structure, to validate phase 2 |
 
-**Area track** — agreement on the clinical endpoint, Supplementary Table S2:
+**Area track**: agreement on the clinical endpoint, Supplementary Table S2:
 
 | File | What it is |
 | --- | --- |
@@ -53,7 +53,7 @@ the assay actually reports — the closure fraction comes from it.
 
 One detail that matters in `stage3/predict_areas.py`: when an image has more than one instance,
 the masks are **united**, not summed. Summing would double-count the overlap, and the
-Wound Healing Size Tool — which measures the wound as a region — does not do that.
+Wound Healing Size Tool, which measures the wound as a region — does not do that.
 
 ## The paired analysis was rebuilt, not updated
 
@@ -120,7 +120,7 @@ python stage3/figures_agreement.py
 
 ## The four outputs of `stage3/aggregate.py`
 
-**1 · Table 2** — one row per *configuration*, mean ± SD over the 5 seeds. Reporting a
+**1 · Table 2**: one row per *configuration*, mean ± SD over the 5 seeds. Reporting a
 single run as "the performance of the model" is what a single-run design gets criticised
 for, and rightly.
 
@@ -128,11 +128,11 @@ for, and rightly.
 ratio of the two widths. Resampling images treats frames of the same field as independent,
 and they are not.
 
-**3 · Padding ablation** — paired **by seed**. The same seed shares every source of
+**3 · Padding ablation**: paired **by seed**. The same seed shares every source of
 training stochasticity except the padding colour; comparing unpaired means would throw away
 precisely the information the single-variable design bought.
 
-**4 · Distinguishability** — 95% confidence interval of the **difference** between each
+**4 · Distinguishability**: 95% confidence interval of the **difference** between each
 pair, by paired grouped bootstrap.
 
 > Overlapping intervals are **not** a test of difference. The criterion is too conservative
@@ -140,7 +140,7 @@ pair, by paired grouped bootstrap.
 > on the same images: resampling the same groups for both and taking the difference inside
 > each resample cancels the variance of the test set.
 >
-> On the fixtures — which were built with large differences between configurations — the
+> On the fixtures, which were built with large differences between configurations — the
 > overlap criterion finds **3 of 10** pairs distinguishable and the paired test finds
 > **9 of 10**. The difference is not cosmetic.
 >
@@ -202,7 +202,7 @@ left the bias in the closure fraction at **+0.0012**, essentially zero. That is 
 the ratio (a₀ − aₜ)/a₀ is invariant to a constant multiplicative factor, and the pipeline
 reproduces that correctly.
 
-Only bias that **varies over time** survives — and that is what actually happens. With
+Only bias that **varies over time** survives, and that is what actually happens. With
 `--vies-por-tp 0.35`:
 
 ```

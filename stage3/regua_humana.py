@@ -130,7 +130,7 @@ convention.
 
 If the methods reach the observer's level, the limit of the task is not the
 architecture: it is the definition of the wound border, which not even the human
-reproduces. That is a much stronger claim — and a more useful one to the reader —
+reproduces. That is a much stronger claim, and a more useful one to the reader —
 than any ranking between models.
 
 A caveat to declare: n = {len(limpos)} pairs from a single observer. The interval

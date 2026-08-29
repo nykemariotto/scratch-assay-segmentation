@@ -10,7 +10,7 @@ A reported number with no file that generates it is not reproducible.
 This script recomputes the pairing and WRITES `stage3/padding_ablation.csv` and
 `stage3/padding_ablation.json`. It runs no bootstrap: the seed-paired statistic is
 cheap — it reads arrays already saved by stage3/eval_test.py, with no model
-inference — and can be run while the GPU is busy. The paired cluster-bootstrap CI
+inference, and can be run while the GPU is busy. The paired cluster-bootstrap CI
 remains the responsibility of stage3/aggregate.py.
 
     python stage3/padding_ablation.py

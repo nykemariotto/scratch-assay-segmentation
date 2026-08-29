@@ -8,7 +8,7 @@ manuscript's Discussion already reports. `stage3/agreement_final.py` needs the
 same numbers plus a larger set (by timepoint, by cell line, regression, % within
 the LoA) for the Results and the captions. Reimplementing `ccc` and `tost` in the
 second script would create two definitions of the same statistic, which diverge
-without warning — and the divergence would surface as a discrepancy between the
+without warning, and the divergence would surface as a discrepancy between the
 Results and the Discussion of the same paper.
 
 One definition, imported by both.

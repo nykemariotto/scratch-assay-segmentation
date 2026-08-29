@@ -7,12 +7,12 @@ comparison becomes advocacy):
   1. same partition — it reads the grid's `data.yaml`, not a copy
   2. same resolution and same letterbox (640, black padding = 0)
   3. the same augmentation ACTIVE in the grid: HSV 0.015/0.7/0.4, translate 0.1,
-     scale 0.5, fliplr 0.5 — and nothing beyond that
+     scale 0.5, fliplr 0.5, and nothing beyond that
   4. the same masks: rasterised from the SAME YOLO-seg polygons that supervise
      YOLO11, not from a parallel annotation
 
 DECLARED ASYMMETRY: the grid uses mosaic (1.0, switched off for the last 10 epochs).
-Mosaic is a detection augmentation — it tiles 4 images and crops — and is not part
+Mosaic is a detection augmentation — it tiles 4 images and crops, and is not part
 of any standard U-Net pipeline. Applying it here would be inventing a method;
 omitting it is the honest choice, and it has to be declared in the Methods. It is
 the only augmentation difference between the two arms.
@@ -151,7 +151,7 @@ class WoundDataset(Dataset):
     DEFECT FIXED (review of 2026-07-28). The previous version seeded the RNG with
     `(seed, index)` only — no epoch. Consequence: each image received one fixed
     transform and repeated it across all 100 epochs. That is not stochastic
-    augmentation, it is a dataset transformed exactly once — and it broke the
+    augmentation, it is a dataset transformed exactly once, and it broke the
     fairness contract, because YOLO draws a new transform every epoch.
 
     The smoke test of the time certified the defect: it asserted "same sample, same

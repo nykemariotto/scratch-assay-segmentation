@@ -59,7 +59,7 @@ REGS_PADRAO = os.path.join("stage3", "registros")
 # run name -> (configuration, seed).  The configuration is what becomes a Table 2 row.
 #
 # ONE NAME FOR EACH CONFIGURATION, and it is the manuscript's. These labels used to be
-# descriptive strings — "YOLO11m-seg · black · COCO" — which the manuscript then had to
+# descriptive strings — "YOLO11m-seg · black · COCO", which the manuscript then had to
 # translate into S / M / X / M-white / M-scratch at writing time. That left the same
 # five configurations carrying three different names: one in the paper, one in the run
 # directories, one in this CSV, with the interface about to add a fourth. The paper's

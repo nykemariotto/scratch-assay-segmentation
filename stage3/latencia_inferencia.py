@@ -5,7 +5,7 @@ stage3/latencia_inferencia.py — what a prediction costs, per configuration.
 
 WHY THIS MATTERS. The five configurations are statistically indistinguishable in
 mAP, and the U-Net differs from them in failure mode rather than in average quality.
-When accuracy ties, the criterion for what to deploy becomes **latency** — and
+When accuracy ties, the criterion for what to deploy becomes **latency**, and
 offering the user a fast option with a declared loss of precision is a feature, not
 a concession.
 
@@ -189,7 +189,7 @@ def main():
         rap = min(yolos.values(), key=lambda l: l["mediana_ms"])
         len_ = max(yolos.values(), key=lambda l: l["mediana_ms"])
         print(f"""
-READING. On CPU — which is where a free Space runs — the fastest of the detectors is
+READING. On CPU, which is where a free Space runs — the fastest of the detectors is
 {rap['config']} ({rap['mediana_ms']:.0f} ms) and the slowest {len_['config']}
 ({len_['mediana_ms']:.0f} ms), a ratio of {len_['mediana_ms']/rap['mediana_ms']:.1f}x.
 

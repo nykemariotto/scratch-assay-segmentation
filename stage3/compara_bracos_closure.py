@@ -178,7 +178,7 @@ def main():
     print("""
 HOW TO READ THIS. The CCC is the statistic that decides: it penalises systematic
 bias, Pearson does not. A high Pearson with a low CCC means the model tracks the
-trend but gets the level wrong — and then a claim of interchangeability does not
+trend but gets the level wrong, and then a claim of interchangeability does not
 hold, whatever the IoU.
 
 The MAE is in units of closure fraction: 0.05 = five percentage points of closure.

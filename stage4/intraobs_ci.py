@@ -27,7 +27,7 @@ TWO THINGS CHANGED ON 2026-07-31.
 
 2 · THE OUTPUT IS PERSISTED. The script used to compute, print, and let documents
     copy from the console. The number ended up in EIGHT documents before anyone
-    checked how it had been computed — and it was inflated. It now writes
+    checked how it had been computed, and it was inflated. It now writes
     `stage3/intraobs_ci.json` (the estimates) and `stage3/intraobs_pares.csv`
     (pair by pair, marking who was excluded and why).
 

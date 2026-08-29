@@ -29,10 +29,10 @@ For each well, group its images (all timepoints) and measure them in one go:
    HUVEC_A2/  →  A2_0hr.tiff, A2_8hr.tiff, A2_12hr.tiff, A2_24hr.tiff
    SKOV3_34/  →  Snap-34-0h.tiff, Snap-34-24h.tiff, Snap-34-48h.tiff, Snap-34-72h.tiff
    ```
-2. **File → Import → Image Sequence** — load the well's subfolder as a stack (in timepoint order).
+2. **File → Import → Image Sequence**: load the well's subfolder as a stack (in timepoint order).
 3. **Remove the scale from the stack:** Analyze → Set Scale → Click to Remove Scale (or Image →
    Properties → unit = pixel, pixel width/height = 1). This applies to the whole stack.
-4. **Plugins → Wound healing size stacks tool** — run with the frozen parameters (radius = 20,
+4. **Plugins → Wound healing size stacks tool**: run with the frozen parameters (radius = 20,
    threshold = 100, saturated = 0.001, diagonal = Yes).
 5. The plugin measures every slice (timepoint) of the stack at once → a Results table with one row per
    slice.

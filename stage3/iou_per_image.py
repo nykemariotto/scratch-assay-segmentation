@@ -15,7 +15,7 @@ with the reference standard rasterised right there by `unet_data.rasteriza`. Not
 The reason is to avoid a silent trap: Ultralytics does its own letterbox, and
 `unet_data.letterbox` does its own. If the two padding conventions differ by a pixel
 or in rounding, the IoU of the two arms would be measured in slightly different
-spaces — and the whole comparison would be biased by an implementation detail rather
+spaces, and the whole comparison would be biased by an implementation detail rather
 than by a difference between models. At the original resolution there is no
 convention to reconcile: it is the image space as acquired.
 

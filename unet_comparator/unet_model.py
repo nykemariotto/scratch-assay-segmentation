@@ -88,7 +88,7 @@ class UNet(nn.Module):
 class BCEDiceLoss(nn.Module):
     """BCE-with-logits + Dice.
 
-    Dice alone is unstable when the mask is empty — and there are 150 negatives in
+    Dice alone is unstable when the mask is empty, and there are 150 negatives in
     the dataset, images with no annotated wound. The BCE term keeps the gradient
     defined in those cases; the eps in Dice avoids 0/0.
 

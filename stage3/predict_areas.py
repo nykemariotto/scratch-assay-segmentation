@@ -13,7 +13,7 @@ the right place with sufficient IoU, not whether the area matches.
 
 THE DETAIL THAT MATTERS: when an image has more than one instance, the masks are
 UNITED before measuring (`|`), not summed. Summing would double-count the overlap,
-and WHST — which measures the wound as a region — does not do that. The union is
+and WHST, which measures the wound as a region — does not do that. The union is
 the comparable definition.
 
   python stage3/predict_areas.py --all

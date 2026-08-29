@@ -11,7 +11,7 @@ clean allocator; here it runs right after a training epoch, with the allocator c
 full of large blocks. And it is fp32, OUTSIDE the autocast, so it asks for twice the
 memory per sample, in a different shape than training uses. If the allocator has to
 return blocks to the driver and request others, every `cudaMalloc`/`cudaFree`
-serialises — which matches the GPU reading 100% utilisation while drawing only 53 W
+serialises, which matches the GPU reading 100% utilisation while drawing only 53 W
 of 160 W.
 
 It measures four conditions, always after a real training epoch:
@@ -135,7 +135,7 @@ def main():
     print(f"""
 HOW TO READ THIS. If B or C bring the time down, the bottleneck is the allocator,
 not the computation. The epoch today is ~350 s: 95 s of training + 267 s of
-validation. With validation at ~15 s it drops to ~115 s — and the 5 seeds go from
+validation. With validation at ~15 s it drops to ~115 s, and the 5 seeds go from
 ~48 h to ~16 h.
 
 Careful: condition C changes the number. Compare the IoUs above: if they differ, the

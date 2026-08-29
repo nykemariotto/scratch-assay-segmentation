@@ -164,7 +164,7 @@ def main():
     # likely source of the instability: CosineAnnealingLR started at lr=1e-3 on the
     # very first epoch, over random weights, with batch 4. Three runs collapsed within
     # the first ~20 epochs (seed43 six times and survived; seed44 three times and died
-    # with NaN at epoch 13) — which seeds finish became a lottery, and reporting only
+    # with NaN at epoch 13), which seeds finish became a lottery, and reporting only
     # the survivors would be survivorship bias.
     #
     # The warmup is per ITERATION, not per epoch: at 233 batches per epoch, 3 epochs

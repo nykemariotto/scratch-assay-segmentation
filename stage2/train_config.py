@@ -73,7 +73,7 @@ def main():
     # ------------------------------------------------------------------
     # WHERE TO INTERCEPT. The `on_train_batch_start` callback does not work: at that
     # point `trainer.batch` does not exist yet (BaseTrainer never assigns self.batch),
-    # and the probe silently reads None — which is what happened in the first version
+    # and the probe silently reads None, which is what happened in the first version
     # of this instrument. The right point is `preprocess_batch`, which RECEIVES the
     # batch coming from the workers, still uint8, before the division by 255.
     evidencia = {}

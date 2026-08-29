@@ -5,7 +5,7 @@ predict_unet.py — predicted areas on the test set, in the format the benchmark
 The delicate point is the AREA. The network predicts on a 640x640 letterbox; the area
 the paper reports is a fraction of the ORIGINAL image. Predicting and counting pixels
 in letterbox space would give a number inflated by the padding and distorted by the
-rescaling — and area_pct is exactly the quantity that enters the closure fraction.
+rescaling, and area_pct is exactly the quantity that enters the closure fraction.
 So the mask is returned to the original space (`desfaz_letterbox`) BEFORE measuring.
 
 Output: unet_test_areas.csv with one row per test-set image
