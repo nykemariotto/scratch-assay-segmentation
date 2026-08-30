@@ -102,7 +102,7 @@ def main():
                 "temporal_order_eq_numeric": temporal_eq_numeric,
                 "timepoints": common_tps,
             }
-            print(f"    -> mesma posicao=mesmo snap entre timepoints: {pos_consistent}")
+            print(f"    -> same position = same snap across timepoints: {pos_consistent}")
             print(f"    -> ordem temporal == ordem numerica do snap: {temporal_eq_numeric}")
 
     with open("stage1/order_stability.json", "w", encoding="utf-8") as f:

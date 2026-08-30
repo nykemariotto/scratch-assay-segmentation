@@ -58,13 +58,13 @@ def numeros():
         cl = "SKOV-3" if r["linha_celular"].upper().startswith("SKOV") else "HUVEC"
         porlinha[cl] = porlinha.get(cl, 0) + 1
     n["retidas_por_linha"] = porlinha
-    # split_key, nao group_key. Sao DUAS chaves e so uma delas e a unidade sobre a
-    # qual o split foi tracado: group_key tem 265 valores (lote||tratamento||poco) e
-    # split_key tem 246, porque 19 pares foram fundidos sob SHARED__<poco> ANTES do
-    # split — o mesmo poco fisico aparece sob duas grafias de lote no banco de
-    # origem, e mante-las separadas deixaria um poco contribuir para duas particoes
-    # por inconsistencia de nome. A figura afirma "split by unit, never by image"
-    # logo abaixo deste numero, entao ele TEM de ser a unidade do split.
+    # split_key, not group_key. There are TWO keys and only one of them is the unit
+    # the split was drawn over: group_key has 265 values (batch||treatment||well)
+    # and split_key has 246, because 19 pairs were merged under SHARED__<well>
+    # BEFORE the split. The same physical well appears under two spellings of the
+    # batch in the source bank, and keeping them separate would let one well feed
+    # two partitions through a naming inconsistency. The figure asserts "split by
+    # unit, never by image" just below this number, so it HAS to be the split unit.
     n["grupos"] = len({r["split_key"] for r in ativas})
     n["particao"] = {p: sum(1 for r in ativas if r.get("partition") == p)
                      for p in ("train", "val", "test")}
@@ -73,10 +73,10 @@ def numeros():
         for f in glob.glob(os.path.join("dataset", "labels", p, "*.txt"))
         if os.path.getsize(f) == 0)
     # the partition invariant, recomputed rather than asserted.
-    # Aqui group_key de proposito, e nao split_key: verificar que nenhum CAMPO
-    # FISICO cruza particao e mais forte do que verificar a super-chave, porque a
-    # super-chave so poderia cruzar se um campo cruzasse antes. E o campo fisico e
-    # o que a afirmacao de ausencia de vazamento realmente diz.
+    # group_key on purpose here, not split_key: checking that no PHYSICAL FIELD
+    # crosses a partition is stronger than checking the super-key, because the
+    # super-key could only cross if a field crossed first. And the physical field is
+    # what the claim of no leakage actually says.
     grupos = {}
     for r in ativas:
         grupos.setdefault(r["group_key"], set()).add(r.get("partition"))

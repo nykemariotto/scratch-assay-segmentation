@@ -181,7 +181,7 @@ cm = Counter(r["motivo_classificado"] for r in pre if r["motivo_classificado"])
 for m, n in cm.most_common():
     print(f"  {m:<22} {n:>4}")
 
-# cruzamento so onde AMBOS descrevem o mesmo eixo (excesso/deslocada/fechada)
+# cross-tabulate only where BOTH describe the same axis (excess/shifted/spurious-closed)
 COMP = {"excesso": "excesso", "deslocada": "deslocada", "espuria_fechada": "espuria_fechada"}
 sinal = []
 for r in pre:

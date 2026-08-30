@@ -187,11 +187,11 @@ def metricas(regs, conf=0.8):
 
 
 # ------------------------------------------------------- cluster bootstrap
-# B=5000 em todas as assinaturas, igual ao default de stage3/aggregate.py. Cada
-# chamada do pipeline passa B explicitamente, entao estes defaults nunca decidem nada
-# hoje; ficam alinhados para que um chamador futuro que os omita nao produza intervalos
-# diferentes dos publicados. Biblioteca cujo default diverge do pipeline que a usa e
-# uma armadilha esperando o proximo script.
+# B=5000 in every signature, matching the default of stage3/aggregate.py. Every call
+# in the pipeline passes B explicitly, so these defaults decide nothing today; they
+# are kept aligned so that a future caller who omits them cannot produce intervals
+# different from the published ones. A library whose default diverges from the
+# pipeline that uses it is a trap waiting for the next script.
 def cluster_bootstrap(regs_por_img, grupo_de, fn, B=5000, seed=42, alpha=0.05):
     """Percentile CI resampling GROUPS, not images.
 

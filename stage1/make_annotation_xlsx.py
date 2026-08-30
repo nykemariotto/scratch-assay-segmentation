@@ -26,13 +26,13 @@ from openpyxl.worksheet.datavalidation import DataValidation
 SRC = "stage1/annotation_sheet.csv"
 OUT = "stage1/annotation_sheet.xlsx"
 if not os.path.isfile(SRC):
-    sys.exit(f"nao encontrei {SRC} (rode stage1/build_annotation_sheet.py)")
+    sys.exit(f"did not find {SRC} (run stage1/build_annotation_sheet.py)")
 
 rows = list(csv.DictReader(open(SRC, encoding="utf-8-sig")))
 
-# Ordem das colunas: o NOME EXATO do arquivo vem logo antes das colunas de
-# preenchimento e dentro do painel congelado, para ficar sempre visivel — e e
-# um link clicavel que abre a imagem direto (evita busca por nome parecido).
+# Column order: the EXACT file name sits immediately before the fill-in columns
+# and inside the frozen pane, so that it is always visible, and it is a clickable
+# link that opens the image directly, which avoids searching by a similar name.
 COLS = [
     ("ordem", 6, "ctx"), ("pasta_triagem", 18, "ctx"),
     ("arquivo_overlay", 58, "ctx"),
@@ -248,7 +248,7 @@ print(f"gerado: {OUT}")
 print(f"  aba 'Anotacao': {len(rows)} linhas x {len(COLS)} colunas")
 print(f"  painel congelado em {ws.freeze_panes} -> colunas A..{get_column_letter(primeira_fill-1)} "
       f"sempre visiveis (inclui o NOME DO ARQUIVO em {L['arquivo_overlay']})")
-print(f"  nome do arquivo e HIPERLINK: clicar abre a imagem direto")
+print(f"  the file name is a HYPERLINK: clicking opens the image directly")
 print(f"  listas suspensas: {L['pasta_correta?']} (sim/nao/duvida), "
       f"{L['confianca']} (alta/media/baixa), {L['categoria_sugerida']} (sugestoes + livre)")
 print(f"  anotacoes preservadas: {len(ANT)}")

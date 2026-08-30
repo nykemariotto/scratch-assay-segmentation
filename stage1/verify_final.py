@@ -2,7 +2,7 @@
 """
 stage1/verify_final.py — M3. Prova final de zero-overlap. Sai com codigo 1 se violado.
 Verifies at three levels:
-  1. nenhuma split_key cruza particoes
+  1. no split_key crosses partitions
   2. nenhuma group_key (unidade fisica, ANTES da fusao) cruza particoes
   3. the fallback worked: both versions of each shared well are together
 """
@@ -64,8 +64,8 @@ if fail:
     sys.exit(1)
 
 print("\nZERO-OVERLAP FINAL VERIFICADO")
-print("  - nenhuma split_key cruza particoes")
-print("  - nenhuma unidade fisica (group_key) cruza particoes")
+print("  - no split_key crosses partitions")
+print("  - no physical unit (group_key) crosses partitions")
 print("  - fallback applied: both versions of the 19 wells are together")
 
 # ---- tabela Supplementary ----

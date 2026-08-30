@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 QC (a) — distribution of annotation area over the whole dataset (train+val+test).
-Area = soma das areas dos POLIGONOS (shoelace), NAO o campo 'area' do COCO (que e
-area da bbox e superestima). Fracao = area_poligono / (W*H) da propria imagem
+Area = the sum of the POLYGON areas (shoelace), NOT the COCO 'area' field (which
+is the bbox area and overestimates). Fraction = polygon_area / (W*H) of the image
 (normalises 640 vs native). Groups by cell_line × timepoint. It removes nothing.
 """
 import json, csv, os

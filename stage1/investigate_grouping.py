@@ -82,7 +82,7 @@ def main():
         tps = Counter(d["tp"] for d in sub)
         print(f"Timepoints: {dict(sorted(tps.items(), key=lambda x: int(x[0])))}")
 
-        # ---------- TESTE DECISIVO 1: id (field/well/snap) cruza tratamento? ----------
+        # ---------- DECISIVE TEST 1: does id (field/well/snap) cross treatment? --------
         has_treat = any(d.get("treatment") for d in sub)
         if cohort == "SKOV_treat":
             # o "id" fino aqui e o numero de campo _N; ele cruza tratamentos?
@@ -100,7 +100,7 @@ def main():
             print("\n>>> DECISIVE: this cohort has NO recoverable treatment dimension "
                   "(nenhum rotulo de tratamento no nome/pasta/COCO).")
 
-        # ---------- TESTE DECISIVO 2: mesmo id em multiplos timepoints? ----------
+        # ---------- DECISIVE TEST 2: same id at multiple timepoints? ----------
         id_to_tps = defaultdict(set)
         for d in sub:
             id_to_tps[d["group_id"]].add(d["tp"])

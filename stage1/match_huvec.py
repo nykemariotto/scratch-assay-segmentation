@@ -2,7 +2,7 @@
 """
 stage1/match_huvec.py — Atribui (lote/experimento, tratamento) a cada imagem HUVEC anotada,
 por identidade EXATA de arquivo (MD5) contra HUVEC-RAW.
-Responde tambem o TESTE DECISIVO: o mesmo well aparece em >1 tratamento/lote?
+It also answers the DECISIVE TEST: does the same well appear in >1 treatment/batch?
 """
 import hashlib, os, json, csv, re
 from collections import defaultdict, Counter
@@ -63,13 +63,13 @@ def main():
     idx, meta = index_raw()
     print(f"  arquivos RAW: {len(meta)}   hashes distintos: {len(idx)}")
 
-    # ---------- TESTE DECISIVO: well cruza tratamento/lote? ----------
+    # ---------- DECISIVE TEST: does a well cross treatment/batch? ----------
     well_ctx = defaultdict(set)
     for m in meta:
         if m["well"]:
             well_ctx[m["well"]].add((m["batch"], m["treatment"]))
     multi = {w: v for w, v in well_ctx.items() if len(v) > 1}
-    print(f"\n>>> TESTE DECISIVO: wells que aparecem em >1 (lote,tratamento): "
+    print(f"\n>>> DECISIVE TEST: wells appearing in >1 (batch,treatment): "
           f"{len(multi)}/{len(well_ctx)}")
     for w in sorted(multi)[:6]:
         ctxs = sorted(f"{b}/{t}" for b, t in multi[w])
@@ -77,7 +77,7 @@ def main():
 
     # combinacoes lote/tratamento existentes
     combos = sorted({(m["batch"], m["treatment"]) for m in meta})
-    print(f"\nCombinacoes (lote, tratamento): {len(combos)}")
+    print(f"\nCombinations (batch, treatment): {len(combos)}")
     for b, t in combos:
         n = sum(1 for m in meta if m["batch"] == b and m["treatment"] == t)
         print(f"    {b} / {t}  -> {n} imgs")
@@ -141,7 +141,7 @@ def main():
 
     print(f"\n=== Join HUVEC anotado ===  {dict(join)}")
     hv = [r for r in out if r["linha_celular"] == "HUVEC" and r["lote"]]
-    print("\nAnotadas por (lote, tratamento):")
+    print("\nAnnotated by (batch, treatment):")
     for k, n in Counter((r["lote"], r["trat_huvec"]) for r in hv).most_common():
         print(f"    {k[0]} / {k[1] or '(sem trat)'}  -> {n}")
 

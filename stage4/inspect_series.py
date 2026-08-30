@@ -86,7 +86,7 @@ for r in qc:
 ctrl_lote = find(["n2", "PEP + NEB 1uM", "B1"])
 ctrl_sadio = find(["originais", "D1"]) or find(["Originais", "D1"])
 print("suspeitas:", SUSP)
-print("controle mesmo lote:", ctrl_lote)
+print("control, same batch:", ctrl_lote)
 print("controle saudavel  :", ctrl_sadio)
 
 TARGETS = ([(u, "SUSPEITA") for u in SUSP if u]

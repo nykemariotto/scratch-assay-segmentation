@@ -99,11 +99,11 @@ if __name__ == "__main__":
     # in the old partition (link_or_copy preserves what exists) AND adds the copy to
     # the new one -> the same physical field in 2 partitions = leakage. The
     # leakage-free partition flow is
-    # exatamente re-split -> reconverter, entao este vetor tem gatilho ativo.
+    # exactly re-split -> reconvert, so this vector has a live trigger.
     import shutil
     if os.path.isdir(ROOT):
         shutil.rmtree(ROOT)
-        print(f"limpo: {ROOT}/ (reconversao idempotente)")
+        print(f"cleared: {ROOT}/ (idempotent reconversion)")
 
     tot = [0, 0, 0, 0]
     for p in PARTS:

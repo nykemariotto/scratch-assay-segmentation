@@ -43,9 +43,10 @@ def run_name(m, pad, init, seed):
 def done(name, expected_epochs=EPOCHS):
     """Robustly finished? best.pt alone is not enough (Ultralytics writes best.pt
     continuously, so a crash midway leaves best.pt present). It requires:
-      1) sentinela COMPLETED.json com status=ok (escrito so apos exit 0);
+      1) a COMPLETED.json sentinel with status=ok (written only after exit 0);
       2) a cross-check: results.csv with the number of rows the sentinel declares;
-      3) cobertura de epocas: completou o pedido OU parou por early-stop legitimo.
+      3) epoch coverage: it finished what was asked OR stopped at a legitimate
+         early stop.
     Any inconsistency -> not finished -> it will be redone."""
     d = os.path.join(SAVE_ROOT, name)
     sentinel = os.path.join(d, "COMPLETED.json")

@@ -109,7 +109,7 @@ for r in FINAL:
 
 print(f"pares automático×corrigido formados : {len(pares)}")
 if not pares:
-    sys.exit("nenhum par formado — conferir o casamento de nomes")
+    sys.exit("no pairs formed, check the name matching")
 
 from collections import Counter
 print("\npor partição :", dict(Counter(p["part"] for p in pares)))
@@ -219,8 +219,8 @@ triaged OK have a difference of exactly zero.
 
 Consequence: this comparison is not independent and **understates** the error of
 the classical tool. It is not a defect to be fixed with statistics; it is a
-propriedade do desenho, e tem de ser declarada (é a mesma objeção de
-incorporation bias do STARD).
+property of the design, and it has to be declared: it is the same
+incorporation-bias objection that STARD raises.
 
 What saves the argument is the direction of the bias: even with the ruler tilted in
 favour of the classical tool, it fails on {sum(1 for p in pares if p['cat']=='SEG_RUIM')} of {len(pares)} images

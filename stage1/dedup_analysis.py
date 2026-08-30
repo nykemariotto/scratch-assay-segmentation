@@ -183,7 +183,7 @@ for r in rows:
     raw_by_key[key].add(a)
 
 type_b = {k: sorted(v) for k, v in raw_by_key.items() if len(v) > 1}
-print(f"grupos crus com >1 arquivo fisico (sufixo): {len(type_b)}")
+print(f"raw groups with >1 physical file (suffix): {len(type_b)}")
 checked = idic = idif = 0
 examples = []
 for (pasta, stem), files in type_b.items():

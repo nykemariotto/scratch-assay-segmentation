@@ -6,10 +6,10 @@ for the series currently outside the paired analysis for lack of a baseline.
 It copies and changes NOTHING: it only DIAGNOSES whether a plausible raw file
 exists. The decision to incorporate comes later, with the list in hand.
 
-Estrategia de busca, em ordem de confianca:
-  1. indice cru cacheado (stage4/cache_raw_index.json): pastas <lote>\\<tp>\\<arquivo>,
+Search strategy, in order of confidence:
+  1. the cached raw index (stage4/cache_raw_index.json): folders <batch>\\<tp>\\<file>,
      so a t0 is a file in the '0h'/'0hr' folder whose name contains the well.
-  2. data/hash_cache_huvec.json: mesma ideia, com metadados ja parseados.
+  2. data/hash_cache_huvec.json: the same idea, with metadata already parsed.
   3. a report of why the series lost its t0 (never existed / judged invalid /
      removed as a test image), because that changes what 'recover' means.
 """
@@ -74,13 +74,13 @@ def campo_do_nome(f):
 
 
 def procura(au, campo):
-    """t0 cru do MESMO lote/tratamento/poco/campo.
+    """A raw t0 from the SAME batch/treatment/well/field.
 
-    Casar so pelo poco e errado: o mesmo poco (ex.: 'A1') existe em varios
-    batches, and a t0 from another batch is another experiment — worse than having
-    no baseline. The folder is therefore required to contain the batch (and the
-    treatment,
-    quando ele aparece como subpasta) alem do poco e do campo.
+    Matching on the well alone is wrong: the same well (e.g. 'A1') exists in
+    several batches, and a t0 from another batch is another experiment, which is
+    worse than having no baseline. The folder is therefore required to contain the
+    batch (and the treatment, when it appears as a subfolder) as well as the well
+    and the field.
     """
     lote, trat, well = parse_au(au)
     nl, nt, wl = norm(lote), norm(trat), well.lower()
@@ -136,7 +136,7 @@ for r in sorted(sb, key=lambda r: (r["cell_line"], r["analysis_unit"])):
         for a, b in achados[:6]:
             print(f"        {a}\\{b}")
     else:
-        print("      NENHUM candidato cru (mesmo lote/tratamento/poco/campo)")
+        print("      NO raw candidate (same batch/treatment/well/field)")
 
 with open("stage4/baselines_recuperaveis.csv", "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(linhas[0].keys()))
@@ -145,7 +145,7 @@ with open("stage4/baselines_recuperaveis.csv", "w", encoding="utf-8-sig", newlin
 n_ok = sum(1 for x in linhas if x["n_candidatos_crus"])
 print(f"\n=== RESUMO ===")
 print(f"  series with no baseline       : {len(linhas)}")
-print(f"  com candidato cru encontrado  : {n_ok}")
+print(f"  with a raw candidate found    : {n_ok}")
 print(f"  with no candidate             : {len(linhas)-n_ok}")
 from collections import Counter
 print(f"  por causa: {dict(Counter(x['causa'] for x in linhas))}")

@@ -93,12 +93,13 @@ FAIXAS = [(0.0, 2.5), (2.5, 5.0), (5.0, 10.0), (10.0, 100.0)]
 # declarado, nao um limite ajustado ao resultado: a varredura arredonda area_pct e
 # iou em seis casas, e uma divergencia relativa de 1e-4 move o IoU na quarta casa,
 # abaixo de qualquer numero em que uma conclusao se apoie. A verificacao imprime a
-# divergencia MAXIMA observada ao lado deste valor, para que a margem seja lida do
-# dado e nao aceita na palavra.
+# MAXIMUM divergence observed next to this value, so that the margin is read from
+# the data and not taken on trust.
 TOL_MASCARA = 1e-4
 
-# Uma deteccao cujo escore cai a menos disto do limiar nao distingue supressao de
-# ruido no corte: ela e excluida dos dois lados da comparacao e contada a parte.
+# A detection whose score falls closer than this to the threshold cannot tell
+# suppression from noise at the cut: it leaves both sides of the comparison and is
+# counted separately.
 FOLGA_LIMIAR = 1e-3
 
 
@@ -179,17 +180,18 @@ def varre_run(pesos, nome, imagens, gts, dims, imgsz, padding, verifica=False,
                 sc_dir = np.zeros(0) if vazio else d.boxes.conf.cpu().numpy()
                 sel = np.where(escores >= t)[0]
 
-                # O QUE ESTE TESTE AFIRMA. O atalho de uma passada so vale se o NMS
-                # em conf=CONF_PISO nao suprimir uma deteccao que sobreviveria em
-                # conf=t. Esse e o risco real: caixas de escore baixo entram no NMS
-                # do piso, e uma delas poderia matar a caixa boa. Se isso acontece,
-                # o conjunto sobrevivente muda — e o teste tem de gritar.
+                # WHAT THIS TEST ASSERTS. The single-pass shortcut is valid only if
+                # NMS at conf=CONF_PISO does not suppress a detection that would
+                # survive at conf=t. That is the real risk: low-scoring boxes enter
+                # the NMS at the floor, and one of them could kill the good box. If
+                # that happens the surviving set changes, and the test has to shout.
                 #
-                # Mas uma deteccao cujo escore cai EM CIMA de t nao testa isso: com
-                # 0.799999 de um lado e 0.800001 do outro, os conjuntos diferem por
-                # ruido no corte, nao por supressao. Reprovar nisso seria repetir o
-                # erro que este bloco conserta. Entao as fronteiricas saem dos dois
-                # lados, sao contadas, e o resto tem de bater exatamente.
+                # But a detection whose score falls right ON t does not test that:
+                # with 0.799999 on one side and 0.800001 on the other, the sets
+                # differ by noise at the cut, not by suppression. Failing on that
+                # would repeat the very error this block fixes. So the borderline
+                # ones leave both sides, are counted, and the rest must match
+                # exactly.
                 a = np.sort(sc_dir[np.abs(sc_dir - t) > FOLGA_LIMIAR])[::-1]
                 b = np.sort(escores[sel][np.abs(escores[sel] - t) > FOLGA_LIMIAR])[::-1]
                 checagem["borda"] += (len(sc_dir) - len(a)) + (len(sel) - len(b))
@@ -201,15 +203,15 @@ def varre_run(pesos, nome, imagens, gts, dims, imgsz, padding, verifica=False,
                         f"filtering kept {len(b)} {b[:5]}. NMS at the floor "
                         f"suppressed something. Re-predict per threshold.")
 
-                # A MASCARA E OUTRA COISA. Mesmas deteccoes ainda podem render
-                # mascaras que diferem em alguns pixels: com um numero diferente de
-                # caixas no lote, a decodificacao dos prototipos e o corte em 0.5
-                # nao sao bit a bit reprodutiveis na GPU. Igualdade exata aqui
-                # reprova por ruido de ponto flutuante, nao por defeito — foi o que
-                # aconteceu: 1 pixel em 1.119.069 abortou a varredura inteira.
+                # THE MASK IS ANOTHER MATTER. The same detections can still yield
+                # masks differing by a few pixels: with a different number of boxes
+                # in the batch, prototype decoding and the cut at 0.5 are not
+                # bit-for-bit reproducible on the GPU. Exact equality here fails on
+                # floating-point noise, not on a defect, which is what happened:
+                # 1 pixel in 1,119,069 aborted the entire sweep.
                 #
-                # Entao NAO se afirma igualdade: mede-se a divergencia e reprova-se
-                # so quando ela e grande o bastante para mover um numero reportado.
+                # So equality is NOT asserted: the divergence is measured, and it
+                # fails only when it is large enough to move a reported number.
                 direto = (np.zeros((h, w), bool) if vazio
                           else uniao(d.masks.data.cpu().numpy() > 0.5,
                                      np.arange(len(d.masks)), (h, w)))
@@ -292,9 +294,9 @@ def main():
         sys.exit("nothing swept")
 
     if args.verifica:
-        # A margem tem de ser LIDA, nao prometida. Sem este bloco, TOL_MASCARA seria
-        # um numero que o leitor aceita na palavra; com ele, a distancia entre o
-        # ruido observado e o limite declarado esta no log.
+        # The margin has to be READ, not promised. Without this block TOL_MASCARA
+        # would be a number the reader takes on trust; with it, the distance between
+        # the observed noise and the declared limit is in the log.
         div = checagem["div"]
         piores = sorted(div, reverse=True)[:3]
         maior = piores[0][0] if piores else 0.0

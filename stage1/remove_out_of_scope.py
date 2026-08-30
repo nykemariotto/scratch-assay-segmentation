@@ -39,7 +39,7 @@ def base(f):
 rep = list(csv.DictReader(open(REPORT, encoding="utf-8-sig")))
 alvo = {r["whst_input_file"]: r for r in rep if r["motivo_classificado"] == MARCA}
 if not alvo:
-    sys.exit("nenhuma imagem marcada como fora_do_escopo")
+    sys.exit("no image marked as out_of_scope")
 print(f"images to remove: {len(alvo)}")
 for k, r in alvo.items():
     print(f"  {r['analysis_unit']:<22} tp{r['timepoint_h']:<3} {k[:56]}")

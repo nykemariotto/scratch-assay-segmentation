@@ -141,13 +141,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--conf", type=float, default=0.8,
                     help="threshold for precision/recall/F1 (does not affect mAP)")
-    # 5000, nao 2000. Os intervalos publicados sairam de 5000 reamostragens; com o
-    # default antigo quem clonasse o repositorio e rodasse sem argumento obtinha IC
-    # diferentes dos do artigo, sem nenhum aviso. As estimativas pontuais nao mudam
-    # com B — so os limites de percentil —, o que torna a divergencia discreta o
-    # bastante para passar por ruido de arredondamento. O valor usado fica gravado em
-    # table2_detalhe.json, mas isso audita depois do fato; o default e o que protege
-    # antes.
+    # 5000, not 2000. The published intervals came from 5000 resamples; under the
+    # old default, anyone cloning the repository and running without arguments got
+    # confidence intervals different from the paper's, with no warning at all. The
+    # point estimates do not change with B, only the percentile limits do, which
+    # makes the divergence quiet enough to pass for rounding noise. The value
+    # actually used is recorded in table2_detalhe.json, but that audits after the
+    # fact; the default is what protects before it.
     ap.add_argument("--B", type=int, default=5000)
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--dir", default=REGS_PADRAO,

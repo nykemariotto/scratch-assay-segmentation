@@ -122,7 +122,7 @@ if sem_vies and peq:
     print("     forma sistematica. Series mistas permanecem analisaveis; declarar")
     print("     no Methods a magnitude do ruido residual.")
 elif not sem_vies:
-    print("\n  -> VIÉS DIRECIONAL: corrigir todas as series mistas ou restringir")
+    print("\n  -> DIRECTIONAL BIAS: correct all mixed series or restrict")
     print("     a analise as homogeneas.")
 else:
     print("\n  -> Sem viés, mas deslocamento grande: reportar como incerteza")

@@ -5,11 +5,11 @@ stage1/check_coco_dims.py — CRITICAL CHECK of label integrity.
 stage1/coco_to_yolo_seg.py normalises the polygon coordinates by dividing by
 im["width"]/im["height"] of the COCO RECORD, not by the real dimension of the file.
 If the two diverge for any image, the YOLO label of that image
-esta com coordenadas normalizadas pelo denominador errado -> mascara deslocada
-ou escalada, corrompendo treino e avaliacao.
+has its coordinates normalised by the wrong denominator -> a shifted or rescaled
+mask, corrupting both training and evaluation.
 
 For each image of each partition it checks:
-  1. dimensao registrada no COCO  x  dimensao real do arquivo em disco
+  1. the dimension recorded in COCO  x  the real dimension of the file on disk
   2. if they diverge, quantifies the scale error that caused in the label
   3. checa tambem se algum label YOLO tem coordenada fora de [0,1]
 """

@@ -53,7 +53,7 @@ by_id = defaultdict(list)
 for r in recs:
     by_id[r["stem_id"]].append(r)
 collisions = {k: v for k, v in by_id.items() if len({r["path"] for r in v}) > 1}
-print(f"\ngrupos de identidade com >1 TIFF cru fisico distinto: {len(collisions)}")
+print(f"\nidentity groups with >1 distinct physical raw TIFF: {len(collisions)}")
 
 
 def gray(p):
@@ -101,7 +101,7 @@ by_md5 = defaultdict(list)
 for r in recs:
     by_md5[r["md5"]].append(r)
 dup_md5 = {h: rs for h, rs in by_md5.items() if len(rs) > 1}
-print(f"\n=== DUPLICATAS DE MEDICAO (mesmo MD5 de cru, >1 imagem test) ===")
+print(f"\n=== MEASUREMENT DUPLICATES (same raw MD5, >1 test image) ===")
 print(f"  arquivos crus fisicos unicos no test: {len(by_md5)}")
 print(f"  MD5 compartilhados por >1 imagem test: {len(dup_md5)}")
 for h, rs in list(dup_md5.items())[:10]:

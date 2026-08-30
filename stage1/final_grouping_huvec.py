@@ -44,7 +44,7 @@ OUT["lotes_com_subpasta"] = subpastas
 OUT["lote_trats"] = {lo: dict(c) for lo, c in lote_trats.items()}
 
 # in a flattened batch, does one well appear in >1 context? (0 by definition)
-print("\n  well com >1 tratamento dentro do mesmo lote:")
+print("\n  well with >1 treatment within the same batch:")
 viol = 0
 wt = collections.defaultdict(set)
 for r in hv:
@@ -338,7 +338,7 @@ OUT["split"] = dict(seed=seed, chave=CHOSEN,
                     por_tratamento={tr: dict(c) for tr, c in tr_tab.items()})
 
 # verificacao final de leakage
-print("\n  VERIFICACAO: nenhum well fisico partido entre particoes?")
+print("\n  CHECK: no physical well split across partitions?")
 phys = collections.defaultdict(set)
 for k, v in gC.items():
     for r in v:

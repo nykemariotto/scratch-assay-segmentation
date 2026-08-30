@@ -2,31 +2,31 @@
 """
 stage3/figureS1_isolated_cells.py — Supplementary Figure S1.
 
-POR QUE EXISTE. Quantificar a ferida como um unico contorno superestima a area
-aberta quando celulas se destacam e migram individualmente para dentro do vao. O manuscrito ja declara isso no terceiro item
-das Limitacoes; esta figura mostra.
+WHY IT EXISTS. Quantifying the wound as a single contour overestimates the open
+area when cells detach and migrate individually into the gap. The manuscript already
+states this in the third item of the Limitations; this figure shows it.
 
-O QUE ELA MOSTRA, E O QUE NAO MOSTRA. Ela e ILUSTRATIVA e nao quantitativa. Nao ha
-deteccao de celula individual neste trabalho, entao a fracao da area ocupada por
-celulas ja dentro do vao NAO e medida aqui nem em lugar nenhum do artigo — mede-la
-exigiria um metodo que o estudo nao tem. O que a figura demonstra e o mecanismo, e
-um ponto que importa mais: OS DOIS FLUXOS INCLUEM AS MESMAS CELULAS. O contorno do
-padrao de referencia, tracado por um observador humano, e o do modelo enquadram a
-mesma regiao, entao o vies corre na mesma direcao nos dois lados da comparacao
-pareada — que e exatamente o que o texto das Limitacoes afirma e o que preserva a
-validade do pareamento.
+WHAT IT SHOWS, AND WHAT IT DOES NOT. It is ILLUSTRATIVE and not quantitative. There
+is no single-cell detection in this work, so the fraction of the area occupied by
+cells already inside the gap is NOT measured here, nor anywhere else in the paper;
+measuring it would require a method the study does not have. What the figure
+demonstrates is the mechanism, and a point that matters more: BOTH WORKFLOWS INCLUDE
+THE SAME CELLS. The reference-standard contour, traced by a human observer, and the
+model's contour enclose the same region, so the bias runs in the same direction on
+both sides of the paired comparison, which is exactly what the Limitations text
+states and what preserves the validity of the pairing.
 
-A IMAGEM. HUVEC, 12 h pos-risco, do conjunto de teste retido. Escolhida por ter
-aglomerados isolados visiveis dentro do vao e por ter contorno corrigido no padrao
-de referencia, de modo que os dois contornos existem sobre o MESMO referencial
-(2452x2056, resolucao de aquisicao) e nao dependem de reescala.
+THE IMAGE. HUVEC, 12 h post-scratch, from the held-out test set. Chosen because it
+has visible isolated clusters inside the gap and because its reference-standard
+contour was manually corrected, so that both contours exist on the SAME frame
+(2452x2056, the acquisition resolution) and do not depend on rescaling.
 
-O RECORTE do painel B foi escolhido visualmente, sobre a regiao onde os
-aglomerados sao mais evidentes. E decisao editorial de uma figura ilustrativa, nao
-medicao, e esta declarada aqui para que ninguem a leia como criterio.
+THE CROP of panel B was chosen visually, over the region where the clusters are most
+evident. It is an editorial decision of an illustrative figure, not a measurement,
+and it is declared here so that nobody reads it as a criterion.
 
-CONTRASTE. Referencia em linha continua, modelo em tracejada: distinguiveis em
-escala de cinza, que e requisito das figuras deste manuscrito.
+CONTRAST. Reference as a solid line, model as a dashed one: distinguishable in
+greyscale, which is a requirement of the figures in this manuscript.
 
     python stage3/figureS1_isolated_cells.py
 """
@@ -89,7 +89,7 @@ def main():
         sys.exit(f"referenciais diferentes: {im.shape} vs {ref.shape} — abortado, "
                  f"sobrepor contornos exigiria reescalar um deles")
     h, w = im.shape
-    print(f"imagem {w}x{h} · referencia no mesmo referencial")
+    print(f"image {w}x{h} · reference on the same frame")
 
     import padding_patch
     padding_patch.apply("black")
@@ -97,7 +97,7 @@ def main():
     r = YOLO(PESOS).predict(p_img, conf=CONF, imgsz=640, retina_masks=True,
                             device="cpu", verbose=False)[0]
     if r.masks is None or not len(r.masks):
-        sys.exit("o modelo nao detectou nada nesta imagem")
+        sys.exit("the model detected nothing in this image")
     mod = np.any(r.masks.data.cpu().numpy() > 0.5, axis=0)
     if mod.shape != (h, w):
         mod = cv2.resize(mod.astype(np.uint8), (w, h),
