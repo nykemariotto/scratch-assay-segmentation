@@ -48,11 +48,11 @@ for img in coco["images"]:
         parts[p].append(img)
 
 print(f"Images in the base COCO : {len(coco['images'])}")
-print(f"  casadas e atribuidas: {sum(len(v) for v in parts.values())}")
-print(f"  excluidas (1 ambigua + 2 escala): {len(excluded)} -> {excluded}")
+print(f"  matched and assigned: {sum(len(v) for v in parts.values())}")
+print(f"  excluded (1 ambiguous + 2 scale): {len(excluded)} -> {excluded}")
 print(f"  UNMATCHED: {len(unmatched)}")
 if unmatched:
-    print("   amostra:", unmatched[:10])
+    print("   sample:", unmatched[:10])
 
 os.makedirs(OUT_DIR, exist_ok=True)
 tot_ann = 0

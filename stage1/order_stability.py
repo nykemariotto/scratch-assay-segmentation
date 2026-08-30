@@ -51,10 +51,10 @@ def main():
                         rows.append(dict(exp=exp, tr=tr, tp=tp, f=f, snap=snap,
                                          dt=dt, dtk=parse_dt(dt) if dt else None))
     got = sum(1 for r in rows if r["dt"])
-    print(f"arquivos: {len(rows)}  com CreationDateTime: {got}")
+    print(f"files: {len(rows)}  with CreationDateTime: {got}")
 
     # date per (exp, timepoint): confirms each timepoint is a distinct session
-    print("\n=== data/hora por sessao (exp, timepoint) ===")
+    print("\n=== date/time by session (exp, timepoint) ===")
     sess = defaultdict(list)
     for r in rows:
         if r["dtk"]:

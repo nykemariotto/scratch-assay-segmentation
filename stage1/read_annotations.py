@@ -66,8 +66,8 @@ atual = {r["whst_input_file"]: r for r in csv.DictReader(open(ATUAL, encoding="u
 
 pre = [r for r in rows if r["motivo"].strip() or r["pasta_correta?"].strip()
        or r["categoria_sugerida"].strip()]
-print(f"=== COBERTURA ===")
-print(f"  linhas na planilha        : {len(rows)}")
+print(f"=== COVERAGE ===")
+print(f"  rows in the spreadsheet   : {len(rows)}")
 print(f"  rows with any annotation: {len(pre)}  ({len(pre)/max(len(rows),1):.0%})")
 if not pre:
     sys.exit("\nNo annotation filled in yet. Fill the 'Anotacao' tab of "
@@ -82,7 +82,7 @@ for k in ("sim", "nao", "duvida"):
         print(f"  pasta_correta? = {k:<7} {vc[k]:>4}  ({vc[k]/tot:.0%})")
 outros = {k: v for k, v in vc.items() if k not in ("sim", "nao", "duvida")}
 if outros:
-    print(f"  [aviso] valores fora do vocabulario: {outros}")
+    print(f"  [warning] values outside the vocabulary: {outros}")
 err = [r for r in pre if r["pasta_correta?"].strip().lower() in ("nao", "duvida")]
 if err:
     print(f"\n  images possibly in the wrong folder: {len(err)}")
@@ -102,13 +102,13 @@ if sug:
     if fortes:
         print(f"\n  >>> candidatas a CATEGORIA NOVA (>=3 ocorrencias): {fortes}")
 else:
-    print("  nenhuma sugestao registrada")
+    print("  no suggestion recorded")
 
 # mining the free-text reasons
 STOP = set("""a o as os de do da dos das e em no na nos nas um uma que com por para
 se ja mas nao muito pouco ta esta este essa esse isso ele ela foi ser sao tem
 mais menos so pois porque como onde quando qual quais ao aos à às""".split())
-print("\n  termos recorrentes nos 'motivo' (>=3):")
+print("\n  recurring terms in 'motivo' (>=3):")
 w = Counter()
 for r in pre:
     for t in re.findall(r"[a-zA-ZÀ-ÿ_]{4,}", r["motivo"].lower()):
@@ -119,7 +119,7 @@ for t, n in w.most_common(25):
         print(f"    {t:<26} {n:>3}")
 
 # ---------------- (3) validacao do modo_falha ----------------
-print("\n=== (3) CRUZAMENTO com 'modo_falha' (computado por contencao) ===")
+print("\n=== (3) CROSS-TABULATION with 'modo_falha' (computed by containment) ===")
 print("  the operator annotated WITHOUT seeing this metric -> independent validation")
 cross = defaultdict(Counter)
 for r in pre:
@@ -192,7 +192,7 @@ for r in pre:
 if sinal:
     ok = sum(1 for s, mf in sinal if s == mf)
     print(f"\n=== (3b) CONCORDANCIA texto-livre x metrica geometrica ===")
-    print(f"  comparaveis (ambos no eixo excesso/deslocada/fechada): {len(sinal)}")
+    print(f"  comparable (both on the excesso/deslocada/fechada axis): {len(sinal)}")
     print(f"  concordam: {ok}/{len(sinal)} ({ok/len(sinal):.0%})")
     mat = Counter(sinal)
     print(f"  {'operador':<18}{'metrica':<18}{'n':>5}")

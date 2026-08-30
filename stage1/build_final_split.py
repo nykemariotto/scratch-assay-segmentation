@@ -28,7 +28,7 @@ for cl in sorted({r["linha_celular"] for r in act}):
     n_val = max(1, int(round(len(keys) * VAL_FRAC)))
     for i, k in enumerate(keys):
         assign[k] = "test" if i < n_test else ("val" if i < n_test + n_val else "train")
-    print(f"{cl}: {len(keys)} grupos -> train={len(keys)-n_test-n_val} "
+    print(f"{cl}: {len(keys)} groups -> train={len(keys)-n_test-n_val} "
           f"val={n_val} test={n_test}")
 
 for r in rows:

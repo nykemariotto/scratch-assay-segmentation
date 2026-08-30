@@ -107,7 +107,7 @@ for r in FINAL:
     pares.append({"k": k, "auto": va, "final": vf, "dif": va - vf,
                   "part": part_img.get(k, "?"), "cat": cat_img.get(k, "?")})
 
-print(f"pares automático×corrigido formados : {len(pares)}")
+print(f"automatic×corrected pairs formed    : {len(pares)}")
 if not pares:
     sys.exit("no pairs formed, check the name matching")
 
@@ -178,8 +178,8 @@ if comp:
     # domina qualquer media. Reportar mediana, e contar as catastrofes a parte —
     # they are the finding, not noise to be smoothed away.
     catas = [c for c in comp if abs(c["dif"]) > 1.0]
-    print(f"  |erro| mediano ..... {st.median(ad):.3f}   (a média é inútil aqui, ver abaixo)")
-    print(f"  fora de escala ..... {len(catas)} de {len(comp)} com |Δ| > 1,0 "
+    print(f"  median |error| .... {st.median(ad):.3f}   (the mean is useless here, see below)")
+    print(f"  out of scale ...... {len(catas)} of {len(comp)} with |Δ| > 1.0 "
           f"— baseline automática errada faz a razão explodir")
     print(f"  |erro| > 0,10 ...... {sum(1 for v in ad if v > .10)} de {len(ad)} "
           f"({100*sum(1 for v in ad if v > .10)/len(ad):.0f}%)")
@@ -204,7 +204,7 @@ with open("stage3/benchmark_classical_long.csv", "w", newline="", encoding="utf-
                     "closure_whst_auto": round(c["auto"], 6),
                     "closure_reference": round(c["ref"], 6),
                     "diferenca": round(c["dif"], 6)})
-print(f"\nescrito: stage3/benchmark_classical_long.csv ({len(comp)} linhas)")
+print(f"\nwrote: stage3/benchmark_classical_long.csv ({len(comp)} rows)")
 
 print("\n" + "=" * 74)
 print("INCORPORATION BIAS — declare this, do not hide it")

@@ -118,12 +118,12 @@ print(f"  directional bias : {'NO' if sem_vies else 'YES'}  (sign test p={p_sign
 print(f"  median shift     : {np.median(da):.4f} ({'<' if peq else '>='} 0.05 of closure)")
 if sem_vies and peq:
     print("\n  -> MISTURA VALIDADA na pratica.")
-    print("     O |delta| de 10% e DISPERSAO, nao viés: nao desloca a closure de")
-    print("     forma sistematica. Series mistas permanecem analisaveis; declarar")
+    print("     The 10% |delta| is DISPERSION, not bias: it does not shift the closure")
+    print("     systematically. Mixed series stay analysable; declare the")
     print("     no Methods a magnitude do ruido residual.")
 elif not sem_vies:
     print("\n  -> DIRECTIONAL BIAS: correct all mixed series or restrict")
-    print("     a analise as homogeneas.")
+    print("     the analysis to the homogeneous ones.")
 else:
-    print("\n  -> Sem viés, mas deslocamento grande: reportar como incerteza")
-    print("     e considerar corrigir as series mistas.")
+    print("\n  -> No bias, but a large offset: report it as uncertainty")
+    print("     and consider correcting the mixed series.")

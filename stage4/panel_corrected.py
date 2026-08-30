@@ -156,7 +156,7 @@ elif "--serie" in sys.argv:
     alvo = sys.argv[sys.argv.index("--serie") + 1]
     ks = [k for k in bys if alvo.lower() in k.lower()]
     if not ks:
-        sys.exit(f"nenhuma serie casa com {alvo!r}")
+        sys.exit(f"no series matches {alvo!r}")
     painel(sorted(ks), f"painel_serie.png", f"SERIE: {alvo}")
 else:
     print(__doc__)

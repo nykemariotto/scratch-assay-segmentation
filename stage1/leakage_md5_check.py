@@ -32,10 +32,10 @@ for x in rows:
         path_md5[p] = md5(p) if os.path.exists(p) else None
     n += 1
     if n % 200 == 0:
-        print(f"  {n}/{len(rows)}  (caminhos unicos hasheados: {len(path_md5)})")
+        print(f"  {n}/{len(rows)}  (unique paths hashed: {len(path_md5)})")
 
 miss = [p for p, h in path_md5.items() if h is None]
-print(f"\ncaminhos crus unicos: {len(path_md5)} | inexistentes: {len(miss)}")
+print(f"\nunique raw paths: {len(path_md5)} | missing: {len(miss)}")
 
 # group by MD5 -> list of images (partition, group_key, arquivo_b, arquivo_a, path)
 by_md5 = defaultdict(list)
@@ -47,9 +47,9 @@ for x in rows:
                           "b": x["arquivo_b"], "a": x["arquivo_a"], "path": p})
 
 multi = {h: v for h, v in by_md5.items() if len(v) > 1}
-print(f"\n=== GRUPOS DE MD5 IDENTICO (conteudo cru duplicado) ===")
-print(f"  MD5 distintos no dataset: {len(by_md5)}")
-print(f"  grupos de MD5 com >1 imagem: {len(multi)}")
+print(f"\n=== GROUPS WITH AN IDENTICAL MD5 (duplicated raw content) ===")
+print(f"  distinct MD5s in the dataset: {len(by_md5)}")
+print(f"  MD5 groups with >1 image: {len(multi)}")
 
 cross = []
 for h, v in multi.items():
@@ -69,13 +69,13 @@ else:
     print("  none -> NO LEAKAGE from content duplication")
 
 # detail of the MD5 groups (all of them, even intra-partition) for the report
-print(f"\n=== detalhe: grupos de MD5 duplicado (todos) ===")
+print(f"\n=== detail: duplicated MD5 groups (all of them) ===")
 for h, v in multi.items():
     parts = sorted({r["part"] for r in v})
     grps = sorted({r["grp"] for r in v})
     same = "MESMA particao/grupo" if len(parts) == 1 and len(grps) == 1 else \
            ("same partition, different groups" if len(parts) == 1 else "CROSSES PARTITION")
-    print(f"  md5={h[:12]} x{len(v)} particoes={parts} grupos={len(grps)} -> {same}")
+    print(f"  md5={h[:12]} x{len(v)} partitions={parts} groups={len(grps)} -> {same}")
     for r in v:
         print(f"      [{r['part']}] {r['a']}")
 

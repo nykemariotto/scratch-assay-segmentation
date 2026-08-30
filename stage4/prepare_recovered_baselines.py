@@ -65,7 +65,7 @@ for au, campo, rel, sk in CAND:
     if md5 in ja_md5:
         print(f"  [PULA] ja no pipeline (md5 {md5[:10]}): {rel[-1]}"); continue
     if sk not in ser_exist:
-        print(f"  [AVISO] series_key inexistente no QC: {sk}")
+        print(f"  [WARNING] series_key not present in the QC table: {sk}")
     novo = (f"{md5[:10]}__BASELINE_REC__HUVEC__{san(au)}__tp0h__{san(rel[-1])}.tiff")
     dst = os.path.join(STAGE, novo)
     shutil.copy2(src, dst)
@@ -84,8 +84,8 @@ with open(MANIF, "w", encoding="utf-8-sig", newline="") as f:
     w.writeheader(); w.writerows(rows)
 
 print(f"\n{len(rows)} images in {STAGE}/  | manifest: {MANIF}")
-print("\nPROXIMO PASSO — medir com o MESMO pipeline automatico:")
+print("\nNEXT STEP: measure with the SAME automatic pipeline:")
 print("  Fiji: Plugins > Macros > Run... -> stage4/whst_batch.ijm")
 print(f"        image folder     : <project>{SEP}{STAGE}")
-print(f"        pasta de saida   : <projeto>{SEP}whst_output_novos")
-print("  Depois: python stage4/integrate_recovered_baselines.py")
+print(f"        output folder    : <project>{SEP}whst_output_novos")
+print("  Then: python stage4/integrate_recovered_baselines.py")

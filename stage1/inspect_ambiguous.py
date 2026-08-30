@@ -81,4 +81,4 @@ y = gap
 for b in blocks:
     panel.paste(b, (0, y)); y += b.height + gap
 panel.save(OUT)
-print(f"salvo {OUT}  ({len(blocks)} unidades, {panel.width}x{panel.height})")
+print(f"saved {OUT}  ({len(blocks)} units, {panel.width}x{panel.height})")

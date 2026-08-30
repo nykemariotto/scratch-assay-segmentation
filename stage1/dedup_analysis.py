@@ -54,7 +54,7 @@ by_hash = defaultdict(list)
 for fb, d in info.items():
     by_hash[d["ph"]].append(fb)
 exact_clusters = {h: fbs for h, fbs in by_hash.items() if len(fbs) > 1}
-print(f"\nClusters de pixel EXATO (>1 imagem): {len(exact_clusters)}")
+print(f"\nEXACT pixel clusters (>1 image): {len(exact_clusters)}")
 
 # -------- near-dup cross-resolucao dentro do mesmo stem (640 vs nativo do mesmo campo) --------
 # only between images with the same normalised stem that do not share an exact hash
@@ -90,8 +90,8 @@ clusters = defaultdict(list)
 for fb in info:
     clusters[find(fb)].append(fb)
 multi = {k: v for k, v in clusters.items() if len(v) > 1}
-print(f"Clusters fisicos com >1 imagem (exato + near-dup cross-resolucao): {len(multi)}")
-print(f"  pares near-dup cross-resolucao (0.999<=corr<1, tam diferente): {len(near_pairs)}")
+print(f"Physical clusters with >1 image (exact + cross-resolution near-dup): {len(multi)}")
+print(f"  cross-resolution near-dup pairs (0.999<=corr<1, different size): {len(near_pairs)}")
 
 # -------- cross-partition: does a physical cluster appear in >1 partition? --------
 print("\n=== PHYSICAL DUPLICATES THAT CROSS PARTITIONS ===")
@@ -103,10 +103,10 @@ for rep, fbs in multi.items():
         cross.append((fbs, parts, grps))
 print(f"physical clusters in >1 partition: {len(cross)}")
 for fbs, parts, grps in cross[:12]:
-    print(f"  {sorted(parts)} | grupos={len(grps)} | {[f[:28] for f in fbs]}")
+    print(f"  {sorted(parts)} | groups={len(grps)} | {[f[:28] for f in fbs]}")
 same_grp_cross = sum(1 for _, p, g in cross if len(g) == 1)
 print(f"  of those, with the SAME group_key (intra-group redundancy, not leakage): {same_grp_cross}")
-print(f"  com group_key DIFERENTE (investigar!): {len(cross)-same_grp_cross}")
+print(f"  with a DIFFERENT group_key (investigate!): {len(cross)-same_grp_cross}")
 
 # =========================================================================
 # data/test_set_dedup.csv : one row per test image, keep/removed
@@ -155,7 +155,7 @@ with open("data/test_set_dedup.csv", "w", encoding="utf-8-sig", newline="") as f
 
 n_keep = sum(o["keep"] for o in out)
 print(f"\n=== data/test_set_dedup.csv ===")
-print(f"  linhas (test): {len(out)}")
+print(f"  rows (test): {len(out)}")
 print(f"  UNIQUE physical images to measure (keep=1): {n_keep}")
 print(f"  removidas como duplicata: {len(out)-n_keep}")
 from collections import Counter
@@ -164,7 +164,7 @@ print(f"  motivos: {dict(Counter(o['dup_reason'] for o in out if not o['keep']))
 # =========================================================================
 # MD5 + pixel check of the type-(b) RAW pairs [suffix (N)] in bank A
 # =========================================================================
-print("\n=== PARES CRUS TIPO (b) — sufixo (N) — MD5 + pixel ===")
+print("\n=== RAW PAIRS OF TYPE (b), suffix (N): MD5 + pixel ===")
 def md5(p):
     h = hashlib.md5()
     with open(p, "rb") as f:
@@ -207,7 +207,7 @@ for (pasta, stem), files in type_b.items():
             idif += 1
             if len(examples) < 6: examples.append((stem, files, "CONTEUDO DISTINTO (campos diferentes)"))
 
-print(f"  pares checados: {checked} | conteudo identico: {idic} | conteudo distinto: {idif}")
+print(f"  pairs checked: {checked} | identical content: {idic} | distinct content: {idif}")
 for stem, files, verdict in examples:
     print(f"    [{verdict}] {stem}: {files}")
 

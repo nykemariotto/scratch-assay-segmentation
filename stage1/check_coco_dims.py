@@ -50,23 +50,23 @@ for part in ("train", "val", "test"):
             divergentes.append((part, fn, (W, H), (rw, rh),
                                 f"escala x={rw/W:.4f} y={rh/H:.4f}"))
 
-print("=== DIMENSOES: registro COCO x arquivo real ===")
+print("=== DIMENSIONS: COCO record x real file ===")
 print(f"  images checked: {tot}")
 print(f"  DIVERGENTES: {div}")
 print()
-print(f"  distribuicao no COCO  : {dict(dims_coco)}")
-print(f"  distribuicao no disco : {dict(dims_real)}")
+print(f"  distribution in COCO  : {dict(dims_coco)}")
+print(f"  distribution on disk  : {dict(dims_real)}")
 if divergentes:
     print("\n  casos divergentes (ate 20):")
     for part, fn, c, r, obs in divergentes[:20]:
         print(f"    [{part}] {fn[:56]}")
         print(f"        COCO={c}  real={r}  {obs}")
 else:
-    print("\n  -> TODAS as dimensoes conferem: a normalizacao usou o denominador")
-    print("     correto, portanto os labels YOLO estao integros quanto a escala.")
+    print("\n  -> EVERY dimension matches: the normalisation used the right")
+    print("     denominator, so the YOLO labels are sound as far as scale goes.")
 
 # ---- checagem independente: coordenadas fora de [0,1] nos labels ----
-print("\n=== LABELS YOLO: coordenadas fora de [0,1] ===")
+print("\n=== YOLO LABELS: coordinates outside [0,1] ===")
 fora = 0
 vazios = 0
 nlab = 0
@@ -94,13 +94,13 @@ for part in ("train", "val", "test"):
         if mx > 0.5 + 1e-6:
             piores.append((part, f, mx))
 print(f"  labels: {nlab} ({vazios} vazios)")
-print(f"  coordenadas fora de [0,1]: {fora}")
+print(f"  coordinates outside [0,1]: {fora}")
 if piores:
-    print(f"  arquivos com coordenada fora: {len(piores)} (ate 10)")
+    print(f"  files with an out-of-range coordinate: {len(piores)} (up to 10)")
     for p, f, m in piores[:10]:
         print(f"    [{p}] {f[:60]}  desvio_max={m:.4f}")
 else:
-    print("  -> nenhuma coordenada fora do intervalo")
+    print("  -> no coordinate outside the range")
 
 # ---- populacao 640: inventario x dataset ----
 print("\n=== POPULACAO 640x640: inventario x dataset materializado ===")

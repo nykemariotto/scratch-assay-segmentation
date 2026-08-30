@@ -33,7 +33,7 @@ def template():
     hum, auto = load()
     amb = [r for r in hum if r["categoria"] == "AMBIGUO"]
     if not amb:
-        sys.exit("nenhum AMBIGUO em data/visual_triage.csv (ja adjudicado?)")
+        sys.exit("no AMBIGUOUS row in data/visual_triage.csv (already adjudicated?)")
     rows = []
     for r in sorted(amb, key=lambda r: (auto[r["whst_input_file"]]["analysis_unit"],
                                         int(r["timepoint_h"]))):
@@ -43,10 +43,10 @@ def template():
                      "whst_input_file": r["whst_input_file"], "decisao": ""})
     with open(ADJ, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
-    print(f"gerado {ADJ} com {len(rows)} AMBIGUO.")
+    print(f"wrote {ADJ} with {len(rows)} AMBIGUOUS rows.")
     print("Preencha a coluna 'decisao' com: OK | super | sub | invalida")
     print("Use o painel inspect_ambiguous.png (vermelho = o frame a adjudicar).")
-    print("Depois rode: python stage1/adjudicate_ambiguous.py --apply")
+    print("Then run: python stage1/adjudicate_ambiguous.py --apply")
 
 
 def apply():
@@ -59,7 +59,7 @@ def apply():
         sys.exit(f"ABORTED: {len(faltando)} row(s) with no decision filled in.")
     if invalidas:
         for a in invalidas:
-            print("  invalida:", repr(a["decisao"]), "em", a["whst_input_file"][:50])
+            print("  invalid:", repr(a["decisao"]), "em", a["whst_input_file"][:50])
         sys.exit(f"ABORTED: use only {sorted(VALID)}")
 
     hum, _ = load()
@@ -76,8 +76,8 @@ def apply():
         w = csv.DictWriter(f, fieldnames=list(hum[0].keys())); w.writeheader(); w.writerows(hum)
     from collections import Counter
     print(f"aplicadas {n} adjudicacoes em {HUM} (backup: {HUM}.pre_adjudicacao.bak)")
-    print("  distribuicao:", dict(Counter(a["decisao"].strip() for a in adj)))
-    print("\nAGORA RE-RODE (obrigatorio, p/ fechar os vereditos de serie):")
+    print("  distribution:", dict(Counter(a["decisao"].strip() for a in adj)))
+    print("\nNOW RE-RUN (required, to close the series verdicts):")
     print("  python stage4/whst_series_analysis.py")
     print("  python stage4/build_correction_worklist.py")
 

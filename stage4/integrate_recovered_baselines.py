@@ -62,7 +62,7 @@ for m in man:
     if not r:
         print(f"  [SKIP] no WHST measurement: {fn[:56]}"); continue
     if r.get("status") != "ok":
-        print(f"  [AVISO] status={r.get('status')} em {fn[:48]} — area indisponivel")
+        print(f"  [WARNING] status={r.get('status')} in {fn[:48]}: area unavailable")
     b = base(fn)
     mv(os.path.join(STAGE_IN, fn), os.path.join("whst_input", fn))
     for sub, suf in (("rois", ".roi"), ("masks", "_mask.png"),
@@ -135,8 +135,8 @@ with open(WL, "w", encoding="utf-8-sig", newline="") as f:
 print(f"\nintegrados: {len(novos)}  |  worklist: {WL} ({len(rows)} frames)")
 print("area_pct medida:", {m["whst_input_file"][:10]: m["area_pct"] for m in novos})
 print("\nNEXT: Fiji -> stage4/whst_manual_correction.ijm -> pass '5 - baselines recuperados'")
-print("Depois:  python stage4/apply_corrections.py && python stage4/whst_series_analysis.py "
+print("Then:    python stage4/apply_corrections.py && python stage4/whst_series_analysis.py "
       "&& python stage4/final_closure_table.py")
 for d in (STAGE_IN, STAGE_OUT):
     rest = sum(len(fs) for _, _, fs in os.walk(d)) if os.path.isdir(d) else 0
-    print(f"  {d}/: {rest} arquivo(s) restante(s)")
+    print(f"  {d}/: {rest} file(s) left")

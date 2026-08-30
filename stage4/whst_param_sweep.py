@@ -176,7 +176,7 @@ FIEL = np.median(rel) < 15
 print(f"  -> reimplementation {'FAITHFUL (continue)' if FIEL else 'DIVERGENT (sweep not trustworthy!)'}")
 
 # ---------------- tabela por imagem ----------------
-print("\n=== area_pct por imagem x conjunto ===")
+print("\n=== area_pct per image x set ===")
 print(f"{'grupo':<24}{'tp':>4}{'P0':>9}{'P1':>9}{'P2':>9}{'P3':>9}   unidade")
 by = defaultdict(dict)
 for x in rows:

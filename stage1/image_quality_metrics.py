@@ -99,7 +99,7 @@ for i, r in enumerate(rows, 1):
 with open("data/image_quality_metrics.csv", "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
     w.writeheader(); w.writerows(out)
-print(f"\nSalvo: data/image_quality_metrics.csv ({len(out)} linhas)")
+print(f"\nSaved: data/image_quality_metrics.csv ({len(out)} rows)")
 
 # ---- distribuicoes ----
 import statistics as st
@@ -117,7 +117,7 @@ for p in ("train", "val", "test"):
     v = np.array([x["otsu_eta"] for x in out if x["partition"] == p])
     print(f"  {p:<6} n={len(v):>4}  mediana={np.median(v):.4f}  p10={np.percentile(v,10):.4f}")
 
-print("\n=== otsu_eta por resolucao (checagem de comparabilidade) ===")
+print("\n=== otsu_eta by resolution (comparability check) ===")
 for rr in ("nativo", "640"):
     v = np.array([x["otsu_eta"] for x in out if x["res"] == rr])
     if len(v):

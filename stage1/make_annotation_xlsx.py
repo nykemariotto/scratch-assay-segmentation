@@ -244,7 +244,7 @@ ws.add_data_validation(dv_sug)
 dv_sug.add(f"{L['categoria_sugerida']}2:{L['categoria_sugerida']}{last}")
 
 wb.save(OUT)
-print(f"gerado: {OUT}")
+print(f"wrote: {OUT}")
 print(f"  aba 'Anotacao': {len(rows)} linhas x {len(COLS)} colunas")
 print(f"  painel congelado em {ws.freeze_panes} -> colunas A..{get_column_letter(primeira_fill-1)} "
       f"sempre visiveis (inclui o NOME DO ARQUIVO em {L['arquivo_overlay']})")

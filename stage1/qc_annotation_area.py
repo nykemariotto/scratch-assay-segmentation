@@ -68,13 +68,13 @@ susp = [r for r in with_ann if r["frac"] < thr(r["tp"])]
 from collections import Counter
 print(f"images with an annotation below the threshold: {len(susp)}")
 print(f"  by partition: {dict(Counter(r['part'] for r in susp))}")
-print(f"  por cell x tp: {dict(Counter((r['cell'],r['tp']) for r in susp))}")
-print(f"  no TEST (critico p/ mAP): {sum(1 for r in susp if r['part']=='test')}")
+print(f"  by cell x tp: {dict(Counter((r['cell'],r['tp']) for r in susp))}")
+print(f"  in TEST (critical for mAP): {sum(1 for r in susp if r['part']=='test')}")
 
 # ---- empty images (0 ann) by timepoint/partition (negatives, or missing?) ----
 print("\n=== IMAGES WITHOUT ANNOTATION (0 polygons) ===")
 print(f"  total: {len(empty)} | by partition: {dict(Counter(r['part'] for r in empty))}")
-print(f"  por cell x tp: {dict(Counter((r['cell'],r['tp']) for r in empty))}")
+print(f"  by cell x tp: {dict(Counter((r['cell'],r['tp']) for r in empty))}")
 print(f"  0h without annotation (suspicious — 0h should have a wound): "
       f"{sum(1 for r in empty if r['tp']=='0')}")
 
@@ -95,4 +95,4 @@ with open("data/qc_flagged.csv", "w", encoding="utf-8-sig", newline="") as f:
                     round(r["frac"], 3), f"<{thr(r['tp'])}% (fragmento provavel)"])
     for r in sorted(empty, key=lambda r: (r["cell"], r["tp"])):
         w.writerow([r["file"], r["cell"], r["tp"], r["part"], r["res"], 0, 0.0, "sem anotacao (0 poligonos)"])
-print("\nSalvos: stage1/qc_annotation_area.csv (todas), data/qc_flagged.csv (cauda + vazias)")
+print("\nSaved: stage1/qc_annotation_area.csv (all), data/qc_flagged.csv (tail + empty)")

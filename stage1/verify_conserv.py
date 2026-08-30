@@ -42,28 +42,28 @@ print("n_grupos:", len(groups))
 sizes = sorted(groups.values())
 import statistics
 print("min/med/max/mean:", sizes[0], statistics.median(sizes), sizes[-1], round(sum(sizes)/len(sizes),2))
-print("grupos com 1 imagem:", sum(1 for s in sizes if s==1))
+print("groups with 1 image:", sum(1 for s in sizes if s==1))
 
 # split
 sp = collections.Counter(r['split_huvec'] for r in g_filled)
-print("split imagens:", sp, "sum:", sum(sp.values()))
+print("split images:", sp, "sum:", sum(sp.values()))
 print("pct:", {k: round(100*v/len(g_filled),1) for k,v in sp.items()})
 gsplit = {}
 for r in g_filled:
     gsplit.setdefault(r['grp_huvec'], set()).add(r['split_huvec'])
 multi = {k:v for k,v in gsplit.items() if len(v)>1}
-print("GRUPOS EM >1 SPLIT:", len(multi), list(multi.items())[:5])
-print("split grupos:", collections.Counter(next(iter(v)) for v in gsplit.values()))
+print("GROUPS IN >1 SPLIT:", len(multi), list(multi.items())[:5])
+print("split groups:", collections.Counter(next(iter(v)) for v in gsplit.values()))
 
 # timepoints per group
 tpg = {}
 for r in g_filled:
     tpg.setdefault(r['grp_huvec'], set()).add(r['timepoint_h'])
-print("timepoints por grupo:", collections.Counter(len(v) for v in tpg.values()))
-print("wells com >1 tp:", sum(1 for v in tpg.values() if len(v)>1), "/", len(tpg))
+print("timepoints per group:", collections.Counter(len(v) for v in tpg.values()))
+print("wells with >1 tp:", sum(1 for v in tpg.values() if len(v)>1), "/", len(tpg))
 print("timepoint split:", collections.Counter((r['timepoint_h'], r['split_huvec']) for r in g_filled))
 
 # lote_canon
-print("lotes canon:", collections.Counter(r['lote_canon'] for r in g_filled))
+print("canonical batches:", collections.Counter(r['lote_canon'] for r in g_filled))
 print("trat:", collections.Counter(r['trat_huvec'] for r in g_filled))
 print("resolucao:", collections.Counter(r['resolucao'] for r in hu))

@@ -26,11 +26,11 @@ for r in sub:
     wells[r["well_campo"]][r["lote_canon"]].append(r)
 
 shared = sorted(w for w, d in wells.items() if len(d) > 1)
-print(f"\nWells presentes nos DOIS lotes: {len(shared)} -> {shared}")
+print(f"\nWells present in BOTH batches: {len(shared)} -> {shared}")
 
 # ---------------------------------------------------------------- TESTE 1
 print("\n" + "=" * 72)
-print("TESTE 1: a chave composta separa os dois lotes?")
+print("TEST 1: does the composite key separate the two batches?")
 print("=" * 72)
 all_separated = True
 for w in shared:
@@ -39,13 +39,13 @@ for w in shared:
     ov = ga & gb
     if ov:
         all_separated = False
-        print(f"  Well {w}: MESMO GRUPO (X)  overlap={ov}")
+        print(f"  Well {w}: SAME GROUP (X)  overlap={ov}")
     else:
         print(f"  Well {w}: SEPARADOS (OK)  {sorted(ga)} | {sorted(gb)}")
 
 # ---------------------------------------------------------------- TESTE 2
 print("\n" + "=" * 72)
-print("TESTE 2: contagem de campos no 0h (pocos fisicamente distintos?)")
+print("TEST 2: field count at 0h (physically distinct wells?)")
 print("=" * 72)
 n_distinct = 0
 for w in shared:
@@ -57,7 +57,7 @@ for w in shared:
     print(f"  Well {w}: {{{LAB_A}: {ca}, {LAB_B}: {cb}}} -> {tag}")
 
 # global count per timepoint (batch evidence, more robust than per well)
-print("\n  Contagem TOTAL por timepoint (evidencia de lote):")
+print("\n  TOTAL count by timepoint (evidence of the batch):")
 for lab in (LAB_A, LAB_B):
     c = Counter(r["timepoint_h"] for r in sub if r["lote_canon"] == lab)
     print(f"    {lab:<16}: {dict(sorted(c.items(), key=lambda x: int(x[0])))}"
@@ -82,7 +82,7 @@ for w in shared:
     if pa != pb or (pa | pb) != (pa & pb):
         n_diff_part += 1
         print(f"  Well {w}: {LAB_A}->{sorted(pa)}  {LAB_B}->{sorted(pb)}")
-print(f"\n  Wells cujos dois lotes caem em particoes diferentes: {n_diff_part}/{len(shared)}")
+print(f"\n  Wells whose two batches fall in different partitions: {n_diff_part}/{len(shared)}")
 print("  (the fallback would force these into the same partition; only sensible if they are the SAME well)")
 
 # ---------------------------------------------------------------- conclusao
@@ -90,11 +90,11 @@ print("\n" + "=" * 72)
 print("CONCLUSAO")
 print("=" * 72)
 if all_separated:
-    print("TESTE 1: a chave composta JA separa os dois lotes em TODOS os wells")
-    print("         compartilhados (o lote e o primeiro componente de grp_huvec).")
-    print(f"TESTE 2: {n_distinct}/{len(shared)} wells tem contagem de campos diferente no 0h.")
+    print("TEST 1: the composite key ALREADY separates the two batches in EVERY")
+    print("        shared well (the batch is the first component of grp_huvec).")
+    print(f"TEST 2: {n_distinct}/{len(shared)} wells have a different field count at 0h.")
     print("\n-> THE FALLBACK IS REDUNDANT for the goal of 'not splitting a well':")
-    print("   os dois lotes ja formam grupos naturalmente distintos.")
+    print("   the two batches already form naturally distinct groups.")
     print("   Applying it would merely MERGE distinct experiments, reducing effective")
     print("   independence with no gain in safety.")
 else:

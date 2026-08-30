@@ -86,7 +86,7 @@ def describe(v, rot, pct=True):
 
 # ------------------------- self-test -------------------------
 def selftest():
-    print("=== AUTOTESTE das metricas ===")
+    print("=== SELF-TEST of the metrics ===")
     a = np.zeros((100, 100), bool); a[10:60, 10:60] = True      # 2500 px
     b = np.zeros((100, 100), bool); b[10:60, 10:60] = True
     assert abs(iou(a, b) - 1.0) < 1e-12, "IoU identico deve ser 1"

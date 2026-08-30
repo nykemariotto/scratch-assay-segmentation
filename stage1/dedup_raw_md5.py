@@ -46,7 +46,7 @@ for x in test:
                      "timepoint": x["timepoint_h"], "stem": norm(re.sub(r"\.(tiff?|png)$", "", x["arquivo_a"])),
                      "stem_id": x["stem_normalizado"], "path": p, "file": x["arquivo_a"],
                      "md5": md5cache[p]})
-print(f"  arquivos crus MD5-hasheados: {len(md5cache)}  (linhas test com cru: {len(recs)})")
+print(f"  raw files MD5-hashed: {len(md5cache)}  (test rows with a raw file: {len(recs)})")
 
 # ---- grupos de mesma identidade normalizada (stem_id do dataset) com >1 arquivo fisico ----
 by_id = defaultdict(list)
@@ -60,7 +60,7 @@ def gray(p):
     return np.asarray(Image.open(p).convert("L"), dtype=np.float32)
 
 
-print("\n=== EVIDENCIA: pares de mesma identidade — MD5, dims, pixel ===")
+print("\n=== EVIDENCE: pairs of the same identity: MD5, dims, pixel ===")
 shown = 0
 n_identico = n_distinto = 0
 for stem_id, rs in sorted(collisions.items()):
@@ -94,7 +94,7 @@ for stem_id, rs in sorted(collisions.items()):
             print(f"       {f:<26} md5={h[:12]}  dims={d[1]}x{d[0]}")
         shown += 1
 
-print(f"\ngrupos de identidade: {n_identico} IDENTICOS (MD5), {n_distinto} DISTINTOS")
+print(f"\nidentity groups: {n_identico} IDENTICAL (MD5), {n_distinto} DISTINCT")
 
 # ---- duplicatas de MEDICAO: >1 imagem do test com o MESMO md5 de cru ----
 by_md5 = defaultdict(list)
@@ -102,8 +102,8 @@ for r in recs:
     by_md5[r["md5"]].append(r)
 dup_md5 = {h: rs for h, rs in by_md5.items() if len(rs) > 1}
 print(f"\n=== MEASUREMENT DUPLICATES (same raw MD5, >1 test image) ===")
-print(f"  arquivos crus fisicos unicos no test: {len(by_md5)}")
-print(f"  MD5 compartilhados por >1 imagem test: {len(dup_md5)}")
+print(f"  unique physical raw files in the test set: {len(by_md5)}")
+print(f"  MD5s shared by >1 test image: {len(dup_md5)}")
 for h, rs in list(dup_md5.items())[:10]:
     print(f"    md5={h[:12]}: {[r['file'] for r in rs]} | grupos={sorted(set(r['group_key'] for r in rs))}")
 

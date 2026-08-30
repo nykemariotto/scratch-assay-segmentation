@@ -86,20 +86,20 @@ def main():
     dups = {k: v for k, v in matched_key.items() if len(v) > 1}
 
     print("=== INTEGRIDADE ===")
-    print(f"  arquivos .jpg encontrados na arvore : {n + len(orphans)}")
-    print(f"  casados com o mapa                  : {n}")
-    print(f"  esperado (mapa)                     : {N}")
+    print(f"  .jpg files found in the tree        : {n + len(orphans)}")
+    print(f"  matched to the map                  : {n}")
+    print(f"  expected (from the map)             : {N}")
     print(f"  missing (in the map, no file)       : {len(missing)}")
-    print(f"  duplicados (>1 arquivo p/ 1 entrada): {len(dups)}")
-    print(f"  orfaos (arquivo fora do mapa)       : {len(orphans)}")
+    print(f"  duplicated (>1 file per entry)      : {len(dups)}")
+    print(f"  orphans (file outside the map)      : {len(orphans)}")
     for w in warns:
-        print(f"  [aviso] {w}")
+        print(f"  [warning] {w}")
     for k in missing[:20]:
-        print(f"  [faltando] {k}")
+        print(f"  [missing] {k}")
     for k, v in list(dups.items())[:20]:
-        print(f"  [duplicado] {k} -> {v}")
+        print(f"  [duplicate] {k} -> {v}")
     for o in orphans[:20]:
-        print(f"  [orfao] {o}")
+        print(f"  [orphan] {o}")
 
     ok_total = (n == N and not missing and not dups and not orphans)
     print(f"\n  SUM MATCHES {N} and NO LOSS/DUP/ORPHAN: {'YES' if ok_total else 'NO'}")
@@ -123,10 +123,10 @@ def main():
     # ---- resumo por categoria ----
     from collections import Counter
     cnt = Counter((r["categoria"], r["subtipo"]) for r in out_rows)
-    print("\n=== CONTAGEM POR CATEGORIA ===")
+    print("\n=== COUNT BY CATEGORY ===")
     for (c, s), k in sorted(cnt.items()):
         print(f"  {c:<20} {s:<8} {k:>4}")
-    print(f"\nSalvo: {OUT} ({len(out_rows)} linhas)")
+    print(f"\nSaved: {OUT} ({len(out_rows)} rows)")
     sys.exit(0 if ok_total else 1)
 
 

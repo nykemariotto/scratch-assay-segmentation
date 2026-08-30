@@ -68,12 +68,12 @@ def build_source_index():
 
 
 def main():
-    print("Indexando fontes P1/P2 (hash + metadata)...")
+    print("Indexing the P1/P2 sources (hash + metadata)...")
     src = build_source_index()
-    print(f"  arquivos-fonte indexados: {len(src)}")
+    print(f"  source files indexed: {len(src)}")
 
     # hash of each raw file of the SKOV bank -> source
-    print("Casando Banco de dados/SKOV por hash...")
+    print("Matching Banco de dados/SKOV by hash...")
     bd_map = {}  # (pasta_rel, filename) -> source dict
     bd_counts = Counter()
     for tp in TPS:
@@ -91,7 +91,7 @@ def main():
                 bd_counts[(tp, s["experiment"], s["treatment"]) if s else (tp, "SEM_MATCH", "")] += 1
 
     matched = sum(1 for v in bd_map.values() if v)
-    print(f"  arquivos BD casados: {matched}/{len(bd_map)}")
+    print(f"  BD files matched: {matched}/{len(bd_map)}")
 
     # junta ao stage1/mapping_b_to_a.csv
     rows = list(csv.DictReader(open("stage1/mapping_b_to_a.csv", encoding="utf-8")))
@@ -133,7 +133,7 @@ def main():
     print("\n=== Join ao mapping ===")
     for k, v in join_stats.items():
         print(f"  {k}: {v}")
-    print("\n=== SKOV anotado por tratamento (canon) ===")
+    print("\n=== SKOV annotated by treatment (canonical) ===")
     for t, n in treat_by_line["SKOV"].most_common():
         print(f"  {t}: {n}")
 
@@ -148,7 +148,7 @@ def main():
             order[(s["experiment"], s["treatment"], s["timepoint"])].append((s["dt"], snap, s["filename"]))
     # example: P1 CT at each timepoint, ordered by time
     for exp, tr in [("P1", "CT"), ("P1", "PTX"), ("P2", "CT")]:
-        print(f"\n  {exp}/{tr} — snap ids na ordem temporal, por timepoint:")
+        print(f"\n  {exp}/{tr} — snap ids in temporal order, by timepoint:")
         for tp in TPS:
             lst = sorted(order.get((exp, tr, tp), []))
             if lst:

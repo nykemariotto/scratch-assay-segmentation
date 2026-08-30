@@ -18,7 +18,7 @@ dup_files = set()
 for d in dup_json["duplicados_intra"]:
     for a in d["arquivos"]:
         dup_files.add(a)
-print("arquivos crus envolvidos em duplicata:", sorted(dup_files))
+print("raw files involved in a duplicate:", sorted(dup_files))
 
 
 def md5(p):
@@ -39,7 +39,7 @@ for r in cand:
     p = os.path.join(BA, r["pasta_a"].replace("/", os.sep), r["arquivo_a"])
     by_md5[md5(p)].append(r)
 pairs = {h: sorted(v, key=lambda r: (r["arquivo_a"], r["arquivo_b"])) for h, v in by_md5.items() if len(v) > 1}
-print(f"pares confirmados por MD5: {len(pairs)}")
+print(f"pairs confirmed by MD5: {len(pairs)}")
 
 # anotacoes p/ registrar diferenca
 coco = json.load(open(COCO, encoding="utf-8"))
@@ -84,13 +84,13 @@ for r in rows:
 with open(CSV, "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
     w.writeheader(); w.writerows(rows)
-print(f"marcadas EXCLUIDA: {n_marked}  (backup: stage1/mapping_dataset_final_strat.prededup.csv)")
+print(f"marked EXCLUIDA: {n_marked}  (backup: stage1/mapping_dataset_final_strat.prededup.csv)")
 
 with open("stage1/duplicates_removed.csv", "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(log[0].keys()))
     w.writeheader(); w.writerows(log)
 
-print("\n=== registro (mantida vs removida) ===")
+print("\n=== record (kept vs removed) ===")
 for r in log:
     print(f"  [{r['particao']}] {r['group_key']}")
     print(f"    KEEP   {r['kept_arquivo_b'][:38]}  area={r['kept_area']} verts={r['kept_vertices']}")
@@ -99,6 +99,6 @@ for r in log:
 # novos totais
 act = [r for r in rows if r["partition"] != "EXCLUIDA"]
 from collections import Counter
-print(f"\nativas agora: {len(act)}  (era 1366)  | excluidas: {len(rows)-len(act)}")
+print(f"\nactive now: {len(act)}  (was 1366)  | excluded: {len(rows)-len(act)}")
 print(f"by partition: {dict(Counter(r['partition'] for r in act))}")
-print("\nSalvo: stage1/duplicates_removed.csv. Proximo: re-export COCO -> YOLO -> verify_final.")
+print("\nSaved: stage1/duplicates_removed.csv. Next: re-export COCO -> YOLO -> verify_final.")

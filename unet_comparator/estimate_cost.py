@@ -138,7 +138,7 @@ if "yolo11m-seg" in res:
     if r_fwd:
         print(f"    forward em CPU ... {r_fwd:>6.2f}x")
     if r_cpu:
-        print(f"    passo em CPU ..... {r_cpu:>6.2f}x")
+        print(f"    CPU step ......... {r_cpu:>6.2f}x")
     faixa = sorted(v for v in (r_mac, r_fwd, r_cpu) if v)
     lo, hi = faixa[0], faixa[-1]
     print(f"\n  ancorado nos {MEDIDO_YOLO_M_MIN:.0f} min/seed medidos do yolo11m-seg:")

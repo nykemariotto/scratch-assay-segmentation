@@ -60,10 +60,10 @@ for r in base:
         o["resolucao"] = "scale"
     rows.append(o)
 
-print(f"M0 — mapa unificado: {len(rows)} linhas")
-print(f"   por linha celular: {dict(Counter(r['linha_celular'] or '(scale)' for r in rows))}")
-print(f"   excluidas: {sum(1 for r in rows if r['excluida'])} "
-      f"(1 ambigua HUVEC + 2 barras de escala)")
+print(f"M0 — unified map: {len(rows)} rows")
+print(f"   by cell line: {dict(Counter(r['linha_celular'] or '(scale)' for r in rows))}")
+print(f"   excluded: {sum(1 for r in rows if r['excluida'])} "
+      f"(1 ambiguous HUVEC + 2 scale bars)")
 sem_grupo = [r for r in rows if not r["group_key"] and not r["excluida"]]
 print(f"   without group_key and not excluded: {len(sem_grupo)}")
 
@@ -97,9 +97,9 @@ n_before = len({r["group_key"] for r in act})
 n_after = len({r["split_key"] for r in act})
 fused = [r for r in act if r["split_key"].startswith("SHARED__")]
 
-print(f"\nM1 — fallback via super-chave")
-print(f"   grupos antes : {n_before}")
-print(f"   grupos depois: {n_after}   (reducao {n_before - n_after})")
+print(f"\nM1 — fallback via the super-key")
+print(f"   groups before: {n_before}")
+print(f"   groups after : {n_after}   (reduction {n_before - n_after})")
 print(f"   images under SHARED__: {len(fused)}")
 print(f"   wells fundidos ({len({r['well'] for r in fused})}): "
       f"{sorted({r['well'] for r in fused})}")
@@ -111,7 +111,7 @@ for r in fused:
 so_um = {k: v for k, v in chk.items() if len(v) < 2}
 print(f"   super-keys with only 1 batch: {len(so_um)} {sorted(so_um) if so_um else ''}")
 
-print(f"\n   grupos por linha celular (apos fallback):")
+print(f"\n   groups by cell line (after the fallback):")
 for cl in ("HUVEC", "SKOV"):
     print(f"      {cl}: {len({r['split_key'] for r in act if r['linha_celular']==cl})}")
 
@@ -126,7 +126,7 @@ assert len(SHARED_WELLS) == 19, \
      " -- revisao de dataset? revalidar o fallback antes de prosseguir")
 assert n_before - n_after == 19, f"reducao de grupos esperada 19, obtida {n_before - n_after}"
 assert len(so_um) == 0, f"super-chaves com fusao incompleta (1 so lote): {sorted(so_um)}"
-print("\n   fail-fast: todos os invariantes anti-leakage OK")
+print("\n   fail-fast: every anti-leakage invariant holds")
 
 cols = list(rows[0].keys())
 with open(OUT, "w", encoding="utf-8", newline="") as f:

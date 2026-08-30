@@ -160,7 +160,7 @@ with open("stage4/baselines_recuperados.csv", "w", encoding="utf-8-sig", newline
                     len(hits), "alta (well direto)" if hits else ""])
 
 rec = sum(1 for r in results if r[3]) + sum(1 for _, h, _ in huvec_res if h)
-print(f"\n=== RESUMO: {rec}/8 recuperaveis ===")
+print(f"\n=== SUMMARY: {rec}/8 recoverable ===")
 norec = [r[0] for r in results if not r[3]] + [g for g, h, w in huvec_res if not h]
 print(f"  without 0h (excluded from the paired analysis): {norec}")
 print("\nSalvo: stage4/baselines_recuperados.csv")

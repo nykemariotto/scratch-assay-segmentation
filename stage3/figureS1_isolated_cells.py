@@ -81,7 +81,7 @@ def main():
     p_ref = f"whst_output/rois_corrected/masks/{base}_mask.png"
     for p in (p_img, p_ref, PESOS):
         if not os.path.isfile(p):
-            sys.exit(f"ausente: {p}")
+            sys.exit(f"missing: {p}")
 
     im = cv2.imread(p_img, cv2.IMREAD_GRAYSCALE)
     ref = cv2.imread(p_ref, cv2.IMREAD_GRAYSCALE)
@@ -102,7 +102,7 @@ def main():
     if mod.shape != (h, w):
         mod = cv2.resize(mod.astype(np.uint8), (w, h),
                          interpolation=cv2.INTER_NEAREST).astype(bool)
-    print(f"referencia {100*(ref>0).mean():.2f}% do campo · "
+    print(f"reference {100*(ref>0).mean():.2f}% of the field · "
           f"modelo {100*mod.mean():.2f}%")
 
     x0, y0, x1, y1 = RECORTE
@@ -146,7 +146,7 @@ def main():
     print(f"  {px[0]} x {px[1]} px · {DPI} dpi at {LARGURA_MM} mm · "
           f"floor {PISO_PX} px {'ok' if px[0] >= PISO_PX else 'FAIL'}")
     if px[0] < PISO_PX:
-        sys.exit("abaixo do minimo da Wiley")
+        sys.exit("below the Wiley minimum")
 
 
 if __name__ == "__main__":

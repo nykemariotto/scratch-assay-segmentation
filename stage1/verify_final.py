@@ -43,17 +43,17 @@ for key in {r["split_key"] for r in sh}:
     parts = {r["partition"] for r in act if r["split_key"] == key}
     if len(parts) > 1:
         bad.append((key, parts))
-print(f"3) super-chaves SHARED com versoes separadas: {len(bad)}")
+print(f"3) SHARED super-keys with separated versions: {len(bad)}")
 if bad:
     fail = True
     print("   FALHA:", bad[:10])
 print(f"   (images under SHARED: {len(sh)}; wells: {len({r['well'] for r in sh})})")
 
 # ---- 4) conservacao ----
-print(f"4) conservacao: {len(rows)} linhas, {len(act)} ativas, "
+print(f"4) conservation: {len(rows)} rows, {len(act)} active, "
       f"{len(rows)-len(act)} excluidas")
 dup = [x for x, n in Counter(r["arquivo_b"] for r in rows).items() if n > 1]
-print(f"   arquivo_b duplicado: {len(dup)}")
+print(f"   arquivo_b duplicated: {len(dup)}")
 sem = [r for r in act if not r["split_key"] or not r["partition"]]
 print(f"   active without split_key/partition: {len(sem)}")
 if dup or sem:
@@ -63,7 +63,7 @@ if fail:
     print("\nVERIFICACAO FALHOU")
     sys.exit(1)
 
-print("\nZERO-OVERLAP FINAL VERIFICADO")
+print("\nFINAL ZERO-OVERLAP VERIFIED")
 print("  - no split_key crosses partitions")
 print("  - no physical unit (group_key) crosses partitions")
 print("  - fallback applied: both versions of the 19 wells are together")

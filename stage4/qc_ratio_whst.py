@@ -118,7 +118,7 @@ def run(whst_csv, usar_pct):
     for r in disc[:20]:
         print(f"    ratio={r['ratio']:<6} {r['cell_line']} tp{r['timepoint_h']} "
               f"ann={r['ann_pct']}% whst={r['whst']} | {r['test_image'][:34]}")
-    print(f"\n  EXCLUIDAS (640x640, FOV recortado — declarar): {len(excl_640)}")
+    print(f"\n  EXCLUDED (640x640, cropped FOV, to be declared): {len(excl_640)}")
     print(f"  without annotation (negatives; undefined ratio): {len(sem_ann)}")
     print(f"  without a WHST measurement in the CSV: {len(sem_medida)}")
     print(f"\nSalvo: stage4/qc_ratio_whst.csv")

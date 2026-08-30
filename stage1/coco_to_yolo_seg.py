@@ -59,7 +59,7 @@ def convert(part):
         # imagem
         src = os.path.join(SRC_IMG, fn)
         if not os.path.exists(src):
-            sys.exit(f"ABORTADO: imagem ausente no export base: {src}")
+            sys.exit(f"ABORTED: image missing from the base export: {src}")
         m = link_or_copy(src, os.path.join(img_dir, fn))
         modes[m] = modes.get(m, 0) + 1
 

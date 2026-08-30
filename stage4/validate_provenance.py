@@ -77,7 +77,7 @@ for k, g in sorted(gab.items()):
                  "status": v["status"]})
 
 if not rows:
-    sys.exit("nenhum frame comparavel ainda.")
+    sys.exit("no comparable frame yet.")
 
 with open(OUT, "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
@@ -86,7 +86,7 @@ dr = np.array([d for d in deltas if not np.isnan(d)])
 ad = np.abs(dr)
 ii = np.array([x for x in ious if not np.isnan(x)])
 
-print(f"\n=== VALIDACAO DA PROCEDENCIA MISTA (n={len(dr)}) ===")
+print(f"\n=== VALIDATION OF MIXED PROVENANCE (n={len(dr)}) ===")
 print(f"  drawn frames: classified OK in the triage (automatic area),")
 print(f"  corrigidos as cegas pelo mesmo observador.\n")
 print(f"  delta relativo (corrigida vs automatica):")
@@ -101,14 +101,14 @@ if len(ii):
 m = float(np.median(ad))
 print("\n  === VEREDITO (criterio declarado a priori) ===")
 if m < 0.05:
-    print(f"    |delta| mediano = {m:.1%} < 5%  ->  MISTURA VALIDADA")
+    print(f"    median |delta| = {m:.1%} < 5%  ->  MIXTURE VALIDATED")
     print("    Frames 'OK' sao tao acurados quanto os corrigidos; series mistas")
     print("    are not biased. Declare it in the Methods.")
 elif m >= 0.20:
-    print(f"    |delta| mediano = {m:.1%} >= 20%  ->  VIÉS DETECTADO")
+    print(f"    median |delta| = {m:.1%} >= 20%  ->  BIAS DETECTED")
     print("    Decide: (a) correct every frame of the 25 mixed series, or")
-    print("             (b) restringir a analise as series homogeneas.")
+    print("             (b) restrict the analysis to the homogeneous series.")
 else:
-    print(f"    |delta| mediano = {m:.1%}  ->  ZONA CINZENTA (5%-20%)")
-    print("    Avaliar o efeito sobre a closure antes de decidir.")
+    print(f"    median |delta| = {m:.1%}  ->  GREY ZONE (5%-20%)")
+    print("    Assess the effect on closure before deciding.")
 print(f"\nSalvo: {OUT}")

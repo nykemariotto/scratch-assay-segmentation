@@ -69,11 +69,11 @@ def main():
         print(f"=== {tp} === BD={len(bd)}  P1_match={len(m1)}  P2_match={len(m2)}  "
               f"ambos={len(only_both)}  sem_match={len(unmatched)}")
         if m1:
-            print(f"    P1 tratamentos: {dict(Counter(t for t,_ in m1.values()))}")
+            print(f"    P1 treatments: {dict(Counter(t for t,_ in m1.values()))}")
         if m2:
-            print(f"    P2 tratamentos: {dict(Counter(t for t,_ in m2.values()))}")
+            print(f"    P2 treatments: {dict(Counter(t for t,_ in m2.values()))}")
         if unmatched:
-            print(f"    sem match (amostra): {unmatched[:8]}")
+            print(f"    unmatched (sample): {unmatched[:8]}")
 
     with open("stage1/match_treatments.json", "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)

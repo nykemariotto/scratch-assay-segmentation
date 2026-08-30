@@ -34,7 +34,7 @@ new_rows = []
 for r in bl:
     src = r["baseline_0h_path"]
     if not os.path.exists(src):
-        print(f"  AUSENTE: {src}")
+        print(f"  MISSING: {src}")
         continue
     h = md5(src)
     cell = r["cell_line"]
@@ -72,8 +72,8 @@ with open(cpath, "w", encoding="utf-8-sig", newline="") as f:
 # ---- verificacao ----
 n_tiff = len([f for f in os.listdir(OUT) if f.lower().endswith(".tiff")])
 n_ci = len({f.lower() for f in os.listdir(OUT) if f.lower().endswith(".tiff")})
-print(f"\n=== whst_input/ apos baselines ===")
-print(f"  TIFFs no disco: {n_tiff}  (case-insensitive unicos: {n_ci})")
-print(f"  correspondencia.csv: {len(allrows)} linhas ({len(new_rows)} baselines + {len(old)} test)")
+print(f"\n=== whst_input/ after the baselines ===")
+print(f"  TIFFs on disk: {n_tiff}  (case-insensitive unique: {n_ci})")
+print(f"  correspondencia.csv: {len(allrows)} rows ({len(new_rows)} baselines + {len(old)} test)")
 assert n_tiff == n_ci, "COLISAO de nome!"
 print(f"  ASSERT ok: no name collision")

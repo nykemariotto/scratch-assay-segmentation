@@ -91,7 +91,7 @@ with open(OUT, "w", encoding="utf-8", newline="") as f:
 img = Counter(r["split_skov"] for r in rows)
 grp = Counter(assign.values())
 print(f"\nImagens: {dict(img)}  total={sum(img.values())}")
-print(f"Grupos : {dict(grp)}  total={sum(grp.values())}")
+print(f"Groups: {dict(grp)}  total={sum(grp.values())}")
 
 chk = defaultdict(set)
 for r in rows:

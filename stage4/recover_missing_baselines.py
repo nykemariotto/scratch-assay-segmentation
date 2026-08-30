@@ -45,7 +45,7 @@ if os.path.isfile("data/hash_cache_huvec.json"):
     for grp in ("raw", "bd"):
         idx += [(x.get("rel", ""), x.get("name", "")) for x in d.get(grp, [])]
 idx = [(a, b) for a, b in idx if b]
-print(f"arquivos no indice cru: {len(idx)}\n")
+print(f"files in the raw index: {len(idx)}\n")
 
 T0DIR = re.compile(r"(^|[\\/])0\s*h(r|rs)?([\\/]|$)", re.I)
 T0NAME = re.compile(r"(^|[ _])0\s*h(r|rs)?([ _.]|$)", re.I)
@@ -143,10 +143,10 @@ with open("stage4/baselines_recuperaveis.csv", "w", encoding="utf-8-sig", newlin
     w.writeheader(); w.writerows(linhas)
 
 n_ok = sum(1 for x in linhas if x["n_candidatos_crus"])
-print(f"\n=== RESUMO ===")
+print(f"\n=== SUMMARY ===")
 print(f"  series with no baseline       : {len(linhas)}")
 print(f"  with a raw candidate found    : {n_ok}")
 print(f"  with no candidate             : {len(linhas)-n_ok}")
 from collections import Counter
-print(f"  por causa: {dict(Counter(x['causa'] for x in linhas))}")
+print(f"  by cause: {dict(Counter(x['causa'] for x in linhas))}")
 print(f"\nSalvo: stage4/baselines_recuperaveis.csv")

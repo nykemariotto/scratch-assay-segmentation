@@ -59,9 +59,9 @@ def index_raw():
 
 
 def main():
-    print("Indexando HUVEC-RAW por hash...")
+    print("Indexing HUVEC-RAW by hash...")
     idx, meta = index_raw()
-    print(f"  arquivos RAW: {len(meta)}   hashes distintos: {len(idx)}")
+    print(f"  RAW files: {len(meta)}   distinct hashes: {len(idx)}")
 
     # ---------- DECISIVE TEST: does a well cross treatment/batch? ----------
     well_ctx = defaultdict(set)
@@ -83,7 +83,7 @@ def main():
         print(f"    {b} / {t}  -> {n} imgs")
 
     # ---------- casar Banco de dados/HUVEC ----------
-    print("\nCasando Banco de dados/HUVEC por hash...")
+    print("\nMatching Banco de dados/HUVEC by hash...")
     bd_map = {}
     stats = Counter()
     for dirpath, _, files in os.walk(BD):
@@ -106,7 +106,7 @@ def main():
                     else:
                         stats["match_multiplo_contexto"] += 1
                     bd_map[key] = hits
-    print(f"  BD arquivos: {sum(stats.values())}  {dict(stats)}")
+    print(f"  BD files: {sum(stats.values())}  {dict(stats)}")
 
     # ---------- join ao mapping ----------
     rows = list(csv.DictReader(open("stage1/mapping_with_treatment.csv", encoding="utf-8")))

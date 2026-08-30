@@ -121,7 +121,7 @@ for s, itens in sorted(por_serie.items()):
     print(f"    monotônicas (ref/auto): {mono_ref} / {mono_auto}")
     if amp > 1e-9 and amp_fora == amp_fora and amp_fora / amp >= 5:
         sistematicas.append((s, media, amp, amp_fora))
-        print("    -> SISTEMÁTICA: deslocamento quase constante sobre trajetória de forma correta")
+        print("    -> SYSTEMATIC: near-constant offset over a trajectory of the right shape")
     else:
         print("    -> not separable from noise by this criterion")
 

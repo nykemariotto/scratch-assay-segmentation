@@ -94,7 +94,7 @@ def main():
             print(f"\n>>> DECISIVE: field number '_N' appearing in >1 treatment: "
                   f"{len(cross)}/{len(field_to_treat)}")
             for f, t in list(cross.items())[:6]:
-                print(f"      campo _{f}: {sorted(t)}")
+                print(f"      field _{f}: {sorted(t)}")
             print("    -> the key MUST be treatment+rep+field (the full well_campo)")
         else:
             print("\n>>> DECISIVE: this cohort has NO recoverable treatment dimension "
@@ -108,11 +108,11 @@ def main():
         single_tp = {k: v for k, v in id_to_tps.items() if len(v) == 1}
         print(f"\n>>> mesmo id em >1 timepoint: {len(multi_tp)}/{len(id_to_tps)} ids")
         print(f"    (ids em 1 so timepoint: {len(single_tp)})")
-        print(f"    distribuicao de #timepoints por id: "
+        print(f"    distribution of #timepoints per id: "
               f"{dict(Counter(len(v) for v in id_to_tps.values()))}")
 
         # ---------- contagem de grupos por chave candidata ----------
-        print("\nGrupos independentes por chave candidata:")
+        print("\nIndependent groups by candidate key:")
         keys = {}
         if cohort == "HUVEC":
             keys["well"] = len(set(d["well"] for d in sub))
@@ -127,20 +127,20 @@ def main():
             keys["treatment"] = len(set(d["treatment"] for d in sub))
         for kname, ng in keys.items():
             nt, nv, nte, verd = viability(ng)
-            print(f"  [{kname:<34}] {ng:>4} grupos -> "
+            print(f"  [{kname:<34}] {ng:>4} groups -> "
                   f"train={nt} val={nv} test={nte}  {verd}")
 
         # images per group (for the smallest/largest)
         gsz = Counter(d["group_id"] for d in sub)
         szv = sorted(gsz.values())
-        print(f"\nImagens por grupo (chave group_id): "
+        print(f"\nImages per group (group_id key): "
               f"min={szv[0]} mediana={szv[len(szv)//2]} max={szv[-1]}")
         print()
 
     # ---------- HUVEC: well cruza timepoint? (leakage classico) ----------
     print("=" * 72)
-    print("NOTA HUVEC: o well A1 aparece em todos os timepoints por design.")
-    print("Agrupar por WELL mantem todos os timepoints+campos do well juntos = seguro.")
+    print("HUVEC NOTE: well A1 appears at every timepoint by design.")
+    print("Grouping by WELL keeps every timepoint+field of the well together = safe.")
     print("=" * 72)
     huv = [d for d in dec if d["cohort"] == "HUVEC"]
     well_tp = defaultdict(set)

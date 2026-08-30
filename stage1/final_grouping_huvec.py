@@ -30,7 +30,7 @@ for r in hv:
 # POINT 1 - within a batch, is the treatment always determined by the subfolder?
 #           e nos lotes achatados, (lote, well) ja identifica o well fisico?
 # =========================================================================
-print("\n=== [1] lote -> tratamentos ===")
+print("\n=== [1] batch -> treatments ===")
 lote_trats = collections.defaultdict(collections.Counter)
 for r in hv:
     lote_trats[r["lote"]][r["trat_huvec"]] += 1
@@ -80,11 +80,11 @@ OUT["fusao_aplicada"] = {"lotes": list(FUSAO), "canonico": "Controle+Saudavel"}
 # =========================================================================
 # POINT 4 - the 71 with no physical source (origem_lote != 'hash')
 # =========================================================================
-print("\n=== [4] procedencia do rotulo de lote ===")
+print("\n=== [4] provenance of the batch label ===")
 proc = collections.Counter(r["origem_lote"] for r in hv)
 print("  origem_lote:", dict(proc))
 amb = [r for r in hv if r["lote_ambiguo"].strip()]
-print(f"  ambiguas entre lotes: {len(amb)}")
+print(f"  ambiguous across batches: {len(amb)}")
 print("  ", collections.Counter(r["lote_ambiguo"] for r in amb))
 OUT["origem_lote"] = dict(proc)
 OUT["ambiguas"] = collections.Counter(r["lote_ambiguo"] for r in amb)
@@ -107,8 +107,8 @@ for r in hv:
         continue
     r["lote_canon"] = FUSAO.get(lo, lo)
     r["resolucao"] = "ok_" + (r["origem_lote"] or "sem_origem")
-print(f"  ambiguas resolvidas pela fusao : {resolvidas}")
-print(f"  excluidas (ambiguidade real)   : {len(excluidas)}")
+print(f"  ambiguous resolved by the merge: {resolvidas}")
+print(f"  excluded (real ambiguity)      : {len(excluidas)}")
 for r in excluidas:
     print(f"     -> {r['stem_normalizado']!r} amb={r['lote_ambiguo']!r}")
 OUT["ambiguas_resolvidas_por_fusao"] = resolvidas
@@ -121,7 +121,7 @@ OUT["utilizaveis"] = len(usable)
 # =========================================================================
 # PONTO 2 - timepoints por (lote, trat, well)
 # =========================================================================
-print("\n=== [2] timepoints por well fisico (lote_canon, trat, well) ===")
+print("\n=== [2] timepoints per physical well (lote_canon, trat, well) ===")
 tps = collections.defaultdict(set)
 imgs = collections.Counter()
 for r in usable:
@@ -131,7 +131,7 @@ for r in usable:
 dist = collections.Counter(len(v) for v in tps.values())
 print("  n_timepoints -> n_wells:", dict(sorted(dist.items())))
 multi = sum(1 for v in tps.values() if len(v) > 1)
-print(f"  wells com >1 timepoint: {multi}/{len(tps)} "
+print(f"  wells with >1 timepoint: {multi}/{len(tps)} "
       f"({100*multi/len(tps):.1f}%)  -> exactly what the grouping keeps together")
 OUT["timepoints_por_well"] = {str(k): v for k, v in sorted(dist.items())}
 OUT["wells_multi_timepoint"] = multi
@@ -184,7 +184,7 @@ OUT["medicao_chaves"] = measures
 
 # baseline A: the error that would be made
 mA = measures["A_well"]
-print(f"\n  >>> chave A (well sozinho) juntaria {mA['grupos_multi_well_fisico']} grupos "
+print(f"\n  >>> key A (well alone) would merge {mA['grupos_multi_well_fisico']} groups "
       f"containing physical wells from different contexts -- it does not leak, but it "
       f"destroys granularity, and above all mixes unrelated experiments.")
 
@@ -290,10 +290,10 @@ for k, v in gC.items():
     cnt[assign[k]] += len(v)
 tot = sum(cnt.values())
 grp_cnt = collections.Counter(assign.values())
-print(f"  imagens: train {cnt['train']} ({100*cnt['train']/tot:.1f}%)  "
+print(f"  images: train {cnt['train']} ({100*cnt['train']/tot:.1f}%)  "
       f"val {cnt['val']} ({100*cnt['val']/tot:.1f}%)  "
       f"test {cnt['test']} ({100*cnt['test']/tot:.1f}%)   total {tot}")
-print(f"  grupos : train {grp_cnt['train']}  val {grp_cnt['val']}  test {grp_cnt['test']}"
+print(f"  groups: train {grp_cnt['train']}  val {grp_cnt['val']}  test {grp_cnt['test']}"
       f"   total {len(gC)}")
 
 # distribuicao por timepoint
@@ -376,7 +376,7 @@ with open(OUTCSV, "w", newline="", encoding="utf-8") as f:
     wcsv.writeheader()
     for r in rows:
         wcsv.writerow({c: r.get(c, "") for c in cols})
-print(f"\nCSV escrito: {OUTCSV}  ({len(rows)} linhas, {len(cols)} colunas)")
+print(f"\nCSV written: {OUTCSV}  ({len(rows)} rows, {len(cols)} columns)")
 
 json.dump(OUT, open(OUTJSON, "w", encoding="utf-8"), indent=1, ensure_ascii=False, default=str)
 print(f"JSON: {OUTJSON}")

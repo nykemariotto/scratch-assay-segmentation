@@ -91,7 +91,7 @@ with open(OUT, "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
 
 print(f"produced: {OUT}  ({len(rows)} images you moved into some folder)")
-print("  distribuicao:", dict(Counter(r["pasta_triagem"] for r in rows)))
+print("  distribution:", dict(Counter(r["pasta_triagem"] for r in rows)))
 print(f"  (the {len(tri)-len(rows)} left in the root = OK need no justification)")
 print("""
 COMO PREENCHER

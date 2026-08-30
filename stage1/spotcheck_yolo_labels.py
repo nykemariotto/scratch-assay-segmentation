@@ -30,7 +30,7 @@ for fn in files:
 random.Random(7).shuffle(small)
 random.Random(7).shuffle(native)
 pick = [("640", f) for f in small[:5]] + [("nativo", f) for f in native[:5]]
-print(f"640x640 com anotacao disponiveis: {len(small)} | nativas: {len(native)}")
+print(f"640x640 with an annotation available: {len(small)} | native: {len(native)}")
 
 tiles = []
 for kind, fn in pick:
@@ -59,4 +59,4 @@ for i, (kind, fn, n, im) in enumerate(tiles):
     x, y = (i % cols) * cw, (i // cols) * ch
     pan.paste(im, (x + 4, y + 4))
 pan.save(OUT)
-print(f"\nSalvo: {OUT}  (linha 1 = 640x640, linha 2 = nativas; ciano = label YOLO)")
+print(f"\nSaved: {OUT}  (row 1 = 640x640, row 2 = native; cyan = YOLO label)")

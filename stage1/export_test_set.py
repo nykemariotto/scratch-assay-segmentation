@@ -58,11 +58,11 @@ print(f"Saved: {OUT}  ({len(out)} images)")
 
 # =============================== DIMENSIONAMENTO ===============================
 print("\n" + "=" * 60)
-print("DIMENSIONAMENTO DA MEDICAO")
+print("SIZING OF THE MEASUREMENT CAMPAIGN")
 print("=" * 60)
 
 by_cell = Counter(r["linha_celular"] for r in rows)
-print(f"\nImagens no teste por linha celular:")
+print(f"\nTest images by cell line:")
 print(f"  HUVEC : {by_cell['HUVEC']}")
 print(f"  SKOV-3: {by_cell['SKOV']}")
 print(f"  TOTAL : {len(rows)}")
@@ -74,10 +74,10 @@ for r in rows:
     grp[r["linha_celular"]][r["group_key"]].add(int(r["timepoint_h"]))
     grp_exp[r["group_key"]] = exp_set(r)
 
-print(f"\nGrupos (series) no teste:")
+print(f"\nGroups (series) in the test set:")
 for cl in ("HUVEC", "SKOV"):
     n = len(grp[cl])
-    print(f"  {cl}: {n} grupos")
+    print(f"  {cl}: {n} groups")
 
 print(f"\nSeries completeness (timepoints present vs expected):")
 tot_complete = 0

@@ -66,7 +66,7 @@ for r in corr:
               "series": series, "campo": campo, "is_baseline": is_bl,
               "test_image": r["test_image"], "raw": r["raw_file_original"],
               "pct": area[wf], "flags": []})
-print(f"medicoes: {len(M)}")
+print(f"measurements: {len(M)}")
 
 # ---------- absolutos ----------
 for m in M:
@@ -135,16 +135,16 @@ with open("data/whst_pass1_qc.csv", "w", encoding="utf-8-sig", newline="") as f:
                     m["needs_correction"], m["raw"], m["test_image"]])
 
 # ================= RELATORIO =================
-print("\n=== CONTAGEM POR CATEGORIA (flags co-ocorrem) ===")
+print("\n=== COUNT BY CATEGORY (flags co-occur) ===")
 for c in ("FALHA_SUB", "FALHA_SUPER", "DISCORDANCIA_CAMPO", "FALHA_CLOSURE_NEG", "FALHA_NAO_MONOTONICO"):
     print(f"  {c}: {sum(1 for m in M if c in m['flags'])}")
 print(f"  OK: {sum(1 for m in M if not m['flags'])}")
 
 need = [m for m in M if m["needs_correction"]]
 print(f"\n=== UNIQUE IMAGES FOR MANUAL CORRECTION: {len(need)} of {len(M)} ===")
-print(f"  por linha: {dict(Counter(m['cell'] for m in need))}")
-print(f"  por timepoint: {dict(sorted(Counter(m['tp'] for m in need).items()))}")
-print(f"  novas (so pelos criterios de serie): "
+print(f"  by cell line: {dict(Counter(m['cell'] for m in need))}")
+print(f"  by timepoint: {dict(sorted(Counter(m['tp'] for m in need).items()))}")
+print(f"  new (from the series criteria alone): "
       f"{sum(1 for m in need if set(m['flags']) <= {'FALHA_CLOSURE_NEG','FALHA_NAO_MONOTONICO'})}")
 
 # unidades de analise
@@ -153,14 +153,14 @@ umeds = defaultdict(list)
 for m in M:
     utp[m["unit"]].add(m["tp"]); umeds[m["unit"]].append(m)
 analyz = [u for u, t in utp.items() if 0 in t and any(x > 0 for x in t)]
-print(f"\n=== UNIDADES DE ANALISE APOS DESDOBRAMENTO ===")
-print(f"  unidades totais: {len(utp)}  |  analisaveis (0h + >=1 tp): {len(analyz)}")
-print(f"  por linha: {dict(Counter(('SKOV-3' if '|' in u and '||' not in u else 'HUVEC') for u in analyz))}")
+print(f"\n=== ANALYSIS UNITS AFTER THE SPLIT-OUT ===")
+print(f"  total units: {len(utp)}  |  analysable (0h + >=1 tp): {len(analyz)}")
+print(f"  by cell line: {dict(Counter(('SKOV-3' if '|' in u and '||' not in u else 'HUVEC') for u in analyz))}")
 ok_u = [u for u in analyz if all(not m["needs_correction"] for m in umeds[u])]
 print(f"  intact (no failure): {len(ok_u)}  |  need correction: {len(analyz)-len(ok_u)}")
 
 crit = [u for u in analyz if any(m["needs_correction"] for m in umeds[u] if m["tp"] == 0)]
-print(f"\n=== CRITICO: unidades com BASELINE 0h entre as falhas: {len(crit)} ===")
+print(f"\n=== CRITICAL: units with a 0h BASELINE among the failures: {len(crit)} ===")
 for u in sorted(crit):
     z = [m for m in umeds[u] if m["tp"] == 0]
     print(f"    {u:<46} 0h={[round(m['pct'],2) for m in z]} cat={[m['categoria'] for m in z]}")

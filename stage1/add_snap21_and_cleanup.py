@@ -39,7 +39,7 @@ before = len(rows)
 # remove a linha do test excluido
 rows = [r for r in rows if r["test_image"] != REMOVED_TEST]
 removed = before - len(rows)
-print(f"removida da correspondencia a imagem de test excluida ({removed} linha): {REMOVED_TEST[:34]}")
+print(f"removed from the mapping the excluded test image ({removed} row): {REMOVED_TEST[:34]}")
 
 # adiciona Snap-21 como baseline_alternativo
 rows.append({
@@ -65,8 +65,8 @@ n_ci = len({f.lower() for f in tiffs})
 from collections import Counter
 bl = Counter(r["is_baseline"] for r in rows)
 print(f"\n=== whst_input/ final ===")
-print(f"  TIFFs: {len(tiffs)}  (case-insensitive unicos: {n_ci})")
-print(f"  correspondencia: {len(rows)} linhas | is_baseline: {dict(bl)}")
+print(f"  TIFFs: {len(tiffs)}  (case-insensitive unique: {n_ci})")
+print(f"  mapping: {len(rows)} rows | is_baseline: {dict(bl)}")
 assert len(tiffs) == n_ci, "COLISAO de nome!"
 assert len(tiffs) == 223, f"esperado 223 TIFFs, obtido {len(tiffs)}"
 print(f"  ASSERT ok: 223 TIFFs, no collision")

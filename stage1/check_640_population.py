@@ -31,7 +31,7 @@ ativas = {r["arquivo_b"] for r in M
           if r["partition"] != "EXCLUIDA" and r["excluida"] not in ("True", "1", "sim")}
 inativas = [r for r in M
             if r["partition"] == "EXCLUIDA" or r["excluida"] in ("True", "1", "sim")]
-print(f"mapping: {len(M)} linhas | ativas {len(ativas)} | inativas {len(inativas)}")
+print(f"mapping: {len(M)} rows | active {len(ativas)} | inactive {len(inativas)}")
 
 fora = sorted(base640 - ativas)
 print(f"\n=== 640x640 in the base export but NOT in the materialised dataset: {len(fora)} ===")
@@ -45,7 +45,7 @@ for f in fora:
     else:
         print(f"  {f[:60]}\n      [absent from the mapping]")
 
-print(f"\n=== as {len(inativas)} linhas inativas do mapping: dimensao no export base ===")
+print(f"\n=== the {len(inativas)} inactive mapping rows: dimension in the base export ===")
 dims = {im["file_name"]: (im["width"], im["height"]) for im in coco["images"]}
 c = Counter()
 for r in inativas:
@@ -55,9 +55,9 @@ for r in inativas:
 print(f"\n  summary of the inactive ones by dimension: {dict(c)}")
 
 n640_ativas = len(base640 & ativas)
-print("\n=== CONTABILIDADE ===")
-print(f"  640 no export base      : {len(base640)}")
-print(f"  640 inativas (excluidas): {len(fora)}")
-print(f"  640 ativas (dataset)    : {n640_ativas}")
+print("\n=== ACCOUNTING ===")
+print(f"  640 in the base export  : {len(base640)}")
+print(f"  640 inactive (excluded) : {len(fora)}")
+print(f"  640 active (dataset)    : {n640_ativas}")
 print(f"  {len(base640)} - {len(fora)} = {len(base640)-len(fora)}  "
       f"{'MATCHES' if len(base640)-len(fora) == n640_ativas else 'DOES NOT ADD UP'}")

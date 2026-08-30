@@ -75,7 +75,7 @@ for x in with_raw:
 
 n_unique = len(md5_to_dest)
 n_dup = len(with_raw) - n_unique
-print(f"\narquivos crus fisicos unicos copiados: {n_unique}")
+print(f"\nunique physical raw files copied: {n_unique}")
 print(f"test images that are duplicates (MD5 already seen): {n_dup}")
 
 # ASSERCAO: nomes unicos em FS case-insensitive + 1 arquivo por MD5
@@ -83,7 +83,7 @@ lower_names = [n.lower() for n in md5_to_dest.values()]
 assert len(set(lower_names)) == len(md5_to_dest), "COLISAO de nome case-insensitive!"
 n_disk = len([f for f in os.listdir(OUT) if f.lower().endswith(".tiff")])
 assert n_disk == n_unique, f"disco={n_disk} != md5 unicos={n_unique} (arquivo perdido!)"
-print(f"asserts OK: {n_disk} arquivos no disco == {n_unique} MD5 unicos, 0 colisao de nome")
+print(f"asserts OK: {n_disk} files on disk == {n_unique} unique MD5s, 0 name collisions")
 
 # ---- correspondencia CSV ----
 with open(os.path.join(OUT, "correspondencia.csv"), "w", encoding="utf-8-sig", newline="") as f:
@@ -126,9 +126,9 @@ with open("data/test_set_dedup.csv", "w", encoding="utf-8-sig", newline="") as f
                                       "raw_md5", "physical_status", "dup_of", "raw_source", "whst_input_file"])
     w.writeheader(); w.writerows(dedup_rows)
 
-print(f"\n=== RESUMO ===")
+print(f"\n=== SUMMARY ===")
 print(f"  test total: {len(test)}")
-print(f"  com cru: {len(with_raw)}  ->  fisicos unicos a medir: {n_unique}  (duplicatas: {n_dup})")
+print(f"  with a raw file: {len(with_raw)}  ->  unique physical files to measure: {n_unique}  (duplicates: {n_dup})")
 print(f"  orphans (no raw file, outside the paired analysis): {len(orphans)}")
 print(f"  whst_input/: {n_unique} TIFFs + correspondencia.csv + orfaos_sem_cru.csv")
-print(f"  data/test_set_dedup.csv atualizado ({len(dedup_rows)} linhas)")
+print(f"  data/test_set_dedup.csv updated ({len(dedup_rows)} rows)")

@@ -55,12 +55,12 @@ def skov_0h_fields(root, exp):
     return out
 
 
-print("Indexando 0h de P1 e P2...")
+print("Indexing the 0h frames of P1 and P2...")
 sk0 = {}
 sk0.update(skov_0h_fields(P1, "P1"))
 sk0.update(skov_0h_fields(P2, "P2"))
 for k, v in sorted(sk0.items()):
-    print(f"  {k[0]}/{k[1]:<10}: {len(v)} campos 0h")
+    print(f"  {k[0]}/{k[1]:<10}: {len(v)} fields at 0h")
 
 # ---- validacao: field_id anotado em 0h bate com o rank? ----
 print("\n=== validacao do rank field_id vs 0h anotado (data/mapping_final_skov.csv) ===")
@@ -122,13 +122,13 @@ huvec_res = []
 for grp, lotes, well in huvec_missing:
     hits = huvec_0h(lotes, well)
     huvec_res.append((f"{grp}||None||{well}", hits))
-    print(f"  {grp}||None||{well}: {len(hits)} imagem(ns) 0h de {well}")
+    print(f"  {grp}||None||{well}: {len(hits)} 0h image(s) of {well}")
     for h in hits:
         print(f"      {h}")
 
 # ---- resumo ----
 print("\n" + "=" * 60)
-print("RESUMO BASELINES")
+print("BASELINE SUMMARY")
 print("=" * 60)
 rec = [(g, p) for g, p, e in skov_res if e] + [(g, h[0]) for g, h in huvec_res if h]
 norec = [g for g, p, e in skov_res if not e] + [g for g, h in huvec_res if not h]

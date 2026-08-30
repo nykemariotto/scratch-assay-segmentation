@@ -59,12 +59,12 @@ with open(OUT, "w", encoding="utf-8", newline="") as f:
     w.writerows(rows)
 
 tot = Counter(r["partition"] for r in act)
-print("=== Split estratificado por tratamento ===")
+print("=== Split stratified by treatment ===")
 for p in ("train", "val", "test"):
     print(f"  {p:<6} {tot[p]:>4} images ({100*tot[p]/len(act):.1f}%)  "
           f"grupos={len({r['split_key'] for r in act if r['partition']==p})}")
 
-print("\n=== Cobertura por estrato ===")
+print("\n=== Coverage by stratum ===")
 faltas = 0
 for cl in ("HUVEC", "SKOV"):
     for e in sorted({r["estrato"] for r in act if r["linha_celular"] == cl}):

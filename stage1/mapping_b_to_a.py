@@ -177,8 +177,8 @@ def compute_features(paths):
 def main():
     Brecs, Arecs = build_records()
     from collections import Counter, defaultdict
-    print('B por dominio:', Counter(b['domain'] for b in Brecs))
-    print('A por dominio:', Counter(a['domain'] for a in Arecs))
+    print('B by domain:', Counter(b['domain'] for b in Brecs))
+    print('A by domain:', Counter(a['domain'] for a in Arecs))
 
     # indices por chave
     Bkey = defaultdict(list); Akey = defaultdict(list)
