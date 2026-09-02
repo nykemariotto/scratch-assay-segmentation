@@ -34,7 +34,7 @@ try:
 except Exception:
     pass
 
-REGS = os.path.join("stage3", "registros")
+REGS = os.path.join("stage3", "records")
 # black vs white padding, everything else identical: M against M-white
 A = "yolo11m-seg_black_coco"
 B = "yolo11m-seg_white_coco"

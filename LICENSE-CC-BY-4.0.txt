@@ -28,6 +28,7 @@ When using this dataset, please cite:
   Pereira TOB, Zampieri GM, Aal MCE, Delella FK, Sandrim VC, Alves AFF.
   Deep Learning Instance Segmentation for Wound Healing Assays -
   Annotated Image Dataset, Trained Models, and Analysis Pipeline.
-  Zenodo. 2026. https://doi.org/10.5281/zenodo.20298130
+  Zenodo. 2026. Version 2.0.0. https://doi.org/10.5281/zenodo.21779854
+  (concept DOI 10.5281/zenodo.20298129 always resolves to the latest version)
 
 Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

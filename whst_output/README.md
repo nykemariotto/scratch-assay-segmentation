@@ -10,24 +10,20 @@ package, not from the manuscript.
 
 ---
 
-## A note on the directory names
+## What each directory holds
 
-Five directories carry Portuguese names. They are kept unchanged, deliberately: the
-ImageJ macro `stage4/whst_manual_correction.ijm` wrote to these exact paths during the
-annotation campaign, and the analysis code deposited in `code.zip` (`stage4/*.py`) reads
-them by name. Renaming them here would make the deposited data stop matching the
-deposited code, and the deposited code stop matching the code that produced the
-published numbers. The 704 distinct file names are in English, with the single exception
-noted in the table.
-
-| directory | reads as |
+| directory | contents |
 |---|---|
-| `rois_corrigidos/` | corrected ROIs — **the reference standard** |
-| `rois_recorrecao/` | re-corrected ROIs (blinded repeat) |
-| `rois_validacao/` | provenance-validation ROIs |
-| `rois_completacao/` | completion ROIs |
-| `_removidas_fora_do_escopo/` | removed, out of scope (quarantine) |
-| `MANIFESTO.csv` | manifest |
+| `rois_corrected/` | corrected ROIs — **the reference standard** |
+| `rois_blind_repeat/` | re-corrected ROIs (blinded repeat) |
+| `rois_validation/` | provenance-validation ROIs |
+| `rois_completion/` | completion ROIs |
+| `rois_baselines/` | t₀ baselines recovered from the raw archive |
+| `_removed_out_of_scope/` | removed, out of scope (quarantine); `MANIFESTO.csv` inside it records each move |
+
+The outcome values `ok`, `fechada`, `pulada` and `invalida` that appear below are not
+translated: they are the literal values the ImageJ macro wrote to the `status` column,
+and the deposited analysis code matches on them.
 
 ---
 
@@ -50,16 +46,16 @@ Each pass wrote to its own directory; nothing was ever overwritten.
 
 | directory | pass | frames handed to the operator | what it settles |
 |---|---|---:|---|
-| `rois_corrigidos/` | 1 — correction | 102 | the reference standard for the paired analysis |
-| `rois_recorrecao/` | 2 — blinded re-correction | 15 | intra-observer reproducibility |
-| `rois_validacao/` | 3 — provenance validation | 10 | whether frames judged OK in triage differ systematically from corrected ones |
-| `rois_completacao/` | 4 — completion of mixed series | 24 | removes mixed automatic/corrected provenance by construction |
+| `rois_corrected/` | 1 — correction | 102 | the reference standard for the paired analysis |
+| `rois_blind_repeat/` | 2 — blinded re-correction | 15 | intra-observer reproducibility |
+| `rois_validation/` | 3 — provenance validation | 10 | whether frames judged OK in triage differ systematically from corrected ones |
+| `rois_completion/` | 4 — completion of mixed series | 24 | removes mixed automatic/corrected provenance by construction |
 | `rois_baselines/` | 5 — recovered baselines | 5 | t₀ frames recovered from the raw archive |
 
 Each directory holds the `.roi` files and a `masks/` subdirectory with the corresponding
 binary masks. The per-frame record of each pass — what the operator was shown and what
-they recorded — is deposited in `code.zip` as `stage4/correcao_manual_pass1.csv`,
-`…_pass2.csv`, `…_validacao.csv`, `…_completacao.csv` and `…_baselines.csv`, alongside
+they recorded — is deposited in `code.zip` as `stage4/manual_correction_pass1.csv`,
+`…_pass2.csv`, `…_validation.csv`, `…_completion.csv` and `…_baselines.csv`, alongside
 the worklists that were handed to them.
 
 ---
@@ -81,10 +77,10 @@ follow exactly:
 
 | directory | `.roi` | masks | = `ok` + `fechada` | other outcomes |
 |---|---:|---:|---|---|
-| `rois_corrigidos/` | 79 | 96 | 79 + 17 | 1 `pulada`, 5 `invalida` |
-| `rois_recorrecao/` | 11 | 14 | 11 + 3 | 1 `invalida` |
-| `rois_validacao/` | 10 | 10 | 10 + 0 | — |
-| `rois_completacao/` | 24 | 24 | 24 + 0 | — |
+| `rois_corrected/` | 79 | 96 | 79 + 17 | 1 `pulada`, 5 `invalida` |
+| `rois_blind_repeat/` | 11 | 14 | 11 + 3 | 1 `invalida` |
+| `rois_validation/` | 10 | 10 | 10 + 0 | — |
+| `rois_completion/` | 24 | 24 | 24 + 0 | — |
 | `rois_baselines/` | 2 | 2 | 2 + 0 | 3 `invalida` (of 5 candidates) |
 
 All 17 and all 3 zero-area masks were verified to contain no lit pixel. Treating them as
@@ -93,7 +89,7 @@ precisely the late timepoints.
 
 ---
 
-## Quarantine — `_removidas_fora_do_escopo/`
+## Quarantine — `_removed_out_of_scope/`
 
 Five images the operator identified as **a test of the algorithm rather than experimental
 data**. They were moved here rather than deleted, with `MANIFESTO.csv` recording the move.

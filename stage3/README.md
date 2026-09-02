@@ -15,7 +15,7 @@ and the aggregate number alone cannot give that.
 
 | Phase | Where | What it does | Output |
 | --- | --- | --- | --- |
-| 1 · `stage3/eval_test.py` | **GPU**, once per run | predicts, rasterises the COCO ground truth, matches by IoU at 10 thresholds | `registros/<run>.json`, a few kB |
+| 1 · `stage3/eval_test.py` | **GPU**, once per run | predicts, rasterises the COCO ground truth, matches by IoU at 10 thresholds | `records/<run>.json`, a few kB |
 | 2 · `stage3/aggregate.py` | **CPU**, freely | Table 2, confidence intervals, tests | `stage3/table2.csv` plus a report |
 
 The records store, per image: the score of each detection, whether it is a true positive at

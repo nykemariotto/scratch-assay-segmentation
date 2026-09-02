@@ -1,46 +1,83 @@
-# `paired_data/` — Paired ImageJ vs AI measurements
+# `paired_data/` — the SUBMITTED version's paired measurements (superseded)
 
-This folder contains the cleaned, tidy CSVs used in the method-agreement analysis reported in the companion paper (Section 3, Figures 3–5).
+> **These CSVs are a historical record, not the data behind the paper's agreement
+> analysis.** They are the paired ImageJ-versus-model measurements of the **originally
+> submitted** version: 225 observations from 75 HUVEC wells, with the model side predicted
+> by a network trained on a partition that turned out to leak, and with no restriction to
+> a held-out set.
+>
+> The agreement analysis the manuscript reports rests on 97 paired observations from 45
+> acquisition series, across both cell lines, measured against a supervised reference
+> standard rather than against three annotators' independent readings. Its inputs are
+> `stage3/cmp_*_paired_new_long.csv` and `data/closure_final_long.csv`; see
+> [`stage3/README.md`](../stage3/README.md).
+>
+> Kept because the submitted version is part of the record. Not to be cited or reanalysed
+> as a current result.
 
 ## Files
 
 ### `paired_imagej_vs_ai_clean.csv` (225 × 10)
 
-The primary paired dataset: **n = 225** observations from **75 unique HUVEC wells × 3 post-scratch time points (8, 12, 24 h)**, each measured independently with ImageJ Wound Healing Size Tool (manual) and the deployed AI model. Annotations distributed among three specialists (Annotator 1: 16 wells; Annotator 2: 24 wells; Annotator 3: 35 wells), with each well annotated by a single annotator across all three time points. Annotator identifiers in the CSV (`Annotator 1`, `Annotator 2`, `Annotator 3`) are deliberately anonymized — the three specialists are listed among the manuscript authors, but the mapping between annotator-ID and author name is held privately by the corresponding author to support unbiased downstream inter-rater analyses.
+**n = 225** observations from **75 HUVEC wells × 3 post-scratch time points (8, 12, 24 h)**,
+each measured independently with the ImageJ Wound Healing Size Tool and with the model
+deployed at the time of submission.
+
+Annotations were distributed among three specialists (Annotator 1: 16 wells; Annotator 2:
+24 wells; Annotator 3: 35 wells), each well annotated by a single annotator across all
+three time points. The identifiers `Annotator 1/2/3` are **deliberately anonymized**: the
+three specialists are among the manuscript authors, and the mapping between identifier and
+name is held by the corresponding author so that any downstream inter-rater analysis stays
+unbiased.
 
 #### Schema
 
 | Column | Type | Description |
 |---|---|---|
-| `annotator` | str | One of `Annotator 1`, `Annotator 2`, `Annotator 3` (anonymized identifiers). Single annotator per well across all three timepoints. |
-| `clinical_group` | str | `EOPE` (Early-Onset Preeclampsia) or `LOPE` (Late-Onset Preeclampsia) — clinical phenotype of the plasma donor. |
-| `group` | str | Experimental subgroup: `EOPE`, `LOPE`, `PEP`, or `PET`. Hierarchical to `clinical_group`. |
+| `annotator` | str | One of `Annotator 1`, `Annotator 2`, `Annotator 3` (anonymized). One annotator per well, across all three timepoints. |
+| `clinical_group` | str | `EOPE` (early-onset pre-eclampsia) or `LOPE` (late-onset) — clinical phenotype of the plasma donor. |
+| `group` | str | Experimental subgroup: `EOPE`, `LOPE`, `PEP` or `PET`. Hierarchical to `clinical_group`. |
 | `replicate` | int | Well replicate index within the (annotator, clinical_group, group) stratum. |
-| `timepoint_h` | int | Post-scratch time in hours: 8, 12, or 24. |
-| `imagej` | float | Wound closure fraction (0–1) measured by ImageJ Wound Healing Size Tool. |
-| `ai` | float | Wound closure fraction (0–1) predicted by the deployed AI model. |
-| `diff_ai_imagej` | float | `ai − imagej` (used by Bland-Altman analysis). |
-| `mean_imagej_ai` | float | `(imagej + ai) / 2` (used by Bland-Altman analysis). |
-| `negative_either` | bool | `True` if either `imagej` or `ai` is negative; `False` otherwise. |
+| `timepoint_h` | int | Post-scratch time in hours: 8, 12 or 24. |
+| `imagej` | float | Wound closure fraction (0–1) measured with the ImageJ plugin. |
+| `ai` | float | Wound closure fraction (0–1) predicted by the model deployed at submission. |
+| `diff_ai_imagej` | float | `ai − imagej`, for the Bland–Altman analysis. |
+| `mean_imagej_ai` | float | `(imagej + ai) / 2`, for the Bland–Altman analysis. |
+| `negative_either` | bool | `True` if either value is negative. |
 
 #### Notes
 
-- 8 of the 225 observations (3.6%) have negative closure-fraction values, predominantly at the 8 h timepoint, arising when the area-based fraction definition is applied at early stages where wound and background contrasts are inherently low. These are retained for transparency (see `negative_observations.csv` below). The `paired_analysis.py` script runs three analyses by default: raw, clipped-to-[0,1], and non-negative-only.
+- 8 of the 225 observations (3.6%) carry negative closure fractions, mostly at 8 h, where
+  the area-based definition is applied at a stage with inherently low contrast between
+  wound and background. They are retained rather than dropped; `paired_analysis.py` runs
+  three variants by default — raw, clipped to [0, 1], and non-negative only.
 
-- Well 9 (LOPE, PET, Annotator 3) at timepoints 8/12/24 h appears in `negative_observations.csv` for all three timepoints — that single well dominates the negative-AI subset.
+- Well 9 (LOPE, PET, Annotator 3) appears at all three timepoints in
+  `negative_observations.csv`; that single well dominates the negative subset.
 
 ### `negative_observations.csv` (8 × 10)
 
-The subset of 8 observations where `negative_either == True`. Identical schema to the primary CSV. Provided for Supplementary Table S2 of the companion paper.
+The subset where `negative_either == True`. Same schema as above.
+
+These 8 observations are **not** the content of Supplementary Table S2 of the revised
+manuscript. That table lists the negative and discordant observations of the current
+analysis, on the 97 paired observations, and is produced by `stage3/`.
 
 ## Provenance
 
-These CSVs were generated by `analysis/parse_prism.py` from the original GraphPad Prism `.pzfx` annotation files of the three annotators. The `.pzfx` source files are **not redistributed** (they contain intermediate, non-publishable annotation drafts); only the cleaned downstream CSVs are released.
+Generated by `analysis/parse_prism.py` from the three annotators' GraphPad Prism `.pzfx`
+files. The `.pzfx` sources are **not redistributed** — they hold intermediate annotation
+drafts — and only the cleaned CSVs are released.
 
 ## How these are used
 
-Both CSVs are consumed by `analysis/paired_analysis.py` (which auto-locates `paired_imagej_vs_ai_clean.csv` via the relative path resolver) and `analysis/generate_figures.py`. No path arguments needed when running from the repo root.
+Both are consumed by `analysis/paired_analysis.py` and `analysis/generate_figures.py`,
+which locate them by relative path; no arguments are needed when running from the
+repository root. Both scripts, like these CSVs, describe the submitted version.
 
-## License
+## Licence
 
-These data are released under **CC BY 4.0** (see [`LICENSE-CC-BY-4.0.txt`](../LICENSE-CC-BY-4.0.txt) at repo root). Use freely with attribution to the Zenodo deposit (concept DOI: [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129)).
+CC BY 4.0 — see [`LICENSE-CC-BY-4.0.txt`](../LICENSE-CC-BY-4.0.txt). Attribute to the
+Zenodo deposit: version DOI [`10.5281/zenodo.21779854`](https://doi.org/10.5281/zenodo.21779854)
+for v2.0.0, or the concept DOI [`10.5281/zenodo.20298129`](https://doi.org/10.5281/zenodo.20298129),
+which always resolves to the latest version.

@@ -36,7 +36,7 @@ try:
 except Exception:
     pass
 
-DEST = os.path.join("stage3", "registros_fixture")
+DEST = os.path.join("stage3", "records_fixture")
 
 # configuration -> "true" quality (probability of a hit at IoU 0.50)
 CFG = {

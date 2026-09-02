@@ -42,7 +42,10 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ["3.11", "3.12"]
+        # 3.11 nao entra: o requirements-analysis.txt fixa scipy==1.18.0, que
+        # declara requires_python >= 3.12. A perna quebraria no pip install, e uma
+        # falha de instalacao nao diz nada sobre reprodutibilidade.
+        python-version: ["3.12"]
 
     steps:
       - name: Checkout repository

@@ -54,7 +54,7 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.tight_layout()
 plt.savefig('Figure_3_method_comparison.png', dpi=300, bbox_inches='tight')
-print("✓ Figure_3_method_comparison.png")
+print("wrote Figure_3_method_comparison.png")
 
 # Figure 4: Correlation scatter
 fig, ax = plt.subplots(figsize=(6.5, 6), dpi=300)
@@ -77,7 +77,7 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.tight_layout()
 plt.savefig('Figure_4_correlation_scatter.png', dpi=300, bbox_inches='tight')
-print("✓ Figure_4_correlation_scatter.png")
+print("wrote Figure_4_correlation_scatter.png")
 
 # Figure 5: Bland-Altman
 fig, ax = plt.subplots(figsize=(7, 5.5), dpi=300)
@@ -105,6 +105,6 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.tight_layout()
 plt.savefig('Figure_5_bland_altman.png', dpi=300, bbox_inches='tight')
-print("✓ Figure_5_bland_altman.png")
+print("wrote Figure_5_bland_altman.png")
 
 print(f"\nDone. All figures saved as 300 DPI PNG.")

@@ -54,7 +54,7 @@ try:
 except Exception:
     pass
 
-REGS_PADRAO = os.path.join("stage3", "registros")
+REGS_PADRAO = os.path.join("stage3", "records")
 
 # run name -> (configuration, seed).  The configuration is what becomes a Table 2 row.
 #

@@ -48,7 +48,7 @@ except Exception:
 RUNS_ROOT = os.path.join("runs", "segment", "runs_revision")
 UNET_ROOT = os.path.join("runs", "segment", "unet_comparator")
 COCO_TEST = os.path.join("coco_partitions", "instances_test.json")
-SAIDA = os.path.join("stage3", "registros")
+SAIDA = os.path.join("stage3", "records")
 
 
 def grupos_do_test():

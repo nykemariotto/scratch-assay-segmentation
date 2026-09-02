@@ -200,3 +200,16 @@ REVISAO_*.zip
 _publicar/
 
 protocols/experimental_protocol_prereg.md
+
+# ----- Gabarito da triagem cega: NUNCA versionar -----
+# Sao SAIDAS do pipeline, escritas para ficarem ocultas do operador ate o passe acabar —
+# o build_correction_worklist.py diz "the 15 drawn; do not open before finishing". Foram
+# versionados por engano e ficaram publicos no GitHub desde o primeiro commit da linha,
+# ate 02/09/2026, quando o repositorio foi recriado sem eles.
+#
+# O PROIBIDO do monta_publicacao.py e o INTOCAVEL do traduz_nomes.py ja os barravam no
+# deposito Zenodo, e la funcionaram: zero nos cinco zips. Nenhum dos dois olhava o git.
+# Esta e a guarda que faltava, na superficie que faltava.
+data/*TRIAGEM_CEGA*.csv
+stage4/.validacao_gabarito.csv
+stage4/.recorrecao_oculta.csv

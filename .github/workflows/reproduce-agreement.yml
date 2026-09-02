@@ -15,25 +15,30 @@ name: Reproducibility Check (agreement analysis)
 # padrão de referência supervisionado da Etapa 4, nas 97 observações que os 10
 # runs (5 seeds x 2 arquiteturas) devolvem em comum.
 #
-# O próprio `stage3/concordancia_final.py` já falha se divergir do que a Discussion
+# O próprio `stage3/agreement_final.py` já falha se divergir do que a Discussion
 # afirma; aqui a conferência é contra o que o Results e o Abstract afirmam.
+
+# A matriz roda só em 3.12 porque `scipy==1.18.0`, a versão fixada em
+# requirements-analysis.txt e nomeada no manuscrito, declara requires_python >= 3.12.
+# Declarar 3.11 aqui faria a perna quebrar no `pip install`, não na análise — um
+# vermelho que não diz nada sobre reprodutibilidade.
 
 on:
   push:
     branches: [ main ]
     paths:
-      - 'stage3/concordancia_final.py'
-      - 'stage3/_concordancia_estat.py'
-      - 'stage3/cmp_*_paired_new_longo.csv'
-      - 'data/closure_final_longo.csv'
+      - 'stage3/agreement_final.py'
+      - 'stage3/_agreement_stats.py'
+      - 'stage3/cmp_*_paired_new_long.csv'
+      - 'data/closure_final_long.csv'
       - '.github/workflows/reproduce-agreement.yml'
   pull_request:
     branches: [ main ]
     paths:
-      - 'stage3/concordancia_final.py'
-      - 'stage3/_concordancia_estat.py'
-      - 'stage3/cmp_*_paired_new_longo.csv'
-      - 'data/closure_final_longo.csv'
+      - 'stage3/agreement_final.py'
+      - 'stage3/_agreement_stats.py'
+      - 'stage3/cmp_*_paired_new_long.csv'
+      - 'data/closure_final_long.csv'
       - '.github/workflows/reproduce-agreement.yml'
   workflow_dispatch:
 
@@ -48,7 +53,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ["3.11", "3.12"]
+        python-version: ["3.12"]
 
     steps:
       - name: Checkout repository
@@ -65,7 +70,7 @@ jobs:
           pip install -r requirements-analysis.txt
 
       - name: Run the agreement analysis
-        run: python stage3/concordancia_final.py
+        run: python stage3/agreement_final.py
 
       - name: Verify the values reported in the manuscript
         shell: python
@@ -73,7 +78,7 @@ jobs:
           import json
           import sys
 
-          D = json.load(open('stage3/concordancia_final.json', encoding='utf-8'))
+          D = json.load(open('stage3/agreement_final.json', encoding='utf-8'))
           Y, U = D['bracos']['YOLO M'], D['bracos']['U-Net']
 
           # (rótulo, valor obtido, valor no manuscrito, tolerância)
@@ -136,6 +141,6 @@ jobs:
         with:
           name: agreement-${{ matrix.os }}-py${{ matrix.python-version }}
           path: |
-            stage3/concordancia_final.json
-            stage3/concordancia_final_longo.csv
+            stage3/agreement_final.json
+            stage3/agreement_final_long.csv
           retention-days: 30

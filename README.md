@@ -304,9 +304,9 @@ If you use this code, dataset, models, or analysis pipeline, please cite the man
                Annotated Image Dataset, Trained Models, and Analysis Pipeline},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {1.0.0},
-  doi       = {10.5281/zenodo.20298129},
-  url       = {https://doi.org/10.5281/zenodo.20298129}
+  version   = {2.0.0},
+  doi       = {10.5281/zenodo.21779854},
+  url       = {https://doi.org/10.5281/zenodo.21779854}
 }
 ```
 

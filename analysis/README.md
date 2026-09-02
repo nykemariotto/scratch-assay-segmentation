@@ -1,45 +1,56 @@
-# `analysis/` — Statistical analysis pipeline
+# `analysis/` — the SUBMITTED version's agreement analysis (superseded)
 
-Reproduces the method-agreement statistics and figures reported in the companion paper (Section 3 and Figures 3–5).
+> **This directory is a historical record, not the analysis the paper reports.**
+> It holds the method-agreement analysis of the **originally submitted** version: 225
+> observations from 75 HUVEC wells, measured against three annotators' ImageJ readings,
+> with a model trained on a partition that turned out to leak and with no restriction to
+> a held-out set.
+>
+> The analysis the manuscript reports is `stage3/agreement_final.py`, on the 97 paired
+> observations from 45 acquisition series that the ten leakage-free runs return in common,
+> across both cell lines. See [`stage3/README.md`](../stage3/README.md).
+>
+> It is kept because the submitted version is part of the record. Nothing here should be
+> cited or re-run as a current result.
 
 ## Files
 
-| File | Purpose |
+| File | What it does |
 |---|---|
-| `paired_analysis.py` | Computes Pearson r, Spearman ρ, Lin's CCC, Bland-Altman, paired *t*-test, and TOST equivalence on the deposited paired CSV. Runs in ~30 seconds on a laptop. |
-| `generate_figures.py` | Produces Figures 3 (bar chart by timepoint), 4 (correlation scatter), and 5 (Bland-Altman plot) at 300 DPI PNG. Requires the same paired CSV. |
-| `parse_prism.py` | **Ancillary utility** — extracts the paired CSV from GraphPad Prism `.pzfx` source files. The `.pzfx` source files are NOT redistributed (they contain intermediate annotation drafts); typical reproducibility users go straight to `paired_analysis.py`. |
+| `paired_analysis.py` | The agreement statistics of the submitted version: Pearson, Spearman, Lin's CCC, Bland–Altman, TOST |
+| `generate_figures.py` | Figures 3–5 **of the submitted version**, at 300 DPI |
+| `parse_prism.py` | Ancillary utility — extracts the paired CSV from GraphPad Prism `.pzfx` source files. The `.pzfx` files are not redistributed |
 
-## Quick run
+The figure names (`Figure_3_method_comparison.png`, `Figure_4_correlation_scatter.png`,
+`Figure_5_bland_altman.png`) are the submitted version's numbering. The Figures 3–5 of the
+revised manuscript are different figures, produced by `stage3/figures_agreement.py`.
 
-From the repository root:
+## Running it
 
 ```bash
-pip install scipy==1.13 pandas==2.2 numpy matplotlib==3.8
-python3 analysis/paired_analysis.py     # prints statistics to stdout
-python3 analysis/generate_figures.py    # writes Figure_3/4/5_*.png to ./analysis
+pip install -r requirements-analysis.txt
+python analysis/paired_analysis.py
+python analysis/generate_figures.py   # writes the three PNGs to the CURRENT directory
 ```
 
-For `parse_prism.py` (only if you have your own Prism `.pzfx` files):
+`generate_figures.py` calls `savefig` with bare file names, so the PNGs land wherever you
+run it from, not in `analysis/`.
 
-```bash
-python3 analysis/parse_prism.py \
-    --input-dir  /path/to/folder/with/pzfx_files \
-    --output-csv ./paired_data_raw.csv
-```
+Dependencies come from [`requirements-analysis.txt`](../requirements-analysis.txt) — the
+same pins as `requirements.txt`, so this directory runs under the environment the rest of
+the repository declares. It needs `matplotlib` in addition, which that file does not pin;
+any recent version renders these figures.
 
-## Determinism
+`paired_analysis.py` uses a fixed bootstrap seed (`seed=42`) for the 5,000-replicate CCC
+confidence interval, so its output is deterministic.
 
-`paired_analysis.py` uses a fixed bootstrap seed (`seed=42`) for the 5,000-replicate CCC confidence interval. All 56 reported statistics reproduce bit-for-bit on Linux, macOS, and Windows.
+## Continuous integration
 
-The GitHub Actions workflow at `.github/workflows/reproduce-stats.yml` re-runs this script on every push and fails the build if any value drifts.
+`.github/workflows/reproduce-stats.yml` can re-run `paired_analysis.py`, but **only on
+manual dispatch**. It was deliberately taken off push and pull-request triggers: while it
+ran automatically, the repository was certifying as reproducible exactly the numbers the
+revision retracted. Its header carries the same warning.
 
-## Dependencies
-
-| Package | Tested version |
-|---|---|
-| Python | 3.11 |
-| `scipy` | 1.13 |
-| `pandas` | 2.2 |
-| `numpy` | (any recent) |
-| `matplotlib` | 3.8 (only required by `generate_figures.py`) |
+The workflow that runs on push is
+[`reproduce-agreement.yml`](../.github/workflows/reproduce-agreement.yml), which checks 24
+values of the current analysis against the ones the manuscript reports.
