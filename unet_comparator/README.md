@@ -1,7 +1,8 @@
 # U-Net — the deep-learning arm of the benchmark
 
-The **deep-learning** comparator that answers the request for *"benchmarking against at
-least one classical automated tool and one deep-learning tool"*.
+The **deep-learning** arm of the benchmark: the study compares the deployed models
+against one classical automated tool and one deep-learning tool, and this is the
+second of those two.
 
 The three roles do not overlap:
 

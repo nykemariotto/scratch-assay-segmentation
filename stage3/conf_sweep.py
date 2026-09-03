@@ -7,7 +7,7 @@ between 20% and 100%, and every number the paper reports was measured at a singl
 point on that range, 0.80. The U-Net arm has the equivalent knob characterised end to
 end by unet_comparator/threshold_sweep.py; the YOLO arm had nothing. So the tool
 ships a control whose effect on this task was never measured, while its comparator's
-was. That asymmetry is a fair thing for a reviewer to ask about, and this closes it.
+was. This closes that asymmetry.
 
 THIS DESCRIBES. IT DOES NOT RE-CHOOSE.
 0.80 is the operating point at which the reported precision and recall were measured

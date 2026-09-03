@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 stage1/prepare_examples.py — monta `examples/`, o conjunto minimo executavel do
-repositorio (responde ao pedido de "dataset de exemplo" + "guia passo-a-passo").
+repositorio: um dataset de exemplo com guia passo a passo.
 
 Goal: someone who clones the repository can run the pipeline end to end WITHOUT
 downloading the gigabytes from Zenodo — 4 test-set images, with YOLO annotations,
