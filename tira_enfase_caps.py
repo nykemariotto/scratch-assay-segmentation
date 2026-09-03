@@ -7,8 +7,8 @@ opens" e abrir paragrafo com "WHY." ou "THE PROBLEM." e um tique — 1.144 ocorr
 em 134 arquivos do deposito. Ninguem escreve assim por habito proprio; e marca de texto
 gerado por modelo, e o deposito e publico e citavel.
 
-O que isto NAO e: camuflagem. O §2.10 do manuscrito declara o uso de IA em detalhe, e o
-CLAUDE.md e explicito — a solucao e transparencia, nao esconder. Limpar prosa com cara
+O que isto NAO e: camuflagem. O §2.10 do manuscrito declara o uso de IA em detalhe, e e
+la que a declaracao mora — a solucao e transparencia, nao esconder. Limpar prosa com cara
 de maquina e edicao de qualidade; apagar a declaracao seria outra coisa, e nao se faz.
 
 DUAS FORMAS, DUAS REGRAS:
