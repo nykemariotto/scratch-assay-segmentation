@@ -347,7 +347,9 @@ def render_metrics(result):
 
 def render_feedback_block(result, selected_model_label, prefix_key=""):
     st.markdown("#### Segmentation quality feedback")
-    st.caption("User evaluation used for future model refinement.")
+    st.caption("Saving feedback sends this image, its file name, your rating and "
+               "your comment to the authors, who keep them to improve the model. "
+               "Do not submit images you are not allowed to share.")
 
     avaliacao = st.radio(
         "Segmentation quality assessment:",
