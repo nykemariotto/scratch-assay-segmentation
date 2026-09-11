@@ -58,12 +58,23 @@ MODEL_STORAGE_KEY = {
 }
 
 # Measured on the held-out test set (n = 234), mean ± SD over five seeds;
-# latency is the median over 40 images on 16 CPU cores. Shown in the interface
-# so the trade-off is stated rather than discovered.
+# latency is the median model inference over 40 images on 16 CPU cores. Shown in
+# the interface so the trade-off is stated rather than discovered.
 MODEL_INFO = {
-    "M": "mAP@50 93.4 ± 1.1% · recall 78.3 ± 3.0% · ~345 ms per image on CPU",
-    "S": "mAP@50 94.0 ± 0.7% · recall 74.3 ± 2.3% · ~174 ms per image on CPU",
+    "M": "mAP@50 93.4 ± 1.1% · recall 78.3 ± 3.0% · model inference ~345 ms per image "
+         "on a 16-core CPU",
+    "S": "mAP@50 94.0 ± 0.7% · recall 74.3 ± 2.3% · model inference ~174 ms per image "
+         "on a 16-core CPU",
 }
+# This hosted interface takes a few seconds per image with either model: uploading
+# the image and drawing the overlay take most of that time, so the smaller model
+# saves only a fraction of it. Said in the interface, so that "fast mode" is not
+# read as a page that returns twice as fast.
+# Short enough to end before the open model list, which is drawn over the right-hand end
+# of this line: the first wording ("…a few seconds per image with either model…") ran
+# under it, and the Figure 2 capture showed the sentence cut off.
+HOSTED_NOTE = ("In this hosted interface a result takes a few seconds with either model: "
+               "uploading the image and drawing the overlay take most of that time.")
 
 
 # =========================
@@ -385,6 +396,7 @@ with col_input_2:
 
 model = load_model(MODEL_OPTIONS[selected_model_label])
 st.caption(MODEL_INFO[MODEL_STORAGE_KEY[selected_model_label]])
+st.caption(HOSTED_NOTE)
 
 _pad = _padding_efetivo()
 if _pad != PADDING_FILL:
