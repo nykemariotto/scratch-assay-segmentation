@@ -38,7 +38,7 @@ time against recall, not accuracy.
 
 Mean ± SD over five training seeds on a held-out test set of 234 images; inference is the
 median over 40 images. In this hosted interface a result takes a few seconds with either
-model: uploading the image and drawing the overlay take most of that time.
+model.
 
 ## What it is not for
 

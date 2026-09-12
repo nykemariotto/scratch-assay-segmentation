@@ -470,9 +470,9 @@ def main():
                 # same 180 mm.
                 try:
                     page.set_input_files("input[type='file']", amostra, timeout=30000)
-                    # the hosted interface takes a few seconds per image end to end; the
-                    # model inference is a small part of it, and the upload, the rerun and
-                    # the contour plot dominate. Wait on the result, not on a fixed sleep
+                    # the hosted interface takes seconds per image end to end, not the
+                    # milliseconds of the inference alone. Wait on the result, not on a
+                    # fixed sleep
                     page.wait_for_selector("text=Segmented area", timeout=300000)
                     # the Export buttons and the feedback block render after the
                     # panels; wait on the last of them, not on the first
