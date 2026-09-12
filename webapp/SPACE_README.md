@@ -28,15 +28,17 @@ export as a table, an overlay image and the contour coordinates.
 
 Two model scales are offered. They differ **only** in size: initialisation, padding and
 training schedule are identical, and across the five configurations evaluated in the study
-no pairwise difference in mean Average Precision is distinguishable. The choice is latency
-against recall, not accuracy.
+no pairwise difference in mean Average Precision is distinguishable. The choice is inference
+time against recall, not accuracy.
 
-| | mAP@50 | Recall | CPU |
+| | mAP@50 | Recall | Inference, 16-core CPU |
 |---|---|---|---|
 | **M**: default | 93.4 ± 1.1% | 78.3 ± 3.0% | ~345 ms |
 | **S**: fast mode | 94.0 ± 0.7% | 74.3 ± 2.3% | ~174 ms |
 
-Mean ± SD over five training seeds on a held-out test set of 234 images.
+Mean ± SD over five training seeds on a held-out test set of 234 images; inference is the
+median over 40 images. In this hosted interface a result takes a few seconds with either
+model: uploading the image and drawing the overlay take most of that time.
 
 ## What it is not for
 
