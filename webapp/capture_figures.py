@@ -50,7 +50,7 @@ the same, but Edge updates itself and the exact build is no longer under our con
 
     python webapp/capture_figures.py --out figures
     python webapp/capture_figures.py --out figures --browser msedge
-    python webapp/capture_figures.py --out figures --theme light --scale 4
+    python webapp/capture_figures.py --out light --theme light --scale 4   # the light alternative
 """
 import argparse
 import io
@@ -286,12 +286,12 @@ def main():
     ap.add_argument("--chrome", action="store_true",
                     help="capture through the Hugging Face page, keeping the platform "
                          "header as the current figures show it")
-    ap.add_argument("--theme", choices=["light", "dark", "as-is"], default="light",
+    ap.add_argument("--theme", choices=["light", "dark", "as-is"], default="dark",
                     help="app.py sets no theme and there is no .streamlit/config.toml, "
-                         "so Streamlit follows the viewer's prefers-color-scheme. The "
-                         "dark look of the current figures is not 'the tool's "
-                         "appearance' — it is the tool seen from an OS in dark mode. "
-                         "Light is the default here because a full-bleed dark "
+                         "so Streamlit follows the viewer's prefers-color-scheme; neither "
+                         "look is 'the tool's appearance'. Dark is the default because "
+                         "the published Figures 2 and 7 use it; --theme light produces "
+                         "versions that print better, since a full-bleed dark "
                          "background costs ink, thins white type under dot gain, and "
                          "turns into a grey slab in greyscale.")
     ap.add_argument("--scale", type=int, default=3,
