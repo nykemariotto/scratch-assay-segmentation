@@ -28,6 +28,7 @@ contends for a GPU that may be busy with someone else's work.
 
     python stage3/figure6_example.py
     python stage3/figure6_example.py --image "dataset/images/test/<file>.png"
+    python stage3/figure6_example.py --dest <folder>    # leaves figures/ untouched
 """
 import argparse
 import csv
@@ -93,6 +94,7 @@ def main():
     ap.add_argument("--image", default=None)
     ap.add_argument("--weights", default=None, help="defaults to the deployed M")
     ap.add_argument("--largura-mm", type=float, default=180.0)
+    ap.add_argument("--dest", default=DEST, help="output folder (default: figures)")
     args = ap.parse_args()
 
     import cv2
@@ -156,9 +158,8 @@ def main():
             s.set_visible(False)
     fig.tight_layout(pad=0.3)
 
-    os.makedirs(DEST, exist_ok=True)
-    base = os.path.join(DEST, "Figure6_example_segmentation")
-    fig.savefig(f"{base}.pdf", bbox_inches="tight", pad_inches=0.02)
+    os.makedirs(args.dest, exist_ok=True)
+    base = os.path.join(args.dest, "Figure6_example_segmentation")
 
     # `bbox_inches="tight"` trims whitespace, so the saved canvas comes out narrower
     # than figsize and the PNG lands a few dpi under target. Measure the trim and
@@ -172,6 +173,16 @@ def main():
     if pw < preciso:
         fig.savefig(f"{base}.png", dpi=ALVO_DPI * preciso / pw,
                     bbox_inches="tight", pad_inches=0.02)
+
+    # The PDF goes last, with interpolation off. Under the default interpolation a
+    # vector backend resamples each photograph to the figure dpi, 100, which puts the
+    # panels in the PDF at about 350 px wide. With "none" the pixels go in as
+    # acquired and the viewer does the scaling. The PNG above keeps the default,
+    # because the raster needs the antialiased downsample.
+    for ax in axes:
+        for a in ax.get_images():
+            a.set_interpolation("none")
+    fig.savefig(f"{base}.pdf", bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
 
     im = Image.open(f"{base}.png")
